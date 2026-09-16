@@ -238,8 +238,10 @@ python kg_to_pyvis.py --kg src/kg/kg_yf.json --out src/kg/kg_yf.html
 ## 6. 环境与依赖
 
 - **Python**：3.13
-- **第三方库**：`openai==0.28.0`（LLM 调用）、`pyvis`（可视化）；抓取层只用标准库（`urllib`、`http.cookiejar`）
-- **不依赖 yfinance 库**：yfinance 会被 Yahoo 风控拦截，本管线改用自建直连客户端
+- **第三方库**：见 `requirements.txt`，一条命令装好：`pip install -r requirements.txt`
+  - `openai==0.28.0`：LLM 三步用，**必须锁 0.28.x**（脚本用的是旧接口 `openai.ChatCompletion.create`，装成 1.x 会直接报错）
+  - `pyvis`：交互式可视化用
+  - `yfinance`：只有 `yf_smoke.py` 用；抓取与建图都**不依赖** yfinance 库——它的请求会被 Yahoo 风控拦截，抓取改用自建直连客户端（见数据说明 4.1 节）；抓取层本身只用标准库（`urllib`、`http.cookiejar`）
 - **网络**：抓取层需要访问 Yahoo Finance、Google News、SEC EDGAR
 - **API Key**：`OPENAI_API_KEY`（DeepSeek），base `https://api.deepseek.com`，model `deepseek-v4-flash-vision-exp`
 

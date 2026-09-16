@@ -80,8 +80,10 @@ python build_kg_yf.py; python build_concepts.py; python build_kg_yf.py
 ## 环境
 
 - Python 3.13
-- 第三方库：`openai==0.28.0`（LLM 调用）、`pyvis`（可视化）；抓取层只用标准库
-- 不使用 `yfinance` 库——它会被 Yahoo 风控拦截，本管线改用自建直连客户端
+- 第三方库见 `requirements.txt`，一条命令装好：`pip install -r requirements.txt`
+  - `openai==0.28.0`：LLM 三步用，**必须锁 0.28.x**（脚本用的是旧接口 `openai.ChatCompletion.create`）
+  - `pyvis`：交互式可视化用
+  - `yfinance`：只有 `yf_smoke.py` 这个探测脚本用；抓取与建图都不依赖它——它的请求会被 Yahoo 风控拦截，本管线改用自建直连客户端（见 `docs/yf_kg_data.md` 4.1 节）
 - LLM：DeepSeek `deepseek-v4-flash-vision-exp`，key 走环境变量 `OPENAI_API_KEY`
 
 ## 说明

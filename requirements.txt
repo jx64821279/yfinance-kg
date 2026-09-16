@@ -1,0 +1,14 @@
+# 安装：pip install -r requirements.txt
+
+# LLM 三步（news_to_event / build_theme_vocab / build_theme_concept_map）
+# 注意必须锁 0.28.x：脚本用的是旧版接口 openai.ChatCompletion.create，
+# 装成 1.x 会直接报错。
+openai==0.28.0
+
+# 交互式可视化（kg_to_pyvis.py）
+pyvis>=0.3.2
+
+# 仅 yf_smoke.py 需要：它是数据可用性探测脚本。
+# 主流程（抓取 / 建图 / 可视化）不依赖 yfinance 库，
+# 因为它的请求会被 Yahoo 风控拦截，抓取改用自建直连客户端（详见 docs/yf_kg_data.md 4.1）。
+yfinance>=0.2
