@@ -1,0 +1,10 @@
+# Python 运行时缓存（跑过脚本就会生成，不需要提交）
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 编辑器 / 系统文件
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
