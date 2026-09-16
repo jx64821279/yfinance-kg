@@ -1,0 +1,83 @@
+{
+  "ai_bubble_macro_risk": [
+    "ai",
+    "nasdaq100",
+    "us_tech"
+  ],
+  "ai_capex_infrastructure": [
+    "ai",
+    "us_tech"
+  ],
+  "ai_chip_demand_valuation": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+  ],
+  "ai_governance_security": [
+    "ai"
+  ],
+  "ai_hardware_supply_chain": [
+    "ai",
+    "semiconductor"
+  ],
+  "ai_monetization_revenue": [
+    "ai",
+    "us_tech"
+  ],
+  "apple_foldable_iphone": [
+    "us_tech"
+  ],
+  "autonomous_driving_robotaxi": [
+    "robotics",
+    "ai"
+  ],
+  "bonds_yields_duration": [
+    "us_agg_bond",
+    "us_long_treasury"
+  ],
+  "china_ai_tech_rally": [
+    "china_tech",
+    "ai"
+  ],
+  "china_tech_weakness_risk": [
+    "china_tech",
+    "china_internet"
+  ],
+  "etf_flows_allocation": [
+    "nasdaq100",
+    "us_tech"
+  ],
+  "fed_rates_inflation": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+  ],
+  "gold_precious_metals": [
+    "gold"
+  ],
+  "humanoid_robotics": [
+    "robotics",
+    "ai"
+  ],
+  "oil_energy_commodities": [
+    "oil"
+  ],
+  "quantum_computing": [
+    "ai"
+  ],
+  "semiconductor_rotation_flows": [
+    "semiconductor"
+  ],
+  "us_china_tech_tensions": [
+    "china_tech",
+    "semiconductor",
+    "us_tech"
+  ],
+  "us_equity_market": [
+    "nasdaq100",
+    "us_tech"
+  ],
+  "usd_fx_currency": [
+    "usd_index"
+  ]
+}

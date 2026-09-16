@@ -1,0 +1,631 @@
+{
+  "version": 1,
+  "driver_categories": [
+    "Supply",
+    "Demand",
+    "Revenue",
+    "Efficiency/Cost",
+    "Strategic Action",
+    "Technology/Innovation",
+    "Policy/Regulation",
+    "Macro & FX",
+    "Geopolitics",
+    "Market Flow",
+    "Industry Cycle"
+  ],
+  "themes": {
+    "ai_capex_infrastructure": {
+      "name": "AI资本开支与基础设施",
+      "driver_category": "Technology/Innovation",
+      "aliases": [
+        "AI capex growth",
+        "AI capex margin pressure",
+        "AI capex pause concerns",
+        "AI capex pressure on margins",
+        "AI capex resilience",
+        "AI capex slowdown",
+        "AI capex slowdown fears",
+        "AI capex slowdown risk",
+        "AI infrastructure bottleneck investment",
+        "AI infrastructure buildout",
+        "AI infrastructure credibility risk",
+        "AI infrastructure investment",
+        "AI infrastructure momentum",
+        "AI infrastructure spending concerns",
+        "AI infrastructure stock preference",
+        "AI power demand / fuel cell growth",
+        "Power cost dispute",
+        "Power cost pressure on chipmakers",
+        "Power grid infrastructure financing dispute",
+        "Rising power costs for semiconductor manufacturers",
+        "Utility cost burden for chipmakers",
+        "Utility cost dispute",
+        "Utility cost pressure on chipmakers",
+        "chip capacity expansion / power cost pressure",
+        "chip capex upcycle",
+        "chipmaker power cost pressure",
+        "utility cost dispute",
+        "utility cost prepayment rejection",
+        "utility cost pressure"
+      ],
+      "n_events": 44
+    },
+    "ai_chip_demand_valuation": {
+      "name": "AI芯片需求与估值",
+      "driver_category": "Technology/Innovation",
+      "aliases": [
+        "AI ASIC design and advanced packaging",
+        "AI chip boom beneficiary",
+        "AI chip concentration risk",
+        "AI chip demand",
+        "AI chip demand and valuation",
+        "AI chip demand outlook upgrade",
+        "AI chip demand strength",
+        "AI chip demand surge",
+        "AI chip demand uncertainty",
+        "AI chip partnership uncertainty",
+        "AI chip valuation risk",
+        "AI compute demand shift",
+        "AI data center silicon demand",
+        "AI datacenter optics trade",
+        "AI demand strength",
+        "AI demand strength vs pricing power",
+        "AI efficiency shock to chip demand",
+        "AI memory demand growth",
+        "AI memory demand slowdown",
+        "AI semiconductor growth",
+        "AI semiconductor supply chain outlook",
+        "AI server demand surge",
+        "AI server stock divergence",
+        "AI-driven semiconductor demand",
+        "AI-driven semiconductor demand bullish outlook",
+        "AI-driven semiconductor growth",
+        "Advanced node leadership",
+        "Foundry market dominance",
+        "HBM/DRAM supply tightness",
+        "TSM valuation stretched after 363% rally",
+        "TSMC investor attention",
+        "TSMC long-term equity outlook",
+        "TSMC record earnings and stock price momentum",
+        "TSMC valuation debate",
+        "advanced chip manufacturing",
+        "advanced chip manufacturing leadership",
+        "advanced node capacity ramp",
+        "cash flow pressure at chipmakers",
+        "chip price hike",
+        "management scrutiny at AI chip leader",
+        "memory chip shortage-driven earnings disconnect",
+        "memory chip stock upside",
+        "semiconductor ETF investment outlook",
+        "semiconductor analyst coverage",
+        "semiconductor analyst upgrade",
+        "semiconductor ecosystem expansion",
+        "semiconductor equipment growth",
+        "semiconductor industry outlook",
+        "semiconductor market expansion",
+        "semiconductor sector investment",
+        "semiconductor stock valuation comparison"
+      ],
+      "n_events": 57
+    },
+    "ai_bubble_macro_risk": {
+      "name": "AI泡沫与宏观风险",
+      "driver_category": "Market Flow",
+      "aliases": [
+        "AI bubble fears",
+        "AI bubble fears vs tech growth",
+        "AI debt bubble & inflation risk",
+        "AI oversight and rate hike fears pressure tech stocks",
+        "AI pullback",
+        "AI risk concerns",
+        "AI rotation out of leaders",
+        "AI safety vs AI capex",
+        "AI selloff rotation",
+        "AI sentiment deterioration",
+        "AI sentiment shock / tech selloff",
+        "AI sentiment volatility",
+        "AI sentiment weakness",
+        "AI stock pullback",
+        "AI stock risk concerns",
+        "AI to internet stock rotation",
+        "AI trade rotation",
+        "AI/oil/bond yield concerns drag equities",
+        "China cheap AI shift to internet stocks",
+        "bearish investor risk warning",
+        "chip sector profit-taking selloff",
+        "cybersecurity outperformance vs AI selloff",
+        "hedge fund portfolio rebalancing",
+        "market crash risk / defensive positioning",
+        "market crash risk defensive positioning",
+        "portfolio hedging / defensive allocation",
+        "semiconductor equity selloff",
+        "semiconductor stock selloff",
+        "software resilience amid AI selloff",
+        "tech hype speculation crackdown",
+        "tech rally cooldown",
+        "tech sector performance",
+        "tech sector pullback",
+        "tech sector rally",
+        "tech sector selloff",
+        "tech sector weakness",
+        "tech-led equity strength"
+      ],
+      "n_events": 43
+    },
+    "ai_monetization_revenue": {
+      "name": "AI变现与收入增长",
+      "driver_category": "Revenue",
+      "aliases": [
+        "60/40 portfolio resilience",
+        "AI ETF diversification",
+        "AI ETF investing",
+        "AI ETF investment comparison",
+        "AI IPO",
+        "AI adoption in wealth management",
+        "AI and robotics thematic investing",
+        "AI cloud growth potential",
+        "AI company IPO",
+        "AI competition intensifies",
+        "AI data governance and IPO uncertainty",
+        "AI development slowdown",
+        "AI development slowdown concerns",
+        "AI ecosystem expansion",
+        "AI equity exposure for retirement investors",
+        "AI equity exposure via ETFs",
+        "AI equity resilience",
+        "AI for financial advisors",
+        "AI growth momentum",
+        "AI investing narrative",
+        "AI investment demand",
+        "AI investment momentum",
+        "AI investment strategy",
+        "AI mega-IPO and strategic investment",
+        "AI monetization shift to advertising",
+        "AI procurement automation funding",
+        "AI rally exposure via ETFs",
+        "AI revenue growth vs soft guidance",
+        "AI stock investment opportunity",
+        "AI strategic investment",
+        "China internet AI cost pessimism",
+        "China tech AI monetization concerns"
+      ],
+      "n_events": 35
+    },
+    "ai_governance_security": {
+      "name": "AI治理、隐私与安全",
+      "driver_category": "Policy/Regulation",
+      "aliases": [
+        "AI cybersecurity growth",
+        "AI data privacy backlash",
+        "AI data security concerns",
+        "AI data sovereignty demand",
+        "AI governance standards initiative",
+        "cybersecurity demand amid AI risk focus",
+        "cybersecurity earnings beat",
+        "open-source AI security infrastructure"
+      ],
+      "n_events": 10
+    },
+    "ai_hardware_supply_chain": {
+      "name": "AI硬件供应链与产品",
+      "driver_category": "Supply",
+      "aliases": [
+        "AI supplier stock preference",
+        "AI supplier stock selection",
+        "AI workstation GPU product launch",
+        "AI/professional GPU product expansion",
+        "AI/silicon photonics chip design ecosystem collaboration",
+        "AI硬件供应链灰色市场",
+        "China tech hardware rotation",
+        "GPU product comparison",
+        "new product cycle / tech hardware momentum"
+      ],
+      "n_events": 9
+    },
+    "china_ai_tech_rally": {
+      "name": "中国AI科技股行情",
+      "driver_category": "Market Flow",
+      "aliases": [
+        "China AI equity rally",
+        "China corporate profit rebound",
+        "China e-commerce sector selloff",
+        "China e-commerce stock rotation",
+        "China e-commerce weakness vs AI strength",
+        "China equity outlook mixed",
+        "China equity re-rating",
+        "China equity selloff",
+        "China equity sentiment divergence",
+        "China equity upside",
+        "China factory reflation",
+        "China full-stack AI repricing",
+        "China industrial profit rebound",
+        "China internet & AI sector undervaluation",
+        "China internet ETF access expansion",
+        "China internet ETF selloff",
+        "China internet ETF short positioning",
+        "China internet equity selloff",
+        "China internet equity underperformance",
+        "China internet sector bullish analyst call",
+        "China internet stocks attractive after selloff",
+        "China manufacturing recovery / AI hardware exports",
+        "China policy easing / rate cut",
+        "China recovery",
+        "China tech AI rally",
+        "China tech AI rally exclusion",
+        "China tech equity momentum",
+        "China tech partnership optimism",
+        "China tech regulatory easing",
+        "food-delivery margin recovery",
+        "investor attention on JD.com",
+        "investor bullish bets on consumer/China e-commerce stocks",
+        "investor confidence in Chinese e-commerce",
+        "investor exit / bearish signal on China e-commerce",
+        "logistics network expansion",
+        "retail asset sale uncertainty",
+        "retail foodservice expansion",
+        "rotation into Chinese equities"
+      ],
+      "n_events": 39
+    },
+    "china_tech_weakness_risk": {
+      "name": "中国科技股弱势与风险",
+      "driver_category": "Market Flow",
+      "aliases": [
+        "AI cost concerns trigger China tech selloff",
+        "AI-driven China tech positioning",
+        "Alibaba equity offering overhang",
+        "Alibaba valuation concern ahead of share sale",
+        "China growth slowdown",
+        "China semiconductor IPO frenzy",
+        "China semiconductor self-sufficiency",
+        "China tech equity weakness",
+        "China tech supply concerns",
+        "China trade surplus resilience amid tariffs"
+      ],
+      "n_events": 10
+    },
+    "us_china_tech_tensions": {
+      "name": "中美科技与贸易紧张",
+      "driver_category": "Geopolitics",
+      "aliases": [
+        "China tech rally faces geopolitical test",
+        "Geopolitical risk & AI sentiment",
+        "Geopolitical risk premium in oil",
+        "Hormuz de-escalation uncertainty",
+        "Iran sanctions / oil & defense inflation risk",
+        "Middle East tensions semiconductor selloff",
+        "US-China equity sentiment divergence",
+        "US-China tech tensions",
+        "US-China trade detente / AI chip access hopes",
+        "Venezuela critical minerals access",
+        "war-driven shipping demand vs gold weakness"
+      ],
+      "n_events": 11
+    },
+    "semiconductor_rotation_flows": {
+      "name": "半导体板块轮动与资金流",
+      "driver_category": "Market Flow",
+      "aliases": [
+        "Equity-linked issuance on Korean tech majors",
+        "KRW appreciation hits Korean chip exporter margins",
+        "Korea corporate governance reform",
+        "Korea equity selloff led by chipmakers and automakers",
+        "Merger arbitrage / chip sector divergence",
+        "Samsung-SK hynix stock gains in divorce asset division",
+        "South Korea corporate governance reform",
+        "South Korea equity preference over China internet",
+        "chip ETF fee advantage",
+        "chip stocks as short-term safety play"
+      ],
+      "n_events": 10
+    },
+    "etf_flows_allocation": {
+      "name": "ETF资金流与资产配置",
+      "driver_category": "Market Flow",
+      "aliases": [
+        "ETF asset allocation",
+        "ETF fee drag on long-term returns",
+        "ETF income distribution tax efficiency",
+        "ETF inflows",
+        "ETF market expansion",
+        "ETF profitability",
+        "ETF speculation and debasement trade",
+        "Sports team performance ETF innovation",
+        "US pension income boost",
+        "covered call ETF strategy",
+        "early retirement income via ETFs",
+        "high-yield ETF drawdown risk",
+        "index fund concentration risk",
+        "leveraged ETF sector rotation",
+        "long-term buy-and-hold ETF investing",
+        "retirement income sequencing",
+        "retirement readiness",
+        "sector rotation in ETF performance",
+        "tactical ETF opportunities amid inflation and AI-trade concerns"
+      ],
+      "n_events": 19
+    },
+    "gold_precious_metals": {
+      "name": "黄金与贵金属",
+      "driver_category": "Macro & FX",
+      "aliases": [
+        "debasement trade / hard-asset hedge",
+        "gold ETF inflows",
+        "gold bullish demand",
+        "gold exposure",
+        "gold futures tax treatment",
+        "gold investment demand rally",
+        "gold miners vs physical gold performance divergence",
+        "gold positioning shift",
+        "gold positioning unwind",
+        "gold price correction amid central bank demand",
+        "gold price rebound",
+        "gold rally",
+        "gold vs S&P 500 allocation",
+        "gold vs S&P 500 relative performance",
+        "political pressure on Fed / gold rally",
+        "precious metals investor sentiment",
+        "rising rate expectations pressure gold"
+      ],
+      "n_events": 17
+    },
+    "oil_energy_commodities": {
+      "name": "石油能源与大宗商品",
+      "driver_category": "Supply",
+      "aliases": [
+        "Energy sector premarket strength",
+        "Indonesia energy & engineering economy",
+        "OPEC+ supply hold",
+        "commodity rally led by oil and broad baskets",
+        "commodity vs AI equity rotation",
+        "crude oil rally / midstream toll-collector exposure",
+        "energy ETF inflows slowdown",
+        "energy sector premarket strength",
+        "energy sector weakness",
+        "fuel price surge / policy impotence",
+        "oil ETF momentum",
+        "oil and bond yields pressure equities",
+        "oil and rates uncertainty",
+        "oil price and yield surge pressuring equities",
+        "oil price rally",
+        "oil price relief and tech optimism",
+        "oil price spike",
+        "oil price surge",
+        "oil supply risk",
+        "oil supply risk / SPR depletion",
+        "oil supply risk premium",
+        "rising oil prices weigh on mixed equity futures",
+        "tariff-driven copper selloff",
+        "wheat rally sustainability"
+      ],
+      "n_events": 25
+    },
+    "fed_rates_inflation": {
+      "name": "美联储、利率与通胀",
+      "driver_category": "Macro & FX",
+      "aliases": [
+        "CPI print ahead of Fed meeting",
+        "Fed chair speculation / bond market stabilization",
+        "Fed hiking into oil shock",
+        "Fed rate hike expectations",
+        "Fed rate hike risk",
+        "PPI inflation data",
+        "US fiscal deficit vs Fed rate path",
+        "consumer inflation / shrinkflation",
+        "fiscal stimulus funding risk",
+        "hawkish Fed rate path",
+        "higher-for-longer rates",
+        "inflation data / pre-market equity rally",
+        "inflation hedge / bond selloff risk",
+        "labor cost inflation",
+        "rate cut uncertainty",
+        "rate expectations repricing",
+        "rate hedge",
+        "rate hike",
+        "rate hike bets wane",
+        "rate hold uncertainty",
+        "strong economy supports higher yields",
+        "stronger USD / hawkish Fed",
+        "通胀数据不确定性"
+      ],
+      "n_events": 23
+    },
+    "bonds_yields_duration": {
+      "name": "债券、收益率与久期风险",
+      "driver_category": "Macro & FX",
+      "aliases": [
+        "Treasury selloff / duration risk",
+        "bond bear market / potential mean reversion",
+        "bond fund underperformance",
+        "bond fund underperformance / duration risk",
+        "bond market positioning",
+        "bond market selloff / buyer strike",
+        "bond selloff drivers",
+        "bond selloff drives yield-seeking ETF inflows",
+        "bond-to-equity rotation",
+        "duration risk under rising rates",
+        "fixed-income demand surge",
+        "global bond selloff",
+        "long-duration Treasury bond losses",
+        "rising Treasury yields pressure equities",
+        "rising bond yields",
+        "rising long-term yields",
+        "美元走弱与国债回购计划"
+      ],
+      "n_events": 18
+    },
+    "usd_fx_currency": {
+      "name": "美元与汇率",
+      "driver_category": "Macro & FX",
+      "aliases": [
+        "EM equity rally on AI semis and easing geopolitics",
+        "Japan FX intervention",
+        "US dollar outlook",
+        "US dollar strength",
+        "US dollar weakness",
+        "USD ETF coverage",
+        "USD index breakout",
+        "USD outlook / Fed hawkishness",
+        "USD safe-haven bid on Iran deal uncertainty",
+        "Yen rally",
+        "emerging markets rally on weak dollar and Fed cuts"
+      ],
+      "n_events": 11
+    },
+    "us_equity_market": {
+      "name": "美国股市表现",
+      "driver_category": "Market Flow",
+      "aliases": [
+        "Corporate governance event",
+        "M&A antitrust pushback",
+        "M&A completion optimism",
+        "M&A deal collapse",
+        "M&A regulatory remedy",
+        "M&A regulatory scrutiny",
+        "Nasdaq 100 index weight increase",
+        "Share buyback",
+        "US equity market intraday strength",
+        "US equity market rally led by tech and consumer sectors",
+        "US equity market selloff",
+        "US equity market weakness",
+        "US equity sector rotation",
+        "analyst calls mixed",
+        "analyst downgrade",
+        "analyst upgrade",
+        "corporate governance disclosure",
+        "earnings beat expectation",
+        "earnings beat with revenue miss",
+        "earnings improvement",
+        "equity breakout setup",
+        "insider selling overhang removal",
+        "labor dispute risk to earnings cycle",
+        "mid-cap equity differentiation",
+        "potential acquisition of high-yield dividend stock",
+        "small-cap rally sustainability",
+        "stock picking portfolio resilience",
+        "unexplained stock surge / meme-driven rally",
+        "unusual options buying in tech and energy stocks",
+        "wide moat stock picks"
+      ],
+      "n_events": 30
+    },
+    "bitcoin_crypto": {
+      "name": "比特币与加密资产",
+      "driver_category": "Market Flow",
+      "aliases": [
+        "Bitcoin ETF outflows and inflation-hedge appeal under pressure"
+      ],
+      "n_events": 1
+    },
+    "apple_foldable_iphone": {
+      "name": "苹果折叠屏iPhone",
+      "driver_category": "Technology/Innovation",
+      "aliases": [
+        "Apple foldable iPhone launch",
+        "exclusive display supply deal",
+        "foldable iPhone growth driver",
+        "foldable iPhone launch supply-chain rally",
+        "foldable phone demand surge",
+        "foldable smartphone competition"
+      ],
+      "n_events": 6
+    },
+    "autonomous_driving_robotaxi": {
+      "name": "自动驾驶与Robotaxi",
+      "driver_category": "Technology/Innovation",
+      "aliases": [
+        "Robotaxi competition overreaction",
+        "autonomous driving software partnership"
+      ],
+      "n_events": 2
+    },
+    "humanoid_robotics": {
+      "name": "人形机器人",
+      "driver_category": "Technology/Innovation",
+      "aliases": [
+        "Humanoid robot adoption acceleration"
+      ],
+      "n_events": 1
+    },
+    "quantum_computing": {
+      "name": "量子计算",
+      "driver_category": "Technology/Innovation",
+      "aliases": [
+        "quantum computing acceleration",
+        "quantum computing platform expansion"
+      ],
+      "n_events": 3
+    },
+    "china_obesity_drug": {
+      "name": "中国减肥药需求",
+      "driver_category": "Demand",
+      "aliases": [
+        "China obesity drug demand"
+      ],
+      "n_events": 1
+    },
+    "cannabis_stocks": {
+      "name": "大麻股",
+      "driver_category": "Market Flow",
+      "aliases": [
+        "cannabis stock underperformance despite improving business"
+      ],
+      "n_events": 1
+    },
+    "hong_kong_northern_metropolis": {
+      "name": "香港北部都会区",
+      "driver_category": "Policy/Regulation",
+      "aliases": [
+        "Hong Kong Northern Metropolis expansion"
+      ],
+      "n_events": 1
+    },
+    "ciftis_partnership": {
+      "name": "服贸会合作签约",
+      "driver_category": "Strategic Action",
+      "aliases": [
+        "CIFTIS partnership signing"
+      ],
+      "n_events": 1
+    },
+    "ad_measurement_strategy": {
+      "name": "广告测量策略",
+      "driver_category": "Strategic Action",
+      "aliases": [
+        "ad measurement strategy"
+      ],
+      "n_events": 1
+    },
+    "auto_repair_guidance": {
+      "name": "汽车维修指引",
+      "driver_category": "Policy/Regulation",
+      "aliases": [
+        "auto repair guidance"
+      ],
+      "n_events": 1
+    },
+    "education_productivity_software": {
+      "name": "教育生产力软件",
+      "driver_category": "Technology/Innovation",
+      "aliases": [
+        "education productivity software expansion"
+      ],
+      "n_events": 1
+    },
+    "investment_tax_policy": {
+      "name": "投资吸引与税收政策",
+      "driver_category": "Policy/Regulation",
+      "aliases": [
+        "investment attraction / tax policy support",
+        "market access reform"
+      ],
+      "n_events": 2
+    }
+  },
+  "stats": {
+    "raw_themes": 400,
+    "canonical_themes": 30,
+    "mapped": 397,
+    "unmapped": 3
+  }
+}

@@ -1,0 +1,478 @@
+[
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "earnings beat",
+    "event_type_summary": "Okta股价因业绩超预期大涨",
+    "theme": "identity security earnings beat",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [],
+    "rationale_text": "Okta因财报超预期股价大涨，但候选代码中无直接受影响标的，NVDA仅为原始关联但非直接驱动。",
+    "_news_title": "Why Okta Stock Rocketed Higher Today",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI capex slowdown concerns",
+    "event_type_summary": "AI industry leaders call for slower memory/capacity expansion, triggering sharp selloff in memory and AI semiconductor stocks",
+    "theme": "AI capex slowdown",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "NVDA",
+      "000660.KS",
+      "005930.KS",
+      "SMH",
+      "SOXX"
+    ],
+    "rationale_text": "AI负责人呼吁行业放缓扩张，引发存储与AI芯片股大幅下跌，利空英伟达及存储芯片龙头。",
+    "_news_title": "Memory Falls Hardest as AI Chiefs Ask the Industry to Slow Down",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Rate hike expectation",
+    "event_type_summary": "Market-implied probability of a Fed rate hike on Sept. 16 rises to 83%-90%, prompting historical analysis of S&P 500 reactions",
+    "theme": "Fed rate hike risk",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "QQQ",
+      "XLK",
+      "NVDA",
+      "SMH",
+      "SOXX"
+    ],
+    "rationale_text": "美联储9月加息概率升至83%-90%，利率上行预期压制成长股与科技股估值，对美股及半导体板块偏空。",
+    "_news_title": "There Is Now An 83% to 90% Chance the Fed Raises Interest Rates on Sept. 16. Here's What History Says Would Happen to the S&P 500 Index Next.",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI industry commentary",
+    "event_type_summary": "Anthropic calls for AI industry slowdown, but no direct impact on Nvidia chip demand",
+    "theme": "AI capex resilience",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "rationale_text": "Anthropic呼吁AI行业放缓，但新闻明确指出并未要求减少购买英伟达芯片，对NVDA影响中性。",
+    "_news_title": "Anthropic Just Asked the AI Industry to Slow Down. Nothing in It Asks Anyone to Buy Fewer Nvidia Chips.",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "Product/Conference Update",
+    "event_type_summary": "Palantir AIPCon highlights data sovereignty demand and ecosystem adoption, positive for AI/data platform ecosystem",
+    "theme": "AI data platform ecosystem adoption",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "rationale_text": "Palantir AIPCon 强调数据主权需求与生态采用，利好 AI 数据平台生态，间接利好 NVDA 等 AI 算力标的。",
+    "_news_title": "Palantir's AIPCon Highlights Data Sovereignty Demand, Ecosystem Adoption, Oppenheimer Says",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "AI adoption restriction",
+    "event_type_summary": "Nvidia and Palantir reportedly restrict AI usage over customer data fears, while OpenAI rules out 2026 IPO",
+    "theme": "AI data privacy concerns",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "rationale_text": "英伟达与Palantir因客户数据担忧限制AI使用，且OpenAI称2026年不IPO，对AI相关股票构成负面信号。",
+    "_news_title": "Top Midday Stories: No OpenAI IPO in 2026, Altman Reportedly Says; Nvidia, Palantir Said to Restrict AI Usage Over Customer Data Fears",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI data retention concerns",
+    "event_type_summary": "Clients push back against Anthropic and OpenAI over data retention practices, raising regulatory and reputational risk for AI ecosystem",
+    "theme": "AI regulatory/reputational risk",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "rationale_text": "AI客户因数据留存问题对Anthropic和OpenAI产生抵触，可能拖累AI相关芯片需求预期，利空英伟达。",
+    "_news_title": "Data retention concerns spark client pushback against Anthropic and OpenAI -report",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "stock_analysis",
+    "event_type_summary": "媒体对SoundHound AI股票的负面分析，指出其最大问题",
+    "theme": "AI stock valuation risk",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "rationale_text": "该新闻对SoundHound AI股票提出负面分析，并提及英伟达，可能对AI相关股票情绪产生负面影响。",
+    "_news_title": "This Is the Biggest Problem With SoundHound AI Stock",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI valuation warning",
+    "event_type_summary": "AI板块估值担忧升温，英伟达触发关键卖出信号",
+    "theme": "AI capex slowdown",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "NVDA",
+      "SMH",
+      "SOXX",
+      "QQQ",
+      "XLK"
+    ],
+    "rationale_text": "新闻警告AI泡沫风险并质疑英伟达是否应卖出，直接利空英伟达及半导体、科技板块。",
+    "_news_title": "Nvidia Triggers Key Signals As AI Warnings Mount; Is Nvidia A Sell Now?",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Geopolitical risk and AI sentiment",
+    "event_type_summary": "Houthi attacks push oil higher while Dow falls and Trump comments weigh on AI-related sentiment",
+    "theme": "geopolitical oil spike and AI sentiment wobble",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "NVDA",
+      "SMH",
+      "SOXX",
+      "QQQ",
+      "XLK"
+    ],
+    "rationale_text": "胡塞武装动向推升油价、道指下跌，特朗普对AI担忧的言论压制AI及科技股情绪。",
+    "_news_title": "Stock Market Today: Dow Falls, Oil Jumps On Houthi Moves; Trump Hits Out At These AI Fears (Live Coverage)",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "rate_hike_expectation",
+    "event_type_summary": "市场定价显示美联储9月16日加息概率升至83%-90%",
+    "theme": "Fed rate hike expectation",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "affected_tickers": [
+      "TLT",
+      "AGG",
+      "QQQ",
+      "XLK",
+      "SMH",
+      "SOXX"
+    ],
+    "rationale_text": "市场预期美联储本周加息概率高达83%-90%，利率上行预期对债券及成长股构成压力。",
+    "_news_title": "There Is Now An 83% to 90% Chance the Fed Raises Interest Rates on Sept. 16. Here's What History Says Would Happen to the S&amp;P 500 Index Next.",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "technology_partnership",
+    "event_type_summary": "Lorentz Solution与NVIDIA在TSMC OIP论坛联合展示面向硅光与3DIC设计的3D EM提取与签核方案",
+    "theme": "AI chip design ecosystem collaboration",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "NVDA",
+      "TSM"
+    ],
+    "rationale_text": "Lorentz与NVIDIA在台积电OIP论坛联合发布硅光及3DIC设计自动化方案，利好NVIDIA与台积电的AI芯片生态。",
+    "_news_title": "Lorentz Solution Jointly Presents with NVIDIA on Automated Large-Scale Chip-Level 3D EM Extraction and Sign-off of Ultra-High-Speed Silicon Photonics and IC/3DIC Designs at 2026 TSMC OIP",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI sentiment selloff",
+    "event_type_summary": "Broad AI landscape news triggers chipmaker selloff",
+    "theme": "AI sentiment weakness",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "NVDA",
+      "TSM",
+      "SMH",
+      "SOXX",
+      "QQQ",
+      "XLK"
+    ],
+    "rationale_text": "AI行业负面消息拖累芯片股，Sandisk及半导体板块承压。",
+    "_news_title": "Why Sandisk Stock Crashed Today",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI development slowdown concerns",
+    "event_type_summary": "Tech stocks decline after calls for AI development to slow, pressuring Nasdaq 100",
+    "theme": "AI capex slowdown",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "NVDA",
+      "TSM",
+      "SMH",
+      "SOXX",
+      "QQQ",
+      "XLK"
+    ],
+    "rationale_text": "市场担忧AI发展放缓，科技股与半导体相关ETF承压下跌。",
+    "_news_title": "Tech stocks fall after calls for AI development to slow",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "M&A speculation",
+    "event_type_summary": "Kenvue可能被Kimberly-Clark收购，且其股息率高于平均，吸引高收益投资者",
+    "theme": "dividend stock M&A speculation",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [],
+    "rationale_text": "新闻讨论Kenvue作为高股息股票的投资价值，并提及可能被Kimberly-Clark收购，但未直接涉及候选代码中的任何标的。",
+    "_news_title": "Here's My Pick for the Smartest High-Yield Dividend Stock to Buy Right Now",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI监管担忧与利率上行预期",
+    "event_type_summary": "利率上行担忧、AI监管讨论及公司内部人士转向抛售共同打压Oracle股价",
+    "theme": "AI oversight & rate hike fears",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "QQQ",
+      "XLK",
+      "NVDA"
+    ],
+    "rationale_text": "利率上行担忧与AI监管讨论令科技股承压，Oracle大跌反映AI/科技板块情绪转弱。",
+    "_news_title": "Why Oracle Stock Fell Quickly Today",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Treasury yield milestone",
+    "event_type_summary": "10-year Treasury yield crosses 5%, echoing 2007 bond market signal",
+    "theme": "rising long-term yields / rate shock",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "affected_tickers": [
+      "TLT",
+      "AGG",
+      "QQQ",
+      "XLK",
+      "SMH",
+      "SOXX"
+    ],
+    "rationale_text": "10年期美债收益率突破5%引发市场对利率冲击的担忧，利空长久期债券及高估值成长股。",
+    "_news_title": "10-Year Treasury Yield Just Passed 5%, Here’s What Happened To The Market When The Same Thing Happened In 2007",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "stock_price_surge",
+    "event_type_summary": "Bloom Energy股价年内大涨190%，因SOFC技术有望成为云与AI市场基础性供应商",
+    "theme": "AI power demand / fuel cell growth",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "NVDA",
+      "SMH",
+      "SOXX",
+      "QQQ",
+      "XLK"
+    ],
+    "rationale_text": "Bloom Energy因AI与云计算电力需求预期而大涨，利好AI算力与半导体相关股票。",
+    "_news_title": "Bloom Energy Is Up 190% This Year. Here's The Math Behind the Move.",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI板块轮动抛售",
+    "event_type_summary": "投资者因担忧AI技术推进过快而抛售头部AI股，资金转向软件与媒体股",
+    "theme": "AI rotation selloff",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "NVDA",
+      "TSM",
+      "SMH",
+      "SOXX",
+      "QQQ",
+      "XLK"
+    ],
+    "rationale_text": "市场担忧AI技术推进过快引发AI龙头股抛售，英伟达、博通等下跌，资金轮动至软件和媒体板块。",
+    "_news_title": "Nvidia, Broadcom Tumble In AI Rotation; These U.K.-Based Names Gain",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "earnings/operational update",
+    "event_type_summary": "Canopy Growth business improving but stock underperforming due to two long-standing issues",
+    "theme": "cannabis stock operational improvement vs persistent headwinds",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "affected_tickers": [],
+    "rationale_text": "Canopy Growth业务改善但受两大长期问题拖累，股价表现不佳，未直接涉及候选标的。",
+    "_news_title": "Canopy Growth's Business Is Improving. So Why Isn't the Stock Performing Better?",
+    "_from_ticker": "NVDA"
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "AI infrastructure partnership commentary",
+    "event_type_summary": "英伟达CEO黄仁勋将某AI公司称为‘AI工厂的台积电’，该公司CTO展望后续发展，凸显AI算力供应链合作与扩张预期",
+    "theme": "AI factory buildout",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "NVDA",
+      "TSM"
+    ],
+    "rationale_text": "黄仁勋对AI工厂合作方的高度评价强化了英伟达与台积电在AI算力供应链中的核心受益逻辑。",
+    "_news_title": "Jensen Huang Called One AI Company the ‘TSMC of AI Factories.’ Its CTO Sees What Comes Next",
+    "_from_ticker": "TSM"
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "product_showcase",
+    "event_type_summary": "Alchip在AI Infra Summit 2026展示先进ASIC设计与封装技术",
+    "theme": "AI ASIC demand growth",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "TSM"
+    ],
+    "rationale_text": "Alchip展示先进ASIC设计与封装能力，凸显AI芯片需求，利好其代工伙伴台积电。",
+    "_news_title": "Alchip Technologies Showcases Advanced ASIC Design and Packaging at AI Infra Summit 2026",
+    "_from_ticker": "TSM"
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "partnership",
+    "event_type_summary": "GSME joins TSMC OIP value chain alliance in North America",
+    "theme": "TSMC ecosystem expansion",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "TSM"
+    ],
+    "rationale_text": "GSME加入台积电北美OIP价值链联盟，强化台积电生态合作，利好台积电。",
+    "_news_title": "GSME Joined TSMC OIP Value Chain Alliance in North America",
+    "_from_ticker": "TSM"
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "stock recommendation",
+    "event_type_summary": "机构推荐买入5只宽护城河股票以强化投资组合",
+    "theme": "wide moat stock selection",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "TSM"
+    ],
+    "rationale_text": "该新闻推荐买入5只宽护城河股票，其中台积电（TSM）被直接点名，构成正面个股推荐信号。",
+    "_news_title": "Buy These 5 Top-Ranked Wide Moat Stocks to Strengthen Your Portfolio",
+    "_from_ticker": "TSM"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI slowdown sentiment rotation",
+    "event_type_summary": "Investors differentiate winners and losers amid expectations of an AI spending slowdown, pressuring AI-linked semiconductor and hardware names.",
+    "theme": "AI capex slowdown",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "affected_tickers": [
+      "NVDA",
+      "TSM",
+      "005930.KS",
+      "SMH",
+      "SOXX",
+      "QQQ",
+      "XLK"
+    ],
+    "rationale_text": "新闻指出投资者正因AI放缓预期而区分赢家与输家，对AI相关半导体及科技股构成负面情绪。",
+    "_news_title": "​Investors Are Sorting the Winners and Losers From an AI Slowdown",
+    "_from_ticker": "TSM"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Semiconductor market growth forecast",
+    "event_type_summary": "VLSI半导体市场规模预计2035年达1200亿美元，年复合增长率5.8%",
+    "theme": "semiconductor demand growth",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "TSM",
+      "NVDA",
+      "SMH",
+      "SOXX"
+    ],
+    "rationale_text": "VLSI半导体市场长期增长预测利好半导体产业链，尤其利好台积电等晶圆代工及半导体设备/芯片龙头。",
+    "_news_title": "VLSI Semiconductors Market Surges to USD 120.00 Billion by 2035, at 5.8% CAGR – Research by SNS Insider",
+    "_from_ticker": "TSM"
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "analyst_highlight",
+    "event_type_summary": "Zacks分析师博客重点推荐半导体产业链公司，涵盖封测、设备与AI芯片龙头",
+    "theme": "semiconductor analyst bullish coverage",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "NVDA",
+      "TSM"
+    ],
+    "rationale_text": "Zacks分析师博客重点推荐安靠、Ultra Clean、FormFactor、台积电和英伟达，对半导体板块及NVDA、TSM构成正面情绪提振。",
+    "_news_title": "The Zacks Analyst Blog Highlights Amkor Technology, Ultra Clean, FormFactor, Taiwan Semiconducto and NVIDIA",
+    "_from_ticker": "TSM"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Industry Outlook",
+    "event_type_summary": "半导体精密零部件市场2025-2030年展望，先进制程与新一代技术带来增长机会",
+    "theme": "semiconductor advanced manufacturing growth",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "TSM",
+      "005930.KS"
+    ],
+    "rationale_text": "半导体精密零部件市场展望看好先进芯片制造带来的增长机会，利好台积电和三星等先进制程晶圆厂。",
+    "_news_title": "Semiconductor Precision Parts Market Outlook 2025-2030: Advanced Chip Manufacturing and Next-Generation Technologies Create New Growth Opportunities",
+    "_from_ticker": "TSM"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI stock investment recommendation",
+    "event_type_summary": "媒体推荐买入AI相关股票，提振相关标的情绪",
+    "theme": "AI equity bullish sentiment",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "NVDA",
+      "TSM"
+    ],
+    "rationale_text": "该新闻推荐买入AI股票，直接利好英伟达和台积电等AI芯片龙头。",
+    "_news_title": "Amazon and 2 Other AI Stocks to Buy With $5,000",
+    "_from_ticker": "TSM"
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Humanoid robot market forecast upgrade",
+    "event_type_summary": "Goldman Sachs raises long-term humanoid robot shipment forecast, boosting AI/robotics supply-chain sentiment",
+    "theme": "humanoid robot adoption / AI robotics capex",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "affected_tickers": [
+      "NVDA",
+      "TSM"
+    ],
+    "rationale_text": "高盛上调2035年人形机器人出货预测，利好AI芯片与半导体代工等机器人产业链核心标的。",
+    "_news_title": "Robots Everywhere: Goldman Sachs Now Sees 6.5 Million Humanoid Robots by 2035",
+    "_from_ticker": "TSM"
+  }
+]

@@ -1,0 +1,1250 @@
+{
+  "etfs": {
+    "SMH": {
+      "name": "VanEck Semiconductor ETF",
+      "family": "VanEck",
+      "category": "Technology",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.9993,
+        "bondPosition": 0.0,
+        "cashPosition": 0.0007,
+        "otherPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 10,
+      "top_holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 0.2262537
+        },
+        {
+          "symbol": "TSM",
+          "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+          "weight": 0.096530505
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 0.061076898
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 0.054503698
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "weight": 0.0536277
+        },
+        {
+          "symbol": "ASML",
+          "name": "ASML Holding NV ADR",
+          "weight": 0.0509663
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research Corp",
+          "weight": 0.04399
+        },
+        {
+          "symbol": "AMAT",
+          "name": "Applied Materials Inc",
+          "weight": 0.0435639
+        },
+        {
+          "symbol": "ADI",
+          "name": "Analog Devices Inc",
+          "weight": 0.0432092
+        },
+        {
+          "symbol": "TXN",
+          "name": "Texas Instruments Inc",
+          "weight": 0.043012198
+        }
+      ],
+      "sector_weightings": [
+        {
+          "realestate": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_cyclical": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "basic_materials": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_defensive": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "technology": {
+            "raw": 1.0,
+            "fmt": "100.00%"
+          }
+        },
+        {
+          "communication_services": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "financial_services": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "utilities": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "industrials": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "energy": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "healthcare": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        }
+      ]
+    },
+    "SOXX": {
+      "name": "iShares Semiconductor ETF",
+      "family": "iShares",
+      "category": "Technology",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.9994,
+        "bondPosition": 0.0,
+        "cashPosition": 0.0005,
+        "otherPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 10,
+      "top_holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 0.094308205
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 0.0890507
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "weight": 0.0822601
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 0.0747613
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel Corp",
+          "weight": 0.050920602
+        },
+        {
+          "symbol": "MRVL",
+          "name": "Marvell Technology Inc",
+          "weight": 0.0465602
+        },
+        {
+          "symbol": "TSM",
+          "name": "Taiwan Semiconductor Manufacturing Co Ltd ADR",
+          "weight": 0.0465258
+        },
+        {
+          "symbol": "AMAT",
+          "name": "Applied Materials Inc",
+          "weight": 0.0459298
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research Corp",
+          "weight": 0.0427297
+        },
+        {
+          "symbol": "KLAC",
+          "name": "KLA Corp",
+          "weight": 0.041171398
+        }
+      ],
+      "sector_weightings": [
+        {
+          "realestate": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_cyclical": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "basic_materials": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_defensive": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "technology": {
+            "raw": 1.0,
+            "fmt": "100.00%"
+          }
+        },
+        {
+          "communication_services": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "financial_services": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "utilities": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "industrials": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "energy": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "healthcare": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        }
+      ]
+    },
+    "AIQ": {
+      "name": "Global X Artificial Intelligence & Technology ETF",
+      "family": "Global X Funds",
+      "category": "Technology",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.9996,
+        "bondPosition": 0.0,
+        "cashPosition": 0.0004,
+        "otherPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 10,
+      "top_holdings": [
+        {
+          "symbol": "PLTR",
+          "name": "Palantir Technologies Inc Ordinary Shares - Class A",
+          "weight": 0.0411975
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 0.0362475
+        },
+        {
+          "symbol": "ORCL",
+          "name": "Oracle Corp",
+          "weight": 0.033875503
+        },
+        {
+          "symbol": "SPCX",
+          "name": "Space Exploration Technologies Corp Class A",
+          "weight": 0.033139803
+        },
+        {
+          "symbol": "NFLX",
+          "name": "Netflix Inc",
+          "weight": 0.032082
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 0.0313908
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 0.030320302
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 0.0291266
+        },
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 0.028842
+        },
+        {
+          "symbol": "005930.KQ",
+          "name": "Samsung Electronics Co Ltd",
+          "weight": 0.028144099
+        }
+      ],
+      "sector_weightings": [
+        {
+          "realestate": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_cyclical": {
+            "raw": 0.090500005,
+            "fmt": "9.05%"
+          }
+        },
+        {
+          "basic_materials": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_defensive": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "technology": {
+            "raw": 0.6987,
+            "fmt": "69.87%"
+          }
+        },
+        {
+          "communication_services": {
+            "raw": 0.12810001,
+            "fmt": "12.81%"
+          }
+        },
+        {
+          "financial_services": {
+            "raw": 0.0018000001,
+            "fmt": "0.18%"
+          }
+        },
+        {
+          "utilities": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "industrials": {
+            "raw": 0.0747,
+            "fmt": "7.47%"
+          }
+        },
+        {
+          "energy": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "healthcare": {
+            "raw": 0.0062,
+            "fmt": "0.62%"
+          }
+        }
+      ]
+    },
+    "BOTZ": {
+      "name": "Global X Robotics & Artificial Intelligence ETF",
+      "family": "Global X Funds",
+      "category": "Technology",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.9998,
+        "bondPosition": 0.0,
+        "cashPosition": 0.0001,
+        "otherPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 10,
+      "top_holdings": [
+        {
+          "symbol": "6861.T",
+          "name": "Keyence Corp",
+          "weight": 0.1077435
+        },
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 0.0963611
+        },
+        {
+          "symbol": "ABBN.SW",
+          "name": "ABB Ltd",
+          "weight": 0.0918791
+        },
+        {
+          "symbol": "6954.T",
+          "name": "Fanuc Corp",
+          "weight": 0.076472305
+        },
+        {
+          "symbol": "ISRG",
+          "name": "Intuitive Surgical Inc",
+          "weight": 0.060706
+        },
+        {
+          "symbol": "6273.T",
+          "name": "SMC Corp",
+          "weight": 0.045571197
+        },
+        {
+          "symbol": "300124.SZ",
+          "name": "Shenzhen Inovance Technology Co Ltd Class A",
+          "weight": 0.0406993
+        },
+        {
+          "symbol": "6383.T",
+          "name": "Daifuku Co Ltd",
+          "weight": 0.03097
+        },
+        {
+          "symbol": "300757.SZ",
+          "name": "RoboTechnik Intelligent Technology Co Ltd Class A",
+          "weight": 0.0272735
+        },
+        {
+          "symbol": "CGNX",
+          "name": "Cognex Corp",
+          "weight": 0.022655498
+        }
+      ],
+      "sector_weightings": [
+        {
+          "realestate": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_cyclical": {
+            "raw": 0.0556,
+            "fmt": "5.56%"
+          }
+        },
+        {
+          "basic_materials": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_defensive": {
+            "raw": 0.0002,
+            "fmt": "0.02%"
+          }
+        },
+        {
+          "technology": {
+            "raw": 0.3453,
+            "fmt": "34.53%"
+          }
+        },
+        {
+          "communication_services": {
+            "raw": 0.039100002,
+            "fmt": "3.91%"
+          }
+        },
+        {
+          "financial_services": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "utilities": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "industrials": {
+            "raw": 0.4795,
+            "fmt": "47.95%"
+          }
+        },
+        {
+          "energy": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "healthcare": {
+            "raw": 0.080299996,
+            "fmt": "8.03%"
+          }
+        }
+      ]
+    },
+    "KWEB": {
+      "name": "KraneShares CSI China Internet ETF",
+      "family": "KraneShares",
+      "category": "Greater China Region",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.9991,
+        "bondPosition": 0.0,
+        "cashPosition": 0.00090000004,
+        "otherPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 10,
+      "top_holdings": [
+        {
+          "symbol": "0700.HK",
+          "name": "Tencent Holdings Ltd",
+          "weight": 0.102470905
+        },
+        {
+          "symbol": "9988.HK",
+          "name": "Alibaba Group Holding Ltd Ordinary Shares",
+          "weight": 0.08654159
+        },
+        {
+          "symbol": "PDD",
+          "name": "PDD Holdings Inc ADR",
+          "weight": 0.0826781
+        },
+        {
+          "symbol": "3690.HK",
+          "name": "Meituan Class B",
+          "weight": 0.0728547
+        },
+        {
+          "symbol": "9999.HK",
+          "name": "NetEase Inc Ordinary Shares",
+          "weight": 0.062451802
+        },
+        {
+          "symbol": "0992.HK",
+          "name": "Lenovo Group Ltd",
+          "weight": 0.0503511
+        },
+        {
+          "symbol": "2423.HK",
+          "name": "KE Holdings Inc Class A",
+          "weight": 0.0435104
+        },
+        {
+          "symbol": "9618.HK",
+          "name": "JD.com Inc Ordinary Shares - Class A",
+          "weight": 0.0393734
+        },
+        {
+          "symbol": "9961.HK",
+          "name": "Trip.com Group Ltd",
+          "weight": 0.03817
+        },
+        {
+          "symbol": "9888.HK",
+          "name": "Baidu Inc",
+          "weight": 0.033765398
+        }
+      ],
+      "sector_weightings": [
+        {
+          "realestate": {
+            "raw": 0.0436,
+            "fmt": "4.36%"
+          }
+        },
+        {
+          "consumer_cyclical": {
+            "raw": 0.3434,
+            "fmt": "34.34%"
+          }
+        },
+        {
+          "basic_materials": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_defensive": {
+            "raw": 0.027999999,
+            "fmt": "2.80%"
+          }
+        },
+        {
+          "technology": {
+            "raw": 0.1699,
+            "fmt": "16.99%"
+          }
+        },
+        {
+          "communication_services": {
+            "raw": 0.36630002,
+            "fmt": "36.63%"
+          }
+        },
+        {
+          "financial_services": {
+            "raw": 0.0108,
+            "fmt": "1.08%"
+          }
+        },
+        {
+          "utilities": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "industrials": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "energy": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "healthcare": {
+            "raw": 0.038,
+            "fmt": "3.80%"
+          }
+        }
+      ]
+    },
+    "CQQQ": {
+      "name": "Invesco China Technology ETF",
+      "family": "Invesco",
+      "category": "Greater China Region",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.9989,
+        "bondPosition": 0.0,
+        "cashPosition": 0.0011,
+        "otherPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 10,
+      "top_holdings": [
+        {
+          "symbol": "PDD",
+          "name": "PDD Holdings Inc ADR",
+          "weight": 0.107377395
+        },
+        {
+          "symbol": "3690.HK",
+          "name": "Meituan Class B",
+          "weight": 0.1049113
+        },
+        {
+          "symbol": "0700.HK",
+          "name": "Tencent Holdings Ltd",
+          "weight": 0.101210095
+        },
+        {
+          "symbol": "9888.HK",
+          "name": "Baidu Inc",
+          "weight": 0.0737426
+        },
+        {
+          "symbol": "1024.HK",
+          "name": "Kuaishou Technology Ordinary Shares - Class B",
+          "weight": 0.0381625
+        },
+        {
+          "symbol": "1347.HK",
+          "name": "Hua Hong Grace Semiconductor Ltd Shs Unitary 144A/Reg S",
+          "weight": 0.0323003
+        },
+        {
+          "symbol": "688256.SS",
+          "name": "Cambricon Technologies Corp Ltd Class A",
+          "weight": 0.0210124
+        },
+        {
+          "symbol": "1888.HK",
+          "name": "Kingboard Laminates Holdings Ltd",
+          "weight": 0.019748
+        },
+        {
+          "symbol": "688041.SS",
+          "name": "Hygon Information Technology Co Ltd Class A",
+          "weight": 0.0177356
+        },
+        {
+          "symbol": "2382.HK",
+          "name": "Sunny Optical Technology (Group) Co Ltd",
+          "weight": 0.0171422
+        }
+      ],
+      "sector_weightings": [
+        {
+          "realestate": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_cyclical": {
+            "raw": 0.2131,
+            "fmt": "21.31%"
+          }
+        },
+        {
+          "basic_materials": {
+            "raw": 0.0008,
+            "fmt": "0.08%"
+          }
+        },
+        {
+          "consumer_defensive": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "technology": {
+            "raw": 0.4991,
+            "fmt": "49.91%"
+          }
+        },
+        {
+          "communication_services": {
+            "raw": 0.2713,
+            "fmt": "27.13%"
+          }
+        },
+        {
+          "financial_services": {
+            "raw": 0.0052,
+            "fmt": "0.52%"
+          }
+        },
+        {
+          "utilities": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "industrials": {
+            "raw": 0.0105,
+            "fmt": "1.05%"
+          }
+        },
+        {
+          "energy": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "healthcare": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        }
+      ]
+    },
+    "QQQ": {
+      "name": "Invesco QQQ Trust",
+      "family": "Invesco",
+      "category": "Large Growth",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.9989,
+        "bondPosition": 0.0,
+        "cashPosition": 0.0011,
+        "otherPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 10,
+      "top_holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 0.0850652
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 0.0740928
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 0.059995297
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 0.047521602
+        },
+        {
+          "symbol": "AMZN",
+          "name": "Amazon.com Inc",
+          "weight": 0.044489898
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "weight": 0.033736803
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Alphabet Inc Class A",
+          "weight": 0.0314663
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla Inc",
+          "weight": 0.029264601
+        },
+        {
+          "symbol": "GOOG",
+          "name": "Alphabet Inc Class C",
+          "weight": 0.029135698
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 0.0279556
+        }
+      ],
+      "sector_weightings": [
+        {
+          "realestate": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_cyclical": {
+            "raw": 0.111099996,
+            "fmt": "11.11%"
+          }
+        },
+        {
+          "basic_materials": {
+            "raw": 0.01,
+            "fmt": "1.00%"
+          }
+        },
+        {
+          "consumer_defensive": {
+            "raw": 0.0624,
+            "fmt": "6.24%"
+          }
+        },
+        {
+          "technology": {
+            "raw": 0.59150004,
+            "fmt": "59.15%"
+          }
+        },
+        {
+          "communication_services": {
+            "raw": 0.127,
+            "fmt": "12.70%"
+          }
+        },
+        {
+          "financial_services": {
+            "raw": 0.0021,
+            "fmt": "0.21%"
+          }
+        },
+        {
+          "utilities": {
+            "raw": 0.0114,
+            "fmt": "1.14%"
+          }
+        },
+        {
+          "industrials": {
+            "raw": 0.039100002,
+            "fmt": "3.91%"
+          }
+        },
+        {
+          "energy": {
+            "raw": 0.0053,
+            "fmt": "0.53%"
+          }
+        },
+        {
+          "healthcare": {
+            "raw": 0.0402,
+            "fmt": "4.02%"
+          }
+        }
+      ]
+    },
+    "XLK": {
+      "name": "State Street Technology Select Sector SPDR ETF",
+      "family": "State Street Investment Management",
+      "category": "Technology",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.9997,
+        "bondPosition": 0.0,
+        "cashPosition": 0.00029999999,
+        "otherPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 10,
+      "top_holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp",
+          "weight": 0.14363189
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc",
+          "weight": 0.1249984
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp",
+          "weight": 0.1012188
+        },
+        {
+          "symbol": "AVGO",
+          "name": "Broadcom Inc",
+          "weight": 0.0470974
+        },
+        {
+          "symbol": "MU",
+          "name": "Micron Technology Inc",
+          "weight": 0.0399906
+        },
+        {
+          "symbol": "AMD",
+          "name": "Advanced Micro Devices Inc",
+          "weight": 0.0392825
+        },
+        {
+          "symbol": "INTC",
+          "name": "Intel Corp",
+          "weight": 0.028994901
+        },
+        {
+          "symbol": "CSCO",
+          "name": "Cisco Systems Inc",
+          "weight": 0.0286219
+        },
+        {
+          "symbol": "PLTR",
+          "name": "Palantir Technologies Inc Ordinary Shares - Class A",
+          "weight": 0.0280656
+        },
+        {
+          "symbol": "LRCX",
+          "name": "Lam Research Corp",
+          "weight": 0.0247268
+        }
+      ],
+      "sector_weightings": [
+        {
+          "realestate": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_cyclical": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "basic_materials": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "consumer_defensive": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "technology": {
+            "raw": 1.0,
+            "fmt": "100.00%"
+          }
+        },
+        {
+          "communication_services": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "financial_services": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "utilities": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "industrials": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "energy": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        },
+        {
+          "healthcare": {
+            "raw": 0.0,
+            "fmt": "0.00%"
+          }
+        }
+      ]
+    },
+    "TLT": {
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "family": "iShares",
+      "category": "Long Government",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.0,
+        "bondPosition": 0.996,
+        "cashPosition": 0.004,
+        "otherPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 0,
+      "top_holdings": [],
+      "sector_weightings": []
+    },
+    "AGG": {
+      "name": "iShares Core U.S. Aggregate Bond ETF",
+      "family": "iShares",
+      "category": "Intermediate Core Bond",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.0,
+        "bondPosition": 0.96940005,
+        "cashPosition": 0.0306,
+        "otherPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 1,
+      "top_holdings": [
+        {
+          "symbol": "BISXX",
+          "name": "BlackRock Cash Funds Instl SL Agency",
+          "weight": 0.030071102
+        }
+      ],
+      "sector_weightings": []
+    },
+    "GLD": {
+      "name": "SPDR Gold Shares",
+      "family": "State Street Investment Management",
+      "category": "Commodities Focused",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.0,
+        "bondPosition": 0.0,
+        "cashPosition": 0.0,
+        "otherPosition": 1.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 0,
+      "top_holdings": [],
+      "sector_weightings": []
+    },
+    "USO": {
+      "name": "United States Oil Fund, LP",
+      "family": "USCF Investments",
+      "category": "Commodities Focused",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.0,
+        "bondPosition": 0.2206,
+        "cashPosition": 0.2897,
+        "otherPosition": 0.48970002,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 0,
+      "top_holdings": [],
+      "sector_weightings": []
+    },
+    "UUP": {
+      "name": "Invesco DB US Dollar Index Bullish Fund",
+      "family": "Invesco",
+      "category": "Trading--Miscellaneous",
+      "legalType": "Exchange Traded Fund",
+      "currency": "USD",
+      "positions": {
+        "stockPosition": 0.0,
+        "bondPosition": 0.0,
+        "cashPosition": 1.0,
+        "otherPosition": 0.0,
+        "preferredPosition": 0.0,
+        "convertiblePosition": 0.0
+      },
+      "n_holdings": 1,
+      "top_holdings": [
+        {
+          "symbol": "AGPXX",
+          "name": "Invesco Shrt-Trm Inv Gov&Agcy Instl",
+          "weight": 0.4883233
+        }
+      ],
+      "sector_weightings": []
+    }
+  },
+  "stocks": {
+    "JD": {
+      "name": "JD.com, Inc.",
+      "sector": "Consumer Cyclical",
+      "industry": "Internet Retail",
+      "country": "China",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "marketCap": 36880801792
+    },
+    "NVDA": {
+      "name": "NVIDIA Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "United States",
+      "exchange": "NasdaqGS",
+      "currency": "USD",
+      "marketCap": 5117473456128
+    },
+    "TSM": {
+      "name": "Taiwan Semiconductor Manufacturing Company Limited",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "Taiwan",
+      "exchange": "NYSE",
+      "currency": "USD",
+      "marketCap": 2177074331648
+    },
+    "0981.HK": {
+      "name": "Semiconductor Manufacturing International Corporation",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "China",
+      "exchange": "HKSE",
+      "currency": "HKD",
+      "marketCap": 524861898752
+    },
+    "000660.KS": {
+      "name": "SK hynix Inc.",
+      "sector": "Technology",
+      "industry": "Semiconductors",
+      "country": "South Korea",
+      "exchange": "KSE",
+      "currency": "KRW",
+      "marketCap": 1204623838806016
+    },
+    "005930.KS": {
+      "name": "Samsung Electronics Co., Ltd.",
+      "sector": "Technology",
+      "industry": "Consumer Electronics",
+      "country": "South Korea",
+      "exchange": "KSE",
+      "currency": "KRW",
+      "marketCap": 1635074319581184
+    }
+  }
+}

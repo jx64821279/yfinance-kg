@@ -1,0 +1,485 @@
+{
+  "000660.KS": {
+    "currency": "KRW",
+    "exchange": "KSE",
+    "longName": "SK hynix Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "SK hynix"
+  },
+  "005930.KQ": {
+    "currency": "KRW",
+    "exchange": "KOSDAQ",
+    "longName": "Samsung Electronics Co Ltd",
+    "quoteType": "MUTUALFUND",
+    "shortName": "005930.KQ,0P0000B2XZ,18569122"
+  },
+  "005930.KS": {
+    "currency": "KRW",
+    "exchange": "KSE",
+    "longName": "Samsung Electronics Co., Ltd.",
+    "quoteType": "EQUITY",
+    "shortName": "SamsungElec"
+  },
+  "0700.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "Tencent Holdings Limited",
+    "quoteType": "EQUITY",
+    "shortName": "TENCENT"
+  },
+  "0981.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "Semiconductor Manufacturing International Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "SMIC"
+  },
+  "0992.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "Lenovo Group Limited",
+    "quoteType": "EQUITY",
+    "shortName": "LENOVO GROUP"
+  },
+  "1024.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "Kuaishou Technology",
+    "quoteType": "EQUITY",
+    "shortName": "KUAISHOU-W"
+  },
+  "1347.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "Hua Hong Grace Semiconductor Limited",
+    "quoteType": "EQUITY",
+    "shortName": "HUA HONG GRACE"
+  },
+  "1888.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "Kingboard Laminates Holdings Limited",
+    "quoteType": "EQUITY",
+    "shortName": "KB LAMINATES"
+  },
+  "2382.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "Sunny Optical Technology (Group) Company Limited",
+    "quoteType": "EQUITY",
+    "shortName": "SUNNY OPTICAL"
+  },
+  "2423.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "KE Holdings Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "BEKE-W"
+  },
+  "300124.SZ": {
+    "currency": "CNY",
+    "exchange": "Shenzhen",
+    "longName": "Shenzhen Inovance Technology Co.,Ltd",
+    "quoteType": "EQUITY",
+    "shortName": "INOVANCE"
+  },
+  "300757.SZ": {
+    "currency": "CNY",
+    "exchange": "Shenzhen",
+    "longName": "RoboTechnik Intelligent Technology Co., LTD",
+    "quoteType": "EQUITY",
+    "shortName": "ROBO"
+  },
+  "3690.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "Meituan",
+    "quoteType": "EQUITY",
+    "shortName": "MEITUAN-W"
+  },
+  "6273.T": {
+    "currency": "JPY",
+    "exchange": "Tokyo",
+    "longName": "SMC Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "SMC CORP"
+  },
+  "6383.T": {
+    "currency": "JPY",
+    "exchange": "Tokyo",
+    "longName": "Daifuku Co., Ltd.",
+    "quoteType": "EQUITY",
+    "shortName": "DAIFUKU CO LTD"
+  },
+  "6861.T": {
+    "currency": "JPY",
+    "exchange": "Tokyo",
+    "longName": "Keyence Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "KEYENCE CORP"
+  },
+  "688041.SS": {
+    "currency": "CNY",
+    "exchange": "Shanghai",
+    "longName": "Hygon Information Technology Co., Ltd.",
+    "quoteType": "EQUITY",
+    "shortName": "HYGON INFORMATION TECHNOLOGY CO"
+  },
+  "688256.SS": {
+    "currency": "CNY",
+    "exchange": "Shanghai",
+    "longName": "Cambricon Technologies Corporation Limited",
+    "quoteType": "EQUITY",
+    "shortName": "CAMBRICON TECHNOLOGIES CORPORAT"
+  },
+  "6954.T": {
+    "currency": "JPY",
+    "exchange": "Tokyo",
+    "longName": "Fanuc Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "FANUC CORPORATION"
+  },
+  "9618.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "JD.com, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "JD-SW"
+  },
+  "9888.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "Baidu, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "BIDU-W"
+  },
+  "9961.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "Trip.com Group Limited",
+    "quoteType": "EQUITY",
+    "shortName": "TRIP.COM-S"
+  },
+  "9988.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "Alibaba Group Holding Limited",
+    "quoteType": "EQUITY",
+    "shortName": "BABA-W"
+  },
+  "9999.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "NetEase, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "NTES"
+  },
+  "AAPL": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Apple Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Apple Inc."
+  },
+  "ABBN.SW": {
+    "currency": "CHF",
+    "exchange": "Swiss",
+    "longName": "ABB Ltd",
+    "quoteType": "EQUITY",
+    "shortName": "ABB LTD N"
+  },
+  "ADI": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Analog Devices, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Analog Devices, Inc."
+  },
+  "AGG": {
+    "currency": "USD",
+    "exchange": "NYSEArca",
+    "longName": "iShares Core U.S. Aggregate Bond ETF",
+    "quoteType": "ETF",
+    "shortName": "iShares Core U.S. Aggregate Bon"
+  },
+  "AGPXX": {
+    "currency": "USD",
+    "exchange": "Nasdaq",
+    "longName": "Short-Term Investment Trust - Invesco Government & Agency Portfolio",
+    "quoteType": "MONEYMARKET",
+    "shortName": "Invesco Government & Agency Por"
+  },
+  "AIQ": {
+    "currency": "USD",
+    "exchange": "NasdaqGM",
+    "longName": "Global X Artificial Intelligence & Technology ETF",
+    "quoteType": "ETF",
+    "shortName": "Global X Artificial Intelligenc"
+  },
+  "AMAT": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Applied Materials, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Applied Materials, Inc."
+  },
+  "AMD": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Advanced Micro Devices, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Advanced Micro Devices, Inc."
+  },
+  "AMZN": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Amazon.com, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Amazon.com, Inc."
+  },
+  "ASML": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "ASML Holding N.V.",
+    "quoteType": "EQUITY",
+    "shortName": "ASML Holding N.V. - New York Re"
+  },
+  "AVGO": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Broadcom Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Broadcom Inc."
+  },
+  "BISXX": {
+    "currency": "USD",
+    "exchange": "Nasdaq",
+    "longName": "Bishop Street Funds - Government Money Market Fund",
+    "quoteType": "MONEYMARKET",
+    "shortName": "BlackRock Cash Funds Institutio"
+  },
+  "BOTZ": {
+    "currency": "USD",
+    "exchange": "NasdaqGM",
+    "longName": "Global X Robotics & Artificial Intelligence ETF",
+    "quoteType": "ETF",
+    "shortName": "Global X Robotics & Artificial "
+  },
+  "CGNX": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Cognex Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "Cognex Corporation"
+  },
+  "CQQQ": {
+    "currency": "USD",
+    "exchange": "NYSEArca",
+    "longName": "Invesco China Technology ETF",
+    "quoteType": "ETF",
+    "shortName": "Invesco China Technology ETF"
+  },
+  "CSCO": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Cisco Systems, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Cisco Systems, Inc."
+  },
+  "GLD": {
+    "currency": "USD",
+    "exchange": "NYSEArca",
+    "longName": "SPDR Gold Shares",
+    "quoteType": "ETF",
+    "shortName": "SPDR Gold Shares"
+  },
+  "GOOG": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Alphabet Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Alphabet Inc."
+  },
+  "GOOGL": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Alphabet Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Alphabet Inc."
+  },
+  "INTC": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Intel Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "Intel Corporation"
+  },
+  "ISRG": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Intuitive Surgical, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Intuitive Surgical, Inc."
+  },
+  "JD": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "JD.com, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "JD.com, Inc."
+  },
+  "KLAC": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "KLA Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "KLA Corporation"
+  },
+  "KWEB": {
+    "currency": "USD",
+    "exchange": "NYSEArca",
+    "longName": "KraneShares CSI China Internet ETF",
+    "quoteType": "ETF",
+    "shortName": "KraneShares CSI China Internet "
+  },
+  "LRCX": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Lam Research Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "Lam Research Corporation"
+  },
+  "MRVL": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Marvell Technology, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Marvell Technology, Inc."
+  },
+  "MSFT": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Microsoft Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "Microsoft Corporation"
+  },
+  "MU": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Micron Technology, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Micron Technology, Inc."
+  },
+  "NFLX": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Netflix, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Netflix, Inc."
+  },
+  "NVDA": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "NVIDIA Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "NVIDIA Corporation"
+  },
+  "ORCL": {
+    "currency": "USD",
+    "exchange": "NYSE",
+    "longName": "Oracle Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "Oracle Corporation"
+  },
+  "PDD": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "PDD Holdings Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "PDD Holdings Inc."
+  },
+  "PLTR": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Palantir Technologies Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Palantir Technologies Inc."
+  },
+  "QQQ": {
+    "currency": "USD",
+    "exchange": "NasdaqGM",
+    "longName": "Invesco QQQ Trust",
+    "quoteType": "ETF",
+    "shortName": "Invesco QQQ Trust, Series 1"
+  },
+  "SMH": {
+    "currency": "USD",
+    "exchange": "NasdaqGM",
+    "longName": "VanEck Semiconductor ETF",
+    "quoteType": "ETF",
+    "shortName": "VanEck Semiconductor ETF"
+  },
+  "SOXX": {
+    "currency": "USD",
+    "exchange": "NasdaqGM",
+    "longName": "iShares Semiconductor ETF",
+    "quoteType": "ETF",
+    "shortName": "iShares PHLX SOX Semiconductor "
+  },
+  "SPCX": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Space Exploration Technologies Corp.",
+    "quoteType": "EQUITY",
+    "shortName": "Space Exploration Technologies "
+  },
+  "TLT": {
+    "currency": "USD",
+    "exchange": "NasdaqGM",
+    "longName": "iShares 20+ Year Treasury Bond ETF",
+    "quoteType": "ETF",
+    "shortName": "iShares 20+ Year Treasury Bond "
+  },
+  "TSLA": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Tesla, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Tesla, Inc."
+  },
+  "TSM": {
+    "currency": "USD",
+    "exchange": "NYSE",
+    "longName": "Taiwan Semiconductor Manufacturing Company Limited",
+    "quoteType": "EQUITY",
+    "shortName": "Taiwan Semiconductor Manufactur"
+  },
+  "TXN": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Texas Instruments Incorporated",
+    "quoteType": "EQUITY",
+    "shortName": "Texas Instruments Incorporated"
+  },
+  "USO": {
+    "currency": "USD",
+    "exchange": "NYSEArca",
+    "longName": "United States Oil Fund, LP",
+    "quoteType": "ETF",
+    "shortName": "United States Oil Fund"
+  },
+  "UUP": {
+    "currency": "USD",
+    "exchange": "NYSEArca",
+    "longName": "Invesco DB US Dollar Index Bullish Fund",
+    "quoteType": "ETF",
+    "shortName": "Invesco DB USD Index Bullish Fu"
+  },
+  "XLK": {
+    "currency": "USD",
+    "exchange": "NYSEArca",
+    "longName": "State Street Technology Select Sector SPDR ETF",
+    "quoteType": "ETF",
+    "shortName": "State Street Technology Select "
+  }
+}

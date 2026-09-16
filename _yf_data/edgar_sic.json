@@ -1,0 +1,188 @@
+{
+  "AAPL": {
+    "cik": 320193,
+    "entityName": "Apple Inc.",
+    "sic": "3571",
+    "sicDescription": "Electronic Computers"
+  },
+  "ADI": {
+    "cik": 6281,
+    "entityName": "ANALOG DEVICES INC",
+    "sic": "3674",
+    "sicDescription": "Semiconductors & Related Devices"
+  },
+  "AMAT": {
+    "cik": 6951,
+    "entityName": "APPLIED MATERIALS INC /DE",
+    "sic": "3674",
+    "sicDescription": "Semiconductors & Related Devices"
+  },
+  "AMD": {
+    "cik": 2488,
+    "entityName": "ADVANCED MICRO DEVICES INC",
+    "sic": "3674",
+    "sicDescription": "Semiconductors & Related Devices"
+  },
+  "AMZN": {
+    "cik": 1018724,
+    "entityName": "AMAZON COM INC",
+    "sic": "5961",
+    "sicDescription": "Retail-Catalog & Mail-Order Houses"
+  },
+  "ASML": {
+    "cik": 937966,
+    "entityName": "ASML HOLDING NV",
+    "sic": "3559",
+    "sicDescription": "Special Industry Machinery, NEC"
+  },
+  "AVGO": {
+    "cik": 1730168,
+    "entityName": "Broadcom Inc.",
+    "sic": "3674",
+    "sicDescription": "Semiconductors & Related Devices"
+  },
+  "CGNX": {
+    "cik": 851205,
+    "entityName": "COGNEX CORP",
+    "sic": "3823",
+    "sicDescription": "Industrial Instruments For Measurement, Display, and Control"
+  },
+  "CSCO": {
+    "cik": 858877,
+    "entityName": "CISCO SYSTEMS, INC.",
+    "sic": "3576",
+    "sicDescription": "Computer Communications Equipment"
+  },
+  "GLD": {
+    "cik": 1222333,
+    "entityName": "SPDR GOLD TRUST",
+    "sic": "6221",
+    "sicDescription": "Commodity Contracts Brokers & Dealers"
+  },
+  "GOOG": {
+    "cik": 1652044,
+    "entityName": "Alphabet Inc.",
+    "sic": "7370",
+    "sicDescription": "Services-Computer Programming, Data Processing, Etc."
+  },
+  "GOOGL": {
+    "cik": 1652044,
+    "entityName": "Alphabet Inc.",
+    "sic": "7370",
+    "sicDescription": "Services-Computer Programming, Data Processing, Etc."
+  },
+  "INTC": {
+    "cik": 50863,
+    "entityName": "INTEL CORP",
+    "sic": "3674",
+    "sicDescription": "Semiconductors & Related Devices"
+  },
+  "ISRG": {
+    "cik": 1035267,
+    "entityName": "INTUITIVE SURGICAL INC",
+    "sic": "3842",
+    "sicDescription": "Orthopedic, Prosthetic & Surgical Appliances & Supplies"
+  },
+  "JD": {
+    "cik": 1549802,
+    "entityName": "JD.com, Inc.",
+    "sic": "5990",
+    "sicDescription": "Retail-Retail Stores, NEC"
+  },
+  "KLAC": {
+    "cik": 319201,
+    "entityName": "KLA CORP",
+    "sic": "3827",
+    "sicDescription": "Optical Instruments & Lenses"
+  },
+  "LRCX": {
+    "cik": 707549,
+    "entityName": "LAM RESEARCH CORP",
+    "sic": "3559",
+    "sicDescription": "Special Industry Machinery, NEC"
+  },
+  "MRVL": {
+    "cik": 1835632,
+    "entityName": "Marvell Technology, Inc.",
+    "sic": "3674",
+    "sicDescription": "Semiconductors & Related Devices"
+  },
+  "MSFT": {
+    "cik": 789019,
+    "entityName": "MICROSOFT CORP",
+    "sic": "7372",
+    "sicDescription": "Services-Prepackaged Software"
+  },
+  "MU": {
+    "cik": 723125,
+    "entityName": "MICRON TECHNOLOGY INC",
+    "sic": "3674",
+    "sicDescription": "Semiconductors & Related Devices"
+  },
+  "NFLX": {
+    "cik": 1065280,
+    "entityName": "NETFLIX INC",
+    "sic": "7841",
+    "sicDescription": "Services-Video Tape Rental"
+  },
+  "NVDA": {
+    "cik": 1045810,
+    "entityName": "NVIDIA CORP",
+    "sic": "3674",
+    "sicDescription": "Semiconductors & Related Devices"
+  },
+  "ORCL": {
+    "cik": 1341439,
+    "entityName": "ORACLE CORP",
+    "sic": "7372",
+    "sicDescription": "Services-Prepackaged Software"
+  },
+  "PDD": {
+    "cik": 1737806,
+    "entityName": "PDD Holdings Inc.",
+    "sic": "7389",
+    "sicDescription": "Services-Business Services, NEC"
+  },
+  "PLTR": {
+    "cik": 1321655,
+    "entityName": "Palantir Technologies Inc.",
+    "sic": "7372",
+    "sicDescription": "Services-Prepackaged Software"
+  },
+  "SPCX": {
+    "cik": 1181412,
+    "entityName": "SPACE EXPLORATION TECHNOLOGIES CORP",
+    "sic": "7370",
+    "sicDescription": "Services-Computer Programming, Data Processing, Etc."
+  },
+  "TSLA": {
+    "cik": 1318605,
+    "entityName": "Tesla, Inc.",
+    "sic": "3711",
+    "sicDescription": "Motor Vehicles & Passenger Car Bodies"
+  },
+  "TSM": {
+    "cik": 1046179,
+    "entityName": "TAIWAN SEMICONDUCTOR MANUFACTURING CO LTD",
+    "sic": "3674",
+    "sicDescription": "Semiconductors & Related Devices"
+  },
+  "TXN": {
+    "cik": 97476,
+    "entityName": "TEXAS INSTRUMENTS INC",
+    "sic": "3674",
+    "sicDescription": "Semiconductors & Related Devices"
+  },
+  "USO": {
+    "cik": 1327068,
+    "entityName": "United States Oil Fund, LP",
+    "sic": "6221",
+    "sicDescription": "Commodity Contracts Brokers & Dealers"
+  },
+  "UUP": {
+    "cik": 1383151,
+    "entityName": "Invesco DB US Dollar Index Bullish Fund",
+    "sic": "6221",
+    "sicDescription": "Commodity Contracts Brokers & Dealers"
+  }
+}

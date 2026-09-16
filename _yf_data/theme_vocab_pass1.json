@@ -1,0 +1,1721 @@
+{
+  "fingerprint": "31fc621276fe",
+  "n_themes": 400,
+  "groups": [
+    {
+      "name": "AI capex and infrastructure spending",
+      "members": [
+        "AI capex growth",
+        "AI capex margin pressure",
+        "AI capex pause concerns",
+        "AI capex pressure on margins",
+        "AI capex resilience",
+        "AI capex slowdown",
+        "AI capex slowdown fears",
+        "AI capex slowdown risk",
+        "AI infrastructure bottleneck investment",
+        "AI infrastructure buildout",
+        "AI infrastructure credibility risk",
+        "AI infrastructure investment",
+        "AI infrastructure momentum",
+        "AI infrastructure spending concerns",
+        "AI infrastructure stock preference"
+      ]
+    },
+    {
+      "name": "AI chip demand and valuation",
+      "members": [
+        "AI ASIC design and advanced packaging",
+        "AI chip boom beneficiary",
+        "AI chip concentration risk",
+        "AI chip demand",
+        "AI chip demand and valuation",
+        "AI chip demand outlook upgrade",
+        "AI chip demand strength",
+        "AI chip demand surge",
+        "AI chip demand uncertainty",
+        "AI chip partnership uncertainty",
+        "AI chip valuation risk",
+        "AI compute demand shift",
+        "AI data center silicon demand",
+        "AI datacenter optics trade",
+        "AI demand strength",
+        "AI demand strength vs pricing power",
+        "AI efficiency shock to chip demand"
+      ]
+    },
+    {
+      "name": "AI ETFs and portfolio exposure",
+      "members": [
+        "60/40 portfolio resilience",
+        "AI ETF diversification",
+        "AI ETF investing",
+        "AI ETF investment comparison",
+        "AI equity exposure for retirement investors",
+        "AI equity exposure via ETFs",
+        "AI equity resilience"
+      ]
+    },
+    {
+      "name": "AI IPO and public markets",
+      "members": [
+        "AI IPO",
+        "AI company IPO",
+        "AI data governance and IPO uncertainty"
+      ]
+    },
+    {
+      "name": "AI bubble and macro risk",
+      "members": [
+        "AI bubble fears",
+        "AI bubble fears vs tech growth",
+        "AI debt bubble & inflation risk"
+      ]
+    },
+    {
+      "name": "AI adoption in financial services",
+      "members": [
+        "AI adoption in wealth management",
+        "AI for financial advisors"
+      ]
+    },
+    {
+      "name": "AI governance, privacy, and security",
+      "members": [
+        "AI cybersecurity growth",
+        "AI data privacy backlash",
+        "AI data security concerns",
+        "AI data sovereignty demand",
+        "AI governance standards initiative"
+      ]
+    },
+    {
+      "name": "AI development and growth outlook",
+      "members": [
+        "AI cloud growth potential",
+        "AI competition intensifies",
+        "AI development slowdown",
+        "AI development slowdown concerns",
+        "AI ecosystem expansion",
+        "AI growth momentum"
+      ]
+    },
+    {
+      "name": "AI thematic investing",
+      "members": [
+        "AI and robotics thematic investing"
+      ]
+    },
+    {
+      "name": "AI-driven China tech selloff",
+      "members": [
+        "AI cost concerns trigger China tech selloff"
+      ]
+    },
+    {
+      "name": "AI investment trends",
+      "members": [
+        "AI investing narrative",
+        "AI investment demand",
+        "AI investment momentum",
+        "AI investment strategy",
+        "AI stock investment opportunity"
+      ]
+    },
+    {
+      "name": "AI strategic investment and mega-IPO",
+      "members": [
+        "AI mega-IPO and strategic investment",
+        "AI strategic investment"
+      ]
+    },
+    {
+      "name": "AI memory demand",
+      "members": [
+        "AI memory demand growth",
+        "AI memory demand slowdown"
+      ]
+    },
+    {
+      "name": "AI monetization shift",
+      "members": [
+        "AI monetization shift to advertising"
+      ]
+    },
+    {
+      "name": "AI and macro pressures on tech stocks",
+      "members": [
+        "AI oversight and rate hike fears pressure tech stocks",
+        "AI/oil/bond yield concerns drag equities"
+      ]
+    },
+    {
+      "name": "AI power demand and fuel cell growth",
+      "members": [
+        "AI power demand / fuel cell growth"
+      ]
+    },
+    {
+      "name": "AI procurement automation funding",
+      "members": [
+        "AI procurement automation funding"
+      ]
+    },
+    {
+      "name": "AI market pullback and selloff",
+      "members": [
+        "AI pullback",
+        "AI stock pullback",
+        "AI selloff rotation",
+        "AI sentiment shock / tech selloff"
+      ]
+    },
+    {
+      "name": "AI rally exposure via ETFs",
+      "members": [
+        "AI rally exposure via ETFs"
+      ]
+    },
+    {
+      "name": "AI revenue growth and guidance",
+      "members": [
+        "AI revenue growth vs soft guidance"
+      ]
+    },
+    {
+      "name": "AI risk concerns",
+      "members": [
+        "AI risk concerns",
+        "AI stock risk concerns"
+      ]
+    },
+    {
+      "name": "AI rotation out of leaders",
+      "members": [
+        "AI rotation out of leaders"
+      ]
+    },
+    {
+      "name": "AI safety vs capex",
+      "members": [
+        "AI safety vs AI capex"
+      ]
+    },
+    {
+      "name": "AI semiconductor growth and supply chain",
+      "members": [
+        "AI semiconductor growth",
+        "AI semiconductor supply chain outlook",
+        "AI-driven semiconductor demand",
+        "AI-driven semiconductor demand bullish outlook",
+        "AI-driven semiconductor growth"
+      ]
+    },
+    {
+      "name": "AI sentiment deterioration and volatility",
+      "members": [
+        "AI sentiment deterioration",
+        "AI sentiment volatility",
+        "AI sentiment weakness"
+      ]
+    },
+    {
+      "name": "AI server demand and stock divergence",
+      "members": [
+        "AI server demand surge",
+        "AI server stock divergence"
+      ]
+    },
+    {
+      "name": "AI supplier stock selection",
+      "members": [
+        "AI supplier stock preference",
+        "AI supplier stock selection"
+      ]
+    },
+    {
+      "name": "AI to internet stock rotation",
+      "members": [
+        "AI to internet stock rotation",
+        "AI trade rotation",
+        "China cheap AI shift to internet stocks"
+      ]
+    },
+    {
+      "name": "AI workstation GPU product launch",
+      "members": [
+        "AI workstation GPU product launch"
+      ]
+    },
+    {
+      "name": "AI-driven China tech positioning",
+      "members": [
+        "AI-driven China tech positioning"
+      ]
+    },
+    {
+      "name": "AI/professional GPU product expansion",
+      "members": [
+        "AI/professional GPU product expansion"
+      ]
+    },
+    {
+      "name": "AI/silicon photonics chip design ecosystem collaboration",
+      "members": [
+        "AI/silicon photonics chip design ecosystem collaboration"
+      ]
+    },
+    {
+      "name": "AI hardware supply chain gray market",
+      "members": [
+        "AI硬件供应链灰色市场"
+      ]
+    },
+    {
+      "name": "Advanced node leadership",
+      "members": [
+        "Advanced node leadership"
+      ]
+    },
+    {
+      "name": "Alibaba equity offering and valuation concerns",
+      "members": [
+        "Alibaba equity offering overhang",
+        "Alibaba valuation concern ahead of share sale"
+      ]
+    },
+    {
+      "name": "Apple foldable iPhone launch",
+      "members": [
+        "Apple foldable iPhone launch"
+      ]
+    },
+    {
+      "name": "Bitcoin ETF outflows and inflation-hedge appeal",
+      "members": [
+        "Bitcoin ETF outflows and inflation-hedge appeal under pressure"
+      ]
+    },
+    {
+      "name": "CIFTIS partnership signing",
+      "members": [
+        "CIFTIS partnership signing"
+      ]
+    },
+    {
+      "name": "CPI print ahead of Fed meeting",
+      "members": [
+        "CPI print ahead of Fed meeting"
+      ]
+    },
+    {
+      "name": "China AI equity rally",
+      "members": [
+        "China AI equity rally"
+      ]
+    },
+    {
+      "name": "China corporate profit rebound",
+      "members": [
+        "China corporate profit rebound"
+      ]
+    },
+    {
+      "name": "China e-commerce sector weakness and rotation",
+      "members": [
+        "China e-commerce sector selloff",
+        "China e-commerce stock rotation",
+        "China e-commerce weakness vs AI strength"
+      ]
+    },
+    {
+      "name": "China equity outlook and sentiment",
+      "members": [
+        "China equity outlook mixed",
+        "China equity re-rating",
+        "China equity selloff",
+        "China equity sentiment divergence"
+      ]
+    },
+    {
+      "name": "China equity upside",
+      "members": [
+        "China equity upside",
+        "China recovery"
+      ]
+    },
+    {
+      "name": "China factory reflation",
+      "members": [
+        "China factory reflation",
+        "China industrial profit rebound",
+        "China manufacturing recovery / AI hardware exports"
+      ]
+    },
+    {
+      "name": "China full-stack AI repricing",
+      "members": [
+        "China full-stack AI repricing"
+      ]
+    },
+    {
+      "name": "China growth slowdown",
+      "members": [
+        "China growth slowdown"
+      ]
+    },
+    {
+      "name": "China internet & AI sector undervaluation",
+      "members": [
+        "China internet & AI sector undervaluation",
+        "China internet stocks attractive after selloff"
+      ]
+    },
+    {
+      "name": "China internet AI cost pessimism",
+      "members": [
+        "China internet AI cost pessimism"
+      ]
+    },
+    {
+      "name": "China internet ETF access expansion",
+      "members": [
+        "China internet ETF access expansion"
+      ]
+    },
+    {
+      "name": "China internet ETF selloff",
+      "members": [
+        "China internet ETF selloff",
+        "China internet equity selloff",
+        "China internet equity underperformance"
+      ]
+    },
+    {
+      "name": "China internet ETF short positioning",
+      "members": [
+        "China internet ETF short positioning"
+      ]
+    },
+    {
+      "name": "China internet sector bullish analyst call",
+      "members": [
+        "China internet sector bullish analyst call"
+      ]
+    },
+    {
+      "name": "China obesity drug demand",
+      "members": [
+        "China obesity drug demand"
+      ]
+    },
+    {
+      "name": "China policy easing / rate cut",
+      "members": [
+        "China policy easing / rate cut"
+      ]
+    },
+    {
+      "name": "China semiconductor IPO frenzy",
+      "members": [
+        "China semiconductor IPO frenzy"
+      ]
+    },
+    {
+      "name": "China semiconductor self-sufficiency",
+      "members": [
+        "China semiconductor self-sufficiency"
+      ]
+    },
+    {
+      "name": "China tech AI monetization concerns",
+      "members": [
+        "China tech AI monetization concerns"
+      ]
+    },
+    {
+      "name": "China tech AI rally",
+      "members": [
+        "China tech AI rally",
+        "China tech AI rally exclusion"
+      ]
+    },
+    {
+      "name": "China tech equity momentum",
+      "members": [
+        "China tech equity momentum"
+      ]
+    },
+    {
+      "name": "China tech equity weakness",
+      "members": [
+        "China tech equity weakness"
+      ]
+    },
+    {
+      "name": "China tech hardware rotation",
+      "members": [
+        "China tech hardware rotation"
+      ]
+    },
+    {
+      "name": "China tech partnership optimism",
+      "members": [
+        "China tech partnership optimism"
+      ]
+    },
+    {
+      "name": "China tech rally faces geopolitical test",
+      "members": [
+        "China tech rally faces geopolitical test"
+      ]
+    },
+    {
+      "name": "China tech regulatory easing",
+      "members": [
+        "China tech regulatory easing"
+      ]
+    },
+    {
+      "name": "China tech supply concerns",
+      "members": [
+        "China tech supply concerns"
+      ]
+    },
+    {
+      "name": "China trade surplus resilience amid tariffs",
+      "members": [
+        "China trade surplus resilience amid tariffs"
+      ]
+    },
+    {
+      "name": "Corporate governance event",
+      "members": [
+        "Corporate governance event"
+      ]
+    },
+    {
+      "name": "EM equity rally on AI semis and easing geopolitics",
+      "members": [
+        "EM equity rally on AI semis and easing geopolitics"
+      ]
+    },
+    {
+      "name": "ETF asset allocation",
+      "members": [
+        "ETF asset allocation"
+      ]
+    },
+    {
+      "name": "ETF fee drag on long-term returns",
+      "members": [
+        "ETF fee drag on long-term returns"
+      ]
+    },
+    {
+      "name": "ETF income distribution tax efficiency",
+      "members": [
+        "ETF income distribution tax efficiency"
+      ]
+    },
+    {
+      "name": "ETF inflows",
+      "members": [
+        "ETF inflows"
+      ]
+    },
+    {
+      "name": "ETF market expansion",
+      "members": [
+        "ETF market expansion"
+      ]
+    },
+    {
+      "name": "ETF profitability",
+      "members": [
+        "ETF profitability"
+      ]
+    },
+    {
+      "name": "ETF speculation and debasement trade",
+      "members": [
+        "ETF speculation and debasement trade"
+      ]
+    },
+    {
+      "name": "Energy sector premarket strength",
+      "members": [
+        "Energy sector premarket strength"
+      ]
+    },
+    {
+      "name": "Equity-linked issuance on Korean tech majors",
+      "members": [
+        "Equity-linked issuance on Korean tech majors"
+      ]
+    },
+    {
+      "name": "Fed chair speculation / bond market stabilization",
+      "members": [
+        "Fed chair speculation / bond market stabilization"
+      ]
+    },
+    {
+      "name": "Fed hiking into oil shock",
+      "members": [
+        "Fed hiking into oil shock"
+      ]
+    },
+    {
+      "name": "Fed rate hike expectations",
+      "members": [
+        "Fed rate hike expectations",
+        "Fed rate hike risk"
+      ]
+    },
+    {
+      "name": "Foundry market dominance",
+      "members": [
+        "Foundry market dominance"
+      ]
+    },
+    {
+      "name": "GPU product comparison",
+      "members": [
+        "GPU product comparison"
+      ]
+    },
+    {
+      "name": "Geopolitical risk & AI sentiment",
+      "members": [
+        "Geopolitical risk & AI sentiment"
+      ]
+    },
+    {
+      "name": "Geopolitical risk premium in oil",
+      "members": [
+        "Geopolitical risk premium in oil"
+      ]
+    },
+    {
+      "name": "HBM/DRAM supply tightness",
+      "members": [
+        "HBM/DRAM supply tightness"
+      ]
+    },
+    {
+      "name": "Hong Kong Northern Metropolis expansion",
+      "members": [
+        "Hong Kong Northern Metropolis expansion"
+      ]
+    },
+    {
+      "name": "Hormuz de-escalation uncertainty",
+      "members": [
+        "Hormuz de-escalation uncertainty"
+      ]
+    },
+    {
+      "name": "Humanoid robot adoption acceleration",
+      "members": [
+        "Humanoid robot adoption acceleration"
+      ]
+    },
+    {
+      "name": "Indonesia energy & engineering economy",
+      "members": [
+        "Indonesia energy & engineering economy"
+      ]
+    },
+    {
+      "name": "Iran sanctions / oil & defense inflation risk",
+      "members": [
+        "Iran sanctions / oil & defense inflation risk"
+      ]
+    },
+    {
+      "name": "Japan FX intervention",
+      "members": [
+        "Japan FX intervention"
+      ]
+    },
+    {
+      "name": "KRW appreciation hits Korean chip exporter margins",
+      "members": [
+        "KRW appreciation hits Korean chip exporter margins"
+      ]
+    },
+    {
+      "name": "Korea corporate governance reform",
+      "members": [
+        "Korea corporate governance reform"
+      ]
+    },
+    {
+      "name": "Korea equity selloff led by chipmakers and automakers",
+      "members": [
+        "Korea equity selloff led by chipmakers and automakers"
+      ]
+    },
+    {
+      "name": "M&A antitrust and regulatory scrutiny",
+      "members": [
+        "M&A antitrust pushback",
+        "M&A regulatory remedy",
+        "M&A regulatory scrutiny"
+      ]
+    },
+    {
+      "name": "M&A deal outcomes",
+      "members": [
+        "M&A completion optimism",
+        "M&A deal collapse"
+      ]
+    },
+    {
+      "name": "Merger arbitrage and chip sector divergence",
+      "members": [
+        "Merger arbitrage / chip sector divergence"
+      ]
+    },
+    {
+      "name": "Middle East tensions semiconductor selloff",
+      "members": [
+        "Middle East tensions semiconductor selloff"
+      ]
+    },
+    {
+      "name": "Nasdaq 100 index weight increase",
+      "members": [
+        "Nasdaq 100 index weight increase"
+      ]
+    },
+    {
+      "name": "OPEC+ supply hold",
+      "members": [
+        "OPEC+ supply hold"
+      ]
+    },
+    {
+      "name": "PPI inflation data",
+      "members": [
+        "PPI inflation data"
+      ]
+    },
+    {
+      "name": "Power cost pressure on chipmakers",
+      "members": [
+        "Power cost dispute",
+        "Power cost pressure on chipmakers",
+        "Power grid infrastructure financing dispute",
+        "Rising power costs for semiconductor manufacturers",
+        "Utility cost burden for chipmakers",
+        "Utility cost dispute",
+        "Utility cost pressure on chipmakers"
+      ]
+    },
+    {
+      "name": "Robotaxi competition overreaction",
+      "members": [
+        "Robotaxi competition overreaction"
+      ]
+    },
+    {
+      "name": "Samsung-SK hynix stock gains in divorce asset division",
+      "members": [
+        "Samsung-SK hynix stock gains in divorce asset division"
+      ]
+    },
+    {
+      "name": "Share buyback",
+      "members": [
+        "Share buyback"
+      ]
+    },
+    {
+      "name": "South Korea corporate governance reform",
+      "members": [
+        "South Korea corporate governance reform"
+      ]
+    },
+    {
+      "name": "South Korea equity preference over China internet",
+      "members": [
+        "South Korea equity preference over China internet"
+      ]
+    },
+    {
+      "name": "Sports team performance ETF innovation",
+      "members": [
+        "Sports team performance ETF innovation"
+      ]
+    },
+    {
+      "name": "TSMC valuation and investor attention",
+      "members": [
+        "TSM valuation stretched after 363% rally",
+        "TSMC investor attention",
+        "TSMC long-term equity outlook",
+        "TSMC record earnings and stock price momentum",
+        "TSMC valuation debate"
+      ]
+    },
+    {
+      "name": "Treasury selloff and duration risk",
+      "members": [
+        "Treasury selloff / duration risk"
+      ]
+    },
+    {
+      "name": "US dollar outlook",
+      "members": [
+        "US dollar outlook",
+        "US dollar strength",
+        "US dollar weakness",
+        "USD ETF coverage",
+        "USD index breakout",
+        "USD outlook / Fed hawkishness",
+        "USD safe-haven bid on Iran deal uncertainty"
+      ]
+    },
+    {
+      "name": "US equity market performance",
+      "members": [
+        "US equity market intraday strength",
+        "US equity market rally led by tech and consumer sectors",
+        "US equity market selloff",
+        "US equity market weakness",
+        "US equity sector rotation"
+      ]
+    },
+    {
+      "name": "US fiscal deficit vs Fed rate path",
+      "members": [
+        "US fiscal deficit vs Fed rate path"
+      ]
+    },
+    {
+      "name": "US pension income boost",
+      "members": [
+        "US pension income boost"
+      ]
+    },
+    {
+      "name": "US-China equity sentiment divergence",
+      "members": [
+        "US-China equity sentiment divergence"
+      ]
+    },
+    {
+      "name": "US-China tech tensions",
+      "members": [
+        "US-China tech tensions"
+      ]
+    },
+    {
+      "name": "US-China trade detente and AI chip access hopes",
+      "members": [
+        "US-China trade detente / AI chip access hopes"
+      ]
+    },
+    {
+      "name": "Venezuela critical minerals access",
+      "members": [
+        "Venezuela critical minerals access"
+      ]
+    },
+    {
+      "name": "Yen rally",
+      "members": [
+        "Yen rally"
+      ]
+    },
+    {
+      "name": "Ad measurement strategy",
+      "members": [
+        "ad measurement strategy"
+      ]
+    },
+    {
+      "name": "Advanced chip manufacturing",
+      "members": [
+        "advanced chip manufacturing",
+        "advanced chip manufacturing leadership",
+        "advanced node capacity ramp"
+      ]
+    },
+    {
+      "name": "Analyst calls mixed",
+      "members": [
+        "analyst calls mixed"
+      ]
+    },
+    {
+      "name": "Analyst downgrade",
+      "members": [
+        "analyst downgrade"
+      ]
+    },
+    {
+      "name": "Analyst upgrade",
+      "members": [
+        "analyst upgrade"
+      ]
+    },
+    {
+      "name": "Auto repair guidance",
+      "members": [
+        "auto repair guidance"
+      ]
+    },
+    {
+      "name": "Autonomous driving software partnership",
+      "members": [
+        "autonomous driving software partnership"
+      ]
+    },
+    {
+      "name": "Bearish investor risk warning",
+      "members": [
+        "bearish investor risk warning"
+      ]
+    },
+    {
+      "name": "Bond bear market and potential mean reversion",
+      "members": [
+        "bond bear market / potential mean reversion"
+      ]
+    },
+    {
+      "name": "Bond fund underperformance",
+      "members": [
+        "bond fund underperformance"
+      ]
+    },
+    {
+      "name": "Bond Market Selloff and Duration Risk",
+      "members": [
+        "bond fund underperformance / duration risk",
+        "bond market positioning",
+        "bond market selloff / buyer strike",
+        "bond selloff drivers",
+        "bond selloff drives yield-seeking ETF inflows",
+        "duration risk under rising rates",
+        "global bond selloff"
+      ]
+    },
+    {
+      "name": "Bond-to-Equity Rotation",
+      "members": [
+        "bond-to-equity rotation"
+      ]
+    },
+    {
+      "name": "Cannabis Stock Underperformance",
+      "members": [
+        "cannabis stock underperformance despite improving business"
+      ]
+    },
+    {
+      "name": "Chipmaker Cash Flow Pressure",
+      "members": [
+        "cash flow pressure at chipmakers"
+      ]
+    },
+    {
+      "name": "Chip ETF Fee Advantage",
+      "members": [
+        "chip ETF fee advantage"
+      ]
+    },
+    {
+      "name": "Chip Capacity Expansion and Power Cost Pressure",
+      "members": [
+        "chip capacity expansion / power cost pressure",
+        "chipmaker power cost pressure"
+      ]
+    },
+    {
+      "name": "Chip Capex Upcycle",
+      "members": [
+        "chip capex upcycle"
+      ]
+    },
+    {
+      "name": "Chip Price Hike",
+      "members": [
+        "chip price hike"
+      ]
+    },
+    {
+      "name": "Chip Sector Profit-Taking Selloff",
+      "members": [
+        "chip sector profit-taking selloff"
+      ]
+    },
+    {
+      "name": "Chip Stocks as Short-Term Safety Play",
+      "members": [
+        "chip stocks as short-term safety play"
+      ]
+    },
+    {
+      "name": "Commodity Rally Led by Oil",
+      "members": [
+        "commodity rally led by oil and broad baskets"
+      ]
+    },
+    {
+      "name": "Commodity vs AI Equity Rotation",
+      "members": [
+        "commodity vs AI equity rotation"
+      ]
+    },
+    {
+      "name": "Consumer Inflation and Shrinkflation",
+      "members": [
+        "consumer inflation / shrinkflation"
+      ]
+    },
+    {
+      "name": "Corporate Governance Disclosure",
+      "members": [
+        "corporate governance disclosure"
+      ]
+    },
+    {
+      "name": "Covered Call ETF Strategy",
+      "members": [
+        "covered call ETF strategy"
+      ]
+    },
+    {
+      "name": "Crude Oil Rally and Midstream Exposure",
+      "members": [
+        "crude oil rally / midstream toll-collector exposure"
+      ]
+    },
+    {
+      "name": "Cybersecurity Demand Amid AI Risk Focus",
+      "members": [
+        "cybersecurity demand amid AI risk focus"
+      ]
+    },
+    {
+      "name": "Cybersecurity Earnings Beat",
+      "members": [
+        "cybersecurity earnings beat"
+      ]
+    },
+    {
+      "name": "Cybersecurity Outperformance vs AI Selloff",
+      "members": [
+        "cybersecurity outperformance vs AI selloff"
+      ]
+    },
+    {
+      "name": "Debasement Trade and Hard-Asset Hedge",
+      "members": [
+        "debasement trade / hard-asset hedge"
+      ]
+    },
+    {
+      "name": "Early Retirement Income via ETFs",
+      "members": [
+        "early retirement income via ETFs"
+      ]
+    },
+    {
+      "name": "Earnings Beat Expectation",
+      "members": [
+        "earnings beat expectation"
+      ]
+    },
+    {
+      "name": "Earnings Beat with Revenue Miss",
+      "members": [
+        "earnings beat with revenue miss"
+      ]
+    },
+    {
+      "name": "Earnings Improvement",
+      "members": [
+        "earnings improvement"
+      ]
+    },
+    {
+      "name": "Education Productivity Software Expansion",
+      "members": [
+        "education productivity software expansion"
+      ]
+    },
+    {
+      "name": "Emerging Markets Rally on Weak Dollar and Fed Cuts",
+      "members": [
+        "emerging markets rally on weak dollar and Fed cuts"
+      ]
+    },
+    {
+      "name": "Energy ETF Inflows Slowdown",
+      "members": [
+        "energy ETF inflows slowdown"
+      ]
+    },
+    {
+      "name": "Energy Sector Premarket Strength",
+      "members": [
+        "energy sector premarket strength"
+      ]
+    },
+    {
+      "name": "Energy Sector Weakness",
+      "members": [
+        "energy sector weakness"
+      ]
+    },
+    {
+      "name": "Equity Breakout Setup",
+      "members": [
+        "equity breakout setup"
+      ]
+    },
+    {
+      "name": "Exclusive Display Supply Deal",
+      "members": [
+        "exclusive display supply deal"
+      ]
+    },
+    {
+      "name": "Fiscal Stimulus Funding Risk",
+      "members": [
+        "fiscal stimulus funding risk"
+      ]
+    },
+    {
+      "name": "Fixed-Income Demand Surge",
+      "members": [
+        "fixed-income demand surge"
+      ]
+    },
+    {
+      "name": "Foldable iPhone Growth Driver",
+      "members": [
+        "foldable iPhone growth driver"
+      ]
+    },
+    {
+      "name": "Foldable iPhone Launch Supply-Chain Rally",
+      "members": [
+        "foldable iPhone launch supply-chain rally"
+      ]
+    },
+    {
+      "name": "Foldable Phone Demand Surge",
+      "members": [
+        "foldable phone demand surge"
+      ]
+    },
+    {
+      "name": "Foldable Smartphone Competition",
+      "members": [
+        "foldable smartphone competition"
+      ]
+    },
+    {
+      "name": "Food-Delivery Margin Recovery",
+      "members": [
+        "food-delivery margin recovery"
+      ]
+    },
+    {
+      "name": "Fuel Price Surge and Policy Impotence",
+      "members": [
+        "fuel price surge / policy impotence"
+      ]
+    },
+    {
+      "name": "Gold ETF Inflows",
+      "members": [
+        "gold ETF inflows"
+      ]
+    },
+    {
+      "name": "Gold Bullish Demand",
+      "members": [
+        "gold bullish demand"
+      ]
+    },
+    {
+      "name": "Gold Exposure",
+      "members": [
+        "gold exposure"
+      ]
+    },
+    {
+      "name": "Gold Futures Tax Treatment",
+      "members": [
+        "gold futures tax treatment"
+      ]
+    },
+    {
+      "name": "Gold Investment Demand Rally",
+      "members": [
+        "gold investment demand rally"
+      ]
+    },
+    {
+      "name": "Gold Miners vs Physical Gold Performance Divergence",
+      "members": [
+        "gold miners vs physical gold performance divergence"
+      ]
+    },
+    {
+      "name": "Gold Positioning Shift",
+      "members": [
+        "gold positioning shift"
+      ]
+    },
+    {
+      "name": "Gold Positioning Unwind",
+      "members": [
+        "gold positioning unwind"
+      ]
+    },
+    {
+      "name": "Gold Price Correction Amid Central Bank Demand",
+      "members": [
+        "gold price correction amid central bank demand"
+      ]
+    },
+    {
+      "name": "Gold Price Rebound",
+      "members": [
+        "gold price rebound"
+      ]
+    },
+    {
+      "name": "Gold Rally",
+      "members": [
+        "gold rally"
+      ]
+    },
+    {
+      "name": "Gold vs S&P 500 Allocation",
+      "members": [
+        "gold vs S&P 500 allocation"
+      ]
+    },
+    {
+      "name": "Gold vs S&P 500 Relative Performance",
+      "members": [
+        "gold vs S&P 500 relative performance"
+      ]
+    },
+    {
+      "name": "Hawkish Fed Rate Path",
+      "members": [
+        "hawkish Fed rate path"
+      ]
+    },
+    {
+      "name": "oil price surge",
+      "members": [
+        "oil price rally",
+        "oil price spike",
+        "oil price surge",
+        "rising oil prices weigh on mixed equity futures"
+      ]
+    },
+    {
+      "name": "oil supply risk",
+      "members": [
+        "oil supply risk",
+        "oil supply risk / SPR depletion",
+        "oil supply risk premium"
+      ]
+    },
+    {
+      "name": "oil and rates pressure on equities",
+      "members": [
+        "oil and bond yields pressure equities",
+        "oil and rates uncertainty",
+        "oil price and yield surge pressuring equities"
+      ]
+    },
+    {
+      "name": "oil ETF momentum",
+      "members": [
+        "oil ETF momentum"
+      ]
+    },
+    {
+      "name": "oil price relief and tech optimism",
+      "members": [
+        "oil price relief and tech optimism"
+      ]
+    },
+    {
+      "name": "rising bond yields",
+      "members": [
+        "rising bond yields",
+        "rising long-term yields",
+        "rising Treasury yields pressure equities",
+        "long-duration Treasury bond losses"
+      ]
+    },
+    {
+      "name": "higher-for-longer rates",
+      "members": [
+        "higher-for-longer rates"
+      ]
+    },
+    {
+      "name": "rate expectations repricing",
+      "members": [
+        "rate expectations repricing",
+        "rate cut uncertainty",
+        "rate hike bets wane",
+        "rate hold uncertainty"
+      ]
+    },
+    {
+      "name": "rate hike",
+      "members": [
+        "rate hike"
+      ]
+    },
+    {
+      "name": "rate hedge",
+      "members": [
+        "rate hedge"
+      ]
+    },
+    {
+      "name": "inflation hedge and bond selloff risk",
+      "members": [
+        "inflation hedge / bond selloff risk"
+      ]
+    },
+    {
+      "name": "inflation data and pre-market equity rally",
+      "members": [
+        "inflation data / pre-market equity rally"
+      ]
+    },
+    {
+      "name": "labor cost inflation",
+      "members": [
+        "labor cost inflation"
+      ]
+    },
+    {
+      "name": "labor dispute risk to earnings cycle",
+      "members": [
+        "labor dispute risk to earnings cycle"
+      ]
+    },
+    {
+      "name": "market crash risk and defensive positioning",
+      "members": [
+        "market crash risk / defensive positioning",
+        "market crash risk defensive positioning"
+      ]
+    },
+    {
+      "name": "portfolio hedging and defensive allocation",
+      "members": [
+        "portfolio hedging / defensive allocation"
+      ]
+    },
+    {
+      "name": "hedge fund portfolio rebalancing",
+      "members": [
+        "hedge fund portfolio rebalancing"
+      ]
+    },
+    {
+      "name": "high-yield ETF drawdown risk",
+      "members": [
+        "high-yield ETF drawdown risk"
+      ]
+    },
+    {
+      "name": "index fund concentration risk",
+      "members": [
+        "index fund concentration risk"
+      ]
+    },
+    {
+      "name": "leveraged ETF sector rotation",
+      "members": [
+        "leveraged ETF sector rotation"
+      ]
+    },
+    {
+      "name": "long-term buy-and-hold ETF investing",
+      "members": [
+        "long-term buy-and-hold ETF investing"
+      ]
+    },
+    {
+      "name": "insider selling overhang removal",
+      "members": [
+        "insider selling overhang removal"
+      ]
+    },
+    {
+      "name": "investment attraction and tax policy support",
+      "members": [
+        "investment attraction / tax policy support"
+      ]
+    },
+    {
+      "name": "market access reform",
+      "members": [
+        "market access reform"
+      ]
+    },
+    {
+      "name": "investor attention on JD.com",
+      "members": [
+        "investor attention on JD.com"
+      ]
+    },
+    {
+      "name": "investor sentiment on China e-commerce",
+      "members": [
+        "investor bullish bets on consumer/China e-commerce stocks",
+        "investor confidence in Chinese e-commerce",
+        "investor exit / bearish signal on China e-commerce"
+      ]
+    },
+    {
+      "name": "logistics network expansion",
+      "members": [
+        "logistics network expansion"
+      ]
+    },
+    {
+      "name": "retail foodservice expansion",
+      "members": [
+        "retail foodservice expansion"
+      ]
+    },
+    {
+      "name": "retail asset sale uncertainty",
+      "members": [
+        "retail asset sale uncertainty"
+      ]
+    },
+    {
+      "name": "potential acquisition of high-yield dividend stock",
+      "members": [
+        "potential acquisition of high-yield dividend stock"
+      ]
+    },
+    {
+      "name": "management scrutiny at AI chip leader",
+      "members": [
+        "management scrutiny at AI chip leader"
+      ]
+    },
+    {
+      "name": "memory chip shortage-driven earnings disconnect",
+      "members": [
+        "memory chip shortage-driven earnings disconnect"
+      ]
+    },
+    {
+      "name": "memory chip stock upside",
+      "members": [
+        "memory chip stock upside"
+      ]
+    },
+    {
+      "name": "new product cycle and tech hardware momentum",
+      "members": [
+        "new product cycle / tech hardware momentum"
+      ]
+    },
+    {
+      "name": "open-source AI security infrastructure",
+      "members": [
+        "open-source AI security infrastructure"
+      ]
+    },
+    {
+      "name": "quantum computing acceleration",
+      "members": [
+        "quantum computing acceleration",
+        "quantum computing platform expansion"
+      ]
+    },
+    {
+      "name": "mid-cap equity differentiation",
+      "members": [
+        "mid-cap equity differentiation"
+      ]
+    },
+    {
+      "name": "political pressure on Fed and gold rally",
+      "members": [
+        "political pressure on Fed / gold rally"
+      ]
+    },
+    {
+      "name": "precious metals investor sentiment",
+      "members": [
+        "precious metals investor sentiment"
+      ]
+    },
+    {
+      "name": "power cost dispute",
+      "members": [
+        "power cost dispute"
+      ]
+    },
+    {
+      "name": "power grid financing deadlock",
+      "members": [
+        "power grid financing deadlock"
+      ]
+    },
+    {
+      "name": "retirement income sequencing",
+      "members": [
+        "retirement income sequencing"
+      ]
+    },
+    {
+      "name": "retirement readiness",
+      "members": [
+        "retirement readiness"
+      ]
+    },
+    {
+      "name": "Gold price pressure from rate expectations",
+      "members": [
+        "rising rate expectations pressure gold"
+      ]
+    },
+    {
+      "name": "Rotation into Chinese equities",
+      "members": [
+        "rotation into Chinese equities"
+      ]
+    },
+    {
+      "name": "Sector rotation in ETF performance",
+      "members": [
+        "sector rotation in ETF performance"
+      ]
+    },
+    {
+      "name": "Semiconductor ETF investment outlook",
+      "members": [
+        "semiconductor ETF investment outlook"
+      ]
+    },
+    {
+      "name": "Semiconductor analyst coverage and upgrades",
+      "members": [
+        "semiconductor analyst coverage",
+        "semiconductor analyst upgrade"
+      ]
+    },
+    {
+      "name": "Semiconductor ecosystem and market expansion",
+      "members": [
+        "semiconductor ecosystem expansion",
+        "semiconductor market expansion"
+      ]
+    },
+    {
+      "name": "Semiconductor equipment growth",
+      "members": [
+        "semiconductor equipment growth"
+      ]
+    },
+    {
+      "name": "Semiconductor equity selloff",
+      "members": [
+        "semiconductor equity selloff",
+        "semiconductor stock selloff"
+      ]
+    },
+    {
+      "name": "Semiconductor industry outlook",
+      "members": [
+        "semiconductor industry outlook"
+      ]
+    },
+    {
+      "name": "Semiconductor sector investment",
+      "members": [
+        "semiconductor sector investment"
+      ]
+    },
+    {
+      "name": "Semiconductor stock valuation comparison",
+      "members": [
+        "semiconductor stock valuation comparison"
+      ]
+    },
+    {
+      "name": "Small-cap rally sustainability",
+      "members": [
+        "small-cap rally sustainability"
+      ]
+    },
+    {
+      "name": "Software resilience amid AI selloff",
+      "members": [
+        "software resilience amid AI selloff"
+      ]
+    },
+    {
+      "name": "Software sector fund flows",
+      "members": [
+        "software sector fund flows"
+      ]
+    },
+    {
+      "name": "Stock picking portfolio resilience",
+      "members": [
+        "stock picking portfolio resilience"
+      ]
+    },
+    {
+      "name": "Strong economy supports higher yields",
+      "members": [
+        "strong economy supports higher yields"
+      ]
+    },
+    {
+      "name": "Stronger USD / hawkish Fed",
+      "members": [
+        "stronger USD / hawkish Fed"
+      ]
+    },
+    {
+      "name": "Tactical ETF opportunities amid inflation and AI-trade concerns",
+      "members": [
+        "tactical ETF opportunities amid inflation and AI-trade concerns"
+      ]
+    },
+    {
+      "name": "Tariff-driven copper selloff",
+      "members": [
+        "tariff-driven copper selloff"
+      ]
+    },
+    {
+      "name": "Tech hype speculation crackdown",
+      "members": [
+        "tech hype speculation crackdown"
+      ]
+    },
+    {
+      "name": "Tech rally cooldown",
+      "members": [
+        "tech rally cooldown"
+      ]
+    },
+    {
+      "name": "Tech sector performance",
+      "members": [
+        "tech sector performance"
+      ]
+    },
+    {
+      "name": "Tech sector pullback",
+      "members": [
+        "tech sector pullback"
+      ]
+    },
+    {
+      "name": "Tech sector rally",
+      "members": [
+        "tech sector rally"
+      ]
+    },
+    {
+      "name": "Tech sector selloff",
+      "members": [
+        "tech sector selloff"
+      ]
+    },
+    {
+      "name": "Tech sector weakness",
+      "members": [
+        "tech sector weakness"
+      ]
+    },
+    {
+      "name": "Tech-led equity strength",
+      "members": [
+        "tech-led equity strength"
+      ]
+    },
+    {
+      "name": "Unexplained stock surge / meme-driven rally",
+      "members": [
+        "unexplained stock surge / meme-driven rally"
+      ]
+    },
+    {
+      "name": "Unusual options buying in tech and energy stocks",
+      "members": [
+        "unusual options buying in tech and energy stocks"
+      ]
+    },
+    {
+      "name": "Utility cost dispute",
+      "members": [
+        "utility cost dispute"
+      ]
+    },
+    {
+      "name": "Utility cost prepayment rejection",
+      "members": [
+        "utility cost prepayment rejection"
+      ]
+    },
+    {
+      "name": "Utility cost pressure",
+      "members": [
+        "utility cost pressure"
+      ]
+    },
+    {
+      "name": "War-driven shipping demand vs gold weakness",
+      "members": [
+        "war-driven shipping demand vs gold weakness"
+      ]
+    },
+    {
+      "name": "Wheat rally sustainability",
+      "members": [
+        "wheat rally sustainability"
+      ]
+    },
+    {
+      "name": "Wide moat stock picks",
+      "members": [
+        "wide moat stock picks"
+      ]
+    },
+    {
+      "name": "USD weakness and Treasury buyback plan",
+      "members": [
+        "美元走弱与国债回购计划"
+      ]
+    },
+    {
+      "name": "Inflation data uncertainty",
+      "members": [
+        "通胀数据不确定性"
+      ]
+    }
+  ]
+}

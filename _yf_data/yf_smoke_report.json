@@ -1,0 +1,227 @@
+{
+  "etfs": {
+    "SMH": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "SOXX": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "AIQ": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "BOTZ": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "KWEB": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "CQQQ": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "QQQ": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "XLK": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "TLT": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "AGG": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "GLD": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "USO": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    },
+    "UUP": {
+      "info_keys": [],
+      "funds_data": true,
+      "top_holdings": null,
+      "asset_classes": null,
+      "sector_weightings": null,
+      "name": null,
+      "category": null,
+      "error": "Too Many Requests. Rate limited. Try after a while.",
+      "info_key_count": 0
+    }
+  },
+  "stocks": {
+    "JD": {
+      "shortName": null,
+      "longName": null,
+      "quoteType": null,
+      "sector": null,
+      "industry": null,
+      "marketCap": null,
+      "currency": null,
+      "exchange": null,
+      "fullExchangeName": null,
+      "country": null,
+      "info_key_count": 0
+    },
+    "NVDA": {
+      "shortName": null,
+      "longName": null,
+      "quoteType": null,
+      "sector": null,
+      "industry": null,
+      "marketCap": null,
+      "currency": null,
+      "exchange": null,
+      "fullExchangeName": null,
+      "country": null,
+      "info_key_count": 0
+    },
+    "TSM": {
+      "shortName": null,
+      "longName": null,
+      "quoteType": null,
+      "sector": null,
+      "industry": null,
+      "marketCap": null,
+      "currency": null,
+      "exchange": null,
+      "fullExchangeName": null,
+      "country": null,
+      "info_key_count": 0
+    },
+    "0981.HK": {
+      "shortName": null,
+      "longName": null,
+      "quoteType": null,
+      "sector": null,
+      "industry": null,
+      "marketCap": null,
+      "currency": null,
+      "exchange": null,
+      "fullExchangeName": null,
+      "country": null,
+      "info_key_count": 0
+    },
+    "000660.KS": {
+      "shortName": null,
+      "longName": null,
+      "quoteType": null,
+      "sector": null,
+      "industry": null,
+      "marketCap": null,
+      "currency": null,
+      "exchange": null,
+      "fullExchangeName": null,
+      "country": null,
+      "info_key_count": 0
+    },
+    "005930.KS": {
+      "shortName": null,
+      "longName": null,
+      "quoteType": null,
+      "sector": null,
+      "industry": null,
+      "marketCap": null,
+      "currency": null,
+      "exchange": null,
+      "fullExchangeName": null,
+      "country": null,
+      "info_key_count": 0
+    }
+  }
+}

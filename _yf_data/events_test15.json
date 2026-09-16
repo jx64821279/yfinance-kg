@@ -1,0 +1,420 @@
+[
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "EarningsBeat",
+    "event_type_summary": "Okta股价因业绩超预期及上调指引而大幅上涨",
+    "theme": "earnings beat and guidance raise",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "Okta"
+    ],
+    "rationale_text": "Okta因财报超预期并上调指引，股价大涨。",
+    "_news_title": "Why Okta Stock Rocketed Higher Today",
+    "_from_ticker": "NVDA",
+    "company_source": "related",
+    "affected_companies": [
+      "company_nvidia"
+    ],
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "related_companies": [
+      "company_nvidia"
+    ],
+    "unresolved_mentions": [
+      "OKTA",
+      "Okta"
+    ]
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI memory demand slowdown",
+    "event_type_summary": "AI行业高管呼吁放缓存储芯片需求，内存股领跌",
+    "theme": "AI capex slowdown in memory",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "NVDA",
+      "AVGO",
+      "MU",
+      "SNDK",
+      "AMD"
+    ],
+    "rationale_text": "AI负责人呼吁行业放缓，引发内存芯片股大幅下跌。",
+    "_news_title": "Memory Falls Hardest as AI Chiefs Ask the Industry to Slow Down",
+    "_from_ticker": "NVDA",
+    "company_source": "text",
+    "affected_companies": [
+      "company_nvidia",
+      "company_broadcom",
+      "company_micron",
+      "company_advanced_micro_devices"
+    ],
+    "affected_tickers": [
+      "AMD",
+      "AVGO",
+      "MU",
+      "NVDA"
+    ],
+    "related_companies": [],
+    "unresolved_mentions": [
+      "SNDK"
+    ]
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "rate hike expectation",
+    "event_type_summary": "市场定价显示美联储9月16日加息概率升至83%-90%，历史经验指向标普500后续走势",
+    "theme": "Fed rate hike risk",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "rationale_text": "美联储9月加息概率大幅上升，历史规律暗示标普500指数可能承压。",
+    "_news_title": "There Is Now An 83% to 90% Chance the Fed Raises Interest Rates on Sept. 16. Here's What History Says Would Happen to the S&P 500 Index Next.",
+    "_from_ticker": "NVDA",
+    "company_source": "related",
+    "affected_companies": [
+      "company_nvidia"
+    ],
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "related_companies": [
+      "company_nvidia"
+    ],
+    "unresolved_mentions": [
+      "CME",
+      "KLSH.PVT"
+    ]
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "AI safety call",
+    "event_type_summary": "Anthropic呼吁AI行业放缓，但未要求减少对Nvidia芯片的采购",
+    "theme": "AI safety concerns vs AI capex continuity",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [
+      "Anthropic",
+      "Nvidia"
+    ],
+    "rationale_text": "Anthropic呼吁AI行业放缓，但未要求减少Nvidia芯片采购，对Nvidia及AI芯片需求影响中性。",
+    "_news_title": "Anthropic Just Asked the AI Industry to Slow Down. Nothing in It Asks Anyone to Buy Fewer Nvidia Chips.",
+    "_from_ticker": "NVDA",
+    "company_source": "text",
+    "affected_companies": [
+      "company_nvidia"
+    ],
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "related_companies": [],
+    "unresolved_mentions": [
+      "Anthropic"
+    ]
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "Product/Platform Event",
+    "event_type_summary": "Palantir AIPCon 展示数据主权需求与生态采用进展，Oppenheimer 点评",
+    "theme": "AI data sovereignty demand",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "Palantir"
+    ],
+    "rationale_text": "Oppenheimer 指出 Palantir 的 AIPCon 凸显数据主权需求与生态采用，利好其股价。",
+    "_news_title": "Palantir's AIPCon Highlights Data Sovereignty Demand, Ecosystem Adoption, Oppenheimer Says",
+    "_from_ticker": "NVDA",
+    "company_source": "text",
+    "affected_companies": [
+      "company_palantir"
+    ],
+    "affected_tickers": [
+      "PLTR"
+    ],
+    "related_companies": [
+      "company_nvidia"
+    ],
+    "unresolved_mentions": [
+      "6702.T",
+      "LHX",
+      "NBIS",
+      "NVS",
+      "ONDS"
+    ]
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "AI data governance restrictions",
+    "event_type_summary": "Nvidia and Palantir reportedly restrict AI usage over customer data fears; OpenAI reportedly has no IPO in 2026",
+    "theme": "AI data privacy and governance concerns",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "Nvidia",
+      "Palantir",
+      "OpenAI"
+    ],
+    "rationale_text": "英伟达和Palantir因客户数据担忧限制AI使用，OpenAI据称2026年不IPO，对AI相关股票构成负面信号。",
+    "_news_title": "Top Midday Stories: No OpenAI IPO in 2026, Altman Reportedly Says; Nvidia, Palantir Said to Restrict AI Usage Over Customer Data Fears",
+    "_from_ticker": "NVDA",
+    "company_source": "text",
+    "affected_companies": [
+      "company_nvidia",
+      "company_palantir"
+    ],
+    "affected_tickers": [
+      "NVDA",
+      "PLTR"
+    ],
+    "related_companies": [
+      "company_oracle",
+      "company_microsoft"
+    ],
+    "unresolved_mentions": [
+      "AON",
+      "BAH",
+      "BWIN",
+      "DFTX",
+      "OpenAI"
+    ]
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "Data retention concerns",
+    "event_type_summary": "Clients push back against Anthropic and OpenAI over data retention practices",
+    "theme": "AI data privacy concerns",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "Anthropic",
+      "OpenAI"
+    ],
+    "rationale_text": "客户因数据留存问题对Anthropic和OpenAI产生抵触，可能影响AI相关企业情绪。",
+    "_news_title": "Data retention concerns spark client pushback against Anthropic and OpenAI -report",
+    "_from_ticker": "NVDA",
+    "company_source": "related",
+    "affected_companies": [
+      "company_nvidia",
+      "company_palantir"
+    ],
+    "affected_tickers": [
+      "NVDA",
+      "PLTR"
+    ],
+    "related_companies": [
+      "company_nvidia",
+      "company_palantir"
+    ],
+    "unresolved_mentions": [
+      "Anthropic",
+      "BAH",
+      "OpenAI"
+    ]
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "Stock Risk Warning",
+    "event_type_summary": "媒体指出SoundHound AI股票存在重大风险",
+    "theme": "AI stock valuation risk",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "SoundHound AI"
+    ],
+    "rationale_text": "新闻标题指出SoundHound AI股票存在最大问题，对其股价构成负面信号。",
+    "_news_title": "This Is the Biggest Problem With SoundHound AI Stock",
+    "_from_ticker": "NVDA",
+    "company_source": "related",
+    "affected_companies": [
+      "company_nvidia"
+    ],
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "related_companies": [
+      "company_nvidia"
+    ],
+    "unresolved_mentions": [
+      "SOUN",
+      "SoundHound AI"
+    ]
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "AI warning signals",
+    "event_type_summary": "AI板块预警信号增多，英伟达触发关键信号，市场质疑其是否应卖出",
+    "theme": "AI sentiment deterioration",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "Nvidia"
+    ],
+    "rationale_text": "AI警告信号增多，英伟达触发关键看空信号，市场情绪转弱。",
+    "_news_title": "Nvidia Triggers Key Signals As AI Warnings Mount; Is Nvidia A Sell Now?",
+    "_from_ticker": "NVDA",
+    "company_source": "text",
+    "affected_companies": [
+      "company_nvidia"
+    ],
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "related_companies": [
+      "company_space_exploration",
+      "company_tesla"
+    ],
+    "unresolved_mentions": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Geopolitical Tension Market Impact",
+    "event_type_summary": "胡塞武装行动推升油价、道指下跌，特朗普就AI担忧发声",
+    "theme": "Geopolitical risk & AI sentiment",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "rationale_text": "胡塞武装动向推高油价并拖累道指，特朗普对AI担忧的评论影响市场情绪。",
+    "_news_title": "Stock Market Today: Dow Falls, Oil Jumps On Houthi Moves; Trump Hits Out At These AI Fears (Live Coverage)",
+    "_from_ticker": "NVDA",
+    "company_source": "related",
+    "affected_companies": [
+      "company_nvidia",
+      "company_micron",
+      "company_alphabet"
+    ],
+    "affected_tickers": [
+      "GOOG",
+      "GOOGL",
+      "MU",
+      "NVDA"
+    ],
+    "related_companies": [
+      "company_nvidia",
+      "company_micron",
+      "company_alphabet"
+    ],
+    "unresolved_mentions": [
+      "CAT",
+      "CL=F",
+      "CRM",
+      "CRWD",
+      "SNDK"
+    ]
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "rate hike expectation",
+    "event_type_summary": "市场定价显示美联储9月16日加息概率升至83%-90%",
+    "theme": "rate hike",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "CME Group",
+      "Kalshi"
+    ],
+    "rationale_text": "市场预期美联储本周加息概率高达83%-90%，对美股标普500指数构成压力。",
+    "_news_title": "There Is Now An 83% to 90% Chance the Fed Raises Interest Rates on Sept. 16. Here's What History Says Would Happen to the S&amp;P 500 Index Next.",
+    "_from_ticker": "NVDA",
+    "company_source": "none",
+    "affected_companies": [],
+    "affected_tickers": [],
+    "related_companies": [],
+    "unresolved_mentions": [
+      "CME Group",
+      "Kalshi"
+    ]
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "technology_collaboration",
+    "event_type_summary": "Lorentz Solution与NVIDIA在TSMC OIP论坛联合展示面向硅光子及IC/3DIC设计的3D EM提取与签核技术",
+    "theme": "AI/silicon photonics chip design collaboration",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "NVIDIA",
+      "Lorentz Solution",
+      "TSMC"
+    ],
+    "rationale_text": "Lorentz Solution与NVIDIA将在台积电OIP论坛联合发表硅光子与3DIC电磁提取签核技术，利好相关半导体设计生态。",
+    "_news_title": "Lorentz Solution Jointly Presents with NVIDIA on Automated Large-Scale Chip-Level 3D EM Extraction and Sign-off of Ultra-High-Speed Silicon Photonics and IC/3DIC Designs at 2026 TSMC OIP",
+    "_from_ticker": "NVDA",
+    "company_source": "text",
+    "affected_companies": [
+      "company_nvidia",
+      "company_taiwan_semiconductor_manufacturing"
+    ],
+    "affected_tickers": [
+      "NVDA",
+      "TSM"
+    ],
+    "related_companies": [],
+    "unresolved_mentions": [
+      "Lorentz Solution"
+    ]
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "stock crash",
+    "event_type_summary": "AI landscape news sends chipmaker shares sharply lower",
+    "theme": "AI sentiment weakness",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "Sandisk"
+    ],
+    "rationale_text": "AI行业消息拖累芯片股，Sandisk股价大跌。",
+    "_news_title": "Why Sandisk Stock Crashed Today",
+    "_from_ticker": "NVDA",
+    "company_source": "none",
+    "affected_companies": [],
+    "affected_tickers": [],
+    "related_companies": [],
+    "unresolved_mentions": [
+      "Sandisk"
+    ]
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Tech stock selloff",
+    "event_type_summary": "AI发展放缓呼声引发科技股下跌",
+    "theme": "AI development slowdown concerns",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "rationale_text": "因呼吁放缓AI发展，以科技股为主的纳斯达克100指数周一下跌约1.2%。",
+    "_news_title": "Tech stocks fall after calls for AI development to slow",
+    "_from_ticker": "NVDA",
+    "company_source": "none",
+    "affected_companies": [],
+    "affected_tickers": [],
+    "related_companies": [],
+    "unresolved_mentions": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "M&A speculation",
+    "event_type_summary": "Kenvue可能被Kimberly-Clark收购，其高于平均水平的股息或进一步提高",
+    "theme": "potential acquisition of high-yield dividend stock",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "Kenvue",
+      "Kimberly-Clark"
+    ],
+    "rationale_text": "Kenvue可能被Kimberly-Clark收购，其可靠且高于平均的股息有望提升，利好股价。",
+    "_news_title": "Here's My Pick for the Smartest High-Yield Dividend Stock to Buy Right Now",
+    "_from_ticker": "NVDA",
+    "company_source": "none",
+    "affected_companies": [],
+    "affected_tickers": [],
+    "related_companies": [],
+    "unresolved_mentions": [
+      "Kenvue",
+      "Kimberly-Clark"
+    ]
+  }
+]

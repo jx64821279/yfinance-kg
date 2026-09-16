@@ -1,0 +1,509 @@
+{
+  "company_abb": {
+    "aliases": [
+      "ABB Ltd"
+    ],
+    "name": "ABB",
+    "tickers": [
+      "ABBN.SW"
+    ]
+  },
+  "company_advanced_micro_devices": {
+    "aliases": [
+      "Advanced Micro Devices, Inc.",
+      "Advanced Micro Devices Inc"
+    ],
+    "name": "Advanced Micro Devices",
+    "tickers": [
+      "AMD"
+    ]
+  },
+  "company_alibaba": {
+    "aliases": [
+      "Alibaba Group Holding Limited",
+      "Alibaba Group Holding Ltd Ordinary Shares"
+    ],
+    "name": "Alibaba",
+    "tickers": [
+      "9988.HK"
+    ]
+  },
+  "company_alphabet": {
+    "aliases": [
+      "Alphabet Inc.",
+      "Alphabet Inc Class C",
+      "Alphabet Inc Class A"
+    ],
+    "name": "Alphabet",
+    "tickers": [
+      "GOOG",
+      "GOOGL"
+    ]
+  },
+  "company_amazon_com": {
+    "aliases": [
+      "Amazon.com, Inc.",
+      "Amazon.com Inc"
+    ],
+    "name": "Amazon.com",
+    "tickers": [
+      "AMZN"
+    ]
+  },
+  "company_analog_devices": {
+    "aliases": [
+      "Analog Devices, Inc.",
+      "Analog Devices Inc"
+    ],
+    "name": "Analog Devices",
+    "tickers": [
+      "ADI"
+    ]
+  },
+  "company_apple": {
+    "aliases": [
+      "Apple Inc.",
+      "Apple Inc"
+    ],
+    "name": "Apple",
+    "tickers": [
+      "AAPL"
+    ]
+  },
+  "company_applied_materials": {
+    "aliases": [
+      "Applied Materials, Inc.",
+      "Applied Materials Inc"
+    ],
+    "name": "Applied Materials",
+    "tickers": [
+      "AMAT"
+    ]
+  },
+  "company_asml_n_v": {
+    "aliases": [
+      "ASML Holding N.V.",
+      "ASML Holding NV ADR"
+    ],
+    "name": "ASML",
+    "tickers": [
+      "ASML"
+    ]
+  },
+  "company_baidu": {
+    "aliases": [
+      "Baidu, Inc.",
+      "Baidu Inc"
+    ],
+    "name": "Baidu",
+    "tickers": [
+      "9888.HK"
+    ]
+  },
+  "company_broadcom": {
+    "aliases": [
+      "Broadcom Inc.",
+      "Broadcom Inc"
+    ],
+    "name": "Broadcom",
+    "tickers": [
+      "AVGO"
+    ]
+  },
+  "company_cambricon": {
+    "aliases": [
+      "Cambricon Technologies Corporation Limited",
+      "Cambricon Technologies Corp Ltd Class A"
+    ],
+    "name": "Cambricon Technologies",
+    "tickers": [
+      "688256.SS"
+    ]
+  },
+  "company_cisco_systems": {
+    "aliases": [
+      "Cisco Systems, Inc.",
+      "Cisco Systems Inc"
+    ],
+    "name": "Cisco Systems",
+    "tickers": [
+      "CSCO"
+    ]
+  },
+  "company_cognex": {
+    "aliases": [
+      "Cognex Corporation",
+      "Cognex Corp"
+    ],
+    "name": "Cognex",
+    "tickers": [
+      "CGNX"
+    ]
+  },
+  "company_daifuku": {
+    "aliases": [
+      "Daifuku Co., Ltd.",
+      "Daifuku Co Ltd"
+    ],
+    "name": "Daifuku",
+    "tickers": [
+      "6383.T"
+    ]
+  },
+  "company_fanuc": {
+    "aliases": [
+      "Fanuc Corporation",
+      "Fanuc Corp"
+    ],
+    "name": "Fanuc",
+    "tickers": [
+      "6954.T"
+    ]
+  },
+  "company_hua_hong_grace_semiconductor": {
+    "aliases": [
+      "Hua Hong Grace Semiconductor Limited",
+      "Hua Hong Grace Semiconductor Ltd Shs Unitary 144A/Reg S"
+    ],
+    "name": "Hua Hong Grace Semiconductor",
+    "tickers": [
+      "1347.HK"
+    ]
+  },
+  "company_hygon_information": {
+    "aliases": [
+      "Hygon Information Technology Co., Ltd.",
+      "Hygon Information Technology Co Ltd Class A"
+    ],
+    "name": "Hygon Information Technology",
+    "tickers": [
+      "688041.SS"
+    ]
+  },
+  "company_intel": {
+    "aliases": [
+      "Intel Corporation",
+      "Intel Corp"
+    ],
+    "name": "Intel",
+    "tickers": [
+      "INTC"
+    ]
+  },
+  "company_intuitive_surgical": {
+    "aliases": [
+      "Intuitive Surgical, Inc.",
+      "Intuitive Surgical Inc"
+    ],
+    "name": "Intuitive Surgical",
+    "tickers": [
+      "ISRG"
+    ]
+  },
+  "company_jd_com": {
+    "aliases": [
+      "JD.com, Inc.",
+      "JD.com Inc Ordinary Shares - Class A"
+    ],
+    "name": "JD.com",
+    "tickers": [
+      "9618.HK",
+      "JD"
+    ]
+  },
+  "company_ke": {
+    "aliases": [
+      "KE Holdings Inc.",
+      "KE Holdings Inc Class A"
+    ],
+    "name": "KE Holdings",
+    "tickers": [
+      "2423.HK"
+    ]
+  },
+  "company_keyence": {
+    "aliases": [
+      "Keyence Corporation",
+      "Keyence Corp"
+    ],
+    "name": "Keyence",
+    "tickers": [
+      "6861.T"
+    ]
+  },
+  "company_kingboard_laminates": {
+    "aliases": [
+      "Kingboard Laminates Holdings Limited",
+      "Kingboard Laminates Holdings Ltd"
+    ],
+    "name": "Kingboard Laminates",
+    "tickers": [
+      "1888.HK"
+    ]
+  },
+  "company_kla": {
+    "aliases": [
+      "KLA Corporation",
+      "KLA Corp"
+    ],
+    "name": "KLA",
+    "tickers": [
+      "KLAC"
+    ]
+  },
+  "company_kuaishou": {
+    "aliases": [
+      "Kuaishou Technology Ordinary Shares - Class B"
+    ],
+    "name": "Kuaishou Technology",
+    "tickers": [
+      "1024.HK"
+    ]
+  },
+  "company_lam_research": {
+    "aliases": [
+      "Lam Research Corporation",
+      "Lam Research Corp"
+    ],
+    "name": "Lam Research",
+    "tickers": [
+      "LRCX"
+    ]
+  },
+  "company_lenovo": {
+    "aliases": [
+      "Lenovo Group Limited",
+      "Lenovo Group Ltd"
+    ],
+    "name": "Lenovo",
+    "tickers": [
+      "0992.HK"
+    ]
+  },
+  "company_marvell": {
+    "aliases": [
+      "Marvell Technology, Inc.",
+      "Marvell Technology Inc"
+    ],
+    "name": "Marvell Technology",
+    "tickers": [
+      "MRVL"
+    ]
+  },
+  "company_meituan": {
+    "aliases": [
+      "Meituan Class B"
+    ],
+    "name": "Meituan",
+    "tickers": [
+      "3690.HK"
+    ]
+  },
+  "company_micron": {
+    "aliases": [
+      "Micron Technology, Inc.",
+      "Micron Technology Inc"
+    ],
+    "name": "Micron Technology",
+    "tickers": [
+      "MU"
+    ]
+  },
+  "company_microsoft": {
+    "aliases": [
+      "Microsoft Corporation",
+      "Microsoft Corp"
+    ],
+    "name": "Microsoft",
+    "tickers": [
+      "MSFT"
+    ]
+  },
+  "company_netease": {
+    "aliases": [
+      "NetEase, Inc.",
+      "NetEase Inc Ordinary Shares"
+    ],
+    "name": "NetEase",
+    "tickers": [
+      "9999.HK"
+    ]
+  },
+  "company_netflix": {
+    "aliases": [
+      "Netflix, Inc.",
+      "Netflix Inc"
+    ],
+    "name": "Netflix",
+    "tickers": [
+      "NFLX"
+    ]
+  },
+  "company_nvidia": {
+    "aliases": [
+      "NVIDIA Corporation",
+      "NVIDIA Corp"
+    ],
+    "name": "NVIDIA",
+    "tickers": [
+      "NVDA"
+    ]
+  },
+  "company_oracle": {
+    "aliases": [
+      "Oracle Corporation",
+      "Oracle Corp"
+    ],
+    "name": "Oracle",
+    "tickers": [
+      "ORCL"
+    ]
+  },
+  "company_palantir": {
+    "aliases": [
+      "Palantir Technologies Inc.",
+      "Palantir Technologies Inc Ordinary Shares - Class A"
+    ],
+    "name": "Palantir Technologies",
+    "tickers": [
+      "PLTR"
+    ]
+  },
+  "company_pdd": {
+    "aliases": [
+      "PDD Holdings Inc.",
+      "PDD Holdings Inc ADR"
+    ],
+    "name": "PDD Holdings",
+    "tickers": [
+      "PDD"
+    ]
+  },
+  "company_robotechnik_intelligent": {
+    "aliases": [
+      "RoboTechnik Intelligent Technology Co., LTD",
+      "RoboTechnik Intelligent Technology Co Ltd Class A"
+    ],
+    "name": "RoboTechnik Intelligent Technology",
+    "tickers": [
+      "300757.SZ"
+    ]
+  },
+  "company_samsung_electronics": {
+    "aliases": [
+      "Samsung Electronics Co., Ltd."
+    ],
+    "name": "Samsung Electronics",
+    "tickers": [
+      "005930.KS"
+    ]
+  },
+  "company_semiconductor_manufacturing_international": {
+    "aliases": [
+      "Semiconductor Manufacturing International Corporation"
+    ],
+    "name": "Semiconductor Manufacturing International",
+    "tickers": [
+      "0981.HK"
+    ]
+  },
+  "company_shenzhen_inovance": {
+    "aliases": [
+      "Shenzhen Inovance Technology Co.,Ltd",
+      "Shenzhen Inovance Technology Co Ltd Class A"
+    ],
+    "name": "Shenzhen Inovance Technology",
+    "tickers": [
+      "300124.SZ"
+    ]
+  },
+  "company_sk_hynix": {
+    "aliases": [
+      "SK hynix Inc."
+    ],
+    "name": "SK hynix",
+    "tickers": [
+      "000660.KS"
+    ]
+  },
+  "company_smc": {
+    "aliases": [
+      "SMC Corporation",
+      "SMC Corp"
+    ],
+    "name": "SMC",
+    "tickers": [
+      "6273.T"
+    ]
+  },
+  "company_space_exploration": {
+    "aliases": [
+      "Space Exploration Technologies Corp.",
+      "Space Exploration Technologies Corp Class A"
+    ],
+    "name": "Space Exploration Technologies",
+    "tickers": [
+      "SPCX"
+    ]
+  },
+  "company_sunny_optical": {
+    "aliases": [
+      "Sunny Optical Technology (Group) Company Limited",
+      "Sunny Optical Technology (Group) Co Ltd"
+    ],
+    "name": "Sunny Optical Technology",
+    "tickers": [
+      "2382.HK"
+    ]
+  },
+  "company_taiwan_semiconductor_manufacturing": {
+    "aliases": [
+      "Taiwan Semiconductor Manufacturing Company Limited",
+      "Taiwan Semiconductor Manufacturing Co Ltd ADR"
+    ],
+    "name": "Taiwan Semiconductor Manufacturing",
+    "tickers": [
+      "TSM"
+    ]
+  },
+  "company_tencent": {
+    "aliases": [
+      "Tencent Holdings Limited",
+      "Tencent Holdings Ltd"
+    ],
+    "name": "Tencent",
+    "tickers": [
+      "0700.HK"
+    ]
+  },
+  "company_tesla": {
+    "aliases": [
+      "Tesla, Inc.",
+      "Tesla Inc"
+    ],
+    "name": "Tesla",
+    "tickers": [
+      "TSLA"
+    ]
+  },
+  "company_texas_instruments": {
+    "aliases": [
+      "Texas Instruments Incorporated",
+      "Texas Instruments Inc"
+    ],
+    "name": "Texas Instruments",
+    "tickers": [
+      "TXN"
+    ]
+  },
+  "company_trip_com": {
+    "aliases": [
+      "Trip.com Group Limited",
+      "Trip.com Group Ltd"
+    ],
+    "name": "Trip.com",
+    "tickers": [
+      "9961.HK"
+    ]
+  }
+}

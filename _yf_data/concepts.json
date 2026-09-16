@@ -1,0 +1,461 @@
+{
+  "concepts": {
+    "ai": {
+      "anchor_funds": [
+        {
+          "category": "Technology",
+          "name": "Global X Artificial Intelligence & Technology ETF",
+          "ticker": "AIQ"
+        }
+      ],
+      "asset_class": null,
+      "concept_type": "stock",
+      "key": "ai",
+      "markets": [
+        "KR",
+        "US"
+      ],
+      "member_weights": {
+        "005930.KS": 0.0281,
+        "AMZN": 0.0303,
+        "GOOG": 0.0291,
+        "GOOGL": 0.0291,
+        "MSFT": 0.0362,
+        "NFLX": 0.0321,
+        "NVDA": 0.0288,
+        "ORCL": 0.0339,
+        "PLTR": 0.0412,
+        "SPCX": 0.0331,
+        "TSLA": 0.0314
+      },
+      "members": [
+        "005930.KS",
+        "AMZN",
+        "GOOG",
+        "GOOGL",
+        "MSFT",
+        "NFLX",
+        "NVDA",
+        "ORCL",
+        "PLTR",
+        "SPCX",
+        "TSLA"
+      ],
+      "n_members": 11,
+      "name": "人工智能"
+    },
+    "china_internet": {
+      "anchor_funds": [
+        {
+          "category": "Greater China Region",
+          "name": "KraneShares CSI China Internet ETF",
+          "ticker": "KWEB"
+        }
+      ],
+      "asset_class": null,
+      "concept_type": "stock",
+      "key": "china_internet",
+      "markets": [
+        "HK",
+        "US"
+      ],
+      "member_weights": {
+        "0700.HK": 0.1025,
+        "0992.HK": 0.0504,
+        "2423.HK": 0.0435,
+        "3690.HK": 0.0729,
+        "9618.HK": 0.0394,
+        "9888.HK": 0.0338,
+        "9961.HK": 0.0382,
+        "9988.HK": 0.0865,
+        "9999.HK": 0.0625,
+        "JD": 0.0394,
+        "PDD": 0.0827
+      },
+      "members": [
+        "0700.HK",
+        "0992.HK",
+        "2423.HK",
+        "3690.HK",
+        "9618.HK",
+        "9888.HK",
+        "9961.HK",
+        "9988.HK",
+        "9999.HK",
+        "JD",
+        "PDD"
+      ],
+      "n_members": 11,
+      "name": "中概互联网"
+    },
+    "china_tech": {
+      "anchor_funds": [
+        {
+          "category": "Greater China Region",
+          "name": "Invesco China Technology ETF",
+          "ticker": "CQQQ"
+        }
+      ],
+      "asset_class": null,
+      "concept_type": "stock",
+      "key": "china_tech",
+      "markets": [
+        "CN",
+        "HK",
+        "US"
+      ],
+      "member_weights": {
+        "0700.HK": 0.1012,
+        "1024.HK": 0.0382,
+        "1347.HK": 0.0323,
+        "1888.HK": 0.0197,
+        "2382.HK": 0.0171,
+        "3690.HK": 0.1049,
+        "688041.SS": 0.0177,
+        "688256.SS": 0.021,
+        "9888.HK": 0.0737,
+        "PDD": 0.1074
+      },
+      "members": [
+        "0700.HK",
+        "1024.HK",
+        "1347.HK",
+        "1888.HK",
+        "2382.HK",
+        "3690.HK",
+        "688041.SS",
+        "688256.SS",
+        "9888.HK",
+        "PDD"
+      ],
+      "n_members": 10,
+      "name": "中国科技"
+    },
+    "gold": {
+      "anchor_funds": [
+        {
+          "category": "Commodities Focused",
+          "name": "SPDR Gold Shares",
+          "ticker": "GLD"
+        }
+      ],
+      "asset_class": "Commodity",
+      "concept_type": "asset",
+      "key": "gold",
+      "markets": [],
+      "member_weights": {},
+      "members": [],
+      "n_members": 0,
+      "name": "黄金"
+    },
+    "nasdaq100": {
+      "anchor_funds": [
+        {
+          "category": "Large Growth",
+          "name": "Invesco QQQ Trust",
+          "ticker": "QQQ"
+        }
+      ],
+      "asset_class": null,
+      "concept_type": "stock",
+      "key": "nasdaq100",
+      "markets": [
+        "US"
+      ],
+      "member_weights": {
+        "AAPL": 0.0741,
+        "AMD": 0.0337,
+        "AMZN": 0.0445,
+        "AVGO": 0.028,
+        "GOOG": 0.0291,
+        "GOOGL": 0.0315,
+        "MSFT": 0.06,
+        "MU": 0.0475,
+        "NVDA": 0.0851,
+        "TSLA": 0.0293
+      },
+      "members": [
+        "AAPL",
+        "AMD",
+        "AMZN",
+        "AVGO",
+        "GOOG",
+        "GOOGL",
+        "MSFT",
+        "MU",
+        "NVDA",
+        "TSLA"
+      ],
+      "n_members": 10,
+      "name": "纳斯达克100/大盘成长"
+    },
+    "oil": {
+      "anchor_funds": [
+        {
+          "category": "Commodities Focused",
+          "name": "United States Oil Fund, LP",
+          "ticker": "USO"
+        }
+      ],
+      "asset_class": "Commodity",
+      "concept_type": "asset",
+      "key": "oil",
+      "markets": [],
+      "member_weights": {},
+      "members": [],
+      "n_members": 0,
+      "name": "原油"
+    },
+    "robotics": {
+      "anchor_funds": [
+        {
+          "category": "Technology",
+          "name": "Global X Robotics & Artificial Intelligence ETF",
+          "ticker": "BOTZ"
+        }
+      ],
+      "asset_class": null,
+      "concept_type": "stock",
+      "key": "robotics",
+      "markets": [
+        "CH",
+        "CN",
+        "JP",
+        "US"
+      ],
+      "member_weights": {
+        "300124.SZ": 0.0407,
+        "300757.SZ": 0.0273,
+        "6273.T": 0.0456,
+        "6383.T": 0.031,
+        "6861.T": 0.1077,
+        "6954.T": 0.0765,
+        "ABBN.SW": 0.0919,
+        "CGNX": 0.0227,
+        "ISRG": 0.0607,
+        "NVDA": 0.0964
+      },
+      "members": [
+        "300124.SZ",
+        "300757.SZ",
+        "6273.T",
+        "6383.T",
+        "6861.T",
+        "6954.T",
+        "ABBN.SW",
+        "CGNX",
+        "ISRG",
+        "NVDA"
+      ],
+      "n_members": 10,
+      "name": "机器人与自动化"
+    },
+    "semiconductor": {
+      "anchor_funds": [
+        {
+          "category": "Technology",
+          "name": "VanEck Semiconductor ETF",
+          "ticker": "SMH"
+        },
+        {
+          "category": "Technology",
+          "name": "iShares Semiconductor ETF",
+          "ticker": "SOXX"
+        }
+      ],
+      "asset_class": null,
+      "concept_type": "stock",
+      "key": "semiconductor",
+      "markets": [
+        "US"
+      ],
+      "member_weights": {
+        "ADI": 0.0432,
+        "AMAT": 0.0459,
+        "AMD": 0.0823,
+        "ASML": 0.051,
+        "AVGO": 0.0748,
+        "INTC": 0.0509,
+        "KLAC": 0.0412,
+        "LRCX": 0.044,
+        "MRVL": 0.0466,
+        "MU": 0.0891,
+        "NVDA": 0.2263,
+        "TSM": 0.0965,
+        "TXN": 0.043
+      },
+      "members": [
+        "ADI",
+        "AMAT",
+        "AMD",
+        "ASML",
+        "AVGO",
+        "INTC",
+        "KLAC",
+        "LRCX",
+        "MRVL",
+        "MU",
+        "NVDA",
+        "TSM",
+        "TXN"
+      ],
+      "n_members": 13,
+      "name": "半导体"
+    },
+    "us_agg_bond": {
+      "anchor_funds": [
+        {
+          "category": "Intermediate Core Bond",
+          "name": "iShares Core U.S. Aggregate Bond ETF",
+          "ticker": "AGG"
+        }
+      ],
+      "asset_class": "FixedIncome",
+      "concept_type": "asset",
+      "key": "us_agg_bond",
+      "markets": [],
+      "member_weights": {},
+      "members": [],
+      "n_members": 0,
+      "name": "美国综合债券"
+    },
+    "us_long_treasury": {
+      "anchor_funds": [
+        {
+          "category": "Long Government",
+          "name": "iShares 20+ Year Treasury Bond ETF",
+          "ticker": "TLT"
+        }
+      ],
+      "asset_class": "FixedIncome",
+      "concept_type": "asset",
+      "key": "us_long_treasury",
+      "markets": [],
+      "member_weights": {},
+      "members": [],
+      "n_members": 0,
+      "name": "美国长期国债"
+    },
+    "us_tech": {
+      "anchor_funds": [
+        {
+          "category": "Technology",
+          "name": "State Street Technology Select Sector SPDR ETF",
+          "ticker": "XLK"
+        }
+      ],
+      "asset_class": null,
+      "concept_type": "stock",
+      "key": "us_tech",
+      "markets": [
+        "US"
+      ],
+      "member_weights": {
+        "AAPL": 0.125,
+        "AMD": 0.0393,
+        "AVGO": 0.0471,
+        "CSCO": 0.0286,
+        "INTC": 0.029,
+        "LRCX": 0.0247,
+        "MSFT": 0.1012,
+        "MU": 0.04,
+        "NVDA": 0.1436,
+        "PLTR": 0.0281
+      },
+      "members": [
+        "AAPL",
+        "AMD",
+        "AVGO",
+        "CSCO",
+        "INTC",
+        "LRCX",
+        "MSFT",
+        "MU",
+        "NVDA",
+        "PLTR"
+      ],
+      "n_members": 10,
+      "name": "美国科技"
+    },
+    "usd_index": {
+      "anchor_funds": [
+        {
+          "category": "Trading--Miscellaneous",
+          "name": "Invesco DB US Dollar Index Bullish Fund",
+          "ticker": "UUP"
+        }
+      ],
+      "asset_class": "FX",
+      "concept_type": "asset",
+      "key": "usd_index",
+      "markets": [],
+      "member_weights": {},
+      "members": [],
+      "n_members": 0,
+      "name": "美元指数"
+    }
+  },
+  "industries": {
+    "Commodity Contracts Brokers & Dealers": [
+      "GLD",
+      "USO",
+      "UUP"
+    ],
+    "Computer Communications Equipment": [
+      "CSCO"
+    ],
+    "Electronic Computers": [
+      "AAPL"
+    ],
+    "Industrial Instruments For Measurement, Display, and Control": [
+      "CGNX"
+    ],
+    "Motor Vehicles & Passenger Car Bodies": [
+      "TSLA"
+    ],
+    "Optical Instruments & Lenses": [
+      "KLAC"
+    ],
+    "Orthopedic, Prosthetic & Surgical Appliances & Supplies": [
+      "ISRG"
+    ],
+    "Retail-Catalog & Mail-Order Houses": [
+      "AMZN"
+    ],
+    "Retail-Retail Stores, NEC": [
+      "JD"
+    ],
+    "Semiconductors & Related Devices": [
+      "ADI",
+      "AMAT",
+      "AMD",
+      "AVGO",
+      "INTC",
+      "MRVL",
+      "MU",
+      "NVDA",
+      "TSM",
+      "TXN"
+    ],
+    "Services-Business Services, NEC": [
+      "PDD"
+    ],
+    "Services-Computer Programming, Data Processing, Etc.": [
+      "GOOG",
+      "GOOGL",
+      "SPCX"
+    ],
+    "Services-Prepackaged Software": [
+      "MSFT",
+      "ORCL",
+      "PLTR"
+    ],
+    "Services-Video Tape Rental": [
+      "NFLX"
+    ],
+    "Special Industry Machinery, NEC": [
+      "ASML",
+      "LRCX"
+    ]
+  }
+}
