@@ -1,5 +1,5 @@
 """
-用 yfinance/Yahoo 数据 + 抽取出的新闻事件，构建 KG（30 条事件版）。
+用 yfinance/Yahoo 数据 + 抽取出的新闻事件，构建知识图谱。
 节点：AssetClass / Theme / Event / Stock / Company / Fund / Industry
 边  ：Event-HAS_THEME->Theme, Theme-IMPACTS->AssetClass, Event-AFFECTS->Stock,
        Stock-IS_CLASS->AssetClass, Company-CORRESPONDS_TO->Stock, Stock-IN_INDUSTRY->Industry,
