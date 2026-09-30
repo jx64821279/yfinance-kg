@@ -42,6 +42,14 @@ MANUAL = {
     "kla": "KLAC", "analog devices": "ADI", "marvell": "MRVL", "arm": "ARM",
     "synopsys": "SNPS", "cadence": "CDNS", "corning": "GLW", "cognEX": "CGNX",
     "sandisk": "SNDK", "sndk": "SNDK", "nvidia corp": "NVDA", "tsmc adr": "TSM",
+    # 大厂的产品/服务名 -> 母公司（新闻里常写产品名而不写公司名）
+    "aws": "AMZN", "amazon web services": "AMZN", "amazon aws": "AMZN",
+    "amazon web services aws": "AMZN",          # 新闻里的写法：Amazon Web Services (AWS)
+    "bedrock": "AMZN", "amazon bedrock": "AMZN",
+    "azure": "MSFT", "microsoft azure": "MSFT",
+    "google cloud": "GOOGL", "google tpu": "GOOGL",
+    "aws graviton": "AMZN", "trainium": "AMZN", "inferentia": "AMZN",
+    "spacex": "SPCX", "space x": "SPCX",        # 该公司在图里叫 Space Exploration Technologies
 }
 
 _SUFFIX = re.compile(

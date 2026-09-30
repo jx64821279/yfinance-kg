@@ -1,0 +1,436 @@
+{
+ "customer": {
+  "id": "C011",
+  "name": "冯涛",
+  "age": 41,
+  "city": "西安",
+  "occupation": "汽车零部件企业主",
+  "risk_level": "C4",
+  "total_assets": 5000000,
+  "idle_cash": 500000,
+  "time_deposit": 1000000,
+  "deposit_maturity": "2027-03",
+  "holdings": {
+   "QQQ": 20,
+   "AIQ": 15,
+   "GLD": 15,
+   "AGG": 15,
+   "SMH": 10,
+   "USO": 10,
+   "TLT": 10,
+   "UUP": 5
+  }
+ },
+ "concentration": {
+  "by_asset_class_pct": {
+   "Equity": 45.0,
+   "Commodity": 25.0,
+   "FixedIncome": 25.0,
+   "FX": 5.0
+  },
+  "top_holding": {
+   "ticker": "QQQ",
+   "weight_pct": 20
+  }
+ },
+ "exposure": {
+  "top_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 1.185,
+    "neg": 13.485,
+    "net": -12.301,
+    "avg_per_event": -0.0939,
+    "rank_score": -1.0747,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -6.709
+     },
+     {
+      "ticker": "TLT",
+      "net": -4.473
+     },
+     {
+      "ticker": "UUP",
+      "net": -1.118
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "AI芯片设计与设备",
+    "n_events": 12,
+    "n_days": 7,
+    "pos": 1.491,
+    "neg": 0.0,
+    "net": 1.491,
+    "avg_per_event": 0.1242,
+    "rank_score": 0.4304,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 0.615
+     },
+     {
+      "ticker": "SMH",
+      "net": 0.589
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.287
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 8,
+     "MarketEvents": 4
+    }
+   },
+   {
+    "theme": "AI内存与半导体技术",
+    "n_events": 15,
+    "n_days": 9,
+    "pos": 1.742,
+    "neg": 0.295,
+    "net": 1.447,
+    "avg_per_event": 0.0964,
+    "rank_score": 0.3735,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 0.597
+     },
+     {
+      "ticker": "SMH",
+      "net": 0.571
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.279
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 12,
+     "MarketEvents": 3
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 0.693,
+    "neg": 2.031,
+    "net": -1.338,
+    "avg_per_event": -0.0446,
+    "rank_score": -0.2443,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -0.731
+     },
+     {
+      "ticker": "TLT",
+      "net": -0.607
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "AI半导体供需",
+    "n_events": 12,
+    "n_days": 10,
+    "pos": 1.402,
+    "neg": 0.106,
+    "net": 1.296,
+    "avg_per_event": 0.108,
+    "rank_score": 0.3741,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 0.535
+     },
+     {
+      "ticker": "SMH",
+      "net": 0.512
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.25
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MacroEvents": 3,
+     "PolicyEvents": 1,
+     "MarketEvents": 2
+    }
+   },
+   {
+    "theme": "半导体产能扩张",
+    "n_events": 22,
+    "n_days": 10,
+    "pos": 1.302,
+    "neg": 0.052,
+    "net": 1.251,
+    "avg_per_event": 0.0568,
+    "rank_score": 0.2666,
+    "drivers": [
+     {
+      "ticker": "SMH",
+      "net": 0.999
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.226
+     },
+     {
+      "ticker": "AIQ",
+      "net": 0.025
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 17,
+     "PolicyEvents": 3,
+     "MacroEvents": 2
+    }
+   }
+  ],
+  "risk_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 1.185,
+    "neg": 13.485,
+    "net": -12.301,
+    "avg_per_event": -0.0939,
+    "rank_score": -1.0747,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -6.709
+     },
+     {
+      "ticker": "TLT",
+      "net": -4.473
+     },
+     {
+      "ticker": "UUP",
+      "net": -1.118
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 0.693,
+    "neg": 2.031,
+    "net": -1.338,
+    "avg_per_event": -0.0446,
+    "rank_score": -0.2443,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -0.731
+     },
+     {
+      "ticker": "TLT",
+      "net": -0.607
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.045,
+    "neg": 1.107,
+    "net": -1.062,
+    "avg_per_event": -0.0425,
+    "rank_score": -0.2124,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.874
+     },
+     {
+      "ticker": "SMH",
+      "net": -0.118
+     },
+     {
+      "ticker": "AIQ",
+      "net": -0.07
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   }
+  ],
+  "opportunity_themes": [
+   {
+    "theme": "AI芯片设计与设备",
+    "n_events": 12,
+    "n_days": 7,
+    "pos": 1.491,
+    "neg": 0.0,
+    "net": 1.491,
+    "avg_per_event": 0.1242,
+    "rank_score": 0.4304,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 0.615
+     },
+     {
+      "ticker": "SMH",
+      "net": 0.589
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.287
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 8,
+     "MarketEvents": 4
+    }
+   },
+   {
+    "theme": "AI内存与半导体技术",
+    "n_events": 15,
+    "n_days": 9,
+    "pos": 1.742,
+    "neg": 0.295,
+    "net": 1.447,
+    "avg_per_event": 0.0964,
+    "rank_score": 0.3735,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 0.597
+     },
+     {
+      "ticker": "SMH",
+      "net": 0.571
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.279
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 12,
+     "MarketEvents": 3
+    }
+   },
+   {
+    "theme": "AI半导体供需",
+    "n_events": 12,
+    "n_days": 10,
+    "pos": 1.402,
+    "neg": 0.106,
+    "net": 1.296,
+    "avg_per_event": 0.108,
+    "rank_score": 0.3741,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 0.535
+     },
+     {
+      "ticker": "SMH",
+      "net": 0.512
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.25
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MacroEvents": 3,
+     "PolicyEvents": 1,
+     "MarketEvents": 2
+    }
+   }
+  ]
+ },
+ "gaps": [],
+ "timing": {
+  "ref_date": "2026-09-29",
+  "items": [
+   {
+    "kind": "idle_cash",
+    "ratio": 0.1,
+    "note": "闲钱 500,000 元，占总资产 10.0%"
+   }
+  ],
+  "last_contact": {
+   "date": "2026-09-16",
+   "days_ago": 13,
+   "channel": "面访",
+   "summary": "企业主客户，关注实物资产与汇率"
+  }
+ },
+ "meta": {
+  "w_category": {
+   "CorporateEvents": 1.0,
+   "CommodityEvents": 1.0,
+   "PolicyEvents": 0.9,
+   "MacroEvents": 0.8,
+   "MarketEvents": 0.6
+  },
+  "w_scope": {
+   "entity": 1.0,
+   "sector": 0.9,
+   "macro": 0.8,
+   "market": 0.7,
+   "weak": 0.6
+  },
+  "risk_floor": {
+   "AGG": "C1",
+   "TLT": "C1",
+   "GLD": "C1",
+   "UUP": "C1",
+   "QQQ": "C2",
+   "AIQ": "C2",
+   "XLK": "C3",
+   "BOTZ": "C3",
+   "SMH": "C4",
+   "SOXX": "C4",
+   "KWEB": "C4",
+   "CQQQ": "C4",
+   "USO": "C4"
+  },
+  "rank_mode": "net",
+  "rank_rule": "default: abs(net); optional: abs(net)/sqrt(n_events) 或 abs(avg_per_event)",
+  "source": "kg_yf_v2 + exposure_v2 + customers_all_in_one"
+ },
+ "advice": [
+  "1. 风险提示：应优先提示“美联储货币政策”负暴露，因为该主题 net -12.301、rank_score -1.0747，AGG 15% 贡献 -6.709、TLT 10% 贡献 -4.473、UUP 5% 贡献 -1.118，方向为负且涉及 131 个事件/26 天。",
+  "2. 风险提示：应补充提示“国债收益率与债券市场”负暴露，因为该主题 net -1.338，AGG 15% 贡献 -0.731、TLT 10% 贡献 -0.607，方向为负且涉及 30 个事件/13 天。",
+  "3. 风险提示：应提示“股市回调与崩盘风险”负暴露，因为该主题 net -1.062，QQQ 20% 贡献 -0.874、SMH 10% 贡献 -0.118、AIQ 15% 贡献 -0.07，方向为负且涉及 25 个事件/15 天。",
+  "4. 机会：可重点讲解“AI芯片设计与设备”正暴露，因为该主题 net 1.491、rank_score 0.4304，AIQ 15% 贡献 0.615、SMH 10% 贡献 0.589、QQQ 20% 贡献 0.287，方向为正。",
+  "5. 沟通建议：鉴于客户在 2026-09-16 面访中关注实物资产与汇率且距今 13 天，建议先确认该关注点，再核对现有 GLD 15%、USO 10%、UUP 5% 持仓与 500,000 元闲置现金（总资产 5,000,000 元的 10.0%）、1,000,000 元存款 2027-03 到期安排。"
+ ]
+}

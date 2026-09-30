@@ -1,0 +1,393 @@
+{
+ "customer": {
+  "id": "C014",
+  "name": "朱雯",
+  "age": 26,
+  "city": "杭州",
+  "occupation": "互联网运营",
+  "risk_level": "C2",
+  "total_assets": 350000,
+  "idle_cash": 70000,
+  "time_deposit": 50000,
+  "deposit_maturity": "2026-12",
+  "holdings": {
+   "QQQ": 60,
+   "AIQ": 40
+  }
+ },
+ "concentration": {
+  "by_asset_class_pct": {
+   "Equity": 100.0
+  },
+  "top_holding": {
+   "ticker": "QQQ",
+   "weight_pct": 60
+  }
+ },
+ "exposure": {
+  "top_themes": [
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.118,
+    "neg": 2.927,
+    "net": -2.809,
+    "avg_per_event": -0.1123,
+    "rank_score": -0.5617,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -2.622
+     },
+     {
+      "ticker": "AIQ",
+      "net": -0.186
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "AI芯片设计与设备",
+    "n_events": 12,
+    "n_days": 7,
+    "pos": 2.501,
+    "neg": 0.0,
+    "net": 2.501,
+    "avg_per_event": 0.2084,
+    "rank_score": 0.7221,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 1.64
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.861
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 8,
+     "MarketEvents": 4
+    }
+   },
+   {
+    "theme": "AI内存与半导体技术",
+    "n_events": 15,
+    "n_days": 9,
+    "pos": 2.922,
+    "neg": 0.495,
+    "net": 2.427,
+    "avg_per_event": 0.1618,
+    "rank_score": 0.6267,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 1.592
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.836
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 12,
+     "MarketEvents": 3
+    }
+   },
+   {
+    "theme": "AI半导体供需",
+    "n_events": 12,
+    "n_days": 10,
+    "pos": 2.353,
+    "neg": 0.178,
+    "net": 2.174,
+    "avg_per_event": 0.1812,
+    "rank_score": 0.6277,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 1.426
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.749
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MacroEvents": 3,
+     "PolicyEvents": 1,
+     "MarketEvents": 2
+    }
+   },
+   {
+    "theme": "AI投资与市场动态",
+    "n_events": 27,
+    "n_days": 16,
+    "pos": 5.408,
+    "neg": 3.262,
+    "net": 2.147,
+    "avg_per_event": 0.0795,
+    "rank_score": 0.4131,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": 1.37
+     },
+     {
+      "ticker": "AIQ",
+      "net": 0.776
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 18,
+     "MacroEvents": 2,
+     "PolicyEvents": 1
+    }
+   },
+   {
+    "theme": "AI竞争格局",
+    "n_events": 7,
+    "n_days": 3,
+    "pos": 1.686,
+    "neg": 0.169,
+    "net": 1.518,
+    "avg_per_event": 0.2168,
+    "rank_score": 0.5736,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 0.927
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.591
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 1
+    }
+   }
+  ],
+  "risk_themes": [
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.118,
+    "neg": 2.927,
+    "net": -2.809,
+    "avg_per_event": -0.1123,
+    "rank_score": -0.5617,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -2.622
+     },
+     {
+      "ticker": "AIQ",
+      "net": -0.186
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "AI政策与监管",
+    "n_events": 12,
+    "n_days": 8,
+    "pos": 0.397,
+    "neg": 1.519,
+    "net": -1.121,
+    "avg_per_event": -0.0934,
+    "rank_score": -0.3237,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": -0.852
+     },
+     {
+      "ticker": "QQQ",
+      "net": -0.27
+     }
+    ],
+    "by_category": {
+     "PolicyEvents": 6,
+     "MarketEvents": 3,
+     "CorporateEvents": 1,
+     "MacroEvents": 2
+    }
+   },
+   {
+    "theme": "AI安全与风险管理",
+    "n_events": 5,
+    "n_days": 3,
+    "pos": 0.0,
+    "neg": 0.791,
+    "net": -0.791,
+    "avg_per_event": -0.1582,
+    "rank_score": -0.3536,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": -0.601
+     },
+     {
+      "ticker": "QQQ",
+      "net": -0.19
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 4,
+     "CorporateEvents": 1
+    }
+   }
+  ],
+  "opportunity_themes": [
+   {
+    "theme": "AI芯片设计与设备",
+    "n_events": 12,
+    "n_days": 7,
+    "pos": 2.501,
+    "neg": 0.0,
+    "net": 2.501,
+    "avg_per_event": 0.2084,
+    "rank_score": 0.7221,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 1.64
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.861
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 8,
+     "MarketEvents": 4
+    }
+   },
+   {
+    "theme": "AI内存与半导体技术",
+    "n_events": 15,
+    "n_days": 9,
+    "pos": 2.922,
+    "neg": 0.495,
+    "net": 2.427,
+    "avg_per_event": 0.1618,
+    "rank_score": 0.6267,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 1.592
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.836
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 12,
+     "MarketEvents": 3
+    }
+   },
+   {
+    "theme": "AI半导体供需",
+    "n_events": 12,
+    "n_days": 10,
+    "pos": 2.353,
+    "neg": 0.178,
+    "net": 2.174,
+    "avg_per_event": 0.1812,
+    "rank_score": 0.6277,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": 1.426
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.749
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MacroEvents": 3,
+     "PolicyEvents": 1,
+     "MarketEvents": 2
+    }
+   }
+  ]
+ },
+ "gaps": [],
+ "timing": {
+  "ref_date": "2026-09-29",
+  "items": [
+   {
+    "kind": "deposit_maturity",
+    "month": "2026-12",
+    "months": 3,
+    "note": "定期 50,000 元将于 2026-12 到期（约 3 个月后到期；数据只到月份，无具体日期）"
+   },
+   {
+    "kind": "idle_cash",
+    "ratio": 0.2,
+    "note": "闲钱 70,000 元，占总资产 20.0%"
+   }
+  ],
+  "last_contact": {
+   "date": "2026-09-17",
+   "days_ago": 12,
+   "channel": "微信",
+   "summary": "新手客户，讲解定投"
+  }
+ },
+ "meta": {
+  "w_category": {
+   "CorporateEvents": 1.0,
+   "CommodityEvents": 1.0,
+   "PolicyEvents": 0.9,
+   "MacroEvents": 0.8,
+   "MarketEvents": 0.6
+  },
+  "w_scope": {
+   "entity": 1.0,
+   "sector": 0.9,
+   "macro": 0.8,
+   "market": 0.7,
+   "weak": 0.6
+  },
+  "risk_floor": {
+   "AGG": "C1",
+   "TLT": "C1",
+   "GLD": "C1",
+   "UUP": "C1",
+   "QQQ": "C2",
+   "AIQ": "C2",
+   "XLK": "C3",
+   "BOTZ": "C3",
+   "SMH": "C4",
+   "SOXX": "C4",
+   "KWEB": "C4",
+   "CQQQ": "C4",
+   "USO": "C4"
+  },
+  "rank_mode": "net",
+  "rank_rule": "default: abs(net); optional: abs(net)/sqrt(n_events) 或 abs(avg_per_event)",
+  "source": "kg_yf_v2 + exposure_v2 + customers_all_in_one"
+ },
+ "advice": [
+  "1. 风险提示：先提醒朱雯“股市回调与崩盘风险”是当前组合最突出的负向暴露，因为该主题净暴露 -2.809、25 个事件，驱动来自 QQQ 的 -2.622 和 AIQ 的 -0.186，而她 QQQ 权重 60%、权益类占比 100%、风险等级 C2。",
+  "2. 风险提示：还需提示“AI政策与监管”的负向扰动，因为该主题净暴露 -1.121，驱动来自 AIQ 的 -0.852 和 QQQ 的 -0.27。",
+  "3. 机会提示：可继续围绕“AI芯片设计与设备”讲机会，因为该主题净暴露 2.501，驱动来自 AIQ 的 +1.64 和 QQQ 的 +0.861。",
+  "4. 机会提示：也可用“AI内存与半导体技术”承接 AI 主题，因为该主题净暴露 2.427，驱动来自 AIQ 的 +1.592 和 QQQ 的 +0.836。",
+  "5. 沟通节奏：2026-09-17 微信刚联系过、距今 12 天且上次是“新手客户，讲解定投”，所以这次可结合 70,000 元闲钱（占总资产 20.0%）和 2026-12 到期的 50,000 元定存，继续定投话题并落到 QQQ/AIQ 的持仓讨论，同时提示集中度。"
+ ]
+}

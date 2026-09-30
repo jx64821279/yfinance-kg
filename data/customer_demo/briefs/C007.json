@@ -1,0 +1,402 @@
+{
+ "customer": {
+  "id": "C007",
+  "name": "孙强",
+  "age": 39,
+  "city": "成都",
+  "occupation": "自动化设备公司销售总监",
+  "risk_level": "C3",
+  "total_assets": 2200000,
+  "idle_cash": 180000,
+  "time_deposit": 400000,
+  "deposit_maturity": "2027-05",
+  "holdings": {
+   "BOTZ": 25,
+   "QQQ": 25,
+   "XLK": 20,
+   "AGG": 20,
+   "GLD": 10
+  }
+ },
+ "concentration": {
+  "by_asset_class_pct": {
+   "Equity": 70.0,
+   "FixedIncome": 20.0,
+   "Commodity": 10.0
+  },
+  "top_holding": {
+   "ticker": "BOTZ",
+   "weight_pct": 25
+  }
+ },
+ "exposure": {
+  "top_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 0.862,
+    "neg": 9.808,
+    "net": -8.946,
+    "avg_per_event": -0.0683,
+    "rank_score": -0.7816,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -8.946
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.062,
+    "neg": 1.523,
+    "net": -1.461,
+    "avg_per_event": -0.0584,
+    "rank_score": -0.2922,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -1.093
+     },
+     {
+      "ticker": "XLK",
+      "net": -0.297
+     },
+     {
+      "ticker": "BOTZ",
+      "net": -0.072
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 0.602,
+    "neg": 1.577,
+    "net": -0.974,
+    "avg_per_event": -0.0325,
+    "rank_score": -0.1779,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -0.974
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "AI竞争格局",
+    "n_events": 7,
+    "n_days": 3,
+    "pos": 1.037,
+    "neg": 0.104,
+    "net": 0.933,
+    "avg_per_event": 0.1333,
+    "rank_score": 0.3527,
+    "drivers": [
+     {
+      "ticker": "XLK",
+      "net": 0.609
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.246
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.078
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 1
+    }
+   },
+   {
+    "theme": "AI芯片设计与设备",
+    "n_events": 12,
+    "n_days": 7,
+    "pos": 0.866,
+    "neg": 0.0,
+    "net": 0.866,
+    "avg_per_event": 0.0722,
+    "rank_score": 0.2501,
+    "drivers": [
+     {
+      "ticker": "XLK",
+      "net": 0.362
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.359
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.146
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 8,
+     "MarketEvents": 4
+    }
+   },
+   {
+    "theme": "AI内存与半导体技术",
+    "n_events": 15,
+    "n_days": 9,
+    "pos": 1.012,
+    "neg": 0.172,
+    "net": 0.841,
+    "avg_per_event": 0.056,
+    "rank_score": 0.217,
+    "drivers": [
+     {
+      "ticker": "XLK",
+      "net": 0.351
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.348
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.142
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 12,
+     "MarketEvents": 3
+    }
+   }
+  ],
+  "risk_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 0.862,
+    "neg": 9.808,
+    "net": -8.946,
+    "avg_per_event": -0.0683,
+    "rank_score": -0.7816,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -8.946
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.062,
+    "neg": 1.523,
+    "net": -1.461,
+    "avg_per_event": -0.0584,
+    "rank_score": -0.2922,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -1.093
+     },
+     {
+      "ticker": "XLK",
+      "net": -0.297
+     },
+     {
+      "ticker": "BOTZ",
+      "net": -0.072
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 0.602,
+    "neg": 1.577,
+    "net": -0.974,
+    "avg_per_event": -0.0325,
+    "rank_score": -0.1779,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -0.974
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   }
+  ],
+  "opportunity_themes": [
+   {
+    "theme": "AI竞争格局",
+    "n_events": 7,
+    "n_days": 3,
+    "pos": 1.037,
+    "neg": 0.104,
+    "net": 0.933,
+    "avg_per_event": 0.1333,
+    "rank_score": 0.3527,
+    "drivers": [
+     {
+      "ticker": "XLK",
+      "net": 0.609
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.246
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.078
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 1
+    }
+   },
+   {
+    "theme": "AI芯片设计与设备",
+    "n_events": 12,
+    "n_days": 7,
+    "pos": 0.866,
+    "neg": 0.0,
+    "net": 0.866,
+    "avg_per_event": 0.0722,
+    "rank_score": 0.2501,
+    "drivers": [
+     {
+      "ticker": "XLK",
+      "net": 0.362
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.359
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.146
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 8,
+     "MarketEvents": 4
+    }
+   },
+   {
+    "theme": "AI内存与半导体技术",
+    "n_events": 15,
+    "n_days": 9,
+    "pos": 1.012,
+    "neg": 0.172,
+    "net": 0.841,
+    "avg_per_event": 0.056,
+    "rank_score": 0.217,
+    "drivers": [
+     {
+      "ticker": "XLK",
+      "net": 0.351
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.348
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.142
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 12,
+     "MarketEvents": 3
+    }
+   }
+  ]
+ },
+ "gaps": [],
+ "timing": {
+  "ref_date": "2026-09-29",
+  "items": [
+   {
+    "kind": "idle_cash",
+    "ratio": 0.082,
+    "note": "闲钱 180,000 元，占总资产 8.2%"
+   }
+  ],
+  "last_contact": {
+   "date": "2026-09-15",
+   "days_ago": 14,
+   "channel": "面访",
+   "summary": "客户从事自动化行业，想了解机器人主题"
+  }
+ },
+ "meta": {
+  "w_category": {
+   "CorporateEvents": 1.0,
+   "CommodityEvents": 1.0,
+   "PolicyEvents": 0.9,
+   "MacroEvents": 0.8,
+   "MarketEvents": 0.6
+  },
+  "w_scope": {
+   "entity": 1.0,
+   "sector": 0.9,
+   "macro": 0.8,
+   "market": 0.7,
+   "weak": 0.6
+  },
+  "risk_floor": {
+   "AGG": "C1",
+   "TLT": "C1",
+   "GLD": "C1",
+   "UUP": "C1",
+   "QQQ": "C2",
+   "AIQ": "C2",
+   "XLK": "C3",
+   "BOTZ": "C3",
+   "SMH": "C4",
+   "SOXX": "C4",
+   "KWEB": "C4",
+   "CQQQ": "C4",
+   "USO": "C4"
+  },
+  "rank_mode": "net",
+  "rank_rule": "default: abs(net); optional: abs(net)/sqrt(n_events) 或 abs(avg_per_event)",
+  "source": "kg_yf_v2 + exposure_v2 + customers_all_in_one"
+ },
+ "advice": [
+  "1. 【风险】应重点提示美联储货币政策对 AGG 的负暴露，因为 AGG 权重 20%、该主题净暴露 -8.946，覆盖 131 个事件和 26 天，平均每次 -0.0683。",
+  "2. 【风险】应重点提示股市回调与崩盘风险对权益仓位的负暴露，因为 QQQ 25%、XLK 20%、BOTZ 25% 是该主题 drivers，主题净 -1.461、25 个事件和 15 天，其中 QQQ -1.093、XLK -0.297、BOTZ -0.072。",
+  "3. 【风险】应提示国债收益率与债券市场对 AGG 的负暴露，因为 AGG 权重 20%、该主题净 -0.974，30 个事件和 13 天，平均每次 -0.0325。",
+  "4. 【机会】可优先围绕 AI 竞争格局做正向沟通，因为 XLK 20%、QQQ 25%、BOTZ 25% 是该主题 drivers，主题净 +0.933、7 个事件和 3 天，平均每次 +0.1333。",
+  "5. 【机会】可结合 2026-09-15 面访已联系过（距今 14 天）且客户想了解机器人主题，以及 180,000 元闲钱占总资产 8.2% 的背景，从 BOTZ 25% 持仓切入，并再谈 AI 芯片设计与设备、AI 内存与半导体技术均由 XLK 20%、QQQ 25%、BOTZ 25% 驱动的正暴露（净 +0.866 和 +0.841）。"
+ ]
+}

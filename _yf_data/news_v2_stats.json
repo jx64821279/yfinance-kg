@@ -1,0 +1,88 @@
+{
+  "fetched_at": "2026-09-29 18:04",
+  "window": "when:30d",
+  "channels": {
+    "wide": {
+      "raw": 1000,
+      "deduped": 980,
+      "duplicates": 20,
+      "date_min": "2026-08-31",
+      "date_max": "2026-09-29",
+      "matched": {
+        "entity": 138,
+        "product": 301,
+        "macro": 145,
+        "none": 396
+      },
+      "unmatched_examples": [
+        "Wall Street money takes back over from small investors as driving force of the stock marke",
+        "Here are the 4 big things we're watching in the stock market in the week ahead - CNBC",
+        "Fearless US stock market vulnerable to shocks as midterms loom - Reuters",
+        "Is the stock market open on Labor Day? - Yahoo Finance",
+        "Buffett steps down, Wall Street bounces back, 2027 'truck wars' and more in Morning Squawk",
+        "Explainer: Why Turkey's stock market is under scrutiny after last week's selloff - Reuters",
+        "The Stock Market Is Triggering a Warning Seen Only Once Before, and Warren Buffett Has a S",
+        "Stock Market Today (Sept. 2, 2026): S&amp;P 500, Dow jump after back-to-back losing days -"
+      ],
+      "macro_examples": [
+        "The stock market could do something strange this week after the Fed decision - CNBC",
+        "What a Fed Rate Hike Could Mean for US Stocks - goldmansachs.com",
+        "Stocks Soar as Fed Uncertainty Fades: Stock Market Today - Kiplinger"
+      ]
+    },
+    "topic": {
+      "raw": 106,
+      "deduped": 106,
+      "duplicates": 0,
+      "date_min": "2026-09-25",
+      "date_max": "2026-09-29",
+      "matched": {
+        "entity": 16,
+        "product": 7,
+        "macro": 1,
+        "none": 82
+      },
+      "unmatched_examples": [
+        "OpenAI cancels release of AI model GPT-6.1 Astra, citing safety concerns - Al Jazeera",
+        "US Hits Canada With Ban on Some Dairy and Liquor Products - The New York Times",
+        "‘No definitive timeline’ for David Solomon to step down as CEO, says Goldman Sachs - Finan",
+        "Move Over, SpaceX. Anthropic Will Soon Go Public. Why It Could Be Critical for AI Stocks -",
+        "FAA: Boeing 737 MAX 10 Certification Will Be Delayed Again Until It Is \"Satisfied\" With So",
+        "AI Faces $6 Trillion Test to Justify Data Centers, Bain Says - Bloomberg.com",
+        "Trump says new fuel economy rules will cut car prices. Analysts are doubtful. - washington",
+        "SpaceX’s Starship goes orbital, deploying first next-gen Starlinks - Ars Technica"
+      ],
+      "macro_examples": [
+        "Student Loan Borrowers Can Get 1% Interest Rate Cut But Must Act By Wednesday: Here’s How "
+      ]
+    },
+    "entity": {
+      "raw": 263,
+      "deduped": 234,
+      "duplicates": 29,
+      "date_min": "2026-07-01",
+      "date_max": "2026-09-29",
+      "matched": {
+        "entity": 79,
+        "product": 47,
+        "macro": 6,
+        "none": 102
+      },
+      "unmatched_examples": [
+        "Teva Pharmaceutical: 3 Numbers That Explain This Generic-Drug Turnaround",
+        "These Cryptocurrencies Have Become Wall Street Favorites and Deserve a Place in Your Portf",
+        "3 Numbers That Explain Bristol Myers Squibb's Dirt Cheap Valuation",
+        "Binance Just Invested $100 Million in Circle Internet Group. Here's What It Really Means",
+        "The Stock Market Sounds an Alarm After Warren Buffett Issues a Warning. History Says This ",
+        "2 Wall Street Analysts Think Vertex Pharmaceuticals Stock Can Soar Another 20% or More Ove",
+        "The Stock Market Is Repeating a Pattern Seen Only Once in the Past 100 Years. Here's What ",
+        "CRISPR Therapeutics Has 2 Key Catalysts Coming by the End of 2026. Is the Market Underesti"
+      ],
+      "macro_examples": [
+        "Mounting US Budget Deficit Complicates Fed’s Interest Rate Choices",
+        "Michael Burry Weighs Peter Schiff’s S&P 500 Crash Warning As UBS Flags Fed Risk — Rare Oct",
+        "This 2X ETF Was Made for Higher Interest Rates. Should You Buy Before the Next Fed Hike?"
+      ]
+    }
+  }
+}

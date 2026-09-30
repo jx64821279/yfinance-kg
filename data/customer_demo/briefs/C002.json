@@ -1,0 +1,350 @@
+{
+ "customer": {
+  "id": "C002",
+  "name": "王秀兰",
+  "age": 65,
+  "city": "苏州",
+  "occupation": "退休（中学教师）",
+  "risk_level": "C1",
+  "total_assets": 2100000,
+  "idle_cash": 60000,
+  "time_deposit": 1200000,
+  "deposit_maturity": "2026-12",
+  "holdings": {
+   "AGG": 50,
+   "TLT": 25,
+   "GLD": 15,
+   "UUP": 10
+  }
+ },
+ "concentration": {
+  "by_asset_class_pct": {
+   "FixedIncome": 75.0,
+   "Commodity": 15.0,
+   "FX": 10.0
+  },
+  "top_holding": {
+   "ticker": "AGG",
+   "weight_pct": 50
+  }
+ },
+ "exposure": {
+  "top_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 3.446,
+    "neg": 39.23,
+    "net": -35.784,
+    "avg_per_event": -0.2732,
+    "rank_score": -3.1265,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -22.365
+     },
+     {
+      "ticker": "TLT",
+      "net": -11.182
+     },
+     {
+      "ticker": "UUP",
+      "net": -2.237
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 2.109,
+    "neg": 6.063,
+    "net": -3.954,
+    "avg_per_event": -0.1318,
+    "rank_score": -0.7219,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -2.436
+     },
+     {
+      "ticker": "TLT",
+      "net": -1.518
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "全球央行政策",
+    "n_events": 11,
+    "n_days": 7,
+    "pos": 0.632,
+    "neg": 1.638,
+    "net": -1.006,
+    "avg_per_event": -0.0915,
+    "rank_score": -0.3034,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -0.774
+     },
+     {
+      "ticker": "TLT",
+      "net": -0.129
+     },
+     {
+      "ticker": "UUP",
+      "net": -0.103
+     }
+    ],
+    "by_category": {
+     "PolicyEvents": 9,
+     "MacroEvents": 2
+    }
+   },
+   {
+    "theme": "全球地缘政治风险",
+    "n_events": 14,
+    "n_days": 6,
+    "pos": 0.21,
+    "neg": 0.587,
+    "net": -0.377,
+    "avg_per_event": -0.0269,
+    "rank_score": -0.1008,
+    "drivers": [
+     {
+      "ticker": "GLD",
+      "net": -0.226
+     },
+     {
+      "ticker": "UUP",
+      "net": -0.151
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 4,
+     "MacroEvents": 2,
+     "MarketEvents": 2,
+     "PolicyEvents": 6
+    }
+   },
+   {
+    "theme": "黄金与贵金属",
+    "n_events": 67,
+    "n_days": 18,
+    "pos": 0.765,
+    "neg": 0.964,
+    "net": -0.198,
+    "avg_per_event": -0.003,
+    "rank_score": -0.0242,
+    "drivers": [
+     {
+      "ticker": "GLD",
+      "net": -0.198
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 58,
+     "MacroEvents": 3,
+     "PolicyEvents": 2,
+     "CorporateEvents": 3,
+     "CommodityEvents": 1
+    }
+   },
+   {
+    "theme": "美元与外汇",
+    "n_events": 1,
+    "n_days": 1,
+    "pos": 0.016,
+    "neg": 0.0,
+    "net": 0.016,
+    "avg_per_event": 0.0162,
+    "rank_score": 0.0162,
+    "drivers": [
+     {
+      "ticker": "UUP",
+      "net": 0.016
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 1
+    }
+   }
+  ],
+  "risk_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 3.446,
+    "neg": 39.23,
+    "net": -35.784,
+    "avg_per_event": -0.2732,
+    "rank_score": -3.1265,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -22.365
+     },
+     {
+      "ticker": "TLT",
+      "net": -11.182
+     },
+     {
+      "ticker": "UUP",
+      "net": -2.237
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 2.109,
+    "neg": 6.063,
+    "net": -3.954,
+    "avg_per_event": -0.1318,
+    "rank_score": -0.7219,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -2.436
+     },
+     {
+      "ticker": "TLT",
+      "net": -1.518
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "全球央行政策",
+    "n_events": 11,
+    "n_days": 7,
+    "pos": 0.632,
+    "neg": 1.638,
+    "net": -1.006,
+    "avg_per_event": -0.0915,
+    "rank_score": -0.3034,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -0.774
+     },
+     {
+      "ticker": "TLT",
+      "net": -0.129
+     },
+     {
+      "ticker": "UUP",
+      "net": -0.103
+     }
+    ],
+    "by_category": {
+     "PolicyEvents": 9,
+     "MacroEvents": 2
+    }
+   }
+  ],
+  "opportunity_themes": [
+   {
+    "theme": "美元与外汇",
+    "n_events": 1,
+    "n_days": 1,
+    "pos": 0.016,
+    "neg": 0.0,
+    "net": 0.016,
+    "avg_per_event": 0.0162,
+    "rank_score": 0.0162,
+    "drivers": [
+     {
+      "ticker": "UUP",
+      "net": 0.016
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 1
+    }
+   }
+  ]
+ },
+ "gaps": [],
+ "timing": {
+  "ref_date": "2026-09-29",
+  "items": [
+   {
+    "kind": "deposit_maturity",
+    "month": "2026-12",
+    "months": 3,
+    "note": "定期 1,200,000 元将于 2026-12 到期（约 3 个月后到期；数据只到月份，无具体日期）"
+   }
+  ],
+  "last_contact": {
+   "date": "2026-09-12",
+   "days_ago": 17,
+   "channel": "电话",
+   "summary": "提醒 12 月定期到期，沟通续存与产品衔接"
+  }
+ },
+ "meta": {
+  "w_category": {
+   "CorporateEvents": 1.0,
+   "CommodityEvents": 1.0,
+   "PolicyEvents": 0.9,
+   "MacroEvents": 0.8,
+   "MarketEvents": 0.6
+  },
+  "w_scope": {
+   "entity": 1.0,
+   "sector": 0.9,
+   "macro": 0.8,
+   "market": 0.7,
+   "weak": 0.6
+  },
+  "risk_floor": {
+   "AGG": "C1",
+   "TLT": "C1",
+   "GLD": "C1",
+   "UUP": "C1",
+   "QQQ": "C2",
+   "AIQ": "C2",
+   "XLK": "C3",
+   "BOTZ": "C3",
+   "SMH": "C4",
+   "SOXX": "C4",
+   "KWEB": "C4",
+   "CQQQ": "C4",
+   "USO": "C4"
+  },
+  "rank_mode": "net",
+  "rank_rule": "default: abs(net); optional: abs(net)/sqrt(n_events) 或 abs(avg_per_event)",
+  "source": "kg_yf_v2 + exposure_v2 + customers_all_in_one"
+ },
+ "advice": [
+  "**风险提示：**",
+  "1. 建议优先向客户解释其对“美联储货币政策”的最大负暴露，因为该主题 net -35.784、131 个事件/26 天，drivers 为 AGG -22.365、TLT -11.182、UUP -2.237，且 AGG/TLT/UUP 权重分别为 50%/25%/10%。",
+  "2. 建议提示“国债收益率与债券市场”和“全球央行政策”的负暴露与固定收益集中度叠加，因为两者 net 分别为 -3.954、-1.006，drivers 分别为 AGG -2.436/TLT -1.518 与 AGG -0.774/TLT -0.129/UUP -0.103，且 FixedIncome 占比 75.0%、AGG 为最高持仓 50%。",
+  "3. 建议提示“全球地缘政治风险”和“黄金与贵金属”下 GLD 的负暴露，因为两者 net 分别为 -0.377（drivers GLD -0.226、UUP -0.151）和 -0.198（drivers GLD -0.198），GLD 权重为 15%。",
+  "**机会：**",
+  "4. 建议把“美元与外汇”作为有限正暴露机会来沟通，因为该主题 net +0.016、仅 1 个事件/1 天，drivers 为 UUP +0.016，UUP 权重为 10%，但不宜过度解读。",
+  "**沟通动作：**",
+  "5. 建议承接 2026-09-12 电话（17 天前）的提醒，围绕 2026-12 到期的定期 1,200,000 元（约 3 个月后，数据只到月份）做续存与现有 AGG/TLT/GLD/UUP 持仓衔接沟通，并匹配其 C1、总资产 2,100,000 元和闲置现金 60,000 元。"
+ ]
+}

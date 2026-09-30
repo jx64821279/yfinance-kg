@@ -1,0 +1,2842 @@
+{
+  "out_of_window": [
+    {
+      "title": "Meituan Returns to Profit as Food-Delivery Competition Eases",
+      "link": "https://finance.yahoo.com/m/68bde5e4-e8ad-383b-9d11-c51cdcfd4918/meituan-returns-to-profit-as.html",
+      "date": "2026-08-28",
+      "publisher": "The Wall Street Journal",
+      "relatedTickers": [
+        "3690.HK",
+        "BABA",
+        "JD",
+        "83690.HK"
+      ],
+      "channel": "entity",
+      "query": "JD",
+      "group": "JD"
+    },
+    {
+      "title": "China E-Commerce Stocks Sink While Baidu Climbs 4%: Alibaba Falls 4%, PDD Holdings Declines 3%",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/china-e-commerce-stocks-sink-181427714.html",
+      "date": "2026-08-27",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "BABA",
+        "JD",
+        "PDD",
+        "BIDU",
+        "^GSPC",
+        "SPY",
+        "JD"
+      ],
+      "channel": "entity",
+      "query": "JD",
+      "group": "JD"
+    },
+    {
+      "title": "The Zacks Analyst Blog Highlights NVIDIA,CHAT, AIS, AIQ,  QTUM, ROBO and  IGPT",
+      "link": "https://finance.yahoo.com/technology/ai/articles/zacks-analyst-blog-highlights-nvidia-073200726.html",
+      "date": "2026-08-28",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "AIQ",
+        "NVDA",
+        "AIS",
+        "QTUM",
+        "IGPT",
+        "ROBO",
+        "CHAT"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ"
+    },
+    {
+      "title": "NVIDIA Raises the Bar on AI Growth: AI ETFs to Win",
+      "link": "https://finance.yahoo.com/technology/ai/articles/nvidia-raises-bar-ai-growth-125000689.html",
+      "date": "2026-08-27",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "NVDA",
+        "QTUM",
+        "AIQ",
+        "ROBO",
+        "IGPT",
+        "CHAT",
+        "AIS"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ"
+    },
+    {
+      "title": "Gorilla Technology Rises 3% as AI Infrastructure Momentum Builds: How GRRR Compares With Palantir",
+      "link": "https://finance.yahoo.com/technology/ai/articles/gorilla-technology-rises-3-ai-172605828.html",
+      "date": "2026-08-18",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "PLTR",
+        "GRRR",
+        "AIQ",
+        "NVDA"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ"
+    },
+    {
+      "title": "A Guide to Investing in AI ETFs",
+      "link": "https://finance.yahoo.com/technology/ai/articles/guide-investing-ai-etfs-125300291.html",
+      "date": "2026-08-13",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "AIQ",
+        "BOTZ",
+        "NVDA",
+        "THNQ",
+        "CHAT",
+        "WTAI",
+        "META",
+        "PLTR",
+        "ROBT"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ"
+    },
+    {
+      "title": "You Skipped the AI Rally Because Retirement Felt Too Close. These 3 ETFs Get You In Without Betting Your Nest Egg",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/skipped-ai-rally-because-retirement-213522102.html",
+      "date": "2026-08-12",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "QQQ",
+        "SMH",
+        "AIQ"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ"
+    },
+    {
+      "title": "Where to Invest in AI in 2026: A Guide for Advisors",
+      "link": "https://finance.yahoo.com/technology/ai/articles/where-invest-ai-2026-guide-030049481.html",
+      "date": "2026-08-07",
+      "publisher": "etf.com",
+      "relatedTickers": [
+        "NVDA",
+        "AVGO",
+        "MSFT",
+        "AMZN",
+        "GOOG",
+        "ROBO",
+        "BOTZ",
+        "BAI",
+        "AIQ",
+        "PQUS"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ"
+    },
+    {
+      "title": "After Comparing Every AI ETF, These 3 Beat the Nasdaq Without Betting on a Single Stock",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/comparing-every-ai-etf-3-170639618.html",
+      "date": "2026-08-03",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "IGPT",
+        "AIQ"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ"
+    },
+    {
+      "title": "AI ETFs Have Now Become a $65 Billion Market",
+      "link": "https://finance.yahoo.com/markets/options/articles/ai-etfs-now-become-65-040300072.html",
+      "date": "2026-07-27",
+      "publisher": "The Daily Upside",
+      "relatedTickers": [
+        "AIQ",
+        "BAI"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ"
+    },
+    {
+      "title": "Mounting US Budget Deficit Complicates Fed’s Interest Rate Choices",
+      "link": "https://finance.yahoo.com/economy/policy/articles/mounting-us-budget-deficit-complicates-040100599.html",
+      "date": "2026-07-27",
+      "publisher": "The Daily Upside",
+      "relatedTickers": [
+        "BAI",
+        "AIQ"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ"
+    },
+    {
+      "title": "Think the AI Bull Market Is Just Getting Started? These 3 ETFs Are Positioned for the Next Leg",
+      "link": "https://finance.yahoo.com/technology/ai/articles/think-ai-bull-market-just-183319768.html",
+      "date": "2026-07-16",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "VITAX",
+        "AIQ",
+        "SMH"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ"
+    },
+    {
+      "title": "AIQ Gained 25% While Everyone Was Busy Watching ANET",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/aiq-gained-25-while-everyone-202657836.html",
+      "date": "2026-07-13",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "ANET",
+        "AIQ"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ"
+    },
+    {
+      "title": "Alibaba Sinks 7% as a 75% Capex Surge Swallows 45% Cloud Growth; Baidu Ticks Up",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/alibaba-sinks-7-75-capex-154347067.html",
+      "date": "2026-08-21",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "BABA",
+        "NVDA",
+        "PDD",
+        "BIDU",
+        "JD",
+        "KWEB"
+      ],
+      "channel": "entity",
+      "query": "KWEB",
+      "group": "KWEB"
+    },
+    {
+      "title": "Baidu Sinks 13% as Soft Results Put AI Pivot to the Test: How Alibaba and Chinese Tech Stocks Compare",
+      "link": "https://finance.yahoo.com/technology/ai/articles/baidu-sinks-13-soft-results-171813626.html",
+      "date": "2026-08-18",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "BABA",
+        "NVDA",
+        "BIDU",
+        "KWEB"
+      ],
+      "channel": "entity",
+      "query": "KWEB",
+      "group": "KWEB"
+    },
+    {
+      "title": "Billionaire Investor David Tepper Just Exited 12 Stocks. These 5 Are the Most Surprising.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/billionaire-investor-david-tepper-just-214351429.html",
+      "date": "2026-08-16",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "MU",
+        "LHX",
+        "BABA",
+        "BIDU",
+        "KWEB",
+        "JD",
+        "MSFT",
+        "SNDK",
+        "PDD",
+        "GLW",
+        "RTX",
+        "LYFT"
+      ],
+      "channel": "entity",
+      "query": "KWEB",
+      "group": "KWEB"
+    },
+    {
+      "title": "Best-Performing ETF Areas of July 2026",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/best-performing-etf-areas-july-120000531.html",
+      "date": "2026-08-04",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "KWEB",
+        "BWET",
+        "SMH",
+        "BNO",
+        "MAGC"
+      ],
+      "channel": "entity",
+      "query": "KWEB",
+      "group": "KWEB"
+    },
+    {
+      "title": "Moonshot AI Raises the Stakes for Big Tech? ETFs in Focus",
+      "link": "https://finance.yahoo.com/technology/ai/articles/moonshot-ai-raises-stakes-big-140000005.html",
+      "date": "2026-07-28",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "KWEB",
+        "KTEC"
+      ],
+      "channel": "entity",
+      "query": "KWEB",
+      "group": "KWEB"
+    },
+    {
+      "title": "Is This KWEB Plunge A Bargain Or A Trap?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/kweb-plunge-bargain-trap-121048462.html",
+      "date": "2026-07-24",
+      "publisher": "Trefis",
+      "relatedTickers": [
+        "KWEB",
+        "QQQ",
+        "SPY",
+        "IWM",
+        "DIA"
+      ],
+      "channel": "entity",
+      "query": "KWEB",
+      "group": "KWEB"
+    },
+    {
+      "title": "Veteran Investor: China’s Full Stack AI Is “Overlooked and Underpriced” As $2 Billion Kling Deal Signals Repricing",
+      "link": "https://finance.yahoo.com/technology/ai/articles/veteran-investor-china-full-stack-231739346.html",
+      "date": "2026-07-03",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "KWEB",
+        "CQQQ"
+      ],
+      "channel": "entity",
+      "query": "KWEB",
+      "group": "KWEB"
+    },
+    {
+      "title": "Veteran Investor: China’s Full Stack AI Is “Overlooked and Underpriced” As $2 Billion Kling Deal Signals Repricing",
+      "link": "https://finance.yahoo.com/technology/ai/articles/veteran-investor-china-full-stack-231739346.html",
+      "date": "2026-07-03",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "KWEB",
+        "CQQQ"
+      ],
+      "channel": "entity",
+      "query": "CQQQ",
+      "group": "CQQQ"
+    },
+    {
+      "title": "$100,000 in TLT at the 2020 Peak Is Down More Than 40% Today, Even After Every Monthly Check",
+      "link": "https://finance.yahoo.com/markets/options/articles/100-000-tlt-2020-peak-222508659.html",
+      "date": "2026-08-28",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "TLT",
+        "AGG",
+        "VLGSX",
+        "SPTL"
+      ],
+      "channel": "entity",
+      "query": "AGG",
+      "group": "AGG"
+    },
+    {
+      "title": "Barron’s Advisor Big Q: What to Clients Need to Know About Spiking Bond Yields",
+      "link": "https://finance.yahoo.com/m/8990f5f0-253f-39c7-8651-9b7140e9cf8e/barron%E2%80%99s-advisor-big-q%3A-what.html",
+      "date": "2026-08-27",
+      "publisher": "Barrons.com",
+      "relatedTickers": [
+        "^TYX",
+        "AGG",
+        "IEF",
+        "^GSPC",
+        "TLT"
+      ],
+      "channel": "entity",
+      "query": "AGG",
+      "group": "AGG"
+    },
+    {
+      "title": "Teachers, Cops, and Firefighters Just Got Their Full Social Security Back. These 3 ETFs Turn the Back Pay Into a Raise",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/teachers-cops-firefighters-just-got-215559238.html",
+      "date": "2026-08-17",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "DGRW",
+        "AGG",
+        "DGRO"
+      ],
+      "channel": "entity",
+      "query": "AGG",
+      "group": "AGG"
+    },
+    {
+      "title": "Geopolitical Risks Lift Oil Prices: 4 ETFs to Watch",
+      "link": "https://finance.yahoo.com/energy/articles/geopolitical-risks-lift-oil-prices-142600360.html",
+      "date": "2026-08-28",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "CL=F",
+        "USO",
+        "DBO",
+        "XLE",
+        "OIH"
+      ],
+      "channel": "entity",
+      "query": "USO",
+      "group": "USO"
+    },
+    {
+      "title": "GLD, IBIT and Other ETFs to Play Debasement Trade",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gld-ibit-other-etfs-play-122900313.html",
+      "date": "2026-08-26",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "IBIT",
+        "GC=F",
+        "FXE",
+        "SLV",
+        "UUP",
+        "GDX",
+        "BPRO",
+        "GLD"
+      ],
+      "channel": "entity",
+      "query": "UUP",
+      "group": "UUP"
+    },
+    {
+      "title": "Dollar at 3-Month Lows on Treasury Buyback Plans: ETF Strategies to Play",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/dollar-3-month-lows-treasury-130000835.html",
+      "date": "2026-08-24",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "DX-Y.NYB",
+        "DBC",
+        "VWO",
+        "GLD",
+        "SPY",
+        "UUP",
+        "UDN"
+      ],
+      "channel": "entity",
+      "query": "UUP",
+      "group": "UUP"
+    },
+    {
+      "title": "Best-Performing Leveraged ETF Areas of Last Week",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/best-performing-leveraged-etf-areas-120000930.html",
+      "date": "2026-08-24",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "DX-Y.NYB",
+        "^GSPC",
+        "^IXIC",
+        "^DJI",
+        "^RUT",
+        "XRP",
+        "MRNY",
+        "XRPT",
+        "UUP",
+        "MRNX",
+        "TEMC",
+        "MSTC",
+        "ETHU",
+        "TEMT",
+        "MSTP",
+        "STRK",
+        "MRNA",
+        "TEM"
+      ],
+      "channel": "entity",
+      "query": "UUP",
+      "group": "UUP"
+    },
+    {
+      "title": "U.S. Dollar to Slip Ahead? ETFs in Focus",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/u-dollar-slip-ahead-etfs-150000297.html",
+      "date": "2026-08-14",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "DBC",
+        "VWO",
+        "SPY",
+        "UDN",
+        "UUP",
+        "GLD"
+      ],
+      "channel": "entity",
+      "query": "UUP",
+      "group": "UUP"
+    },
+    {
+      "title": "What Lies Ahead for the U.S. Dollar? ETFs to Play Greenback's Outlook",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/lies-ahead-u-dollar-etfs-165900216.html",
+      "date": "2026-08-07",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "DX-Y.NYB",
+        "UDN",
+        "UUP",
+        "CEW",
+        "USDU"
+      ],
+      "channel": "entity",
+      "query": "UUP",
+      "group": "UUP"
+    },
+    {
+      "title": "Is The Rally in Wheat ETF Overdone?",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/rally-wheat-etf-overdone-160000764.html",
+      "date": "2026-07-21",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "ZW=F",
+        "UUP",
+        "WEAT"
+      ],
+      "channel": "entity",
+      "query": "UUP",
+      "group": "UUP"
+    },
+    {
+      "title": "Are the Odds of a Fed Rate Hike Rising? ETFs Worth Watching Now",
+      "link": "https://finance.yahoo.com/economy/policy/articles/odds-fed-rate-hike-rising-145000549.html",
+      "date": "2026-07-10",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "GLL",
+        "UUP",
+        "XLP",
+        "VIVAX",
+        "VIVIX",
+        "VTV",
+        "VVIAX",
+        "USDU",
+        "IVE",
+        "IYK"
+      ],
+      "channel": "entity",
+      "query": "UUP",
+      "group": "UUP"
+    },
+    {
+      "title": "Is Invesco DB US Dollar Index Bullish ETF (UUP) a Strong ETF Right Now?",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/invesco-db-us-dollar-index-102002486.html",
+      "date": "2026-07-08",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "DX-Y.NYB",
+        "UUP"
+      ],
+      "channel": "entity",
+      "query": "UUP",
+      "group": "UUP"
+    },
+    {
+      "title": "The Zacks Analyst Blog Highlights UUP, USDU, UDN and CEW",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/zacks-analyst-blog-highlights-uup-130100612.html",
+      "date": "2026-07-02",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "USDU",
+        "CEW",
+        "UDN",
+        "UUP"
+      ],
+      "channel": "entity",
+      "query": "UUP",
+      "group": "UUP"
+    },
+    {
+      "title": "What Lies Ahead for the U.S. Dollar? ETFs That Investors May Consider",
+      "link": "https://finance.yahoo.com/markets/currencies/articles/lies-ahead-u-dollar-etfs-152900143.html",
+      "date": "2026-07-01",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "DX-Y.NYB",
+        "CL=F",
+        "USDU",
+        "CEW",
+        "UDN",
+        "UUP"
+      ],
+      "channel": "entity",
+      "query": "UUP",
+      "group": "UUP"
+    }
+  ],
+  "off_topic": [
+    {
+      "title": "Real-Time Prices, Charts &amp; News | Deutsche Börse: Xetra &amp; Frankfurt - Börse Frankfurt",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9YcEhGeXZVeExwczNZZE5YcU54aWlVSE9WYWVMU3RrVVc3VXg2c2xZeW1NZm9OYktkNnltRVRad0NJMjZldWlhbUNRZw?oc=5",
+      "date": "2026-09-26",
+      "publisher": "Börse Frankfurt",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market"
+    },
+    {
+      "title": "Bringing World Models to Booth (WM@Booth) - The University of Chicago Booth School of Business",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTm9CRWRRRlh5REhUYVZPOFR6OHBqekdpV1ZvUE8zOEZHaUd0Q1ZmVzlfVkMwTEhQOEQ2WjJrREl0dzR0RmlBWUxtUnJ4dUNKUFdzREplOEkxTGNmZWtEc2xvNFU3U1k4X0JQR1FiRUs4TkdTVWNZOU43VDJPVHJkOWNJMnpaNGRCNkJPb3FRUmRHVWx3dFJHR2RkSGZKa0dPeTByOUFqWkxwck5DY3dKVFY3aHVGQQ?oc=5",
+      "date": "2026-09-21",
+      "publisher": "The University of Chicago Booth School of Business",
+      "channel": "wide",
+      "query": "artificial intelligence when:30d",
+      "group": "artificial intelligence"
+    },
+    {
+      "title": "UNESCO opens third edition of its course on digital citizenship and - UNESCO",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQU5fZXF6Sm5TRmt4VGVmMlpoUW1xMGs1UXMyVlI0V2FmWmlIaGI2NUtZTzNKNHFNZmlUYS1Yc3FnU2NiOVhTaGZ2UXExX3lURmdMeUo5eFhJVkNadkh4bkphODYyQ0d5SzJSQkJRZWRUNG5XOVR5QktRamM4c3NNLVRnd0JORFNVVktSLXI0R21xb0xVR3l2bjViWmlMNjE2YVRpeEphUXpGc25TQ0xHNktqRi1mMUw1ekdCcl9mZC1BLVUwNVd2bg?oc=5",
+      "date": "2026-09-28",
+      "publisher": "UNESCO",
+      "channel": "wide",
+      "query": "artificial intelligence when:30d",
+      "group": "artificial intelligence"
+    },
+    {
+      "title": "AAA Fuel Prices - AAA Gas Prices",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OMkJLeFVTVUtsS1BFUTNTdE5tQ1RReVJwMjlpRXc0MHk2NnJhTnNjUDZhMzc5SzB6NElwaFRjLUtuUWlCaDMtTVEtNG56VkJYckpkMGlFN3lQaHFzVlpxZXFZY2p1d3JweWVOUnNYclJmTHhZMnNQZTBn?oc=5",
+      "date": "2026-09-10",
+      "publisher": "AAA Gas Prices",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices"
+    },
+    {
+      "title": "Why people in the Northeast will be paying higher heating bills this winter - thehill.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcVQ2a0o5d3NSMWJUZ19Na3lfRzF4UmpZbEdoeGhkRHpmaTVDYlJfaGlsSmdkN243UjJENnFiY240bUlyLWd1MlVpNDNBQnVQM1BBcDJkUFNCTlZmcHFmR0NNeFN6N2VWZlJBaHRtaV9QOU9JWTdBbDJYbGJ3U2UwWEJVSzIwTTl0Yzd3a1N4QjVRYkHSAZgBQVVfeXFMTlBZejhwRExLNy0xZ1ZINE1aZTRGcjNKT3RyVWtzYTQ0Tm1NZWUxYW44MVNVdjY3bVdMbVhMZUtHdjFJZU9KcHA3bXN0TVRVakY3aVl3eEd5Y2x3MWhOQlR5Tl9kVi1BNlNpa3Qxdm5EeFAwdHVNNVdtcDg5ajIwcmZDNkxDVy1KOU9ETndodDQ2Y3BhVDRIbW8?oc=5",
+      "date": "2026-09-19",
+      "publisher": "thehill.com",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices"
+    },
+    {
+      "title": "Kroger Reports Second Quarter 2026 Results and Updates Guidance for 2026 - Kroger",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPVVlZWTlmSUEzZjJSX3lpQUVfdlZoa21rcjZwTmVlNGpvbWhsbG5mXy1xU256LXVFVzRKcnFnQ2JnV293dmJzajIzbWVFUVZyVEtWeFlWNWRFUWVkRWE2VTR6c3RwSUIxQ3VvX2tLTklhcU93Um1fd1k0QjZxZGZFdS1FOHpTYUFPVzhNOW9XMlFnTnVOVE50SC1Da2dvbi1DaVFkdElzc0Y1MzcyeTB2U1dlSzJyYlJfclpCTEJ5cFNWN3J3alF3QnZB?oc=5",
+      "date": "2026-09-11",
+      "publisher": "Kroger",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "lululemon athletica inc. Announces Second Quarter Fiscal 2026 Results - Lululemon",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUlpBQUhya1dobkVqWDl3cFZlbFZFRFpJWHRkM2tKbTEzdXBLM2ZCUGNyZDZnWGFtN2U0Yld0YkNxeVJrQ01wX1liVkdIbmRPM21vNUlhWC10OFdLZFVYWDVqYjBRdFIxRVFIN0JSVVhWTXRQZlIxTlhIeGJRbHIwampxbGRia3BF?oc=5",
+      "date": "2026-09-03",
+      "publisher": "Lululemon",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Earnings Calendar for: - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE05V1RmR2JtbjVQMU41V1FFTXhndmlBUy1QN0FvdHo2bFVRbkRXLWRXVVVaNmVTcXVMd3ljbTRHc21FYkxqWDFYUGVPU0taUUFwc0FhM3lLWQ?oc=5",
+      "date": "2026-09-27",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Learnings from Earnings - Goldman Sachs Asset Management",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1KR0NvMWptNXZ1VDZwVWdzYjdUeWdGZU51Z0tjQllVWTlTXzFkQjRxMEd2OHU4RXFfdGZrcnAxYmlocXRLOGRrWWNJMWdKRE9qYzV2NERUdHJ6WG1sNVdqN2FLYnNiRDlmR2hUMHBrLWZjV3lsZ1pJRjk2bDhlQQ?oc=5",
+      "date": "2026-09-22",
+      "publisher": "Goldman Sachs Asset Management",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Macy's posts strong results, raises guidance as turnaround begins to take hold - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5PYlBkMmZwU2hLV0R2WHlkMEVZaVI2RkUyakd5dTg2ZE1zc010eFA2eDI4cE84MTQtaUZxVV9ocXg1b1hzSlNvWjN2SGdpbUk4dWZNdG1kYWRfNXJoVkRpazZBZFNzd3I1VTE4OUN30gFzQVVfeXFMUENOR0E0ekljTEpheEJzSFBnX3RNWGQwRUUxTEJObGJVVmxMcl9pZEZud3BTeThXeVJBSEJnZUhDUmJUOVRjTTVaeFZVZkdKN1Nrd1ppV2VYY3RtbUx5YlVRR1BDQzJTUU9TOG5FbDlMaFdtbw?oc=5",
+      "date": "2026-09-10",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Education pays, 2025 : Career Outlook - Bureau of Labor Statistics (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5wUDFSeHBxY09BdzU3RUZxVjNsMkk2cXM1dE1ISzhLd0ZNeWtuMVNvV0lxaVJSdXh5eGs4bXMwekhHdHlDMUJNRFVqUDRwZ3I1aEtQeDZwOEdhelExZHBXRmJaT1RDSnFTQkxXNnJTSjE2TjlvcG9jSjFISVJOdw?oc=5",
+      "date": "2026-09-08",
+      "publisher": "Bureau of Labor Statistics (.gov)",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "CHS reports third quarter fiscal year earnings - CHS Inc",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTEJycl81V1ZTVWVWMkI4a2hYTWk3VXFidFBRay1ZbldwUEJfV1JxalNobjFlZGpRWUYtc3U0YndMOGNBR1JJUTJBdXU3Q0sxekg3NUpUd0VLNkduX3dEd0xOVTZid3hTQW4wQzBiYTVjSTl3bEwzT2N4MzJ2ajc5Sg?oc=5",
+      "date": "2026-09-06",
+      "publisher": "CHS Inc",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Workers With Nondegree Credentials Often Had Higher Median Earnings Than Those Without - Census.gov",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ranJRcVFWMDV0eDdHUEduZzlJaEs4WV9QOWpQZTdfSXBiRDBteG04ZGhrSEhudDNuUTFwMG5xMkN5QkNkd1ZtNVo3SlRvOVJ3Z0hUVXpDa2pKLXByUDVFZTVuWmpveUQwc3V4WUpQT2RXVWg2Wkw5VFh5SS0yQQ?oc=5",
+      "date": "2026-09-22",
+      "publisher": "Census.gov",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Earnings Calendar and Analysis for This Week - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxObERWb3J6WkNFaktWLUdJSFc5NldRblBMcGd5ZDlUaGVHeHhpcXd6WndUR05lcW9sOWQ2RDY5TVUtVFNQSkFQRUs0QnhwWG5PemJVMU9aVVlVczFXdm9WY2o5aElhYUgtdFdSWnJxb0lZRUdHWW9CUF9MSnBzS3VlMTd5dUFULVdBQnBzZGRJSm9WY0ZwX2Mxc3RjcXFNQXNjVzN3?oc=5",
+      "date": "2026-09-25",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Earnings Calendar for: - Yahoo! Finance Canada",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XT1Q0MkFtY3k4Z0Frb3NBUWtjZkdUOXdUYkZwZmkwd3E2RzhJc0g3SUtKZTJyV1dPUXFkMFNTU0NDUnlRZWtiZklJd1NiMnJSMV9zZ1pVSXJ0Mkk?oc=5",
+      "date": "2026-09-27",
+      "publisher": "Yahoo! Finance Canada",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Earnings calendar for: - Yahoo Finance UK",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhY0U4b2lvWHJNTUlKTzgyMHBUSUFoalBKWE1YM1NOeldnX3Y3SnRSaWU3UjZKeVRTa2UyazIzOHhaaEVtcWlHOEF2eVhjdGMtM21lQkZSa3ZpM2c?oc=5",
+      "date": "2026-09-27",
+      "publisher": "Yahoo Finance UK",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Kroger (KR) Beats Q2 Earnings Estimates - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONFo1MU9DUmM0bFFORE9UdHluQUZCVGpYT2dLeVlEb0tIVDNERjJKbUI2S0NMNEFhMGYwZExKUkdoSjFtcHBfYndyRjJZZWFaWS1pYTJVdktVak1RajEwZTN2QUxSV1JUQ2F6SVdkUmJjanU0UXF1ajcwaFVTT2JtbU9nU2J5eFk5UWIzaHY1Nmowc3Zha1U0?oc=5",
+      "date": "2026-09-11",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Macy’s Bets on Pricier Products to Win Wealthy Shoppers - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ1pwR0M0M1YwQ3RJMk90QnNzd0xYY21JX2RfQnlLSXlMajRUWTVQc21Qa0N2ZEJrVWN0cnNpaFNaeGNCSHB4bG82THdWc0hTTWZSRElvcEZsSE9HRS14eGQxV3ZMU2R0TjhtcXRFQWdtblA5RExDRjdzUEQ4WTJsUzgzU3E5VXZabHRBMWlUVGxPcDdMSTdkdE52U2UweWFm?oc=5",
+      "date": "2026-09-10",
+      "publisher": "WSJ",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Employment and Earnings Before, During, and After Experiencing Homelessness - California Policy Lab",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSEhtQ0lFam5YdXdoZkt5U1FtS2lSYktZMUZTT2FOMFJIaGhza3lpX2FZWE5QRFJ5OUFyZUliT3p2M0p4RVphREZxOFZ0UjZPM0JjYzNFTzVOclhRbXNPYmxpSGRpdzZsaWxUbVRiN0RUYmxuRzJfa3JFYmM5WlRjRjlZd1BfZUhOUzFTNkw3bUgxVmh1OVh3bkpaNWJIakU?oc=5",
+      "date": "2026-09-15",
+      "publisher": "California Policy Lab",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Reducing Environmental Hazards In K–12 Schools Can Boost Students’ Lifetime Earnings - Urban Institute",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbmdMUFpCelprZU9OTFFtTXdJbmxJSC0zbUVWSW5xRW5FVmVpNWJTbW9pOVphSDhLdnA1OTVwTGFCeVUzZmtfd3oxM1pDblF2SF9HT3BZT2tJNHc4ek56Yklpc0tSYnBDU2YxeGNGUHRmQWE2U0FHc3JCVkp6T2JkdE1HLWVPZjhaVmk5d2dEeEpZTktnVmxSajZsNTZtZnBKWl8wRUlkTnZVY2Y5U0xVZ2Y0MA?oc=5",
+      "date": "2026-09-25",
+      "publisher": "Urban Institute",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Costco Earnings Prediction Market Preview: What Will CEO Ron Vachris Say? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSzZnYkhZWFA0eER0ZzRHMDZGVVF0OVIzWlNFdTBCTDQ2RDJqMWVPWE9tVzJEV0J4SjNSbzIxNnp6cThnZ0RxYVBuM2hQWUtqWWpobF9fMWt2QU8zRmd0UmkyMlhBZ0hlaVpvUlNJWU9rdzB0bnlucG42SjktLXpaVFUzT0N6VlRMWkExWk1PRHdUejZWbjJZcl9vdXR6ZWRNa0FmVk1MV0xMdw?oc=5",
+      "date": "2026-09-24",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Germany's Hapag-Lloyd raises 2026 earnings outlook - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeThWaE1IT3lyVERFVEFLV2tabENuTnV5ZEFsNWxaWUE4RC1xbE5NcWVfeHJmdkhheEJidmozUURObFJvNGNoVkVDS2ZZbVB1dFFQY1U5SFh6TTZlX01HWWJ2ek5HVldGNzhaN3ZIVTViMW1zSzFfTk9yVFhtaWl1WE9WM0p5UUQ5WV9wV0hja0ZiUElMTGtjdkNB?oc=5",
+      "date": "2026-09-28",
+      "publisher": "reuters.com",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Steel Dynamics Provides Third Quarter 2026 Earnings Guidance - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeVBQcmFCTllEQ0JoZjUzQVhJelNaaGJEUzExU0NZUi1fSk1wY1pFemFibnVUU1FvVG1seGhUN3hTRlFINEIxX3JsOFdORUZLajFhNDFBbWRuRzdhR0dpSm5wMXhHSXJacFljTGtIbzY0NGR5aF9XVmVwLWo0TFRQOFJzdWpHVWktWHVrMlBocTdUaFljemdYdW9NSVRNN1I0U3JPYnRiMG5LQzloaE5jQWJKWHdFUG8?oc=5",
+      "date": "2026-09-17",
+      "publisher": "PR Newswire",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Palo Alto Networks (PANW) Tops Q4 Earnings and Revenue Estimates - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVTRBcVJ3dDVyWUcyaC1OTlVqMV9SWk05ZHB3Y1lXNjJ6cFB0SDdqTlYzcy1pZnhTYThEMlBFTGVDQnB2QXhIY2JJUFc1bTZMRVN3VDh1UU5FaUY1YVhXWTJTRVlpYXJCTWxwME5rWUhmQXNZcEpHajJzRTEwWVRiY0Y3T2pVRVJ1UWdVc3Y3WS11YzBoOEl1LQ?oc=5",
+      "date": "2026-09-01",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Key measures of earnings, income, and poverty may show early signs of a softer labor market and weaker safety net - Economic Policy Institute",
+      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNNGhzWU1SRjNQbXYzVjlSVVRtMVBMOVBHMGJhSmJPR2VxVWxCdUpjMUNpSUpGY3NYMGl5SmVIcnV0WjNlQ2JrZGppdWVwVVpwaEcyY1h6R0lHUG9HOHMwYktsaEp6T2NfTk0zVnZQWDV3NWlwQ1JjZno2SFRyZjVwVzRmd0lORmdMZWlkcU14QzlGdDRsM1I3Yl9zRWxuOGpCcUU0Q3lSSmh6clQzTjFRTkxnZDR2bFhDeTdkMVotRVhnNERFdUFSVE5QSDJGSHktaXo2Wk5XcVEyenJDOXdpdzVlSmZNWGVfMUR4R0F2bXJxWjhV?oc=5",
+      "date": "2026-09-10",
+      "publisher": "Economic Policy Institute",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "H&amp;M Earnings Rise as Cost-Saving Push Pays Off - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWjVMWGxIVERFQ09mRmQwcTdoRU1WdElNQmp0T1p6N1RnZUZtemVhY1NVeFhYcTc4akplOENha0RkalMyUEtrZGVENmRmVFdReDdubHFVbFRoWjBhc2R4VGdCZjh5RVhra2dUZ3VIeXpsb2VPbzVOZ0pMTFBWSXdZNFV6akszS3c2MWFjY096Sjk0a1VaZVNIUA?oc=5",
+      "date": "2026-09-24",
+      "publisher": "WSJ",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Earnings Analysis: Rising Tides - ETF Database",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1QTTBXRVZQRUlLNlRzZWFqU2ZsOWNJVHQyTldqSll0Wk52eFhLb2xPRDRnRzA3WWFQYUdPNG1hVTRFbFotbjh5ZDJYbGNISFBUS19xYmFTZ1htSldpOW5oVm1QMjE5cnJxMTFSSEE5NTlQS3VtWEUya2gwWEs?oc=5",
+      "date": "2026-09-02",
+      "publisher": "ETF Database",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "J.B. Hunt expects higher costs to reduce Q3 earnings - Talk Business &amp; Politics",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNY3N0RWhYRUVOQjhKSEd6NHhUVHdpa0Jwam8wRW41M3VCcXgtSzVSd3o5d1BpTWhtZzRLVzRiWC1qNzBJYVdyQURSMjdNSEtTLU05QWN0UnJTMjdWUTh4QTMySGRzT2wtSF9VQVA3cFBTbjYwXzFOSy1kSFBaUWRmMWVxc2ljOHI0ekI1d013?oc=5",
+      "date": "2026-09-16",
+      "publisher": "Talk Business &amp; Politics",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Shoprite buys Vida e Caffe, stake in R&amp;A as earnings rise 12.2% - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOG1KTmhFTC1CY1VibHlSYWhpMnVudS1PLVZqaFFMQ2YyUzQ1T3NoRDhhU3BVeHQ3MW44TzBjRjhxRi1URVhtMWpoNUpsTFUta0NkMEJuTnM2S3RCZ1g0eHp4UDBHMlZPY21nYjVKTlRmRS1seUZXNGoybW5OY2k2WkVrS3JSM21yX0FxUUFwc3JDa2RMUGhobHByN04?oc=5",
+      "date": "2026-09-01",
+      "publisher": "reuters.com",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "A Good Outlook for Global Earnings - BNY",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaHpBZEpmRncyOGxiMVpUUldVbWVERGNkbldIWTJqb2sxNUgyTG1ZVE9ZcDFDQlRGSHBwcFI0cWJ0Z3J4a2xGUnpWUm9mS1pVZmwyeTI2bkVpdUFKclh1ejhUNnlPeDZyRlU4eUZQYjNxYm4zdVJmSnAwTDJ3RkI3Vy1GUlo2N0UtUnEzSVdlLXVuT0lMb0lfNzZudjNoNU5EVDhOQUpn?oc=5",
+      "date": "2026-09-09",
+      "publisher": "BNY",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Five Below Q2 Earnings Call Centers on Traffic and Raised Outlook - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ3FXTVhFNWlfRkQtVTRzbW1yVDBYcHdzVGo4aXg1Q2NhdjU3Y3RVWmpnTHg0eW1HbzBCUFhDbThfVDd4LTlVbGhFR1pGZ0hmZzNIcEtCMGZrOWZwRG9vUi1EVjNkOC1oRmV2RnNfRm92ZWw4a3h0bGs5dUptTUtJeUNhUUI3amduYnJPVXluSlhkeVRzOC1F?oc=5",
+      "date": "2026-09-03",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Here's What to Expect Ahead of RH's Q2 Earnings Release - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPV2c3RUVqY192UFBiaVdlRnhTS2p5MHZSa1h1OTlWN3ExX25yTEJnanp3bHowVlVTNkJzVHR3bEllUlN1T0VOTG1ldW5BTDNZRUpyWWVkTDVvdnlGQlNJdnVoUGE1ZmJFaEVRVnl0NHlXdG9hMHJaTGFxWENCMUt3SWN0YnBDM2NCNzZxY2VzOVhzemVw?oc=5",
+      "date": "2026-09-08",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "More degrees but not higher earnings: Puzzling data from CUNY’s famed ASAP program - The Hechinger Report",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuRTd5TUZxQlg4ZzZXTFUyV1hXWFlqQk9jTnh6bUJ4MlJCZkJHVjJjcl9vbWRNdkNwRm5CUl9DMWhzTXBFTlB4ZVFRZk5QS2tOVDZ5c2NvUFdtVGNGRVhveTlhMkV2SWR6VUJ1dA?oc=5",
+      "date": "2026-09-14",
+      "publisher": "The Hechinger Report",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Lands' End (LE) Lags Q2 Earnings Estimates - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMVNGazBBWFZkTFp3QVhNZW4zSzlxVHMweXo0a08zZldaZUVDQ2lTbi04dGZNZ0xyeTMwNDRxbDVQRm5pQ1M1WjAyOXp5LXVvYV9Mek1qcjR5by1fUFd6cjhuNTc5YlVuck1sb09hdjF6cmNyc1Q5UGNqN2ptZGhCTlpNSFF3dzdGSzRMZzFB?oc=5",
+      "date": "2026-09-03",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Penn College grads’ earnings outpace national median - The Pennsylvania State University",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaWh0OTk1QVgwTXYxbEJubVZpc3FpazkydkVpSmM5OHR1WGhWb1VoY2M0UkRfbDBnWGV2ZUgwSVpaOHl0bmJXUjhFQ2FIYVVoQWFSVnFDbl93cF9hbHRocGpBNjZjakJVb3FwdHdhbDl5M19GY3NLdk00TlVEbFN1WnJMY2JVOF81Z3VqUXlCWG8ybDEyVG0zVG5MWQ?oc=5",
+      "date": "2026-09-10",
+      "publisher": "The Pennsylvania State University",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Vietnam's Grab drivers call for two-day app boycott over falling earnings - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY1FWTVhCdFJQZ0lXaFFXNEYyR3JnSmlXS0xIM0NnV3NIMGVvZlg4eTRFRVVHYjM3dVNhV0hLX3hUS1ZYNXlaY0o3VVdxbl9LRkhqZmx0OV9GZUpLMlhwNmE4SE9qS1NjM2lBVVBvOVF5WTAxYTdEQnlrZk1oVEh0cGNLV3JkVm05OWhHMFpaRDZBbzR1ellzZ0dFakVRT1E2clJlbDB3bzZ6bC0tNWZRWGZBSDZQdktZRjUxM3E3SUE?oc=5",
+      "date": "2026-09-10",
+      "publisher": "reuters.com",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "DocuSign (DOCU) Q2 Earnings and Revenues Surpass Estimates - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU3doUVN1aUNPUXNvdnU1MzVPb2JIY1lGT1E4dVFKUzZuWEoyeVBXLXltTXU3OHdqdTNjRXc5N0xwSDBQRWw2eWl6RE5tSXN1UUY3UWE2NlNxN3hzTDVyVFVWQU5ZY2hBS1BnOE5iMDZIOU5CVnpHRDJGUzl0UjhiWWFDeERsbTV4dzhWdm9wbW1IN3JPZXlSbWowR1NxakEw?oc=5",
+      "date": "2026-09-03",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "US Earnings Upgrades Are on Their Longest Run in Five Years - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPYWYxUk44VTdYTnRiT05OOHk4YjhxTURSU0FXRFZKUkc4N0hPcGpUMkN6bnprdEE0YVpCUHRFVG1ybjhNdGNTZnVzY0dyMmxJUVFfd0xZekpqSmNpcVFaOHprU2x6TTd6VVd4Q3MtUTZUV0o0YnExLXJvbFJNOExGMC1OejNXaHNoQzZBeHZZamt2SUhqYzhJYmx5WVlFYUFpdm9Hb2ZhTnp3RG9Kdi0w?oc=5",
+      "date": "2026-09-08",
+      "publisher": "Bloomberg.com",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "H&amp;M Earnings: Margins Improve on the Back of Cost Reductions; Sales Stay Weak - Morningstar",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaTcyc0F6eFhuX2FyY2g4RmJUZEY4dndYblBTN0dBa2E5aW9xM2dURHYyS2N2RWJGaVFfT3JPZzBPb0FnLUlMYTdCd3hhakZSU0FMY3FveWdXUDVRTGZ2MkZHaGNLR3ZOZDRuTVFZVmlFMEl0V1Z5YmFCeGx4NUtXdC15dGtCdHlhQ2NqMW1YQ2JKWFVNV3RQMTJIQkZmeGN3WWpCTFowSWM2RXVZ?oc=5",
+      "date": "2026-09-24",
+      "publisher": "Morningstar",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "How Do Veterans Fare in the Civilian Labor Market? - RAND",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnVnR0SlhoeS1NWnZSTUV1S01oYTJicXA0cUpJZ3RrMTdJeEFjeDdwMmtpdW55eGpSN3hNOGFlUV9jV3Q5R3pxZk00UThBNHB2MkJDNjl5T1FmWHBrd3pIdzU0aENuZ2lE?oc=5",
+      "date": "2026-09-15",
+      "publisher": "RAND",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "SBA SOP 50 10 8.1 Introduces New Quality of Earnings Requirement on Acquisitions - CBIZ",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM2ZRZ0JDTy1qYVhiY1BZTEcwbUlTNnBncFh0N3A5M09GM0FPOTdJWEJLYnIxaTV3YXVOUXJUcXNMZjNMcDlIaUpWdm0xUlNmZWtnWjlHcnB6LWM2OHhjbGt4M2VTY2huQmJia0U5SmRqUlk5T2szcld0cUZWY2Q1Z1QyU3lSaVlSVGYxWEJCbzZuczdqRndQV2xYTEgzanlXN240NG12N0hmUHc3dzByR2JSLU4zWDl1cHc?oc=5",
+      "date": "2026-09-15",
+      "publisher": "CBIZ",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Q2 2026 Earnings Roundup: The Value of Omnichannel Retail - NetChoice",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONkpMOWUzQTlPX3FxbXZobXQzM0RGYXE2Y3FwaUlET0dHY0VOajc3RGVTWDlKbVFkZEpnbFlUSTZQdXRPUXJBR1BLdjdLdlhNd1l3dW56OW9CYlBOTl9oQlFiOGdwcUlVdTEyRTI3MElyelFqbTNQYXBTZC1hcS1XMkZKeFhuUQ?oc=5",
+      "date": "2026-09-28",
+      "publisher": "NetChoice",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Why Is Dutch Bros (BROS) Down 13.3% Since Last Earnings Report? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdkpVWFV3WkczSUkyQ2s5OFgtNHJUVlZyTm9IWjBfRGp0cEtiSFg3SWZ1N1VoRThBV0t3M3RoNFlveTRJWGEtMU1BNlNuaDNSVFFsSzI3dEF6TG90WjlJc3hZRXNiZmgxZ0ZKZW5YSUlKLWJaeThTcHdCeGpJWGpNM3ZWRjh2enhHckNpMTdQZi13Mmc?oc=5",
+      "date": "2026-09-04",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Western Digital (WDC) Could Be 41% Overvalued Ahead Of Earnings - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcmVoX2FFbDhfUFhZOEl6VElSUlJsY3VjVHRQSVdydnhXSHlnQU1yTUVYMGphVXFrWDRydW1KcWN3SGlsaUhzZVY3ekVUX1Y1MFJzM0dPRlBSVU95N1FDdlRsUmFoMHdSOHR2bnY5dmxKSnNBZXUyOHRqRVhxOFJib3FPa3pfTGE5M3RpUU9QelZwM0pveFEyVA?oc=5",
+      "date": "2026-09-23",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Scottie Scheffler moves past Tiger Woods in PGA Tour career earnings - ABC7 San Francisco",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTUdfVWhEZzM0dUlKR3ZDWS1hTW5WcDVpMGJKOFZWOXRDX2NaN0RudGRnalJac1ZYVHduSlV3NW5NM3g0NWZSNlZMSnh3QUJpdGJfNE14d3NMSnM3a2s0SjYyYVE3bkk5QmttMTZtX2ROcGlfTnVVVjltbTRJMTJhRnVsWVkyZzl5bXlvMk9DeXM1Y1M0cUZiMVc5V0RnbV9tMElvTFY0S1ZfTkVqN3BmZFpEeGc2dnB6SXZqWllNOU9VMnpDWlVFYQ?oc=5",
+      "date": "2026-08-31",
+      "publisher": "ABC7 San Francisco",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "How climate volatility shakes up companies’ earnings too - Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTjFBbkxHRk5qUF9yNldnaXU4czZ6eVkzR1QzVmc0UGRHQnI0RDFEaU42QVVTcDRwOGs5VEhVa0hCc0wxSWxWdE5Pa2RtSV94QXhWT2NFTE5zZ0JVTmktc01hdTBYSEVlX1VPYTg4eWQ3REpjYjFpNFB1WHVYQjJPSkpNVUc?oc=5",
+      "date": "2026-08-31",
+      "publisher": "Financial Times",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Why Is Oneok (OKE) Up 9.2% Since Last Earnings Report? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbzVXdkFPVlRHRFlNLU9kMXhydzM5UFUxWmpMa05UWHI2U2FESlB1c2IyTlgzd1ZIMlRmZmJtWGo1ZkhqeDRUWmJ6enNQT2ozYzNmWjZVS2VzRnB2N3FJdk55ZTUwOFZFWk12MWFiUmZCdTRLdDltMFRoVDQ2SnR6OFFwMjhqZVJWc2c?oc=5",
+      "date": "2026-09-02",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Chewy (CHWY) Earnings Expected to Grow: Should You Buy? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbVFNQVBIUVJzSkM5X3hhTzIzQnZ4V2h5S1E1NVhxcXNPeGpYWVAxTFFnTWNLTnVRSVVVVktPOVh3VzJMVi05SlRUUl9CZXJ6a1BvWHlzSW1BbjZXVUtXOW03TU9UNy13LUFZQTdLZ2p0N1JFdGxXelgzdHlzbmYzRXdNa2txSEJEUDZCbmozSlY3cFlIODdXOVk3X1FvYnc?oc=5",
+      "date": "2026-09-02",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Skillsoft Corp. (SKIL) Beats Q2 Earnings Estimates - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWm94aXBJQl9wdkVZUmhqTlpTR0paa2pYSkE5N2dodFFDeWc4MXR5SFY5VVl4OVVTR2JXaVluV2h2TVY0b1VPWVB3Q1l3dlMzanBnZkJsQVRiOUtxWGlzZ3hZaEdySHRwQS00QkJQTGpOUHZnNHJlb2J4Z2dPdjFsMjkwWUJDb3BuLWtVVnFJN0VsQjVpc3ZHLQ?oc=5",
+      "date": "2026-09-09",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Couche-Tard Reports Increase in Earnings and Loyalty Members - NACS",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZTNpbTlCSy1wVmhjQWZrTjFfaTdwLUVQR3o4TXNtX0tpcFVjM3JvQ0RUMVhFc2dnRzhpYjhtVGF4ejNsVTFTU1lpTlpSNEtOQTZuQ2pXdi1IVlJxSnRkUEZlMnd5WnFQejVmUW9jVWl3dE1nRVlBTUlNNC1TZ0dLZXViRm1mSG84akpFV2VFc0dWTzJaSzBGUVY2dk9OLUFMOUFWZGhlOG80eUZiTmlTWHZ2aG5GbzRXNi0tMnlYYzE?oc=5",
+      "date": "2026-09-02",
+      "publisher": "NACS",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Deals tracker: Ascension to sell Mercy Care to Aetna - Modern Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzY1UHNsbGNQYUdTQjRCWG9XenhLWU43NTl0VGxJbnYtSkhKRzFEcVhsUVpaRWdtQzEyRUdfcUFZSDY1b3ZBVE5xckpsTG1rTDFGekN4MWgxRWxWWnNyUk11N3NWcmQ0TUltSUpob05TZGotMkxrVmhKYVpBeGxSb3lVVFRFQlM4RHRPd0Znbw?oc=5",
+      "date": "2026-09-18",
+      "publisher": "Modern Healthcare",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Mergers and Acquisitions: An Overview of Notable Healthcare M&amp;A Activity in 2026 - HealthTech Magazine",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN0otMzN3cE5ReWJ5WmRwc1NJdy1tbDJhYVJmR1VJNmM1N2kxM21tTGVjZC1CQjRrX0dLM0NpUm8xOVM1UWdxeno4eVNMVjNHNFdZOHNuT1o3MjAtZU53UkhDQ3IzdnhacVhfeEhlYi1ENWxhY2lJeFh6TFhRQkNmbDJzMXNpdVJlaXd2MU1zeHJJcWNMTmk4NXdjbmNSOEFUV3lJNEQ2R05Vc1FFOUtMNWV3N3pydnc?oc=5",
+      "date": "2026-09-23",
+      "publisher": "HealthTech Magazine",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "What’s up with all the mergers and acquisitions in Washington? - Northwest Wine Report",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNV0tvMkJPTVd4bWJoVmZlbDFDazdPVVVMU0FhYl9KR2F6S0lOXzRXczJQZmpwSHlxdUV6a0FGQkNhLVExMm16dm9Gb3BZU0lVN1RrRndaVDVYeU11VXd0TmdiYlJFdlNzYUYyZDMzRFEwSy1Uc3J5OXhMWFNWcURDZFhOT3NOb05BaXU4M1BtM0JVWFU?oc=5",
+      "date": "2026-09-25",
+      "publisher": "Northwest Wine Report",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "McGuireWoods’ Jon Finger Discusses Growing Independent Sponsor Market in Mergers &amp; Acquisitions - McGuireWoods",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQcTNhVFpVUHdUd0N4SWFjRXFCMW1TamFDWEZrY2NzSmFqRG5IbVRLY1BJdm5Fam1majNheXc5a2pRMEI5RG1oa01yc2xZc0xQTmEzVVVzMXFjYnZvbWVNbmNpaGhCMFAtSGpDS1JFZU1hbER4YkpGUFEyTFhHRm9CcExhZkQxV1B0WVZ3RktnaUc5WFFXZ0czUFBmQVR6eTZiS0hWYnBITktwVnUxN2FobFB1cUJHWjhxX1AtalgwY3BQdENlaWNYRWVFRVZJWUR4eU1RYm0tYndJZTZfNXdR?oc=5",
+      "date": "2026-09-25",
+      "publisher": "McGuireWoods",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "The Integration Myth: Why Financial Synergies Don’t Guarantee Mergers &amp; Acquisitions Success - SHRM",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBzWmhaMVpoaUFWM1huOWk0T3Q0cURjYXhPRGZkSUZOcVN5S3VXcE5jZnIyajVvWTAyc25NbjloRHFkTXc0R2pkM3BTVWFNUjR5QnhMQ2Y3SjBHRldXaWcyNnBrZkstaEZYTTlmelhxUkdPVGNEZ1Bz?oc=5",
+      "date": "2026-09-25",
+      "publisher": "SHRM",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Central America enters a new M&amp;A cycle: strategic acquisitions - Dentons",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQamdWNTRxcmlXTUtnd1NoZHA1ZGFpZlRyTEVVX1NQbUFkSjlCSjF0YWxUUkxpOE5pb002Q3hMMDhqSXhncFhndzlnQ2k0LXFXZEVUc2QyQVRseGt0SUZ2TjUtaTdnQ0FoTGF4bEhDTGxWOTRyQ3lZTXhVc01HdHBId2FjblI3SzRDN1h0VWNGSDJ3NmsySHZFQnJSZmxoQmlIbGFnTHpqLU8?oc=5",
+      "date": "2026-09-22",
+      "publisher": "Dentons",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "The 10 Biggest Tech M&amp;A Deals In 2026 (So Far) - crn.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYTRrU05DYklROGVFTTFBX1NCb2tmc21UVGpuSTdtNUNRLTBiOFRFTVc3YzVZRUFtaFR2WmZZY1lPUHhwZXJVbWJMd3FjN1JkZ2JCX08tWFFjbG9TRGY5Q05UUlZQekFaSUFIQlF3MmZXWmpwYk5QVHhQUGkzWG1EeG1wcldfT0J1cXRzZ25kazI?oc=5",
+      "date": "2026-09-10",
+      "publisher": "crn.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "7 Hospital Mergers from Summer 2026 - medcitynews.com",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBCUHIwcVJNTGdHN2pYVzB5UkI4SUhKRlN6Q2JTMTNFLVlCREM0QUV4UkxjRGJkTmZ0T3dLczJTZEVrdmVRZVJaNWZPMUEtOFRBa0swMjA1dW5JMjlocE9wOFpRWTFQQ1dNMEtucGhn?oc=5",
+      "date": "2026-09-03",
+      "publisher": "medcitynews.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Radiologist seeks to better understand consolidation in the specialty - Radiology Business",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPcE9KcUw2Tml2Mk1Od1FtNThlUU5nVEtjUWFyN3QzdHV4a2diUFRsbXRPcGNtSERXMzRvU0VjM0tCRUY0YnA3YjN5X044VjI0cEtfV0ZjZ3I0NHBqX1B5QzYyWGZWTXJ1R2NIWGU5NmNaSkYwY0hkbkZjNGdUSlg1X2NBTmE2NTUtUXNzUFJIZE5MbVNUbG10RDhETDhvbm4zQmVrNEVSYnNKQjNjRzFoQk9NbmZOdlJqejRLRTdOMXpTTWJCcVllU0ZkMkdzM2U4MklGOGJGNHZ4Mk0?oc=5",
+      "date": "2026-09-04",
+      "publisher": "Radiology Business",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Weil Advises the Barilla Group in its Acquisition of GOODLES - Weil",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNUk1ejlqaXJIQXpsbmhXdDh0R3ZDalV6UzZvcDFudkFYOEtjdGktcG1rbW1OSTdPRDdjXzVtMmI5SjBSUGhRNzk2RW9YOGFTbXZKMDdIN19jWU1LUVV4V29LbDV5OE9TR3lQbFRhT2xJLTlocnpHVzBKZ2FCenNReG1HZDk1MGY2YWQtVjg1c19lVzla?oc=5",
+      "date": "2026-09-04",
+      "publisher": "Weil",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "New Report Highlights What the Hospital Consolidation Debate Often Overlooks — and Why It Matters for Patients - American Hospital Association",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOUVZBZS1UOW1qQmE3M1hPY0NGTjFrUXl1bjY4bDhIUTcxY2RoQ0pOd2hHN3lITFVteTBlTUZZQWFkc1JlM1I0NXlmaVJGT1FpUGhtUXJsVkpvalFhX3laOUJzV1p6d1ItMWJlTXJHR2tvQzJrN19YQkFhYmNyQm1FZWE0anRaNEl4Tk1vYVZTQjloUy1tdno1WlpPdE9fdFI5dmF1a0xWYTVUSVpHUTN5YXJIVmVVaHpXaFhjMUNyOGhEMUVyd0hPSVZ3cnpmX0o0QnlrZjJhbko?oc=5",
+      "date": "2026-09-14",
+      "publisher": "American Hospital Association",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Williams, Helix, Weatherford, Tidewater close mergers and acquisitions within days of each other - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPT3VzQy05M2llcG5nX2EyZDA1M2xOdG5tUk9lSlFTOGRQTmdwNVpHbi1mNkV0LUphbVNkcEpqVU1hZ0FsREFFNlV6RjdZS3diSElEVzczZjJKSjU0YU9SMjI1T282STdDOXU1T2x2SkF1dnlkOEVERTFOZTRsUnozTW1wSURTNzBYTjdOSzJsVXVFeHVsdFZoclA1cjVPWDkyNTVXTFd3OTg?oc=5",
+      "date": "2026-09-07",
+      "publisher": "The Business Journals",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Adobe Completes Purchase Of Topaz Labs - TVTechnology",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWldST1g2NVk0NGhQZmZDWXM1cXoydWtoZVpTU1JXVE5VSFRMeHFjYnhIM2tCSWNPbXpzTWdjQkNqVXNsdXVkY1g1OWhlUzBrTlZRc2k2V1phTUp5X0Y0dFdVYmFuR1V5QktBVU5JQjdyV1VYNFdyWXRycGt1bE8yNldpRUhodkxKYU9CcnVETFRnTkVRUFhDQ1JJV1dadw?oc=5",
+      "date": "2026-09-23",
+      "publisher": "TVTechnology",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Power and utilities M&amp;A 2026 midyear update: Deal activity reinforces scale, speed, and scarcity - Deloitte",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSFBXRHVMOVpjU1NoT0oxRVhlaTZyRFhlUTBZbGZhcDNXcE1pNFFPUThPRXpSQ3V4ZUIxSVcwU3ZTZVBtYkY1NFVvY0VQR0dSeDNiTlpQTkZjcXk5TzFmU1FRcXJiN3k0M2hTNDRZUk5NaWVSTm1OX2RDSDBOUTdEYTUtY3B2emdQaWdrODdFQXRNakVQVXpWcVJGTVl0bGpTTld4T3BuT0F1RXpLZE1RcUdTTWVuaGNhOU1yMHFYR0dVbVVVVUhPNDdfa3RCOXM?oc=5",
+      "date": "2026-09-14",
+      "publisher": "Deloitte",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "The Farmer's Dog completes acquisition of Woof - PetfoodIndustry",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOXzRoYUk3cVJMX20zekJiT2NfTDdORlByTnZXWHI1NjJfR2hYQ1NVVjNFSEdwbklhZktWd2FvNExHOTA4RW1MWHdtZkd3VXUxTmlFeDc3aVl4bWhHQk1oSF9hSk9kWWpnNHNMaVcxZmstRGFMdUhHMjd4VXA0TDV5bjBVSGN5RjNCaEtpTktzdldRdlJaSWxNajJjTGxYN29wQURpcFItMGh0eDZoeU5zbGFnMUxYaUlfY1dBSHEwMFREWnFCUzdlX3hYcG4?oc=5",
+      "date": "2026-09-21",
+      "publisher": "PetfoodIndustry",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Aerospace dealmaking gathers pace as jet production ramps up - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPREtjdHh0c1Y1WU9BRVpNVjlGVHl5UFN5TEw1OEJVWDI5SXdmZkxXUnpucy04dzMzZmhYT05FUWZqclNGNGZvQ1VaZXo3T3VvMHo1R2lSbkViazZiVUZQVHNKMkJhbm9VUURSQ0NOMnowQTNqU3lpUndFRTVUU3BPNVp5T05ja1Y3RlBDSE5IQnhvWnZXV2hVNVNqbEVqS2hoQVlJcXZRRTZURXhOOTJqcFR2TQ?oc=5",
+      "date": "2026-09-10",
+      "publisher": "reuters.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Medtech M&amp;A picks up steam as economic uncertainty eases - Modern Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQlVmUFN2SVdjaURoejdjRmZsY2NLbERjY2NlMnZ4NzQ2UDY2Vk43WUpzOGYzZEZTb0xROUFVdDV1V0VKQjB2SzIta2VJWElRcU9Jb3c3dWxvN3AtTWNLZzhOX01KQXdRS2tjR2NOVU9rM3JGaW02dWlKU0VDY21yXzJqSlhUclVXMWdCUzZpQjBpb1VMcENuQ05R?oc=5",
+      "date": "2026-09-16",
+      "publisher": "Modern Healthcare",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Sunlight Remains the Best Disinfectant Regarding Potential Conflicts of Interest in Mergers and Acquisitions - McGuireWoods",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxObGc4b3VTWENScEZFbWlLNm1abEhQckh6RmMydlEtbmt1bzdWRkdoRFdhdTAyYnM3YVRhdk80N0NWWk5mandNZGRxeU1OajFTRmw1N09ycjduME1mSlhDVUU4UHdzWTNJaGQ1NGktS1U5emJmaWY2dEc2c01neWVwRldLVVpLeGRBMUxxR3gyQTZ6S3hMdFM5aV9rbzgtZWtYUEI3NVo1UmFYRDdmbUZfU1ZJSjFrWVd0TG5YbXhmMFN1d2JKeW1feUQ3aHg1b1pYcU03TDY5SnA1ckRUQ0V6NDZEX3JpRFdvTS1XSUJkMmpPaU1nZWNOLW55YjJyZw?oc=5",
+      "date": "2026-09-22",
+      "publisher": "McGuireWoods",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Client and Medical Therapeutic Company Aethlon Medical Announces Merger With North Immunology - Procopio",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0wVVlFUmR1VmNkbmV0M1YtRUVFR1V6UGY5MHFqNHg1di1JT3JMR0x6bGNFRHBrajh5aTAwbVZLaWZUaC0weGY1S2lVd1dMTUloVTdMbEtobDFNMkItbl9YRms3Qm1Ec3UyNHZfenVtSWZILXNsbzR3c1h2U194dw?oc=5",
+      "date": "2026-09-17",
+      "publisher": "Procopio",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Paramount Settles Antitrust Lawsuit over WBD Merger - TVTechnology",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbmFVMHQ3UGRHY2N0VmxKcUxWY3Z4dWszNWhOUnhsWUdVTFBiNlowVWdoVTZscGlLRWhHN2VvQmF2WWRkYXUzUF9SZlByNlpMQVFZdUZ2MURER0JtM2o3MmUxNHczaEtXT2gyclJjbEhkTlQxX1pXcGtkTTdUVE1aNjFtLUlNVVZFeDg2c0tnMk82OFBrRjU2Zk1ubFFhV21nWDh3M2RUSDhFRDVweURr?oc=5",
+      "date": "2026-09-21",
+      "publisher": "TVTechnology",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "PNC, Regions, Citizens execs eschew M&amp;A ‘distraction’ - Banking Dive",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOcVd6SjFGdnR3dUFGVVJ1N1B6dHBGUjk3SlZwNVpCVnJtQVdyOGg3YW9XZXRoQTlwY1dSc2JtOHU2MjNuM2xWYUh0dEF1Tnd0TjhuSjNpSlEzOWllZVRza0xYN2RfNkdVcEJZREpGSlRSUkJBOW53WjVIdzlzUWxtMkRranZ0dmZxZl9mVktWb1N6bU03eWxYSThYa09IWDlaaTlaeWFlLTEzV3BObFZ3dGpKRjRZZw?oc=5",
+      "date": "2026-09-16",
+      "publisher": "Banking Dive",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "UConn Health delays Bristol, Day Kimball hospital acquisitions - Modern Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOV3lrOGdtZERmcTBzYllYaDJINzVRVy1oSHY0SDRJbTUtNGJLUk5UbU15MGU2QmtuUjBZYlZnbWs1ckZfQldJaktFSVNUb3h2dEhBVXNiSExTXzlCa0o2WEdBWXFHSFNwdHFoaE0zLUxqSXZvZXd5RnhXVjVrWVMtekx4NmV5UzhhcWtkeExkTmpFcnVCTzRTak5UYWd1NDhD?oc=5",
+      "date": "2026-09-25",
+      "publisher": "Modern Healthcare",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Pinnacle Mergers &amp; Acquisitions Facilitates Sale of Watson Chevrolet and Infiniti of Tucson in Arizona - PR Newswire",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQbmhPVE1MZjZHaW1HZTBCaUJkdXQwMERCSDU1QWJSNnZyTGJpYTRkaUpoeUF4VUVzOWlTZ0ZZa3F3WHpYWFB5S2I5ajV4NDRELTVuRFRPVEZEb3RuQWwyTXBRMGRGZWxzTXhVLWsxWUlfOWFHeWNSc1Fha19pSGJ2cnF1R2RnSVlUbHFLNER3aU5OVkNaNlcyZXVXTE1ZTTBwSlVVQW8xOVdlMDlpNzN6ZTdid3VZOGdNRV9MNk5LVXpiX3ItY0RoYlJhNFd0bk9kVFI5WmNmZnpFaGUxalFmNzEzQ2ttUzBUbk1MdGxB?oc=5",
+      "date": "2026-09-03",
+      "publisher": "PR Newswire",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Gaming M&amp;A: Latest Industry Mergers, Acquisitions and Deals - sbcamericas.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQenJkNE10TmRzVHY2cFhTTk5NN2NxTVlpdjNWRUVGUmp3WjM2RXRUNVdCcjJyejlTVjl0QVhRMC1sMWZLa19mVVMxZEFrQ2xLcTZpQ0FrMHpDOFVoMm8xOWo2RXNjb2xnc0VOUDFEQnA3ZEd3cXR4dGFQYUlfbXU2RTF6MEnSAYoBQVVfeXFMT2gzUmplSlhFLXYxZElnc0JfQjRxMXZkM3o5QndJaTdmR0l6ZU1CaEllY2ZidmxWS0JrYUhDSWZsNFBvbG9mQUt3Y00zQlN6clNubHd3NzZTam5GaWhkNHVZa05xMGdmdzZyd05wR0ljbzBVSk5paGVjSWoxX3J6UDg2RkRuR0VpNXB3?oc=5",
+      "date": "2026-09-14",
+      "publisher": "sbcamericas.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Fantasy M&amp;A: the recipe for a European champion - Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcGE0OVFEZV9GSGFySmp4Z1FnaGJOMTdkWVptVzlHUU5wM0ZSMGE0WGE5cmVqQVo5bEhtLU5CNHRaSUNKSkV0cFl2N19ncE5KYTBhX21WQVJwNUFhanhfaUxnblB1YTRCVHE5OWtHTHFWdmI0aHdyU1dVY3NSdHU3UGZOdGU?oc=5",
+      "date": "2026-09-02",
+      "publisher": "Financial Times",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "ACQUISITIONS &amp; MERGERS NEWS: State... - VitalLaw.com",
+      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPdFlrUmZfMnFjUngzX1RPY0FRcll2djNLd3Y1SDFBUEV0RERMYWlJMmEwREJUNjZGNUVDdFppN215V2NLem5QcVBvdnl2ei1pdVZXMEl6dmxzWkE4RTdqc2Q3LXRiYjNqQlZpYWZjLUNlUHF5RFdKb0VfdTZKNGY0QkEwV2J6V1U2VFEya2ozM2xtQTFIaFM1MGtGRzRXbFhZeEZSV3ExYVpkUlBmbjA5QnRJRmtRNWRxMENCdGVHUjMxUnI3bkxZR3Q2NWdYbXdkQXYyclF6LVFVVXpBMlQxbm1obzBWb3ZMWGZqakFVZ3RQRDRsX19rOEt5dFB2QmRHWVZxOVg3X3hYTm8wcXdwdWFWNEZsRmFMYTZMUGlB?oc=5",
+      "date": "2026-09-23",
+      "publisher": "VitalLaw.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Deals of the day-Mergers and acquisitions - marketscreener.com",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUG1mRnlBLVdZNnllellCNDJxYU5lWnZIZ21YRDZNWmdfZ0pXaTk0dm9SMlFHYlJwdHJ1UmlFOEQyeGxnZVJYbDk0OEtlZFhQU1pvcGtFcEZDd1NqSExKYXcybUR1d24zaWMxQURHeTQwV1VDVDhDTHQ2OE5va3NLYjQyZU40Tlg0alVRbG5fY0tsd2xLbmhfTXR3?oc=5",
+      "date": "2026-09-25",
+      "publisher": "marketscreener.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "White &amp; Case advises Trustpair shareholders on acquisition by Basware - White &amp; Case LLP",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeDYyb3VSdjVNMk9sQ0sxdmZpbHZSdThialNyTEFWOHAzVWN4ZWhtcGpGbEpHbFFfOGwtRWNOREtWQWtGbmkxLUxfbWw3VkhFV19tekhzZ0FxaXM2bGdaZWJ3WnEzbXRyZTd1WGNxSENEMzcxenRRcXE5U0wtaWthR0VqT250WDVmS1V3bHRtZ1Zkc0VYUXIxcXh1UG4zQ0Q4cEFiMXdlS1NIUQ?oc=5",
+      "date": "2026-09-01",
+      "publisher": "White &amp; Case LLP",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "White &amp; Case advises A.P. Moller Capital on acquisition of Euroports Group - White &amp; Case LLP",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdGZ4NnozZWxHMDVuSmlTYVkwUTFkZTV1TUk2UmU3WVF2cnk3VGNpY3hFYVcyYktPTWgtd2wtQ3VmOTVuYUlURTY5M1p5UHhtZWotSHpoOS1oLUpqNVRSVDAyNkU1QWFGQm0xS0hVM2YtYklITG9xSWNkUjkwTlptdk80Qnp3Vm9nbTZjRk9Gd0ljVjEyZWNEX09GUWZubXdsdnBIYXdLLXJucjNnNVE?oc=5",
+      "date": "2026-09-28",
+      "publisher": "White &amp; Case LLP",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "North Carolina Hospital Deal Loathed by Residents Set for Vote - Bloomberg Law News",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPa3g2aEZXNi1RRjJwZU5iQ0Nxd1VQQ29WM3BadWhhM3RQTFZlUHNaVmFkR0lMOFZqa3lTckdMNE44RmJkMnA3WjlBQkFZNTFJLWlIMkdRTEotcVRRcERWdmxuSHdBZnJuckwtU2VuZFFrN21aNTBkYlQ5anlsQ2ZXVXVPTjVLbjNnME5BNV9OcGtTQlJESTVpLXdVQy1Da0VWdnRFVnhpdUhVNDIzVzNKTEFwdWwxVHk5?oc=5",
+      "date": "2026-09-21",
+      "publisher": "Bloomberg Law News",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "M&amp;A activity in HME, home infusion heats up - HME News",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9sWFBTSjNqbklZcmU5bjRRTzFNajRXanQyMGZIZ1I2bXM0bmVUSlZtQnFORFpBRGZRSTFRcjkxOWVaYlhuUHljY0lJTEtxelJhR1VkS2xaT1BJX1d3RHAtcXJxUEtFRmRXcmNEQm5QZk1oUVk4RDZ3WGdaUkdDVjg?oc=5",
+      "date": "2026-09-03",
+      "publisher": "HME News",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "White &amp; Case advises Adelis on acquisition of majority stake in Newground - White &amp; Case LLP",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQNzRQX09uVWloSnlULUQ3NzMwX25XRVphR1h3ZlBPZWR4cV90aWhkemJjaXpvcC1NbTJHVXNpWl9JMGpSUWdyd1ZaY3RkTzFKU05tOU1SbjZrMTJhdmMyVENQa2FaNE1nUTNvR1VhOUJkRURPQjdnYTBlYTlFbjJUWnNjdnFsZk1LVE9IZlpBeVA0OUZhQVlaNWNWUHptWUxsMTR0cEpoV29lYTA?oc=5",
+      "date": "2026-09-16",
+      "publisher": "White &amp; Case LLP",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "DOJ’s Expedited Consideration of Second Requests: Cooperative Merger Review Comes of Age - law.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbDlZUWxLUzJUNzR5bnRIUWRod1I2MDJCVDVBNW5vOTVuN2l0TFF0eFJyUndPc2hIM04wRzJ1eWNLR3BON0ZEMUlmVlBsOWRoNkQzRV9QRmRNSlpBZlp4Tk9nNmZ0NVNIWXJPU2hmWjJoVWl2RFZzaUZ2ZFFUMUV3T0V2OWdraFNHbUNRRXlSOVhLbnBJekRxelc2X1JBdVhQVl9wejFYNVg3bVRoT2V4TE15cEF0aktPc3BDQ2FmVzNKOGVTcXZMREVR?oc=5",
+      "date": "2026-09-25",
+      "publisher": "law.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Client and Aerospace Component Manufacturer StratEdge Corporation Acquired by Arxis - Procopio",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jSzdjaDdoWlRETnR3OVBNcmZ3ejJSTVBzbnprNXJYUF9SY0Iya2JYVzRHSmpxUE1fMWNwYVl4aDZ4RGp2dHMyRG16d2lmTGpOWnBoMGFCOC1KTG9fcm5hOUprbDFJYVZ0OGdjMVBB?oc=5",
+      "date": "2026-09-17",
+      "publisher": "Procopio",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "White &amp; Case advises Grupa Kęty on acquisition of Metra group from KPS Capital Partners - White &amp; Case LLP",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQeHhlUHAxX2dobzVISnlGZlU2UFMwNFhOb3ZfVFgxNEJaSjhRX2Q3OXlFaGloOUZvdmtFSUI5dW1zcFpjWm91SUFzb2NtcHN6MTFFdW5xYkRGd2x4elBsNHRwNnh0bEtQRmxVbk5lbWpDdktNYlpDWjVEdTJxUm9xUmFSODV2aXVJMjM1UVM1anY5VElER0w3cUxfMlhTWkhLcFlOTmk5c1VodjVFclBDb010Q29lWDI2UlpF?oc=5",
+      "date": "2026-09-17",
+      "publisher": "White &amp; Case LLP",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Nonprofit Mergers Need More Than Mission Alignment (SSIR) - ssir.org",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONGpfREZQR0M2TGtjcVE5VDZDR1BLUXkxc1RhSnVldGNCaDl6UTlVbnFELXg1aWJVNjZjVlhSTUQyb0ZaaDd3VFRzcG51Um8tM2hiU09kc1Y0QzZxUUg2Z0xITzJZVS1OOUQ5MDk2ZWNsTkRpcU5FRXN5RHFqUGY5bUhpMlowblp3Snc?oc=5",
+      "date": "2026-09-17",
+      "publisher": "ssir.org",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "White &amp; Case advises CVC on acquisition of CDN77 - White &amp; Case LLP",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTFBGNFdyRkhldVl0SzBGaERHWnR0VzBUWjVfcVc2dVN3MlcwSFRjWTk0ZHZIWDUzazI1VU5Gc2RkcDhESGlQS0NNNnRtWUNrTGxsV1NqaUJ4dUFwWHg1NHkyWjJFeVZzMV9QNTlCSEZqdm4xdm9VVVlNN3lWTk1ITVJmdTEyOThDM3k2Rll3?oc=5",
+      "date": "2026-09-24",
+      "publisher": "White &amp; Case LLP",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "De-mystifying tech M&amp;A: The ISV and VAR playbook for buying and selling - DevPro Journal",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMHZlMGlBdkdkQm5NN1NtZ1FjN0VySXMyTjYyaFV5aEpfVGdjckttbDBSbGV5QVJMMTFIYnQzZkdWNHZzUjNiRkRwNVpjQm84WmpMRDZqN3lGYmc4dURFNEtxWVljVFkxLWNVYkJQaTdCeVZZWHhXVEJES180ak14YnFwMEZ2aVQ4RHZmbUlSWnBMYloxRjBDVmhyekZmaGtURG1CNUlLZjZ0V2xSeFJpWGtDS2J6NzEwYVgxT3hpMFpwUTJHMXYzZXRwNzMxYlUxdVhsTnlQelJqZ2NXR3U2OVA1OA?oc=5",
+      "date": "2026-09-08",
+      "publisher": "DevPro Journal",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Fortifi acquires German equipment maker SEPAmatic - PetfoodIndustry",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORDNGM1ZuZkxhV1BPeU14SXgxM1FReDdQbkZJN0NaUFFsUjBIZ3Niby1mQ1ZfdVpKc3pQQ0UzemFya25UZmxaMzhkREdRNHhaQVhwYmxEemt0QW8xX2o5OHR4RGJ5SUlkUVZ6bTNIM24zeWJlTU5VZTlRa1R5X0VJMTVhZGdvR3kzSEhoR3E2ZnBISHdFSldjZGwtNjZTNVVyaGRDS0dYbU9PazlyRnNEeVlKTkE3SExwRjlKSE5NN1ByN0Z3ZU16NF9fWkR0TmxFWDJSSGNLeU1HVGN4TmRvMQ?oc=5",
+      "date": "2026-09-04",
+      "publisher": "PetfoodIndustry",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "2026 Medical Device Industry M&amp;A Roundup (Updated 9/10) - Medical Product Outsourcing",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObmRCdERKeEhxbXpQaThaa280TkI4eG1SWFduYllzQ0stMkw1V1hDdEhoVkYtQzdtbjRONFdjY2NqeGZpS1dwa1dFc180elptRFhHVjlmbEtJTlhjWmdfVWVEUk1hU013bjVNd0UtS2kybGxyQ0NkZWRDbEFES0toeA?oc=5",
+      "date": "2026-09-14",
+      "publisher": "Medical Product Outsourcing",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Getty Realty closes $260.9M sale-leaseback deal with Refuel - CSP Daily News",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNVBoa1NYczhOMndIRWxsZGdfeXFIN1I5UENVRmdMQkRCSzhhNkJ0STZyR1E1OUZUU21NdzVQQUVYSEQwWkRBTGVVODJLa0paM0Q5TlVLbkxTLWJnd1VpTHpuUFFSQUxkVHU3WTFFcXNjVTBSQUhvbHR4VXQ2blRfLWV6N1VScXRob1JMNFhFc2FkY0U3b25YZ2JSamxMUTg?oc=5",
+      "date": "2026-09-22",
+      "publisher": "CSP Daily News",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "US fiber M&amp;A heats up: Ookla names 7 possible acquisition targets - fiercewireless.com",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOLXB5T3lVMnk1dXZzNGYwaDZmVTFoVmJZS2p2RlV0RUliQVFRVUs4aTM1eERMR0JOV2lmM2xFVzhNbF9BVG01UlY4c1NHVWFUZFlvczJpSTlZLTlENmNUTy1zd2c2RkhhSjVneFhub2FVM0lHYjc4Yk9CVkpGbmc3SnM4R0RTYTQ5Tm1DMWxmczZsZVVPMUVUN19rbkdHRXgtME44?oc=5",
+      "date": "2026-09-28",
+      "publisher": "fiercewireless.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "WVU Health System, Independence Health System cut deal with PA AG for planned acquisition - Fierce Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYlN4VnI0SXlNMTd1YS1zcldMcE5YMFp5MzZrVXJqOEdSZjRUN3JUcmQwY3dtVC1ReWg0U2pUazJaNzREdXhzX0k4a1BKWHJyVGQ1YUpuNmRPTkJjQVdOOTFwQmhKNDV2T3RXb29iQWViLUZvWllBU2w3SnZSaTNxdzBWTGk2OXB3SWs1bHMwZk5xZ2NJd01IaldVcmVyQ1lxWDNFWVNLczZ2WmJ2VVVaLWVlY3JvWWRETkE?oc=5",
+      "date": "2026-09-03",
+      "publisher": "Fierce Healthcare",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Bloomberg Law | Political risk reshapes M&amp;A strategy, White &amp; Case chief says - White &amp; Case LLP",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdVp1ZFIzWUtkTjEtRTBDakkyWmZ5Y2ZQbHB2U2dxRkh0bXI0RkdhNXNPNENrbWFHbW1rYjFOM09xVF9FMEFEVXdjRFZKUnRLSHlhaGNxNUljRXc1amZFYWFjd2tvYXV0VUJuOWVSTnBnZXE1bDVia1BpclZxTXZwYlhBal9PbWRPX2FpNDU2QTBZTjNnVHdDZlhsNXd1VmdVWmI1ZFZvNXBWNVlp?oc=5",
+      "date": "2026-09-21",
+      "publisher": "White &amp; Case LLP",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Here's one way to keep employees during a merger - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOai1sWTFDT2RXWm5WSFdPZ0Q2Z2ExcFF4bno4ODRJeGVqc3ZVeHFQVTdWYnJmWjBLSXc0OUw1Ui1xd1VPX3VnQkowTm92bnJ4aHpGekZIOWI3UWI0MkJUYk9SdUd2Vm1vVlVUc3VpcEtuam5kLS1EVU9KOUw0T3ozSjJZTGtndnFHQ3ZSLUpUZ2pPTnlnbW5aNUlCblZTdw?oc=5",
+      "date": "2026-08-31",
+      "publisher": "The Business Journals",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "CSC Financial: Mergers and acquisitions initiate a new phase of industry consolidation, with electric motorcycles becoming the core growth engine. - Moomoo",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa2hQZmV6WG45Z1BCMk8zeDVVcFhNVUc2NEt2WTB2Uk16eVNJY0xwQl9rX0s2cXhoNzFXNnliaU9oUDZKVl91WVh2VWxyNS1LVG11ODNxYnc5NUR2N3ZRRkIzcWlDeWZLYkNldTZQci00MHB4b0FVMy1XWWpybTdOOFpwMW9kQ00zNWRTTF9hTTlGNkRRV1dlMzlUY05DVVphbXNzUmJXTQ?oc=5",
+      "date": "2026-08-31",
+      "publisher": "Moomoo",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Who Cares If a Merger Is Fair? - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZVBrYlJ1SlJvWW00d3ZJcG44YkRuQk1RTUY0OVFYa3JIZFJGa1VWNmZ0aV9xeWFaUEQ0RjlTTnN6Nk1kSXByY3VvMUJXMXFQaUZXZGEzWVNuOXkxMFo1ZmlIRHVhdERfRXhyZVhaQzBBNE51VF95bjdqa2NMdlI1akJTUkMwRUVlMGpadnRndw?oc=5",
+      "date": "2026-09-22",
+      "publisher": "Bloomberg.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Scandi Standard gains clearance to acquire Glenhaven Foods - WATTPoultry.com",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMmU4OGNGeUI2bjJLY3NnNkhjSGl0R1ZLTkVTM2hpTEJoajZpY0JLVTV2bWQ3RFFZdndXZmg0MlMtVTA3b3R6SHRPTldhSk5sV2E2N3JvR1dEZW1kTW5Dd2tGTm1jX0docTRoVkdBaDI0cVV4LUR1VTFadlhWNlUydmwzNlRtUjNNeUVWOHhXUlBSdlVXTWM0SEdoSEFZbDBzN3ZwR0ctdVRNRk9xelhRMTIyNUV6R0V1RjdfYnRKV3V3a3pldklBb1JIVU1SSElGTHc?oc=5",
+      "date": "2026-09-24",
+      "publisher": "WATTPoultry.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "2026 - thetargetreport.com",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE16WXpIVjV3Wm0xSGkzQXFIYVQ3WGlmc01mLXBCTnhzV191VEpjUm9KQVBnZWhyYzBsa0RQMkNOT05udDNKaVV5aFRFaWZkdw?oc=5",
+      "date": "2026-09-14",
+      "publisher": "thetargetreport.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Moody’s City of London Head Office on Sale for £330 Million (1) - Bloomberg Law News",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLTY1Mzgxejk5cjdWMHl6NDFSTG0yTGY0Ti1GZE1fc0xWX2NDZG1Nc3QzY0x6WlZramFsQVZXN05YdVBRR3ZVWlN2dFNrNnBwZFJRUWRBRENJc3M1eFBWUnQxQVhzb0twNXNSWUFGZUVLcDdZMWtkZnBhWDI5VnNnTVJQc1ZFM1dvVml5ZmZyWUJma3VxMFM1NjVBVm5NSjFHOTVRR0RIbW9QWnhwNWVuYjZYWko?oc=5",
+      "date": "2026-09-14",
+      "publisher": "Bloomberg Law News",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "US Foods Holding (USFD) Renews Focus On Tuck In Acquisitions - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZkg3V0JLVHJnV3RxMW00N2NKY00xdW8xSHV2bEZNbVFULU11S3hhQ0lndlV5ZVdjVWx4aXlVU1UtU2NreEh4enByZHdtRS15ZkhEcmpUXy01QWhQZEdENklqZi1JamdXcGpYN1lISWYtY1pnTXEyZmpOeHBtOFQ3YTVKdUdfTk4yUkstd0dGNmFDcDdsN014NQ?oc=5",
+      "date": "2026-09-15",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Carey once again leads Chile’s mergers and acquisitions market - Carey",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONjEza3RIdmtmWi1GMzdnb1ZFUDhCRDE4RkJ0dm1vUHIyZDNxZWdzNEhucE0xX3ZJYjVnRWFLTjlQTktXRE1kSFhoNEFaY2pBNU9KNVRfNWVETzZfZ0twYU9TTm1IZDRNajF1Q2l4ODNGNXhJMXpFTTMwUFZnWm9TYlYzTWlNRlhkWjRLeWZn?oc=5",
+      "date": "2026-09-07",
+      "publisher": "Carey",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Gabelli Enterprise Mergers &amp; Acquisitions Fund Q2 2026 Commentary - Seeking Alpha",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeFIwY3A1VUpQNVdSMjVFOHZYVGp0MU1vc1p0U1I1eDRVdlFES016NDc0OWhET0RxclpzNDZtaklRUzVDMGdlSDM0SEVxZjFrVmU1WFprdXJRQWZMSnBhMmREMGhWZHc0TVJDQTJPeWJBQjBDLWVJOWJvd3BhcWtrUzBYcng1Yncwd0EwMS1LT0ZhUGxkemZzV2VSVVdoRlh3c2FaYjBxM0l6SjhJ?oc=5",
+      "date": "2026-09-16",
+      "publisher": "Seeking Alpha",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "As banks consolidate, some customers aren’t so sure they’re happy - marketplace.org",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa095aUhTejJBT2hDT3JaMkVwLVo5UUZ5TXNuWVR0MTJHcmk5U0xmMUZ4QmNiUUp0Ynk0UnUzWWhvVTlSaWpFbjlTQ3NYX2NJeTlpMUxMMlJLZXJBNXRsVHJ4emxkR2dJVkFDT1FLUmlJSC13X212LUFGeTVERC11bmpNSE1mVUpnelZINGI1RlZ6T0EwaHREZXBPZG8?oc=5",
+      "date": "2026-09-22",
+      "publisher": "marketplace.org",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "World Insurance Associates picks up another New Jersey agency - Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYy1sd2NQY0ZERFo3N2RaT3Y0WElRZWZZYjNndHcxZVd1MnlOX3lrYXVHejNkWURiMlRLZmtlc3BkM3BwbW40bmI3THJ1aWNabzlEQkh4N3lLT05mZ19DRVUzbTJDbmVya2c0X3ZrdkdMV0pSZWRURjVhOUlGQ2Y4VlNkaFpHM3A3RE1YLXlfekE4bmI2aF9XalNOdVFFaFZPZU1nbjg3UVRfRTNHZUcwWjI3T2k4QjhMNW5yTHJtS0NTckxqRFNzTTU0d2tOQ1JJcXBTRFV3?oc=5",
+      "date": "2026-09-16",
+      "publisher": "Insurance Business",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Strong buyers, prepared sellers drive resilient M&amp;A market – Table of Experts - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZmIxbUg0Z0V2TlBkaWZGZVZaQURjQ3lfaDJOMFFLNm5TelRVWTRSY01JT1hSUmlrZ1ZRdGRSUjV0QWtsNlYyNTdhRDVLRWFBRmU5S0NGSDNWVnVSM3oxZVVkallFQjJQNTRYZm1ESnlxREZWcmtiRlJGN1ZpVUJoY0s2b0N1VklrUWhyZFpKOVY3RDBEMkZIX282VFJ3cDJIUWg4WHdWeWNqUQ?oc=5",
+      "date": "2026-09-04",
+      "publisher": "The Business Journals",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Analysts ‘extremely bullish’ as Telix beams into Novartis’ territory with $1.6B ITM acquisition - Fierce Biotech",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPOTQyOERfQnA1blJDOUFWNFFpSnlVZGtyZWl1dmVoaWtJTHYyYUd0eXpMNWhXTzl4ZlYxZE1WS18wTXgzMlJlTlRhbXFiNlpydzRJSFRyenlDaXlJaTB1dnFMeENVUUZUQ3kyTTlpM2NkcTV6T2RsU3FoU0tnR1Q2dlhjZktGamtsUlpFWHEwdDJJeHFacGJ1bmZKLWlyNFY3OEozOTQtVGc0QzVNNUFlVzdEb2ZDTjA?oc=5",
+      "date": "2026-09-21",
+      "publisher": "Fierce Biotech",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "\"There is a log jam\": Why global brokerage M&amp;A’s biggest buyers could be pulling back - Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZEwtRVFKdU5BMG5qZkIwTFpqLUM2UkMwOThsYjNOeGo3eG1ZZTlhMGNRRG5Mc21DblVFMmNLOVNBR1dmZlQ0aGtmaEZEQXlXMUdjZmJCZUdrZE0wVUtidkFadWFUVmtEQkdWV0pYdVdJcVRuYllSLXZhdllMT1diTHJaWnd0M0FkemhwN052UUtFeDB4dC1tc0w3ekZNOVQ1c2xnQjdCTUZfazVRQzJYZDlhamJmZEtrbmR1WUR6T1NRdkdzdHd4M2JjNGlleF9yQ1pRZDU4MlNaTlpmNDAxTWhTRzBiQ05id2ZmMEc5NmtUM3BkMXc?oc=5",
+      "date": "2026-09-10",
+      "publisher": "Insurance Business",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "World Insurance Associates enters greater Boston with American Insurance deal - Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSzY1a2VOYnIwMmdRNHh6RG81TWZIWTJ6Z2p6a2VfcmxSRlNXRjV5OFBvRThZVDc4Ri1TOEJSenROUmM2ei1RdEI4UjRfRjdtbWROWXpUSmVOZzhockJaQWxIYk1BZHI1NTgzZmJOQmNvb0k5T3ZNZVYyNDl0ZTBwdHhaaDhrTEhXRzdZbVNZRU5OZ2JoWmxFMjZSOFRTZHlUeGFKZDlxV0N5NUxGc3g2YS1jSW14d3ozUVJBX2U2UzE1N1pVclN2emZPSDU2X05ETkIxMzlHQjJPN1ZfNWk4Z3BOWkNSZGd3UTkw?oc=5",
+      "date": "2026-09-29",
+      "publisher": "Insurance Business",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Key Refinements to Streamline Australia's Merger Control Regime Passed Into Law: Threshold for Control Increased, Removal of Voiding Provisions and Changes to \"Stale\" Notification Timelines - JD Supra",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYjlpTS1QRzN2RU01VHRlZEdUdnh3WUNxZDUzR254VFd6VEJHSjJsRHFhWVBLbzNnc0FiRnRzLWJqNnRKZU1teDJIdWRBTl8tbjNaRGMwWXhveFVhc0pBSFk1TGI5cjBvdmU5bzVlYjdYbkpVckVEc2FLeGZjZUZudUQwUHlsOGt5RkE?oc=5",
+      "date": "2026-09-14",
+      "publisher": "JD Supra",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Hunton Represents Centerspace in $8.1B Merger with IRT - Hunton Andrews Kurth LLP",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOV1I5VHNvME1LNzBIUnBkT3lGUUlYQ2F1S1JDdk1QUjhsbzFoeWl0RFplc181V2hZUHVJYXJiUktSU3JxVjRKbm4wQTR2cVZMVF9HVmI4bS01Z3NpU29GMFFpcWpfc0lvV3ZiTHZ0M0hORUxJSmg1Q041Vm5Wak5xWHJiWG4xQm9V?oc=5",
+      "date": "2026-09-16",
+      "publisher": "Hunton Andrews Kurth LLP",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Leading the Enterprise: Working Together - Bloomberg Law News",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPa2tNUnRTWmIwaThQc0dQUUJXNUlMb0l2ZEQxeFFuUVFTVHRTSlp0OEpXaHYxeHFWNGNLb05wd3VtVVZING51dm50aFh1U1NJcFhFc3Y5SlZBSXFDOUxteEpzZktCOGF5VUo2OFRtYnRUN3paYW9QNllaOHRBZkhTeFo5M0txWVlnQXNySi1rUWFkdDFlS2QyTDFQWHRBb3h0b2RUdDNzb2doZldDSWFPM21WWkk0U2JEOGJ4cl9CaE1XOGVIakVReU9SYnBFYmJNYmZkMEh1eDZtNF9pQVV2UjVuZjJub2txeld0VXJ3aENuR1R4aFJyQ3FCbnJIR0NIYTJZOWhR?oc=5",
+      "date": "2026-09-25",
+      "publisher": "Bloomberg Law News",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Holland &amp; Knight Brings On Hogan Lovells M&amp;A Lawyer in Tysons - Bloomberg Law News",
+      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOTUUxdkdvaGZxUmwxajc5YkxhMmVPdWZlTnRldURWdG5FbVZGM3VRTkVUdGxPVmRlb0REOVJBeTUyWXI1aEhlOEszcEhpU1hBV1lxUXFRWlQzaEh2NGdaWWk2aVVuRVMwSFdnc1NFcEhTMTJiMTFsNnAzd3dtZXB2VGZZazA3cXE4TUxQRmljTlVLUF9jRzVqN1FIWGlLbTF6T2M3LUpQdEZzQWtJQzBuTFJpQm80OUR3UHFWVHAtcVFRalI3TThLcTBla2NYZnFnQS1naWxUemt2emwzcG5PcVAxQTV6M21KUkJ6OHRqeVpQUkhKdmFVSW9NU1lKeEpkek1UeV9DZWhIZk1JOFZXT09oeEEzcXBSQllpSi1Sei1GQQ?oc=5",
+      "date": "2026-09-03",
+      "publisher": "Bloomberg Law News",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Meet the man behind dozens of Baltimore-area accounting mergers - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ2IzbDNGcng3SGt1VjVVUl9kRnBDOE9KS0NRdjRycGtOTXQ4S2g2R2h3d3RSNFNMVE9XWFlxMDNvX1VYajdyM3FtQ3NONnFkb2x3TTFHMzZEbElDWndJZHFJWU8taGdqanZBYXh2TVNrLWdieUQ5Z1hHQVZub203M3BiZlVDeHhWT1BKMTd1c3E5ZExDQktaUXNFOTJ5Q2Q4cEtsQ2xpQlVqLW5xaHc?oc=5",
+      "date": "2026-09-17",
+      "publisher": "The Business Journals",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Sanford Health finalizes merger with North Memorial Health - chiefhealthcareexecutive.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOU2lfRzhYUTZGM0Q1bFdmWUducGVIS015dkpQQjBYWS11enlLQTFyYU1lUTdDaXdaM2JJb2VLVV9QSjI2NVBmbUd2c1U2OTN5WXlKMFFIWHBDa0ZheTZodzFKbnJoenJCbkVlNXVSR0pfNEZfdngxN3d4LXdiOWlGd0s5NzFQWlNBV3BZV3NVSHRQV21UbVZjOVFPZ1dQTzJyeTNEb1JZdw?oc=5",
+      "date": "2026-09-02",
+      "publisher": "chiefhealthcareexecutive.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Beyond Fighting Mergers and Censorship, to Finding and Funding New Models - | Knight First Amendment Institute",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaGppSGplQzFyMG55WEEwWlp0RDQzVmtfYVhYbE5UUkhWdFNNY3pJekJNVFVHcFFXNHdzajlsLTg2RjFZYWJsZ3NYa2FEM2w3QTE4bXQtV2pBZlEtNzhWUF9zUFR2cVNHbXUwbmZFbHhqdklhRWx6N05wU0NjV3ZRUVZiLVJicndablpnazRXdzRTNjg3bGE4R1RvWWxnLTJXVFYzRUt3NA?oc=5",
+      "date": "2026-09-24",
+      "publisher": "| Knight First Amendment Institute",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "American Tool owner drops takeover effort as sale process moves ahead - Plastics News",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTjRZOVhucGpEUUpUWHR0R1g4cDlwMFZCbW9Wbjk3X0lJeXZ1SGx5bElkZm5LdDJfVy1FaHo0a285SmtWUldRUE15SGd2aEdhQTBJX0JOR2hkWEZpa1BwTl9HNWZKTWQzQXliS3R4dDl4bWpnelpaWHIzbjNiMmNnRFFmSlA1SWc1U3dHbnFzdG55b1NHdjRQd3cyR0R2TTAtbHhZclZhczI?oc=5",
+      "date": "2026-09-17",
+      "publisher": "Plastics News",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "The 5 biggest mistakes health systems make after a merger - Advisory Board",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNT1lOVDNKX0dxSE8ydFpXV0FzSDlXekdRMGVaVnRZTGxEX09wNExZNjBSajNOZ19EOVQ5MVlWUTl5QzVtWVo3bWdYbW8xOXF1Y3Z1X2ZIOWlWN2VUWmFhWjdIcWNYRzVMeTNyUXJrZWNqUzRhek81SVZXTDQ2WmVMakZsZ3dSYTRDVHNfVA?oc=5",
+      "date": "2026-09-16",
+      "publisher": "Advisory Board",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Leawood advisory group Xylinx launches M&amp;A growth plan - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVFd1VjlVcGNVV1lHaDZWcC0wTXp4VlE3MHVCVjU4Um1FWkdpOUZVeEZKWklrTHpzcGNZcXoxLXFpUnk5R1paalJXcFhyd3QybEtid3U0eV9lSFlIX0hXWGMzSWdrOUd2U1NvOTAwa2ZMdlMzUTVCbUoteGVic1Jqa05NbTIzZXNHLXE4VExpcmxtME1wcVFxLWx6bHM2R056RDZWWTYtX0diWllkWlZr?oc=5",
+      "date": "2026-09-09",
+      "publisher": "The Business Journals",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Cayson Acquisition, Mango End Merger; SPAC Resumes Target Hunt, Notes Convertible at $10 - tradingview.com",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQV1c5ZGFMUnBrNHNXRFd2U25pYTVYNlAycV9CUGFDcFJwVklOUG1kZFlKQmwxWWlfUHlqRU1venplUkVKUV9OcUpHQUo1aGNRem40Ry1UOV93Zm9kVlYtXzY2R2Q0bVBRb0dUckdFOFZNYjVHN2MwcnhXWDd5ejJpeXZrSHFUMjc0UlJoMzUydXd3YVpTVWliaUN1RFRQU2x5YlVUaUtZTUZPVTNpeDhNVklQZFZpbTRwN0ZZLXpUOUc2Wl85SjZ0YjBsM09GNFZBUFVoeFBtZjlWaTM2NVVR?oc=5",
+      "date": "2026-09-08",
+      "publisher": "tradingview.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Green industry M&amp;A must-knows for business owners - Lawn &amp; Landscape",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa28zZUVkX3BNYno3dTF1MW1iODlzdUc0VzlOU3phaFJDa0lOMURrelA5VnppNGlRejJNMS1pWkhiUFpLWXoxa0R0M3M0b0dmcjVjTzVNeXFOQ2hGRkNzS290M3BwSVlxaW5PQi15NUo0ekFNWlc3YWpQeExhZWJGT1hMdGl4RXZ0SkViSkYwVUQ?oc=5",
+      "date": "2026-09-23",
+      "publisher": "Lawn &amp; Landscape",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Relation Insurance acquires LaPlaca Insurance in Philadelphia push - Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOSEtxX1BmZU84bUZ5YVcwN1B4MnRxSWdLaHdvMGRLSHd2TG1mNkJWUFR2Z0tZRGI2TGFEQ2xPZklILXd1T0ZPcW9Cb2d6MllQcWZabkYtLXJwdlpSSmpxWDRoLVpZanBGeE53S29XOC1ZSURBaUp4WklZbTA5TUUwU1hEa2dGaHkzUnpZN2lES015VnFrU3ZwSDZ5Y2ZVSEgwTG5qdzhGQ3BXZzJnYjZwZ3NEdG5RT3YwMURHd1FpVWVyZl92LUpILVdJdWdwZDdvZmNYbktCMXczVkRL?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Insurance Business",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "HomeSmart boosts Southeast presence with acquisition of NorthGroup Real Estate - Atlanta Agent Magazine",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtV212VGp4S2V0NkxDSEx4Z0M0WFpoS182eWhxZzdoVTlCRjhCVzRQUmswbDZpLTEzUEt2Q2ctclVMWkFCdkpxRS1vaURrTklUSkR2eWFDeXIxNHdJcTIzanpiMUFfTWF3MlR5TzNyN1NnQ1k?oc=5",
+      "date": "2026-09-23",
+      "publisher": "Atlanta Agent Magazine",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Dutch House of Representatives Approves Proposed ACM Merger Control Call-In Power - The National Law Review",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOV0ppT2NtNVdzN0RUS3Z4aXV1VGxXOHFhX0UxZXpLVDB5STBJbW0tcm9peFlMTlNxdklSQ05VOU8zZnBlZFpHR3JxbmpRWWdsNEFXYnduYWdaWktsYUxaRWZ1dkc5X083cURleWxuNGt0QWwxenlzOUpPX3BUOFBJZmt6TGhyNFQ2Wk91WTNqWTU5MzJLTnljNV9PUERoS2M1U2hzRThCUloxTW440gGyAUFVX3lxTE5saHBuX2RfTk56dUw3cDZFRFQ2SmtYazdOenR2d1JHbmE1ci1DcHc4dnh6QWZLa2xYSkZpTkVEeTBCRkdqdmIwc1hhYnpxYmd1NVNYcF9xLUpUcDhlbGR3ZHRUZVFvcjdsM0k4WmR5OU8xYWZRbGI2SUFwRXF5bGdWZ0lWWUtmc00xbFlEQTlFS21lQU54WDJyTjlVRkFXUnhpUkFyaGVRZ3k0R0RXelRVVVE?oc=5",
+      "date": "2026-09-25",
+      "publisher": "The National Law Review",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Iridium stockholders approve Rocket Lab acquisition - virginiabusiness.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNjdTNmlxMFRGZExNNDI3cG9qQ2ljMEFta2t1SEJ6ajhqeXRJNVJ2ZmFCLXV2NGlzaEpkVnBKZjRza3Zkb25OVUNmTV9TanRsQ1N5Zl9oT3dtQ0xuaVp3VTB2ZFZsVmtmOW53QWdtWnNnYUZtZHd3WmhnV2FTckRDeVdSamF4U1NXbWdLWmxYZVJRYjVHVVBF?oc=5",
+      "date": "2026-09-25",
+      "publisher": "virginiabusiness.com",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Vortex Companies Expands Geotechnical Services Platform with Acquisition of Municipal &amp; Contractors Sealing Products (\"MCSP\") - Fidelity Investments",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTjZlUnIxRG5NdllyYVBQT2k4YWlhR2ZES3c3RGVYeDVrRm0xdFVjMG9ORUJGcVo0NlhtRTJhR2thQnBFU1pEZGg2MDUyNXJiNE9vZkdhOVAweE1CWlpWSTJINUotSW9zWW5PU2VWbkk3N1prYTRqTGNjZTlibDJDODNrb0FjSFZNMmhES2kyaXNaU0dwcmdWZDh5M0otMVhS?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Fidelity Investments",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Waystar weighs potential sale, according to Reuters report, as analysts see M&amp;A appeal - Fierce Healthcare",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQjZHbDdzc2FKSEI2TVg1amk3NUFlM0JWaU4xN1hweGp1TzBjb0QxeGpZMTNqSklVYjZoT2hnTVp5WUxER1Y3dnd0QWJMal9mM0xlRlI1aktFdnk0WnNoSG5jMVZLSE9wMDB1ejRuWi1JT3F0OVUtbHA5R2lndjJIZTluX0t5UC1qZXNVZWRGblQyOWZHWEliRDA1NnMzWUltNV92QU9LTEdMUlh4d3UyM3JhT2NKYmZjd1JNYlRZbUFYUQ?oc=5",
+      "date": "2026-09-15",
+      "publisher": "Fierce Healthcare",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Apollo Sports Capital wants in to the NFL - Sporting Goods Intelligence Europe",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdFRDenVpX05oTm81ZUI2Y3hwRlRJTXp3WWdhNThELU53eENQMkFfTmNYS0stdHkyVGdvVlgyNU9yM2ZBc2RLQUt3RnRkdGRETWhNTWlpeGxLdzhUVThwMFJmcnRUMXlGSTU4dFRtLUpHUGQzTy1IMC1LbEN2dFBhS0hGZ2NoQ3NYVm16TTlQb1V1NUdIRjJtUlBiakxkanNWRHE4M1ZEcHVmUUk?oc=5",
+      "date": "2026-09-25",
+      "publisher": "Sporting Goods Intelligence Europe",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Zurich's £8.1bn swoop for Beazley gets the green light from London's High Court - Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPMnd2M1AtczlJY1VybHUzc1gtVUdxNW5KcVRYbWZiWC0tTmhvcjlfN3lraTdydWtidFFSX0VnSUV4WjltVHh2WmZQRVQtbXQ0TlJ2YkpsWG9zbURVaUx1WGlyaERyVXZ5YzBtRG8tTEZNZTN2RHZEU1JOQkFwZDdmUHA5WjVoa0VhMFNjY0lqUTZQSFZoMG01RG4xZHBZWTdTN0w4cjdxenE3Qm5aM0NvZGVOcVM3Qm05ZklyNmVjRG9GTWFRaFFHV01ablVMM21TSXNhOWYxcWtybVhtR2FyOGxkcWdSRWVpbnc?oc=5",
+      "date": "2026-09-22",
+      "publisher": "Insurance Business",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Looks Like the Paramount–Warner Bros. Deal Will Go Through After All - Vulture",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOY2l3VlAxQnJzZVdCdTl4S1NtMUpRMzVDekZvb2JBMUJWVjNRRldzYWdhMXFaM1JIS2dWVnBNWkZoNnBvOHp3WlFCT25CbUdzV0JqZG56ODdVejRzUHZPVFFKS2NwOGFINlcyWWRaQWFvUmJvWVJpeUk0WG5PQnhyREZlZGtBUQ?oc=5",
+      "date": "2026-09-21",
+      "publisher": "Vulture",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Caesars stockholders approve $6 billion merger with Fertitta - Audacy",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNcWJVX0JFdXZFM0JqakxodVl2VGtocjZRRWdWdjZ1UTFBM1Uwbjl1RFJtUmlBTzlVNVpPYjd3TjRFQTZJN2xWWVl5eHpYXzJjNzZjVVduSVY0dDNGUGh2WmtRSnFKZnpwTTBOMVRyekxUNVJ3Z3RpbV9tTkE3QnNWajBDdE9OT3lsdFZyY0Fld0k2dUxaWk5zTzgxeXAwZzd4b2VOdGY4QlBzMmdqU1RFZw?oc=5",
+      "date": "2026-09-23",
+      "publisher": "Audacy",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "American Water merger opponents gave no 'valid reason' to block deal, company says - MLex",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOS01oRmpHNTR4U1VyNkpPNnRnMTB0dnppd1RhMFpZNzhqRTk2SThVbU1tcnpJVGFrUEIwWUVucWtRd2J0VEJybE1aUTZieVd4WXdFczVEZUJnYkotZXZfSHI5cGJZMXFnaWpBeGtCLVIwclRFQUREZXkzYkd4RkJqS1FQSldOWHdsOWVteEZWdTBNYjNIQU5BQ180bzdob0kzdnZ2TmZDLWtfZEhMdjlGZmltWUt6NzBYMENlNnBFc256Y0N5d0pIQl9wZ9IBWkFVX3lxTE5sNlVfQ01kSi1SNmZFUVlOVU4yLVZfQ0NrUE1LQnc4N0w5N2pvQkJrcWZ2Ym15ME5vMkpIbEt2M1N3TXF6MTNJeUtuWVVUbl9uOUp4ZEhLdUV3UQ?oc=5",
+      "date": "2026-09-23",
+      "publisher": "MLex",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "When market leadership becomes a merger control liability: What the General Court’s Booking/eTraveli judgment means for M&amp;A Strategy - White &amp; Case LLP",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOG1ONS1QWUlkZ0VuZ1lYVG1sWUlRdXlHVWRTUWlTelFuYnZpNF9qSWhyZXdFSVZtY1JOYlJfTkVQV1JsZzliMy0xWGRyM3dDaTJHTFV3NDYzS0xaTXRKTllrZHNMREpoRnFqYlE5azhGa2ctcjVXT1dyMFMyMzlaX3h3aDFFSFk4Wjd1MGdHZ09rU3B2R3J4SFZ0TzVSc3FMTk1lWUxpOERQb0NCWFR4OVZuU0lfQQ?oc=5",
+      "date": "2026-09-25",
+      "publisher": "White &amp; Case LLP",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Chelsea Strikes Deal for Exit of Walter, Boehly as Shareholders - Bloomberg Law News",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcjN1VFFXQkJXSEtudHF4N2dsWXBPRV9TVUZDTnROeG9UaTkxSFJRMTRtWkVHSHd5bFNNUkoxbFRQNzhXdFRXNGg3UkdGUFhUSnZvT1hJdWh1TWtnWjhjMnA5YmRocElnR1VQUTF0a3JHYWNRTzNDbGV6NDg5NFA0TFZsYXkzc1JGN2J6eTRuR0JGOVpyVmtwWWQ4X3JUSmpOQVp2cVI3WG1NMnZXSWg5YzBTS3dLbkND?oc=5",
+      "date": "2026-09-16",
+      "publisher": "Bloomberg Law News",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "M&amp;A activity surges in Buffalo area as business owners eye retirement - Buffalo Business First - The Business Journals",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOMXRIenNlRkM1LXZUUllLdXoyYVVTQ1kySmpkRWxkTHp6V0NHWVQzcl9vaDdaaGhIM3pHdjZ5bWVhREprMktOOE1RbXUzQWpfRHNkUzg4dU5NVzZvWHpnS3JWZnZKT2pvUU5kMmVnRmZMU1FFckZOOHJlZDFUTTA2bWVVX3hqTmJDWmtCR1dmVXlreVhmLUNWeEV5b1Y?oc=5",
+      "date": "2026-09-04",
+      "publisher": "The Business Journals",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "Casey’s to acquire 20 ASAP convenience stores - CSP Daily News",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUVFEUUtVOUhOS1lURFZEWDNIVnpvX2lWYlFQeFhsczJ2c1FVbW54dTNkYV9RM3M3MGlmd1ZLV3VKMlhINzhZR1NVbWc4QzVNOFBONXNzQ1R5MkRic0hPZG9Id3E5cC1XYVNLR3UwbjduYTlQUUtSQVh5c0NRVDVMdGtvTGR2WHF1RWdoQzBEa2c?oc=5",
+      "date": "2026-09-23",
+      "publisher": "CSP Daily News",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "ITC Federal to Buy Capgemini Government Solutions, Launch ITC Digital Solutions - WashingtonExec",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbVJWWnBGU3RmOFJJY0ZsTnNQZVJJcFoyV202WGJ4YkJXYUZqZHlBd1BSM0FIRENQN0lyT1k5OFpSTmMxV1BrV1NQTzUxdEx4aG9OT3FMQmNxRGktbWtXa0h4cUhTWW83ZDZQRjZfVER3Yl92MjJIYXFkaWxXZDVsdl8yelV5dm41VnBlUFZWakp1S0NTMHdodG5la21yR29fQ1h1S2lodEE4c1F6akE0bkFwRThTQWZ1Z1hlLWJENm5faks5?oc=5",
+      "date": "2026-09-14",
+      "publisher": "WashingtonExec",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "EPIC acquires a fifth-generation Michigan brokerage - Insurance Business",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQV0RxbzNKRDhhdHlmZW92TjhKSWh4VEQ0MkRGSF81X2VMckRIcl9aTTY0UWlLV09PV19Rd2dtcENqeDVHM19MTzVlaTNqNXQ4UjVmRHlHRms1NElSOVhSMWE5eTJ5dy0zdlRVU3gxbXAwRjJzY0Y0LWQ4VHVzSXFWZTUzdGlLWkdjN09xOGpVbFVRcjc2UHNYQ3h5bS1MZXVjQ0lFNElKOUxidXAta0FpdEhURkJLRUR0eGdMTjB3MUVXbmRhRWE0?oc=5",
+      "date": "2026-09-18",
+      "publisher": "Insurance Business",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions"
+    },
+    {
+      "title": "US Hits Canada With Ban on Some Dairy and Liquor Products - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaVRvU1BXVDZTV1dpSVZfOWtoYjYyTWdIcmZGcUJCZVNoVWMzRFBoWnphRjFGVWlRbUZGNkZIOWE5UGhRRm4yenlUSUE4Vm9HRjA3aHo0RXJLY3hCb24ySHBFQVpsWlRIYnpvQWR0RmRaczlZaER0dlFNRzh2dGQ4Nw?oc=5",
+      "date": "2026-09-29",
+      "publisher": "The New York Times",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "‘No definitive timeline’ for David Solomon to step down as CEO, says Goldman Sachs - Financial Times",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUEdmcFNFYVoySHVad2xjdU0wSmpVeFZOY01la3JsM29TQU9sWXdoQ3ZLMDFLTjU3TzA0Tk1Jb2Zia1pESDZ2aThKTEdpaUp3aEdLd19BdlFWb2U2eTVyOVpCRnR0SmNQSEsxTWJzWE9xTzlMYjVNcFNmbmF6RVJnWl9IM0Y?oc=5",
+      "date": "2026-09-29",
+      "publisher": "Financial Times",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "FAA: Boeing 737 MAX 10 Certification Will Be Delayed Again Until It Is \"Satisfied\" With Software Fixes - Simple Flying",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMG41MTV0d3p1NHpFN2xmZVMtQ296UDVVQ2k2eC1YclVBUmgxYVJScU1DLXVIbWVYQ1Z6NExQTTdydGhtcUlvNUc3NS15ejQ1cEFlaFZLVnVLcmZRU3hhWC1HMXR3MVRRVnN4S3plaHhidTNvVENPU0IxNUV2ZEduT1JycnZnb1l6NkhCSlhSVXlMeEtf?oc=5",
+      "date": "2026-09-29",
+      "publisher": "Simple Flying",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "SpaceX’s Starship goes orbital, deploying first next-gen Starlinks - Ars Technica",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQ3Fsalc0ZlhsR1RyOTVxVkF2VDVXZFlBcFphNUFsbHZzY1VqWlpyZ3J1WkNIMlNQS1FYVWVaN2FNZm02a3lyTUg0QW5FWktYR2t6aHg3WGlCUnk1cTFvMXItNkkyTW5oNHBjS2cxQ2RjT0E4dF9OMF90Q0g4SGRLWjg5enZmVVZjRnVEcjkySk1Eb243eEpkYU1NU0dNdmFLOEJaZmhkV2NLdnZDTXMw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Ars Technica",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Ex-Disney CEO Bob Chapek says he raised concerns with the board 'weekly' during Iger power battle - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTm5qSG8yS0JPZTBNT0ZHOGlGUEdrV3ZyNTd4dUVyWlNneXZpQXBiNVFvSGlmRHJTazQ0N0FDQXFRdVpnMGN3eWMtVUsteEFNaFpVT0RZdUU5Z0k2MzVsZmpscjVpSUh0Q1dRTDNOa2NZV2xQUHhmTXpIdnc5Y0dWMlE5d21TV3VPUlHSAY8BQVVfeXFMT2plcG5CWFpVQ3ZBMWllYnJ3RUFQN29yanhwaTlFOE0yM1FGZEFzeVUwdnlPSkFKR2VnME91eGRuYlhianp4Tmk2U2Mzd0htWlFjSEtPempyb1Jpd3lYblAycmplUllicGpFcVpFVTNNYzBLVHU5enpQUTF0Z1EtSHlQRVh1RHB5QldnOGVYMzQ?oc=5",
+      "date": "2026-09-28",
+      "publisher": "CNBC",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Brian Kemp suspends Georgia’s gas tax as Iran war squeezes drivers - The Atlanta Journal-Constitution",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQlRtSjQ3YnkyYUc2RFZaSG5DSWFDMVEzWnZBM1dHTTZQaXY4NXE1dHlqejd2eWRjTlJBRTJUckUxczI3V05jZk53LXVvZDFfVk1Id3pKeGN2eWptclp3aVdudDMtSm1lNmFoMS0zRF9pTlo1b1d5cUVHS0pSUlhiRjEwMkl2U2pKNnNJWFNTanpyTmwwcGxjZUtKMFVyQWkxQW8zblNn?oc=5",
+      "date": "2026-09-28",
+      "publisher": "The Atlanta Journal-Constitution",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Elizabeth Holmes Says She Was “Silenced for a Long Time” Ahead of ‘You Can See Everything’ Release - The Hollywood Reporter",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcVdTUGVsQlJKdURQRW93X0ExZVRvRXYwUXBRWjNtX2xoeFEwUUxVaEUxeDhETnV5MXJzanM0WUliNlRCSmFMOHV1c2NLUS02Y0ZQaUZHcW16QXNwVXNDVUIzNzJtbVhORFhZRmZMc3RBaTQwX18yYXFlazhlTkN1Z2pYSmtxZERrWWFVbDdLX01aVW8zZXREMXdvdzlQdllFOWRZc2hybjVISFM1YmF2WnY4UWViOTFrX0VncjVHRE1nUQ?oc=5",
+      "date": "2026-09-28",
+      "publisher": "The Hollywood Reporter",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Three Seattle Starbucks locations closing, including one 8-month old Ballard location - MyNorthwest.com",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB2V0dyekZyclpDOG05dmNKRHlENDRtcmlkVjg5eG56SFBUQ09HbmtsSVhHejNVWDVrWWV1OEotRDQtOUdvcmtWSVBRT216WEZ3RWI3NEp6VnpvV2FuckhXWmJKYTFTXy1zaURqRjdfX2M4Z0U?oc=5",
+      "date": "2026-09-28",
+      "publisher": "MyNorthwest.com",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "The Subaru WRX GD25 and BRZ ZC15 Are a Pair of Limited-Edition Boxers With Shiny Wheels - Road &amp; Track",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNUlhVW5jMTdVQ2k0b0UzdVp1TXVyalFnRThCZ0ozQW5rajJxQmRwdXlQQ0E3bTZLeHNPbU1KOWUxNWpWVmhaaDVDMjVzTDBOb2JOdW82bzA0em5UN0pqN3dXZHJFa29CZHVlSzZjVG9qRFdxTUtscG85RkZQLXluWEhBNUc5b1QwR1d6U0dwZw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Road &amp; Track",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "AbbVie's Cerevel buyout delivers as FDA gives go-ahead to 1st-in-class Juvmo in Parkinson's disease - Fierce Pharma",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWnl1c3hWYnVTbktLOUpXajZZZ29HRUdzWkVUMzNWYnNjU3JlUFc0dlBBOTRRckVpTjdaRGpLMFJEUURrcHA3c3hYMEFFWU00U1dieXVCRmh4M2V4Unl4enpLdEFJWE5NUnc1UHZRNFY2QlJGenNucnJJTTJmWTdCa1hqYlRkLWlsXzF1YS16WmFERTNZUWFoY2h3a1JTOGNQUHRwNDl3M25nQkp3dVVXQlRHSzF6Sm1kNE5nQ2V3?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Fierce Pharma",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "FDA Announces Nationwide Cheese Recall—Products Linked to Multistate E. Coli Outbreak - health.com",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8tTGJKSmxyc0NYV3JOV0xia2EtNElIQ0xvRXU0SlNYLTJGM0Z0LVhDeGdkMFV3aTRtZjE4dXJ1aHJLWnI1eU5TQzFVUGlkd0x5b3JJN1hWTmFaYWNGcjdZVkpSZGZaSW4tRUV0c0hDa1BORnRnUWtrcg?oc=5",
+      "date": "2026-09-28",
+      "publisher": "health.com",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Kodiak skyrockets on positive study data for 2 eye drugs - BioPharma Dive",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSE1PZ1J5OHltQTJVMnNtQ3c3TDJUTEtQQUlHZUdULXhsZ1RQZHZ1aFNkS21EUW5rNlBPZUdwd3cya0hoUzhZd1RWamJRRkVnTWdvX01aWl9TdERqclk0VzZKYVBZcU9yeXRyd25GUTVIeFdsS2VWaWk5eGgzSVpvUXBNNS1GaVNONVFHc3FpS3MwcjhXR3c?oc=5",
+      "date": "2026-09-28",
+      "publisher": "BioPharma Dive",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Vail Resorts Reports Fourth Quarter and Full Year Fiscal 2026 Results and Provides Fiscal 2027 Outlook - Vail Resorts",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQ1JuaVNUd3lHMGlGdTNiY3JHcHVKbFJmVFBMdHdnOFd4dnJOWm9BYmlJY012UWIzWXpjV01DQU1lUlNGT3k1UVhabFB3NTBGRVlKN2J0X3hxeE5tUVJqZzBpYjdrZjhyUXZfTE5oRWZfbElSZ0o2ZnF6TnNJS04tTDhHTngyQnFheEo0d1BpdEJBNFl5MkNtLVU1bFA5NkV4SFRPQ3B3alhtZTNJdVFwSEt5bGh0eC14STBkYjUwWS10ZnlIYWhMNDhR?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Vail Resorts",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Walmart CEO speaks out on dynamic pricing: ‘We price the product, not the person’ - New York Post",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa0h1V2FHdUgxT1VZcTNHYnM1SlN4VXZqc2dsY2Z5NnVLR1VGN0w5QW9SNXc0LVZQM0NwMFBmYmVueHVEc0l2N0dZdmZoREZ1S2hwX3hGMkxsQUx5dzcyTjY4ZUp0OG9GMWZaVHNZYm0temIxTmZFV0gwYTRYSTFXM3dQWEVlMlVYQmFzMm1nRVpzS1JfRXBKUHRGdEltSGlaNFdpZlVObHJtX2NvdWNzMjJWR2JBZDUtd0E?oc=5",
+      "date": "2026-09-28",
+      "publisher": "New York Post",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Blood pressure medication recalled nationwide. See affected drug - USA Today",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZ0hMLS1ySmFXcURiSkFfenhzUzFna01pU0ZWWW83aFhiYTRZY2I5VU12M19HdVl3S2d2a1M1ZXJYQVlsSUU1cTMzZTZzcG1oY0prWWdVMXE4eVhiRkR4ZnRuaE00eUFjWHNrTWp6WkhaRVBlZ2tvd2gxNVJfbnpIRzE3VHMwT2dJNWZNVlpkeFgydFl0UFNvUC1jY2tGbjVfNXhxSVJaWjVnQlNLT2hBSWhmTkdMS29HRGx3NjNkY3JpSktqd1Nj?oc=5",
+      "date": "2026-09-28",
+      "publisher": "USA Today",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "High airfares could stick around even if jet fuel prices fall - AP News",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOERBd3d5UTh1SmY2RVpDb194bGExZXJvS04wclZBTWFwby1ZTFdjUklpcHlCR3M0Z0ZERnRiRlZDbzYtYmhTNnR3M3lfT2VpTWgxc0t4b2lOVFZURFp1T283VUZwdlNsem9MMmRJN1RZakpZbW5TTWdGQnVFQ1JvUXRMWWRpdFlRMEZUSjNiQXBYNjhla1pmSFVvUUJLdGF5MDl4bg?oc=5",
+      "date": "2026-09-28",
+      "publisher": "AP News",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Two major train upgrades arrive in the Puget Sound region this week - KING5.com",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPa2lqcnZPNElXUmdxajhzajVBU01lT3pNRXR1V3ZxcGlZc0Z3cDc0WkFLRkhrZUlLY21VcF9oaTQ1Ny05QnRLanRaQXQtNmxxZjQ5ZC0xTDZKX09ZUUJQb2VscXNaaXZZWlBmeEQzYWtxbEpTd3pFX3RJdVd6dFU1OFpBZWNYc2lMZmpUcHRWZ19RbzItbmVHaWxIN09JTnFEc2FjQTN3VHFnNnpsNEt1eFF0bU84enU3RHAzbGRsLXJiOVB6dzhuQ0F4OEdmYWxuWWs3ZVhaam9Sa0ktRlJSTE9Tdw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "KING5.com",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Merck, Daiichi pull lung cancer filing after FDA pushback deals another blow to $4B deal - Fierce Biotech",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOa3RsYnRvVkpLUXJzSEpYMWNPWE0zckh1VUp2TjAxRzhFTlVUa0U0VXV3aTBGVUg3VTJEdVotNGxXNTYwZ1RwN3RKUmxlSjlTMFoxWVE1Zjh2a3dWNFFwMmVoZkxGRFd5MElWZ2ZBdERrelVVQVNLX1NQdm1NbnJXazBuclZMVEJFb3lzdkJDVVBLMTJLNm9UdVVVRmNaWFB4clRCeGk2NElZUUM0a2Nob3IyT0dqcVJ4NkdyS3J4Sk16bkRwUzZv?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Fierce Biotech",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Volkswagen replaces ID.4 with all-electric Tiguan - The Verge",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMkdxYzY4WFpjYWl6VkloTkZaNFVsUURlZFktdHVpWm93RlUzMF9DZkVZeHVsQU5SbGF3UU1ILXkxbU9TajNtWGlyUDVUVUVCWDJfSmFaMEk5QjJacV9sTXBVLS1rSTZhSjQwS2dVbEI1OEh5UUJsbDRuWVNCdkFzcW80WHlSNnlGR3hwSw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "The Verge",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Nothing’s New Headphone (1) Pro Are Made for the Studio - WIRED",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNW12Q2VEc2NLQVd1azZ4dHFWQ2tvLVY3bE8tbDhxOG4tY3ZBaEgzeDJ5S2VwMENhQnRuaS1iSzVtWm1FNG5PUUNVbmZaamtMMkR5cHUwVmtwcUhwVGtZTzdZNExYdWF1eWlaUVZoUnJuTGFmSFkzSGF2c1lMa0E3cWVHUk1NdWdz?oc=5",
+      "date": "2026-09-29",
+      "publisher": "WIRED",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Honor Magic 9 Pro Max goes official with 8,800 mAh battery, ARRI cameras, Snapdragon 8 Elite Extreme Gen 6 - 9to5Google",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTnQwVnczdC1RaTdidktyWER4YlpUSFB1QkZFYUNQMDhYOHlTOGszcDUybmNHQVNlLWZGR05KZUNMTldUWG93X2ZqNUwzVzZET1IzNmNpWG01X2I2WEFoX1h1T05PLS11aXh4VkgwQ0xPNF90SEpmczRZWkRtLTlmbGJYbFR1ajhoX3VHeGxvTDBYMllSYWVV?oc=5",
+      "date": "2026-09-28",
+      "publisher": "9to5Google",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "iPhone Duo StandBy Leak Reveals Five Unannounced Faces - MacRumors",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBvcEMyU3BXSzZoSHhCMm5xemhkaGxoM2ZtM3VtX0R3TjVVNVVsOGFydnZOOXZ1SF9Cblo1bUZwSWdNSlgzOGtwN2dmdDVRelF1U1BPaHdwR2gwWXcxVUlTQ2hyS0lWbzRET1BWNll3?oc=5",
+      "date": "2026-09-29",
+      "publisher": "MacRumors",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "AirPods Pro 3 vs AirPods 5: Three reasons to go Pro - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nWXVGU1RVSzBlQXVpcGxub3FDdzhidG9UeE41Qy1TN0pCQXZ5akV2WG9jcGdKaXZNbHluMnRBSFA4Qm5NSVBiMS1ReW15S29PeUxtQlFEenBHdFNkZVpIdkxuT3Q3ZXNvdEE?oc=5",
+      "date": "2026-09-28",
+      "publisher": "9to5Mac",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "NYT Strands hints, answers for September 28, 2026 - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE83WFEtWWxSQWFfWDZxSkpPY01nV2VTQmRNeHF6RkpRRXhJX2s3RTNzdXh6NXd0aFk4MF9Ucm0yZzduOUdFZTVFNEhsazUtTk1pclZtU2FUUnV1bmFXZjhUV3p5eGYzVEFCdmF5QmU3eDFobllqN3dvWQ?oc=5",
+      "date": "2026-09-29",
+      "publisher": "Mashable",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Meta’s Smart Glasses PR Cleanup Campaign Is in Full Swing - Gizmodo",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5OSjNXd0pFY1pycTIxOVdPT1RrVVZ2aFZXaEJwYnBlOHN3NEVTTWlFWTUwQVNudng2QlRJUWtxWTdFYWYtT0gzZ0ZqSERETDVMWGNVNDltVE1PWkFLQVRHN0ZnM2V0SWZ5c09KczE0Q0libGlEUmc?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Gizmodo",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Every Upgrade In ‘The Witcher 3: Wild Hunt – Remastered’ Ahead Of Release - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWWg1VVpoN1NTOXpJdlZVdnpyM0ZwbzNBWHl6RmhYbXBwSG5zQjQ3eTFMV3pkNTZQQmQzLUVjN1Fmdkhwa2RQRXdHb3NKUkVUUVF6aEtYRUUzN1FpOVdIZjBrX2dzeXhIR1FZVFFNT3czb2VFaWRPckZQczdPYnpNTkxfMmFXeG5MelBBVHN1NGFDc2VmT0xYcU5OMFBZVUxvS195clo2RHlNSjFSenphX0VrZXlPVTA1clJyMw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Forbes",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "It’s About Damn Time Trucks Started Offering Old-School Two-Tone Colors Again - The Autopian",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU0lCNkRJcjduc2l1Yk9ja1RFTklDN2pMMl9CeWFwMzNfQUNVYlNFMTFlUmJ0bEdEVEN0TDRpWEkyQ05NVmpMNWtTb21MVmRLdlkyZVVXWUJ6ckwzRzdyMGZrTGZMOHBjUXdoS2dEZlZFRzhKRVg5NVJ3aDZQLXdDQUh4eGpCaTA5RWRiM0dYQnFneDEzQ1cySG5KaFBuZmRuYkU5aUUwdEg?oc=5",
+      "date": "2026-09-29",
+      "publisher": "The Autopian",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "How Minecraft Dungeons II’s Interconnected World Makes Every Journey an Adventure - news.xbox.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdVJoT1ZZWk5IWURsRDloZHR0WENfbS1WaktRUFpobTF2OU9pc2NPUkhtTHcyb2xBNlYzdnZ5akJZaVh5enZMTUk2RlNiYlZOMG8wV2lFT0lsOG4xeWJsZTNaZmtpTFBmTzdxVUJEbmlXZzZvLWphR3IwQ3VKY25lS1VQUkd3R3dpSm9hYjNvVGxBcWdGRVpwdV9KNVhqc3I2dFZSRlFzWjloRTU0bmNzQTFsREFDaHdvVC16VNIBwgFBVV95cUxPVnZsY1BKeUZSNHh0RThIbXkyb1NmOUl1MkZBWnUzb0VhcTFIaWhJQmh6aXcyZy0xUzY4SGlBUWd6QUZYREhfOXo2ZWFSa2k2LTFad2piaHFGZ1hrbHpKRzA2SGJTaUQtcGVKNlVUVjBpeVVsM1l5cmlwVGxkTFYwU2FLNGk0RzVtM3dsaThCRmFVQ3VUcnlQLXNkNDdSRE1JYmxOa0RiT3dBYmxENFJpbzlQWFdVNnktTnVRZ290eWFQZw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "news.xbox.com",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Sony Is Skipping CES In 2027 As It Focuses More On Entertainment - engadget.com",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTHM0TTVhM2doZXhvN052ZkJWWlVJX25iZXhOcDlaaVVVQmQxek9jWkFLZDRpbVMtcDRJMkY1MF9tYXk3by1xMVVXamN5QW91U3E3U3FaR243ZnB3dGlGMWFQcXJXV3E1N2MxR3pqUlI0RFNsaUZiWUZWRDEwUGhkY00wU3c5R3hzNkhYTWl4cTVoS1lKdVdPbE85aVhVcHM?oc=5",
+      "date": "2026-09-28",
+      "publisher": "engadget.com",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "The iPhone Duo’s honeymoon period won't last - PhoneArena",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWVkwUkZmUTA0aGlwbU5jVjEtbzMtV2lhNWstRUhYWVN6Wmo4SlN3d0VsSVhzSF81ZVcyQUVnQVZSZEw1bUMwSEtFZUZsdzhLVDgyMU1Oa2NudjlUYXhON2M3ZjBjVmtLaXlyR19MR2t5SFNvWnpJUG0yb3J1ZkhXb2E1YlN2RkF6WkEw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "PhoneArena",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "The Galaxy Z Fold 8 is thrashing the Galaxy S26 Ultra and the iPhone 18 Pro Max and I couldn’t be happier - PhoneArena",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTEhMYjg1UXNwLWluVGZDb1BnQnJFbkIyLVQ4dk1vRlFPcnVqYnVsNnlxbUdsVk1qcTN2ZjdQTUU2M3hPMUtscHZneFRtLWdpbVpkZ1NtcG82NGpLYmd1aTgtbDA4aXd6RWFhaV9oT0FqM3EzRGtIbkx5OWt3cEtvbVpzU0xZWmJ0Wmx1azFUN00xSGVESmtuVndseG5lMkZsTkd5NVlWUnQ5cmgt?oc=5",
+      "date": "2026-09-29",
+      "publisher": "PhoneArena",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Bose launched wired, yes, wired, earbuds with ANC for $99 - 9to5Google",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdXk2Qzg2WEsyZmVMYXpjZGJqVXh2dDlzZTFraExUU2o4RFByWUdCOHJwUnpvUUx6V1hFTk96dmFaWXBKRzdXQ3hnZEVjN0tkb0tmaTM5Y0pXd1A2VkdwU2hsSHRKX0hnckJpallCU0g0VE10YVdkczR6N2VuM3gzMUNMQ01jV0VFVm1wUHRlT1NlZw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "9to5Google",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "EA Sports FC 27 Review – The Grounds is Shaky, But the Tactics System Shows Promise - IGN",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBubWFQOWZwZDBUOHNqMWtVOW91YTRlelNLRHdQNG8zYmV6NWs4Q09kZ0tDcTkyOUw4bFBvcWNiVFlxN2xmS2ctTmd6bnlKRThrVHU4OHo1SFhTTENIajVMVg?oc=5",
+      "date": "2026-09-25",
+      "publisher": "IGN",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "The Last of Us Day Marked with PS5 Avatars, Ghost of Yotei DLC, Figures - Push Square",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdjN3UFV2ZWFTSlBuR0xwek5OZUVoSUlwbVc1aHJ1bXJjRlhrZ3Q5MmhoS1VIa0tfYnZOX3MtWlo0dW1iTzgwR2RKcDN0OWRGZDFHWnQ4ZlU2QnRqenJyQ2dfNDMyV1JZX01IWWNTZERFUkFKdUlHZjNsZ1hlODB6akFKRUZVNUpaWmhEdE0yeHR3aEQzeGM4bzhZUWZ1Wk43UkF6UEI3cVRKN29uQnc?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Push Square",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "New God Of War Laufey Weapon Revealed Alongside Pre-Order Details - Game Informer",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2dnbXg5U1R1TUcta2NtWGx3M185N1VxY1FhYzV2QUlfd3ZOd2YwbEN6Y1pWTW85SFp0dFppZUFXVE1HdklFWXA0eU91MEI0QjQwVjFNUGVMc2V5TTc0Wk9TYlBKbmtlYzBMcUI2Wlh6bnY3dXNHQXhrUWVhVkFreExseGZRbFdYYUxrSWZ5dTc5dGFWRFpOWFIzcEJ6QWlXTEJv?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Game Informer",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "People Are Going Completely Wild Over Fortnite's FNAF Crossover Announcement - Kotaku",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYUNRTXFjV0lQZUdlWGpYTmhzdnJBcEVKb3pKN29WczNhZnJISWlaMWZiaFNmZUhMbXFBdE5aeXJDemd1VmdfN3g0UnJQNlZ3ZnBUclUyWHBKdjhhbjVBdjd4YWozcVl2NmRoRkZLTERxbThQMXkxSVBIVmU0M0ZhU0Y5Z3hQQm1tdkp6QjcyRjlJMWlING9UMWxIbUJMZzdKRFVTSzZB?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Kotaku",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Monster Hunter Outlanders launches October 29 - Gematsu",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOVNjLXphYzV6ZWNyT2NzcHhqV0ZQMm9TaFhBUktldlF0UDZHVnMxZ1V0OXd0a3VYT0pRLXhxMEJ6NjFfZF9Bd3NnTnBQd3l4SlJaNzJ2aV9ydU1xVkk2eW55WWtvaWQ5amZLUGtsRUV5QThIU3djSFJra2xhdF8zUFVWVQ?oc=5",
+      "date": "2026-09-29",
+      "publisher": "Gematsu",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Naughty Dog will fully reveal Intergalactic in 2027 - Video Games Chronicle",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeldveWtmclAtQmo0MktGWmhhSWFrTlN0amF2MFJZUlhNdi1JNXZFeS02c1RrcXZyOWVzOVE0WjRLLUpQYXlMcjNIQkVhdU5iWTdLVVBsckc0MERsZFRZNWVWT3lOTXQ3a012RlZDVWFnMVJQTDBuTnNfaE5LTEFaNWl2UjJ5U1Bac1NOR052N3hxbWdDYWFkZQ?oc=5",
+      "date": "2026-09-29",
+      "publisher": "Video Games Chronicle",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Gears of War: E-Day and XBOX Unleash “The Emergence Pie” with Prince St. Pizza - news.xbox.com",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MOXkydUY2ZEkxVk1ycS11bnVpQm9qWUR0M0FlYXFnd0VPMGtuQWNsZF9nZXNXSVdvYmZkT21aLTF1U1N2Nm9UOXdNcWNzaHEtRWhvVUlFOS1BQnRkUmlOTE94YU1pUDZWOEtMQnVJVDFDT1lqWlk0YWVUQVJkdWfSAYQBQVVfeXFMUEFpaVVQbUFmYlc4LWNhRUZyT2N0QnNGTmZfZXhFVlNlNEJNdGhTMDFfakU0TTNoa29CUG85bFdVbmdlYnFaa2xyN1NzQ2JjOHVQRE9SU2lZT3puZnU2TlJ2OTZjZnBoZmZYWHdObmg4YW43ZTVUbUVBQUFYeUdmMVpXUzFj?oc=5",
+      "date": "2026-09-28",
+      "publisher": "news.xbox.com",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "All-new in-store offer this October - Warhammer Community",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZDZURkM5Xy1NdUZpZTc0Q0RuMlZFcVdOb0tmYnJxRjBpSzA3OTBBWVIza1l2MldPNHNXZ2I4OTZLaUdocDgwc2NYc181cUd3aTJyTU9fM1JaOTRtaWlYQ0U3WndBSmsxNzNGWllBellzUjV1TGpaUDVLZHNJX0NMUUVUV19nM1JoMUxrTXVHa3c0VGRQRHJxcUVuU1g?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Warhammer Community",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "SURI: The Seventh Note launches October 30 - Gematsu",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4wM0ZpdzNjUlZoaEtvRlllSC1ER3drVnZ3X3lmVV8tdmc5S0ZsUkQ0NTY4aFZObXJHelpndGR2Mll5WFQ3ZTZCbHFtTHU3XzdzVHRQWUxoTEU4c1RuXzBkeV9LTUNqOU9hWXJYWW5iWHY0aEVUc0t3ZWljOThIZw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Gematsu",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "The Galaxy S25 series plus the Galaxy Z Fold7 and Z Flip7 are now getting stable One UI 9 - GSMArena.com news - GSMArena.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ3A3NnpDSHdyWDYwSVFDZlRJVDFsYW1DLXdfMldhR095bFJSTnluZ01DOHFyNnhlWWFGSEZ3T2R1OGhadkFWOFVFSjhOQWlkcDhMZUF4YkFpSXZ6LUdRQXlEd1oxbi1zZWlnTUVXNFBtd0V4YjZueUExMVlteFZYRk1JYm1RaVFiM0NEUmdzel9Jd1BZYzBqb0dmaDJnelhEMHJMeDFJRnFEcWZ5OWJXUnk5X3ktWXdkTzdMV2RhQjR0UHMzODNVX9IBxAFBVV95cUxQRlBURU01Q2ZRUmo0QXRES01TajAwdzJma2wzV3A5dGFWQl91aHcyUTBxYVc4MWFjZzJVa0dDb3FsWW1CajlKd3RFekdPSGdudWJ2Z3RVc1c1UHVoWUVrRHdoT0RuQ3diOE5FMF8zOUstaDA2M0V1LXJWM2toM0djYTM1YnhRbDFGTmZzSFVtZ0w2dUVSMjVzcW5tRkNTT2M4TGFhbHdTQXpfZlB3a2lSaTNwTERsdDlFZjE0OVpmR19SNEx4?oc=5",
+      "date": "2026-09-28",
+      "publisher": "GSMArena.com",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Smart Headlights Finally Trickle Down to Cars in the U.S. - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1hZDlMVzU1bWJxVmpwVFFHb0lrQ1lDaXktNUpaY3ktT3J6TUdiVVcydGRfT3V5LVZIVmJQbzJLMnlEanRsNXUtLW5FQjFzaXV3dElpLWlwR3dVOHRMVzV3MVpaZl9Pbll5bVRrRFJFSFhJQUIxdmNiaUdlRmRKQjQ?oc=5",
+      "date": "2026-09-28",
+      "publisher": "The New York Times",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Control Resonant is getting New Game++ and a photo mode - TrueAchievements",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jX0pZQ0dDSlVFcmdSWUNELW9rNUUyX19ramVQd01naTAzZ1dEZXJiX2E4dXA0cmJHaDFpTlI3Q1hFSWZKOWZDWEJydFN3RmNzM195d0ZUNzVUWW1LaU12SEE5Y0w0bTlfU3pqYTB5LUFwaWdYSk96b3lwSk91Ulk?oc=5",
+      "date": "2026-09-28",
+      "publisher": "TrueAchievements",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "What was the original first-person shooter? Two largely forgotten computer games from the 1970s ushered in the genre - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPYlJWQ1U3NlVMZnBSV2JoQk5SMHp4NnVNUm5FSWdYal94UVlET0VxQmRDZmFBOFhrLU52UjN4MWg2N285Qm51OXdHdXhxTTR0Z2hUNXNrQ0tLc05GZjhPdDF0UE00VXRXdmY3bDFMX0RxSjA5cEROem91XzMtc3U5SnhjR2QyN0ZZenBYb2l0Um1tWG9YMjNvOHFodm9OZUpXY3BOei14VnRsV1dfcFhhZm1IYUpXN1Z5Y2F1ZjB4Q3ZiRnlkdk5KOWJWQjVfVGZLbVBodWZmZ2dQTmlBT3R6enoyVWw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "The Conversation",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Play at a Pokémon TCG: Mega Evolution—Delta Reign Prerelease Event - Pokemon.com",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUjlLdkpfLTlzMFJQUHNHMW1Fc1daSE4xYUNIUTk0cUJLQ3otanVmWWJ1MWoybWp6WGtKY3FrVHlRTThGOVNRcmtNZnhSSVpLTEZxTE16NW8yRlF5bEFtMktzVWkzS1FjamNOTWk5VGVBanpNU2MyUkFQS3hjVmpvb3ZGTUlQc1JwakNWZWNlSF9ESU1DQWVBWkYtMzA1Zw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Pokemon.com",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Newer Chromebooks Will Be Able to Upgrade to Googlebook OS - PCMag",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVFl6QmhsbFdZV09QTzVXbG9JREszQmNRY1V0SkJERmMzTXJ3dklfdmtxTlRPbHlJU0RiNC1nOE5SNC1RRHhQVTdRbFdxUjd6NEMtUW9KQnUxZWxjQm1Ya2NDNExGUERnQkJsLXNoZUZFcWttaEhtRVlmVmZmU2dKNWlMZzRVSkpHQjcwZnFR?oc=5",
+      "date": "2026-09-29",
+      "publisher": "PCMag",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "GTA 6′ s Collector’s Box Gator Statue Can Now Be 3D Printed: ‘$400 And No Disc? F**k You Rockstar’ - Kotaku",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbFNkLVAzQWxULU44clcwM0lTcVY3SWFsOXJ3LXYzM3F3bnhBbVU2eWFsUFVVZ29WZFlQX1lOcF94ZkFuaW5Vc3pKNkE4TXY0YUVIemlZanIycTlaUHZacTdUdEN4Y2stMDcwYk5zVXVKX2pETS00WF9qWTU2SzMzZDVHRW54M1QtcFVRYUhmcXZrQVJmaThfT2Z0OWZYOE5sNkp0ZFdpOEYxTHIySUFKSGZCM0V4UFg4?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Kotaku",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "MacBook Pro redesign is coming, with three features we’ve waited years for - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaW9USjA2akd6R1lPeDRGdVJjTDRUbVUtVXVnWFJrSGNBbWlGaWFKZ2VQTzBVS0VtTzZmSVNTYjI4YUpDeHhBQWJsU1VPbV9kZjgtanNDQ3BkV1d3NW9jWXJCcHFkaldiNGN1YkpHVHlOMURsaE04NVB0bERHLVFweHBpWEdNZEg4R3dONWRLVUlzcHZ4MjVXREJEampTaENHVEtXUW5HMA?oc=5",
+      "date": "2026-09-28",
+      "publisher": "9to5Mac",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "‘Can’t even’: Man spends $168 on a birthday dinner at Disney Springs. Then the surprise arrives on an empty plate - Yahoo",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUmlmV0tmWG5QYm4tLTgzcWdoTTkyalBZWmRRVG9paTFFZENUdkYtaWZLLUhpT3JEUEFlcDdUTVBNQURUX2NIb1g4N0gtUGRlZVJjSk8yNmktTzdFRnB4TlJxdDRTeERBQTlPZGhOUUNpUHdnQlVQWmVfdGozTnpuMjIzWQ?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Yahoo",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Lord Have Mercy as Researchers Create Walking Disembodied Hand Like That Little Guy From \"The Addams Family\" - Futurism",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeVdNQVVjZDAtenpwRTZmRU92UnUzUnFkSmRsbUdWNkpmMmJPcUR1UXRlWmRBZTIxUnZkNDh4YWJxendwX3VRUWNWN0xULVExaERhTnl6ZmkzNHFSV1htRU9zSndyeTEzTzgwQXVMOW05RmN1VzRwRjBDNGstWnVfNXBXZWFia0Rhd2E0Rkp3?oc=5",
+      "date": "2026-09-27",
+      "publisher": "Futurism",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Mathematicians Harness Randomness To Crack a 55-Year-Old Conjecture - Quanta Magazine",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUXFYT1lvbWFXbEJxNWtpQ1phZG1nZHRqMjNFakRHdVczV1hBd0JEMk83YkF5aWNWQTBYZEZia2VJaVlzVDh1b05pMzROUXQ4TjVGZFQ0ZjNldnRUMUdRYUJ1dHRZWUhRcG4tVlVEdnRiTnJQeUowa09hd3NNVF9rakRtWjZKZDlzUjZhMEVCY3M0S3FDVW1jUnNDbmhRakV2VFBZNTZ2ZGxyYXZB?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Quanta Magazine",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Fans React To The Sift, Minecraft’s First New Dimension In Over A Decade - Kotaku",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYmNCZG5ITU94Q0VMa2xnX3ktZlMzLXlTU2hTQTFFN1NfWndkNGhIcURwSEVpLWtFZU00a1RyWlYtaXlra0ZvQks4TUt2a09tNENXcG02RlQxRmstMUxqc2c4ZFZMYmlHR2RvYmRxQWZVVkRJYmx2YVhZczlkQkRsZmhHVFhfaGxCYWRCVEdMVlk2YWR2SFhEaDBDWHlMbUR0Tnc?oc=5",
+      "date": "2026-09-27",
+      "publisher": "Kotaku",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Velvet Cowboy, a Western Bar With a $5 Food Menu, Opens on the Upper West Side Tomorrow - iLovetheUpperWestSide.com",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPSVI2ekwwQVZHLUZFUVFQM0s4MnBCVFVTT1ZNSUhvVEFQUWp3MXJjMWplS2RPQ2tGTlNBRXZtaTVpVV9hYVVGYktsVVhQRmVFelM3Q0Y2QVBNbEtRcFJZLUY4MDBWa2hHanVkYV9YTHdXU2o5djU2Tm1tTWFSWU9adU80VjVuWE9tN3pRaFpwdHNpek1FWk1YNkNNdFhXT0x5cHNQelBlWEthZnpjanUwMXdxVkJWSGhuSHBxMTllZXI?oc=5",
+      "date": "2026-09-28",
+      "publisher": "iLovetheUpperWestSide.com",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Stanley Parable Co-Designer Perfectly Explains Why People Play 1,600 Hours Of Dota 2 And Still Hate It - Kotaku",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZkhEQjJ1eFo2TzBubGlJUXNzdDNNQ3N0UHpYenlWYmVBWWRLTjBoUVJuYzFFNm1wQ2tCN3N6ekZDLUkxaDhQMWV0VFlxSDFtUkd3S1A5NTZCbi1jRjUxc2t5T0J4eE1kTFVRaVZ2czI4WWlEbjhoTVRaWmNPaVAwbFNrdDlzSEtVTWVyTDk1cklzbUVSbHNudFFhWDViNW52M0hfUXJuTklFVElTT3R5T3d1SW5NeExEYnN5VmJ6TkI0bU1HZXdLRmdTaw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Kotaku",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "I’m Still Shocked at the Pixel 11 Pro Being 56% Off - Droid Life",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wR1h3RlVvUzlLS3liMmJ2V195cUdDOE96Y1lUdXh4WjNzZjdWSUJ3U1FKbnFkM3BIMmRLMW1ERElVUFU4Qlc3ZlRTY2w1ZGlWdHlwZWlfVUhRSVFlTFdUNUNJVGZfU2xzMFRRRWVUb21iSWxvbnJacVkxaE8?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Droid Life",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "How Much Would It Cost To Build A PC Equivalent To The PlayStation 5 Pro In 2026? - bgr.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUjBGOVBlVGJSMVZDa2ppbWxUWDBRa0lwakdRUFBSRGxXZFVkMUhtclJZcklnWFJlUnZLbmpTSVpuWU1FWUdHU1ZWUHF3ckRQRWpZSEkzYjRKdDM2V1paZGRHUWdXZ2I1c3hpQ1N3bmEwdGdQa05SUVEyblRkUG5UakMxbWs?oc=5",
+      "date": "2026-09-28",
+      "publisher": "bgr.com",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "iPhone 18 Pro First Impressions: What Do You Think So Far? - MacRumors",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53Q2dILVhQVXZHcUUweFN5U1FndkxDS3ZXdGdOY3VQYmFMM1ZRZTJUbjdSbzJDeUFUcUhUQzBmTmIxX1Y0QXBHVjFnY0FsSVV5VnJJZEVOUmx6U09FRVQ3NXcxRUlFbXVSMkZvOHlrV29fMHBBSGllQQ?oc=5",
+      "date": "2026-09-28",
+      "publisher": "MacRumors",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "All 429 \"Deluxe Pack Mega\" Cards Revealed for \"Pocket!\" - PokeBeach",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOOXFYZzBGS1FuRDhySzM0UmhuTDg5dHdLQ1JlcjQybGtJTDF0N08wU2hUOUtmSnlNQXFLbmxvX3NaSVZydXBTQVJPV1drX21aZ2I5cHJUb2FqUXdvTDE0cG8zdDhTRW5mOXBvZFJZTmxVbG9LMjZlQ2VicXNOQ1ZJSVdkZ3dESnhMaWlQag?oc=5",
+      "date": "2026-09-29",
+      "publisher": "PokeBeach",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Reward Passes: our new progression mechanic, explained - ARC Raiders",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBDU0FhdkhXcTg3YXR3STI3ajJtQ0E3X1ZRaUpSZ2RyTXhUUmR0clk4TW9VSVY5eFJRVjZUdXlDLTQxSUdlQUtfa3ZyaDI4UG16Y2MtUHFPWF9EQ1p1OVJ1NHln?oc=5",
+      "date": "2026-09-28",
+      "publisher": "ARC Raiders",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "27 Flight Attendants Are Revealing The Most Unhinged Things Passengers Have Ever Asked Them - BuzzFeed",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNEZpemhwZUhwRnJ6QXRuRTZQQ0R6eUJGTm42TEltYmhfdm5jS3pMeERaR2VoS2JVamVFdTlPbGY2VWtJTWJPSzc4THpScWd1b3V4UHFTTXlOZXdyZTNCWTM5aUc3ZEl1QUp0amZ6cmJaQ0tITzdlbEYwdy1LNG5TY0FBRWRVU0dkamZyZjNSTGJWemRGTTBxWDE1cDUwVDda?oc=5",
+      "date": "2026-09-28",
+      "publisher": "BuzzFeed",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Castlevania 40th Anniversary Orchestral Concerts To Take Place Next Year Across Three Major Cities - Time Extension",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZFhlNUpnNmpjUVNMT1lHMDgxQ3FtQW5kWTdyREZpcGpocVVFZ2lMQ2g0bUh6eGpENXg5N2xKUmZqalBsaGc0QWQxSmtoaTFqQXFhWVlXM3R2a1k1XzZEUUt1OGlQRnRIbDBVTkg1dVp4SDU5aGEzc3IydFQxdFVlRnUyN1hTckctaDhta1gtV0ZDZmRLMEZyQ3pVenJUamxsdzFTdDAxQm5qYUw0c0hDYVV5T2VtLUpUc3RoT1ZOeWhLa2dkMGdENUlHUFZZVEZIaURDdDdFQ2c?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Time Extension",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Mario Nintendo Switch Games Now Available for 85 to 90% Off on eShop - ComicBook.com",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xRVRlYXZ6endmOEVhU3g0U0F3TDdYZEUyN3JfRU1hU0JQaVFiWXhQNHViUWtyOUs5SlRDZENzRnE2RHFhcGxOeDlwU1ZPdDBxMm85Y2dBNGlZaC1ta3Nrb1lENFVZYkZoYlNYLWNQNWhFUGVoQVFnSTdqSGZpUQ?oc=5",
+      "date": "2026-09-28",
+      "publisher": "ComicBook.com",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Tiny Dapple Dachshund Puppy Trotting Down the Hallway Is Basically ‘All Ears and No Gears’ - ParadePets",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdWVWdng2cWtjY0JlVzJFYkJrNzZGVFFnSk5Bb3d0TWFNcFJDclF0ZEJRdVNNVzlnRkxuM0Noa28wSy13ZGVyTmxKd2VDYUo3ak90ZUVkSlhaX1dwTkFCN2s4alo3OF83YjNpYlRnWExOYmV1NDIxUTBldXFvSzN4VGh5SjM?oc=5",
+      "date": "2026-09-27",
+      "publisher": "ParadePets",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "78-Year-Old Fortnite Streaming Grandmother Now Holds a World Record - IGN",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYXdjWmxESU5iVTdNMDJNNjRMZ3B0a3Vtb1pSRnZ5OTRXZkxhZVZaZjAxanN2WFFKVmlpU3RfQjVETXZDVXBOcnBhcjR5aWxoUUsyY1BZQTRROWZPOUszbzJYLXRTclRKQy01bjVzRmJNZjVRV3pGb3B0ZTVSVGw5Ri1ZcTJQQjRJRklpS0tRaUlVWTFTTXQ0SlZUV04?oc=5",
+      "date": "2026-09-28",
+      "publisher": "IGN",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Ultrasound Reveals a Deadly Cancer Building Its Own 'Nest' Inside The Brain - ScienceAlert",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZjU3Z0dYUUVjbFBnWWNlZ3l2WXdDWTJ4aHRnZ09RWE9XSEltUEZyWDNVRG5iS1NpeEt0WDlqUGc4UVhfZms1MjZuMTB1aWdIQjBFUE14b2NSLTJ1RjBZZklNSGdEZnlneWFsNXdPdWpiV3VxaWNsMXltTzRwa0duLVpURlUzTEFYeHZ4MFQtam96S3FtbGtPX2p1Z2QxRDFKdzloX2tn?oc=5",
+      "date": "2026-09-28",
+      "publisher": "ScienceAlert",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    },
+    {
+      "title": "Brain stimulation could reshape how you learn new skills - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOV2paU296SVAxTHlTUHRpSVE1Q0plRTBpUHdoOEhNMHVVRVdtc1g0NVhEdGZEdFowdWtSc2pxUDkxNmJZYlZmM3d2ZVZkM0tWSTk2TWJUelkzUnpMWmluNDYxQkxKQmJUT1NTNlJCbXk0endUNVMwY0ZDVFBITXQ1RWxUNDdEaU1IWDZrWUhXRHdVczkzUGc?oc=5",
+      "date": "2026-09-28",
+      "publisher": "The Conversation",
+      "channel": "topic",
+      "query": "TECHNOLOGY",
+      "group": "TECHNOLOGY"
+    }
+  ],
+  "off_universe_company": [
+    {
+      "title": "Multibillion-Dollar Stock-Market Scandal Roils Erdogan’s Turkey - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNSFZJNjlYdTAzcGlzSzFYVDdlRXNaWnk5Z3JKT0gyQWlWb1kyMDBWYUt1LXZRbEtGelNwNW44Ylp5OW9QSDZSU1VmbkJ6MUlWSVZFdXJYdTFRWEtHMTRCY3lodTVITmFkS0dQaDVTd3NZejl4cUpJWS1UTGdiX0VOd3BNckh4Z0otWjZib3NHWWFseXZjWF9aNVh4RlZkUQ?oc=5",
+      "date": "2026-09-18",
+      "publisher": "WSJ",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market"
+    },
+    {
+      "title": "As Stock Market Warning Signs Pile Up, Here's What History Says Comes Next - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdDVFRkVtXzVnOU9xWTFOTElVU3hBQndFX1d1TlBrUEVaTmlxQW9Wb3ZfcWVLVlZKSHZJdUVlazBKbDVEeGZ4ODlVQ25NS1FlYVdjdmlFUXp0bTg1U1Y0cGN1SWtJWGRZclExbHNFckZhM3AwbFVyR0w0VWVqVUE2RXZmWWxBVnFwal92OVdlZ0FhdWR3eDhRQXhTZWM?oc=5",
+      "date": "2026-09-27",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market"
+    },
+    {
+      "title": "Indian shares slide to near six-month low as US-Iran deadlock lifts oil prices - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQmUtcnhXbVNOQ0lacFk2Z1JXa0JON1VtZTRsYnZVMDlKdjh0dXhobk9tajVtRVdUbE5RV2MxUy1MbUpkNkc4UXNvalZoZXltbUNScGEyanBReERmbTRuQnB2d2M2dkU3NkJ0anMybXdHWV9QWElRVG9WcDhNSzE4eTV4VWs4WWluaGpYR1NZZTNuYVFPNWZwUk1YcXNOR0NrN0REb2V5eENFRjFaTVNpeWtJdw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Reuters",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market"
+    },
+    {
+      "title": "Sturdy stock market mints a record number of 401(k) millionaires - CBS News",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWnZudzRUdVVaVEprdWdiWVBETXJ2Q2NDckFya21UYVBLdUNGUlhEbDZULWR2bmZMbkpPdTlseG54S0xtTW1jNmd6SFhTZ2NRYUc2UUoyWEVmWDZfc1RWWDB4aVhzZmhheUdmaDc2Ym9ZdWpvSHJ5d0Jqa2s4Q2xHYkd5OGVOZnRETEE?oc=5",
+      "date": "2026-09-04",
+      "publisher": "CBS News",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market"
+    },
+    {
+      "title": "Shein shares slide on fast-fashion retailer’s stock market debut - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVzR5aDZraHBzYXpDbWpza013UW5ERDMzVUI3TkxtcXVfLTRVdWZ4bTZQOVAwREZmOGNYMWREZVZqeWhwNzZXbkxKd0JxNHFhWUZhUjlkQ1dtQnlRY3BOTWFFY2ViM1ZaS0RfeUVCQWN0NWdELVpMMzlDa3hyMW1UdHczN0NkckRZd0Rtc19XVWxkUW1XVXU3cl8za2ZRZ1Vqb015eUE2OFgxd2hvSk9HbGZ0cnZ1amM1UHc?oc=5",
+      "date": "2026-09-01",
+      "publisher": "The Guardian",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market"
+    },
+    {
+      "title": "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxONWd1TXlQMWFteE5laG9vTTFUNkFieFpXVlo2SG5TWS1mNUxZbW5kUkhGUkpBa0tkNW1hc1Q2ZEhXMVQ4TW84Q2ZYdld5OHZzV3dXbi1FYTc4WjZpVko1QVo4NU4zdEdJakpOM1UyeFI2RktZeDA3UklxSUhNaFQyVUs2UjhsSDRuMVNxaExiSmptWDdJcmdfb01MdFowS2tSM2RCWDZJcGszQzR1anJYcDB0MlVrY0tleEFsSnMyTmJaUTktSmJr?oc=5",
+      "date": "2026-09-23",
+      "publisher": "WSJ",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve"
+    },
+    {
+      "title": "Gold falls more than 1% after Fed hikes interest rates - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdEVwMWpILUF1dnhqajU0di1FMVRLWGNScTJKdTR2NUl2VWZSUXpWNF9UQ3h2M0ZuMUYxZzJab09IcUMwN0RQSlRtcC1HSGdQM2poNXptR1BCeklERXdjcmE5N2tzNmdHczY1SkdnSXE0Q3dJNV9TYkNjVDdNUFZjLUhDMkRWcHlsNVF5V19sS1MwX3lnNG13?oc=5",
+      "date": "2026-09-16",
+      "publisher": "Reuters",
+      "channel": "wide",
+      "query": "interest rates when:30d",
+      "group": "interest rates"
+    },
+    {
+      "title": "Oil falls but head for 8% weekly gain on tight supply; US diesel hits record - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORWZtMHZyX3Z0UkY2T285M3E2bElVVXRpdVhIVnZLQ1N4UjhKMTQ0UmZLWDlrQmRlcHFtZkN1SUcxSmNvVWhyelh4ZUhpZER2N2N5REE2aFR6Nm52YWRKY0xQRk16cE0tMFpRdkNjQm5YTDZ2RWFhcld2aWVHWUJMcFdncU1FUWVNNTgtX2VKcmpfZUNWZE1LenhwWDlGQmxreVF3Zjk4WlJ0N3hqODIxSQ?oc=5",
+      "date": "2026-09-11",
+      "publisher": "reuters.com",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices"
+    },
+    {
+      "title": "Oil falls 1% as investors watch Middle East supply disruptions - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQem15UTRSMDAta3NrU2VpWTcxVllaeWVZT2wyc1gwQUs5aER1ZFFtaG8zNmI4UkZGV09BOHV6eGVHdy1RbTZWZXVkdklmSkVnMUtqbk9JZkdPb19FakhJc1RaUFRMUlNxR3F1VUx2TTZRcElaQk9ISmJsaWozRFNETDcxcjZxT0lJTm4zbV9CN1hETXB2SnYzQkhwZVpobENkRTBfYU5UbjZoUVhGXzZtM2xNUDFWdkJqUVE?oc=5",
+      "date": "2026-09-17",
+      "publisher": "reuters.com",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices"
+    },
+    {
+      "title": "Oil rises past $100 a barrel after latest Middle East attacks - thehill.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ05XbUQtT093eVpYMmoxXzJzc0NDVXBRblFTVy1DdTIyU0Zub0FkMElGeldTNEk4UW5ndmxtLTBwX0tJdzMzamNub0RyN3ZxNzJSdlRyaE03aWVWMlM0aUlBRS1aaUFZbHo3WjF1aUhKSG5RTnBBY19GaU5ZbHNaZkFQUWt1NE1fZjg5NGhycTRzeGlNbWlr0gGcAUFVX3lxTE5sMG9HeVdTbkhRUHR5aVVTckpFb2ZSdExOelpWR2E4M3JNVE1zQzQwb2NobG9IRUl0UnJuZ0phSXNxQXd0cDN4V0lCWlVBWTJ5Vmt1VnBzdzZPQ3d3V1h6NWp6b0h6WHJXUGhUbG96T2JkaUEyeDdEaEt1NlZrYW1CVFBOcVN6OVRmYTQ3Sng3TmNmNnpndFRwOFFZdg?oc=5",
+      "date": "2026-09-09",
+      "publisher": "thehill.com",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices"
+    },
+    {
+      "title": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
+      "date": "2026-09-18",
+      "publisher": "reuters.com",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices"
+    },
+    {
+      "title": "Oil rises to $99 on report Iran launched second undisclosed attack on U.S. Navy ships - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdUhmamNMMjBBQ2d1THpZSmp2X3NORDdDUXVlWWx1c3N3dDJlS3ZsaWZrcWdXR0pTTzZqZHBDeFhsd2RicG9OTEdSV3FqTTNiTEl3Yjc1d1ZYaWV6b3F5cmlPQXpXU29ja0F5ZkY0Q3FnSUxEcGlleTNNMGh3SEpqNlZQRHQxUdIBiwFBVV95cUxNZ3llZW1uVXQ2bmhtM1VETXJjVmFkdFdDb09hT0NfNll0anVXakVGVjJHSDZRV2R5cGF2T0FIbHhkTE5maFZjUEc5VEhTdXVENjlsd2RMZGpENjNWR0xsZS1iTnpseUNrdkJQVEVaa0xnb1Y4aEtuMnl6UHdURC00WTFuY04tanhMNXVR?oc=5",
+      "date": "2026-09-07",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices"
+    },
+    {
+      "title": "Oil Rises on Concerns of Extended Middle East Disruptions - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbnFxZkFyN3FYVllsTi1xa1RxYjBkM1ZKdHJabmxnVF9jUkpRSnhuYkFtT0Z3Q1B1OWhzNjN4Q2lnYVBFOGxkbExaYjdtUko4blVnZUV4M3Q4QnQtc2M4Zkd0UFpUNEZZQUhuSlZwUzNqaENmczlNcmcydklnb1lfSmttSFlxUDZGbThuaHBtYlFGS1NCbGpBek5feWpqejBOc2c?oc=5",
+      "date": "2026-09-14",
+      "publisher": "WSJ",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices"
+    },
+    {
+      "title": "Taking Stock of China Meeting, Treasuries and Energy - TheStreet Pro",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObXJkZV9YTjA3a2UzU0lKcTRPWVd5VVVPV3ZfSzBFeW1hb3Exc0pUS0dCaEJrNGNzRGNxTkRBazhPaktITVM2bGYyV0JoaHF6V2RQeHMwcUlucUZoRVNDV2tPMDJNLUxfNWJJazdqdE9WV29PRzV4dGpjMlpwc0lPLXgwYzlLSVJEbHd2U3NxaGluNFRHNlVuQ3k5aw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "TheStreet Pro",
+      "channel": "wide",
+      "query": "China stocks when:30d",
+      "group": "China stocks"
+    },
+    {
+      "title": "Medtronic reports first quarter fiscal 2027 results; delivers broad-based portfolio performance and raises fiscal 2027 guidance - Medtronic",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNWUtCY1A3TzlUUjNOdjdXOG1LZnlidlRBWS1Tc1ZzbUxKNHdiVmNYU3FXUDdkdUdmN3NXSG1HY0dKYWlwOVQ5OWNFUVhXWnltUFBaUjNITW5tdk1uWWotNE42TURScnB3Y1IxRm1FdnM3cDBqdkt1MlAzQlljbG9FWFdTaHZPMk11eWdhb2VCM01MMTdhSWVIOC1mTzBhSlRmR2M0OXVJN19HX0Z6UVhjUTBiQWxzVFYzanNqemd1NHpMYm5BODlxZmNIMVBwRkFIRXNGeGJWeG5ZQ3dkT0JYUG9NLVB5RTZRY3VVY3M5dVdzUWYwWVhF?oc=5",
+      "date": "2026-09-01",
+      "publisher": "Medtronic",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Zscaler beats earnings expectations, issues upbeat guidance but stock falls - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE83LUUzZmZTby1TeTJBZm1VWUx6VDhYaUxyeG8xOHIwb2RXQy1DWVRuNlpaakY4bDRKcWV0MkpSQ0lRNFlJM0JtWko4VlNYSnpJWTVScXFWMUMyUXhHaUZTWHdkUExVWTVMY3E4d2cwQ216QdIBd0FVX3lxTE53dzFDWkc3MGQtSlRqYjRMSWNXV0NoVWw5YlRfVWtjMEdYdmtiVHV6X2VTaDlFNVBpXzZwRGJwdjh4Qk1LemlwWXBqLWZab2poRHdweW93MjF3emktcmNTaDc0cUNGbkk4NkZ1MHBlVXdnWVB4X3dv?oc=5",
+      "date": "2026-09-03",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Dell's Next Earnings Report on September 1 Could Send the Stock Soaring. Here's Why. - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNmlWekJReG1oWnh1WkJHRFFtVXdYaXRlYWYzZy05WW1pal8zOHd1U3lsaWllWUh0b2E0aEZMb21hckNKNkhTdTk4NXg2aW1mM1F4bVNCanJIMFEtaHktTFVib3pmbmtNeEpLSTNNT0ktQ25hYm5BQm1LaTNBUGZjY20xZnVkY3RpMDdFSlcwa19wQ1prdTYyZmlReVpMYW5hcVZj?oc=5",
+      "date": "2026-08-31",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Lululemon stock plunges 20% on disappointing earnings and outlook - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5sa3JMSDdtMGZGVzdpcXBWb0dldnVKY2N1MlVmbnczS0xFM2hiUm9KOHZXUnNxc3Noa2ZQdy1McFdRenNFN3JEcFJ4LWtCUG5YZTFHY2xSNGVKdzk5M3hfQ0F6YWVHS0V6TWJmQWpqR1FJSFl4eHlJ0gF8QVVfeXFMUGd4cl9GZVVSdkM5TnRnU0FxLS1JYVhzSGEtakRadlpERlNNa1NkX0xPdnptM1I2b01oN0NBb25vb09EbmdpanFrejZraGpPNFkzc3A4dXllRXcyZjlhdUhDdU5pVWJQQXVmRHZQZHphUjFLVGEzM0htR0J4Yg?oc=5",
+      "date": "2026-09-03",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "BYD shares slide as fierce China competition dents first-half earnings - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaEZMSHFkTjVWdUZTSTVvaWw3VVhPLWlXRDNxNUZIWTVRdUl2SVRFb0c5bi1MZHhfXzZJdWNaX2RUT1dKODVVTnR1VXFCMUVNM25IbUZBV0o0dFRUV3psS2tuMVZpMU1PUVNhYjJCMzVaUUNaeTZHOG1oX2Q5cjJjR29pWm5lRnhBdmZJRGpqb1o4Zlo2MENlazl0a0ZFMHBIa0JISHZKMGZhZHfSAbABQVVfeXFMTmU1T19XUDgtWHlJWGctYWl0NDR2TUpqN0ZFNEgyUHJaRWNlTFE1THREdHRWbkM3MzBTbVBfZEtnRGVQWEcwa1hZeU4xYVRKcDFpUXJVMFdUMkk5WnlEcDFlWkZqN00zX2dCUnA3UFBoSHpIRVgydGFyc0pmUVg2RXlTZzBTSlcyUmRoTkpBLUdubzVINTVaejdXckxfMVpGc3R3azNTMW9wRkpTVko5N3o?oc=5",
+      "date": "2026-08-31",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "MU Stock Slips Ahead Of Earnings, Baird Hikes Price Target On 'Surge In Agentic AI Demand' - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWEpPXzIxVEFxX2w1YVpUaTRWMUszbkRTb2kzRE1GRmxmV3BtZmRaUGs3N2NfMU9lVzZlWmctZVpjd25Mc29nVXZ5MEk2ZUIxYmtUV093NjltNjg3NWk3eUxScFlyVmJiT3ZZX2FxRGhoUDBXMXpVNUFjWkozcVk0YW9xU01XVk83eGs5eGZOSXJQelR4RGVRUDVR?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Before Stock Earnings Season Begins, Here Is How To Play Q3 Pre-Announcements - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNV2FQa1hXUVRnTWZiOURCWDZWZXVkemZWOUhVd3FiS2FvSW1iakNIMXZVTm5IYWlVMW5JSzFiRHhCOUNrb0lrT0k4b2xqOHBFVnFkX2J2aThuekdaakhxblhRd3pXRUM0MmwydHN6TUZ6WWlhcFJLM2p2TVdvU3hEejhIaVhQeDJBNUZHa2FtcXdfcUJ6VjIw?oc=5",
+      "date": "2026-09-27",
+      "publisher": "Forbes",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Big earnings failed to answer the big AI questions - Axios",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9nNVlacUlNUlFOeW5nRUh1Rm1PMVNILWRFOXVhUkc3aTluLWFaOEt2VWJNWXZZRmIyUWc5TWhFN2FQU0lQbnNOVGctV1JFeUhCUnpMaDQwTnJtOTBCODBQeUpaUERzLXNhSHU2VA?oc=5",
+      "date": "2026-09-01",
+      "publisher": "Axios",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings"
+    },
+    {
+      "title": "Gold Falls to Seven-Week Low as Rate-Hike Bets Rise - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTkJEQ1paQ1RWNGhOV1hmMEMxZFA4R0tfT3phbTZXcWpSY2FreW5CaXY2QWx6UTdqNkthRVVEcXNtRFRDWHVDV01OWHhUTkI4eGFBV25sVktEQ2dRNkxoLWlwN21XLXhpZk8wSjdQaHFFVXh2SHBMLWZFWEZueTFYczIwYnMxdXF3VzVYLVdWM1J3dEszdWhid2ZTYXptWG9ENWhSY2tGUnZScDZW?oc=5",
+      "date": "2026-09-28",
+      "publisher": "WSJ",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices"
+    },
+    {
+      "title": "Gold falls more than 1% after Fed hikes interest rates - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQkFmRG5GNkNrRm11UzZBUFZWbl9RZFlGMlV5VVY2bXZobTI1al93WEhZaG81eDR3U3pkdF9xMDJvQnBTVF94V1JyOXpuXzVhNnpLSmEyM3h5c1IxM1ZPd1JDck01QkZ2Zng0UkJ1UWhjcEgtaEc4QlpqMWdzZkdOZGwzYjlZZDJEcExR0gGQAUFVX3lxTE5fOUhZVUY2SW5hX2xFQXdnNzA1V3RlY2tsNjFIWmJZRnpfVnVtaTBVQnNvTTBpeGJicUZTTDV1bUlrWG9jSE5sY2JLQURwNi1iOFcybTNnYUJndEpucjlUamZZVnU3Q3hlazZQakNTaWRzTk9ORU4tMWE2Y0JuRUdwbUZxdDFZa2I3TGFWZmM3ZQ?oc=5",
+      "date": "2026-09-16",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices"
+    },
+    {
+      "title": "Gold rises to one-week high, heads for weekly gain on easing oil prices - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWWs4MWFWRlNadUhOVWkyMFJsZkdXWk1tRmMwXy11MU5KVUt2MWZuMmVvRmpFTHYxZ01FZUszanRTZUJqNkFEcVAtdWhlblE1bDZIVlo4YjU0Vk1RUGJGaUtqWFFfR1FEOW1MMmF4MGE5eHJmRlN6MU5lUmRzOVN2TzBZeEtMbmRoQk4yeFFZSmNYd2vSAZgBQVVfeXFMUDlNV3FqOFFjZFA0dmphY3pxcXl6elJqQTRuMFV5QjFWTFVvR1llOFdKTTh2YVE2ZUJoTWota3ZQTUFqeGtESm1IWEtpZjREVUZsWm1sbjVyXzI5WFBJMDVoVEZnRzFacTRQcUx1SzdKOWdOam5uUGl4YkJMZEFUZFNLUHljX2gyN010OHRTWTl6M3k1cFAtdGw?oc=5",
+      "date": "2026-09-17",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices"
+    },
+    {
+      "title": "Gold falls amid rising oil prices and higher US dollar - Al Jazeera",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQkpoTURPY0szdVRscW13NDhSd0F1X1JtMktXQTZWdmR0Yl9ieFEtdElSeWZLTU40M0FacnNwZU8zMDFfdG54OUs1Y1lNWHhULU5QRGhrTnVYRUtVeEFZUExjNTA3NUtueTQ3UGJINzdJdEh2VFdPTVNpSW9WTHhEbmNReENybkl6aTI4YjlEOWtkc3NEcmJNUFJHQURmSlHSAaQBQVVfeXFMT0paUkdHeUxDUVp6T3B6SWlKcEhlMWpqeE9qSmdJZ1ZrTHNvbEJET1I2Q2RKb3E0aXZJODEyOGpzYlBRd1N1MUtyYjdpWk1ZdEc2Y25zMmdIRjJKR1lRaGl5TGR5ZGNKd21FcGJmT2k5VFNwVExoZUo4Y2NVZWtzX1JrYjN2XzBNcmhHTURtUnQwWlNNcXRzVmNUN1pKbXpBbzVaVW4?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Al Jazeera",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices"
+    },
+    {
+      "title": "Newmont Shares Rise 1.5% as Gold Prices Recover and Analysts Raise Price Targets - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOT3daZzAwbko2MDZTVHJKU05PVElkU1FJc2ZXRm94SXJoeVNkMkRRS204VFUzNDMxaVFhVFRQcmNZX3p1SlZyNEl1Y25udFpXMkZ2VXFpWjB0ZDRIeklqWHpmaVBFUXlCbGl0YS1seExQXzJRZnpDR3ZEeDZqa3BOeDlTYnMwMHJrUUhhTnZtQ18ydw?oc=5",
+      "date": "2026-09-17",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices"
+    },
+    {
+      "title": "Newmont shares fall as gold prices weaken and rate worries pressure miners - Quiver Quantitative",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcTY3RzBJSTg2QXQ2alQxcks1aUNEY3FkNWRrcXd2Q0VjY0xXUFhLZHlTLXZzUm95MFFaZE44a0VfeU1yWk9ldm9yV0NWRmZVVERqMXB6ckE5dXhNNUNmV0tib2FSbW8xNWJUVlVUaGVpRHZzTVJZWmhwY2VpdF9BbGRGTjcxajJvbGRuc0pLOWNxNm4xdjUtaFo4a3FuOW9JeF9IWkh6VlpQcjA?oc=5",
+      "date": "2026-09-23",
+      "publisher": "Quiver Quantitative",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices"
+    },
+    {
+      "title": "Newmont Stock Leads Gold Miners Lower as Gold Prices Plummet - Barchart.com",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSXZjOUZfaDIwb2lHWTZ1RmI1VHExNy1zdzMyRUtVcjB2bHVKNzVJWFFNNVVpUjFYSm44Q2hJY2JqOG45WkxCYnA3ZU5CZ19XTDJ4bkFkWnRSN1ZKb0pTcnV3ZWQtVU1FdVM0TlIzb3JHQk1CLXNoeWhBaWVRSDBuaThiYjBtT0VjWkNCbzBvbmxmWmFzUFh0bUxtUFZ1dExBZU1sNEdHRQ?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Barchart.com",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices"
+    },
+    {
+      "title": "Gold Falls Below $4,200 in Single-Day Drop of Over $100: Why Are Gold Prices Plunging? - tradingkey.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbjhCME5BWTQ4UEZQblI5Y3BCWk9RMTRsOHFMdTE5ZGxwdmQ1NlNqcXpPSVVjUGtUT1AxUjVFYXNkeXFXTDBiaTRvVGpkd242amNPTUVuRTlnU0V6b09HcTNDaWctNWE4dFlJQnc1RW9EMm9TRXR0OEpZdm9uWTUzUmxxR25IOU91eTBuZkM5QUR4WlluR3V0cW5tc0t4Tk1Jdm1IMHZNb1pJaEFyeXRfQTRIdzdmS3ZnNkVTamRRaw?oc=5",
+      "date": "2026-09-28",
+      "publisher": "tradingkey.com",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices"
+    },
+    {
+      "title": "MongoDB Stock Sinks 18%. Why the CEO Departure Timing Is Bad for the Stock. - Barron's",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5IaXFwQ1pyNk9HMzY5VDlCcmtieGpIeUkwbWNIWXB0c281eDBFcDA5Um04ZS11RmRjNVRYRWFJMjVFVEp4bmJUc2owdzNLN0xFZTJmVlZZbV9EQWg2ZktVT25FZ3piTEpCTGlNVUY4bVZEQQ?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Barron's",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "Meta stock falls as OpenAI ’o’ agent threatens historic rally - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOTlpaQzZNMlZ5ZWZXNEVvMmttV2o4bkVkN045eU1SRThUOTB4a0lYdHkyWFA2WHB1WTlUVWpPeGJWLVdyMjgya2o2YVozZHJleUp1SVpabWpOTnNpSF9zenk4WmFkWFp1VGVoaFBkdlF2TlpWX1Q4UWY0ZHhNaGZ5eHV5Vkg5LWtqSkhOeDV4SGZTZzk4?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Yahoo Finance",
+      "channel": "topic",
+      "query": "BUSINESS",
+      "group": "BUSINESS"
+    },
+    {
+      "title": "TSMC Stock Moves Lower as Agentic Design Chases A14's 2028 Clock",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/tsmc-stock-moves-lower-agentic-193400218.html",
+      "date": "2026-09-28",
+      "publisher": "GuruFocus.com",
+      "relatedTickers": [
+        "TSM",
+        "SNPS",
+        "TSM"
+      ],
+      "channel": "entity",
+      "query": "TSM",
+      "group": "TSM"
+    },
+    {
+      "title": "GoDaddy Stock: Is GDDY Underperforming the Technology Sector?",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/godaddy-stock-gddy-underperforming-technology-140501361.html",
+      "date": "2026-09-28",
+      "publisher": "Barchart",
+      "relatedTickers": [
+        "GDDY",
+        "XLK"
+      ],
+      "channel": "entity",
+      "query": "XLK",
+      "group": "XLK"
+    },
+    {
+      "title": "Dell Rises 7% as Morgan Stanley Lifts Odds on $756 Bull Case; Hewlett Packard Enterprise Edges Higher",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/dell-rises-7-morgan-stanley-175127443.html",
+      "date": "2026-09-25",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "DELL",
+        "HPE",
+        "SPY",
+        "XLK"
+      ],
+      "channel": "entity",
+      "query": "XLK",
+      "group": "XLK"
+    },
+    {
+      "title": "Gold Slides as Fed Fears Take Over",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/gold-slides-fed-fears-over-221516465.html",
+      "date": "2026-09-22",
+      "publisher": "GuruFocus.com",
+      "relatedTickers": [
+        "GC=F",
+        "GLD"
+      ],
+      "channel": "entity",
+      "query": "GLD",
+      "group": "GLD"
+    }
+  ],
+  "near_duplicate": [
+    {
+      "title": "Will artificial intelligence really kill us all? - CBS News",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYnNRUHNqeU5NNTVIVVhEd3F1QnY1d3JlYVZaUUJPejViZ0ZuU2c5dkNFS0F2M2x0Y1dDYUFaU3hXV2NkMk5scksteWRROHNMQjV5UEU4cnQzSU5BWW5uNHIzX1Q4TmhjWFRBVFNlYlUzLUhRVmt3RjdNT3psaUREdzRUNA?oc=5",
+      "date": "2026-09-27",
+      "publisher": "CBS News",
+      "channel": "wide",
+      "query": "artificial intelligence when:30d",
+      "group": "artificial intelligence",
+      "scope": "sector",
+      "matched": "artificial intelligence",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "artificial intelligence"
+      ]
+    },
+    {
+      "title": "Alibaba Climbs 3%, PDD and JD.com Tick Up: Is China Technology Finding Buyers Again? - 24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWHREMVdnNFlRb3pTSnRjcmRFLXVaWUpfTG1IOXZERGlXcTZyRFp0eXpjeElHYjAxYjZzelBUa1BEZHY5VDZlbnlWcnVBRWhzRXNjMDVWRUdxeXlGTEt0YnpmZFpiOUlGR016V1VyNG1xZ3BCWmswYlFPMmJrZ1JaZTJlbGw2cm8wWDZjangzVVpyTlA5OE1wLVNEQlhEZ2JDTEVQLWZOOTZHZDVCNUhKdDRvTkdFX2FLOXp3aU5MY1RsZw?oc=5",
+      "date": "2026-09-18",
+      "publisher": "24/7 Wall St.",
+      "channel": "wide",
+      "query": "China stocks when:30d",
+      "group": "China stocks",
+      "scope": "entity",
+      "matched": "pdd",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "China stocks"
+      ]
+    },
+    {
+      "title": "Stocks fall as higher oil prices, Treasury yields weigh - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMG5ieTU4M0RYMC1lQi0wbDVONnJJbW5NS3pya2xkLXUxSFF3ajh5ZWlER3B5ZW1IR0J3ZjRxZFFCTDd2ajh4ZnVHZ2xqY1U2c0pIamh2MGhzWVlIMVVieHpOXzg0bnJwRFlTaEg4dVdycUc1X25ZQlZkUUsxUGZ3TGc1RDlNWjg2U1RFQ3JEUWx2NGIxb0ZvZXJJb0F6MjcxOER2WHFIdmtSei1fZHdBS29YcGhvUFk?oc=5",
+      "date": "2026-09-28",
+      "publisher": "reuters.com",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices",
+      "scope": "sector",
+      "matched": "treasury",
+      "channels": [
+        "wide",
+        "topic"
+      ],
+      "queries": [
+        "oil prices",
+        "BUSINESS"
+      ]
+    },
+    {
+      "title": "What Fed rate hikes mean for gold prices in 2027, according to Goldman - Yahoo! Finance Canada",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FWnF4eWVOWUJHR3dhRk5rUUpOMzZQTHp2TEhrWnFwVnFJaEhlX0dYZzJSRnpuOXpVd1ZuMmMxVVFCcFY0VThZeURnY0tUakZMdEF1emtBeGFVeGphcDdIcFVvdko5M0FDOENnVGsxTVVLaGVMZ2dMUFB2VXJidw?oc=5",
+      "date": "2026-09-18",
+      "publisher": "Yahoo! Finance Canada",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices",
+      "scope": "sector",
+      "matched": "gold",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "gold prices"
+      ]
+    }
+  ]
+}

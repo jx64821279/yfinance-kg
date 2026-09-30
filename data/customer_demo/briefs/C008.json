@@ -1,0 +1,369 @@
+{
+ "customer": {
+  "id": "C008",
+  "name": "周雅婷",
+  "age": 29,
+  "city": "广州",
+  "occupation": "跨境电商创业者",
+  "risk_level": "C4",
+  "total_assets": 900000,
+  "idle_cash": 220000,
+  "time_deposit": 100000,
+  "deposit_maturity": "2026-12",
+  "holdings": {
+   "KWEB": 40,
+   "CQQQ": 30,
+   "QQQ": 20,
+   "AGG": 10
+  }
+ },
+ "concentration": {
+  "by_asset_class_pct": {
+   "Equity": 90.0,
+   "FixedIncome": 10.0
+  },
+  "top_holding": {
+   "ticker": "KWEB",
+   "weight_pct": 40
+  }
+ },
+ "exposure": {
+  "top_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 0.431,
+    "neg": 4.904,
+    "net": -4.473,
+    "avg_per_event": -0.0341,
+    "rank_score": -0.3908,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -4.473
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "中国股市",
+    "n_events": 37,
+    "n_days": 12,
+    "pos": 5.779,
+    "neg": 3.793,
+    "net": 1.987,
+    "avg_per_event": 0.0537,
+    "rank_score": 0.3266,
+    "drivers": [
+     {
+      "ticker": "KWEB",
+      "net": 1.131
+     },
+     {
+      "ticker": "CQQQ",
+      "net": 0.856
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 21,
+     "MacroEvents": 6,
+     "PolicyEvents": 9,
+     "CorporateEvents": 1
+    }
+   },
+   {
+    "theme": "美中关系",
+    "n_events": 20,
+    "n_days": 9,
+    "pos": 3.504,
+    "neg": 1.882,
+    "net": 1.621,
+    "avg_per_event": 0.0811,
+    "rank_score": 0.3626,
+    "drivers": [
+     {
+      "ticker": "KWEB",
+      "net": 0.923
+     },
+     {
+      "ticker": "CQQQ",
+      "net": 0.698
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 6,
+     "PolicyEvents": 4,
+     "MacroEvents": 10
+    }
+   },
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.037,
+    "neg": 0.911,
+    "net": -0.874,
+    "avg_per_event": -0.035,
+    "rank_score": -0.1748,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.874
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 0.301,
+    "neg": 0.788,
+    "net": -0.487,
+    "avg_per_event": -0.0162,
+    "rank_score": -0.089,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -0.487
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "AI投资与市场动态",
+    "n_events": 27,
+    "n_days": 16,
+    "pos": 1.151,
+    "neg": 0.694,
+    "net": 0.457,
+    "avg_per_event": 0.0169,
+    "rank_score": 0.0879,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": 0.457
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 18,
+     "MacroEvents": 2,
+     "PolicyEvents": 1
+    }
+   }
+  ],
+  "risk_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 0.431,
+    "neg": 4.904,
+    "net": -4.473,
+    "avg_per_event": -0.0341,
+    "rank_score": -0.3908,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -4.473
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.037,
+    "neg": 0.911,
+    "net": -0.874,
+    "avg_per_event": -0.035,
+    "rank_score": -0.1748,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.874
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 0.301,
+    "neg": 0.788,
+    "net": -0.487,
+    "avg_per_event": -0.0162,
+    "rank_score": -0.089,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -0.487
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   }
+  ],
+  "opportunity_themes": [
+   {
+    "theme": "中国股市",
+    "n_events": 37,
+    "n_days": 12,
+    "pos": 5.779,
+    "neg": 3.793,
+    "net": 1.987,
+    "avg_per_event": 0.0537,
+    "rank_score": 0.3266,
+    "drivers": [
+     {
+      "ticker": "KWEB",
+      "net": 1.131
+     },
+     {
+      "ticker": "CQQQ",
+      "net": 0.856
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 21,
+     "MacroEvents": 6,
+     "PolicyEvents": 9,
+     "CorporateEvents": 1
+    }
+   },
+   {
+    "theme": "美中关系",
+    "n_events": 20,
+    "n_days": 9,
+    "pos": 3.504,
+    "neg": 1.882,
+    "net": 1.621,
+    "avg_per_event": 0.0811,
+    "rank_score": 0.3626,
+    "drivers": [
+     {
+      "ticker": "KWEB",
+      "net": 0.923
+     },
+     {
+      "ticker": "CQQQ",
+      "net": 0.698
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 6,
+     "PolicyEvents": 4,
+     "MacroEvents": 10
+    }
+   },
+   {
+    "theme": "AI投资与市场动态",
+    "n_events": 27,
+    "n_days": 16,
+    "pos": 1.151,
+    "neg": 0.694,
+    "net": 0.457,
+    "avg_per_event": 0.0169,
+    "rank_score": 0.0879,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": 0.457
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 18,
+     "MacroEvents": 2,
+     "PolicyEvents": 1
+    }
+   }
+  ]
+ },
+ "gaps": [],
+ "timing": {
+  "ref_date": "2026-09-29",
+  "items": [
+   {
+    "kind": "deposit_maturity",
+    "month": "2026-12",
+    "months": 3,
+    "note": "定期 100,000 元将于 2026-12 到期（约 3 个月后到期；数据只到月份，无具体日期）"
+   },
+   {
+    "kind": "idle_cash",
+    "ratio": 0.244,
+    "note": "闲钱 220,000 元，占总资产 24.4%"
+   }
+  ],
+  "last_contact": {
+   "date": "2026-09-11",
+   "days_ago": 18,
+   "channel": "微信",
+   "summary": "客户关注中概板块的反弹机会"
+  }
+ },
+ "meta": {
+  "w_category": {
+   "CorporateEvents": 1.0,
+   "CommodityEvents": 1.0,
+   "PolicyEvents": 0.9,
+   "MacroEvents": 0.8,
+   "MarketEvents": 0.6
+  },
+  "w_scope": {
+   "entity": 1.0,
+   "sector": 0.9,
+   "macro": 0.8,
+   "market": 0.7,
+   "weak": 0.6
+  },
+  "risk_floor": {
+   "AGG": "C1",
+   "TLT": "C1",
+   "GLD": "C1",
+   "UUP": "C1",
+   "QQQ": "C2",
+   "AIQ": "C2",
+   "XLK": "C3",
+   "BOTZ": "C3",
+   "SMH": "C4",
+   "SOXX": "C4",
+   "KWEB": "C4",
+   "CQQQ": "C4",
+   "USO": "C4"
+  },
+  "rank_mode": "net",
+  "rank_rule": "default: abs(net); optional: abs(net)/sqrt(n_events) 或 abs(avg_per_event)",
+  "source": "kg_yf_v2 + exposure_v2 + customers_all_in_one"
+ },
+ "advice": [
+  "**沟通建议**",
+  "1. **风险提示：建议先向客户提示权益集中度风险，因为KWEB权重40%、CQQQ权重30%、QQQ权重20%，权益合计90%，且“中国股市”主题净暴露+1.987由KWEB +1.131和CQQQ +0.856驱动。**",
+  "2. **风险提示：建议提示利率与回调风险，因为“美联储货币政策”净暴露-4.473（131次事件/26天）由AGG -4.473驱动，“国债收益率与债券市场”净-0.487也由AGG -0.487驱动，同时“股市回调与崩盘风险”净-0.874由QQQ -0.874驱动，而AGG和QQQ权重分别为10%和20%。**",
+  "3. **机会提示：建议借2026-09-11微信沟通（距今18天）继续跟进中概反弹话题，因为客户当时关注中概板块反弹，且“中国股市”净+1.987由KWEB +1.131、CQQQ +0.856驱动，“美中关系”净+1.621由KWEB +0.923、CQQQ +0.698驱动。**",
+  "4. **机会提示：建议把AI相关沟通限定在QQQ，因为“AI投资与市场动态”净+0.457由QQQ +0.457驱动，QQQ权重20%。**",
+  "5. **机会提示：建议在2026-12定期100,000元到期前安排流动性再平衡沟通，因为闲钱220,000元占总资产24.4%，且截至2026-09-29到期月份为2026-12（数据只到月份），可结合KWEB 40%、CQQQ 30%、QQQ 20%、AGG 10%的持仓讨论再平衡。**"
+ ]
+}

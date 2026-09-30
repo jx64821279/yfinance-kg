@@ -1,0 +1,411 @@
+{
+ "customer": {
+  "id": "C020",
+  "name": "杨帆",
+  "age": 48,
+  "city": "青岛",
+  "occupation": "港口物流公司财务总监",
+  "risk_level": "C3",
+  "total_assets": 3300000,
+  "idle_cash": 240000,
+  "time_deposit": 900000,
+  "deposit_maturity": "2027-05",
+  "holdings": {
+   "QQQ": 30,
+   "AGG": 25,
+   "TLT": 15,
+   "GLD": 15,
+   "XLK": 15
+  }
+ },
+ "concentration": {
+  "by_asset_class_pct": {
+   "Equity": 45.0,
+   "FixedIncome": 40.0,
+   "Commodity": 15.0
+  },
+  "top_holding": {
+   "ticker": "QQQ",
+   "weight_pct": 30
+  }
+ },
+ "exposure": {
+  "top_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 1.723,
+    "neg": 19.615,
+    "net": -17.892,
+    "avg_per_event": -0.1366,
+    "rank_score": -1.5632,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -11.182
+     },
+     {
+      "ticker": "TLT",
+      "net": -6.709
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 1.115,
+    "neg": 3.244,
+    "net": -2.129,
+    "avg_per_event": -0.071,
+    "rank_score": -0.3887,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -1.218
+     },
+     {
+      "ticker": "TLT",
+      "net": -0.911
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.065,
+    "neg": 1.598,
+    "net": -1.534,
+    "avg_per_event": -0.0613,
+    "rank_score": -0.3067,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -1.311
+     },
+     {
+      "ticker": "XLK",
+      "net": -0.222
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "AI投资与市场动态",
+    "n_events": 27,
+    "n_days": 16,
+    "pos": 2.107,
+    "neg": 1.271,
+    "net": 0.836,
+    "avg_per_event": 0.031,
+    "rank_score": 0.161,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": 0.685
+     },
+     {
+      "ticker": "XLK",
+      "net": 0.151
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 18,
+     "MacroEvents": 2,
+     "PolicyEvents": 1
+    }
+   },
+   {
+    "theme": "AI竞争格局",
+    "n_events": 7,
+    "n_days": 3,
+    "pos": 0.836,
+    "neg": 0.084,
+    "net": 0.752,
+    "avg_per_event": 0.1074,
+    "rank_score": 0.2843,
+    "drivers": [
+     {
+      "ticker": "XLK",
+      "net": 0.457
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.295
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 1
+    }
+   },
+   {
+    "theme": "AI芯片设计与设备",
+    "n_events": 12,
+    "n_days": 7,
+    "pos": 0.702,
+    "neg": 0.0,
+    "net": 0.702,
+    "avg_per_event": 0.0585,
+    "rank_score": 0.2026,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": 0.431
+     },
+     {
+      "ticker": "XLK",
+      "net": 0.271
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 8,
+     "MarketEvents": 4
+    }
+   }
+  ],
+  "risk_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 1.723,
+    "neg": 19.615,
+    "net": -17.892,
+    "avg_per_event": -0.1366,
+    "rank_score": -1.5632,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -11.182
+     },
+     {
+      "ticker": "TLT",
+      "net": -6.709
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 1.115,
+    "neg": 3.244,
+    "net": -2.129,
+    "avg_per_event": -0.071,
+    "rank_score": -0.3887,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -1.218
+     },
+     {
+      "ticker": "TLT",
+      "net": -0.911
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.065,
+    "neg": 1.598,
+    "net": -1.534,
+    "avg_per_event": -0.0613,
+    "rank_score": -0.3067,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -1.311
+     },
+     {
+      "ticker": "XLK",
+      "net": -0.222
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   }
+  ],
+  "opportunity_themes": [
+   {
+    "theme": "AI投资与市场动态",
+    "n_events": 27,
+    "n_days": 16,
+    "pos": 2.107,
+    "neg": 1.271,
+    "net": 0.836,
+    "avg_per_event": 0.031,
+    "rank_score": 0.161,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": 0.685
+     },
+     {
+      "ticker": "XLK",
+      "net": 0.151
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 18,
+     "MacroEvents": 2,
+     "PolicyEvents": 1
+    }
+   },
+   {
+    "theme": "AI竞争格局",
+    "n_events": 7,
+    "n_days": 3,
+    "pos": 0.836,
+    "neg": 0.084,
+    "net": 0.752,
+    "avg_per_event": 0.1074,
+    "rank_score": 0.2843,
+    "drivers": [
+     {
+      "ticker": "XLK",
+      "net": 0.457
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.295
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 1
+    }
+   },
+   {
+    "theme": "AI芯片设计与设备",
+    "n_events": 12,
+    "n_days": 7,
+    "pos": 0.702,
+    "neg": 0.0,
+    "net": 0.702,
+    "avg_per_event": 0.0585,
+    "rank_score": 0.2026,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": 0.431
+     },
+     {
+      "ticker": "XLK",
+      "net": 0.271
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 8,
+     "MarketEvents": 4
+    }
+   }
+  ]
+ },
+ "gaps": [
+  {
+   "kind": "concept",
+   "target": "原油",
+   "target_id": "concept_oil",
+   "evidence": "2026-09-25 搜索了「原油」",
+   "strength": "normal",
+   "candidates": [],
+   "blocked": [],
+   "risk_filtered_n": 1
+  }
+ ],
+ "timing": {
+  "ref_date": "2026-09-29",
+  "items": [
+   {
+    "kind": "rejected_offer",
+    "note": "曾拒绝过 USO（油价上行对冲）"
+   }
+  ],
+  "last_contact": {
+   "date": "2026-09-12",
+   "days_ago": 17,
+   "channel": "电话",
+   "summary": "讨论油价对物流成本的影响与对冲"
+  },
+  "rejected_offers": [
+   {
+    "date": "2026-09-12",
+    "ticker": "USO",
+    "reason": "油价上行对冲",
+    "status": "已拒绝"
+   }
+  ]
+ },
+ "meta": {
+  "w_category": {
+   "CorporateEvents": 1.0,
+   "CommodityEvents": 1.0,
+   "PolicyEvents": 0.9,
+   "MacroEvents": 0.8,
+   "MarketEvents": 0.6
+  },
+  "w_scope": {
+   "entity": 1.0,
+   "sector": 0.9,
+   "macro": 0.8,
+   "market": 0.7,
+   "weak": 0.6
+  },
+  "risk_floor": {
+   "AGG": "C1",
+   "TLT": "C1",
+   "GLD": "C1",
+   "UUP": "C1",
+   "QQQ": "C2",
+   "AIQ": "C2",
+   "XLK": "C3",
+   "BOTZ": "C3",
+   "SMH": "C4",
+   "SOXX": "C4",
+   "KWEB": "C4",
+   "CQQQ": "C4",
+   "USO": "C4"
+  },
+  "rank_mode": "net",
+  "rank_rule": "default: abs(net); optional: abs(net)/sqrt(n_events) 或 abs(avg_per_event)",
+  "source": "kg_yf_v2 + exposure_v2 + customers_all_in_one"
+ },
+ "advice": [
+  "风险提示：",
+  "1. 优先向客户说明“美联储货币政策”是当前最大负暴露，依据是该主题净暴露为-17.892，drivers 为 AGG 净-11.182、TLT 净-6.709，而客户 AGG 权重25%、TLT 权重15%。",
+  "2. 同时提示“国债收益率与债券市场”和“股市回调与崩盘风险”的负暴露，依据是前者净-2.129（AGG -1.218、TLT -0.911），后者净-1.534（QQQ -1.311、XLK -0.222），且 QQQ 权重30%、XLK 权重15%。",
+  "机会：",
+  "3. 可用 AI 相关主题强化正向持有逻辑，依据是“AI投资与市场动态”净+0.836（QQQ +0.685、XLK +0.151）、“AI竞争格局”净+0.752（XLK +0.457、QQQ +0.295）、“AI芯片设计与设备”净+0.702（QQQ +0.431、XLK +0.271）。",
+  "4. 可把现金与定存到期作为再平衡抓手来沟通，依据是闲置现金240,000、定存900,000将于2027-05到期、总资产3,300,000，且客户风险等级为C3。",
+  "沟通提示：",
+  "5. 本次沟通应先承接2026-09-12电话后的顾虑，不直接重推已拒绝的油价上行对冲方案，依据是客户在2026-09-12已拒绝该方案且距2026-09-29仅17天。"
+ ]
+}

@@ -1,0 +1,486 @@
+{
+ "customer": {
+  "id": "C019",
+  "name": "邓浩",
+  "age": 30,
+  "city": "深圳",
+  "occupation": "芯片设计工程师",
+  "risk_level": "C4",
+  "total_assets": 1100000,
+  "idle_cash": 200000,
+  "time_deposit": 100000,
+  "deposit_maturity": "2027-03",
+  "holdings": {
+   "SMH": 35,
+   "AIQ": 30,
+   "QQQ": 20,
+   "BOTZ": 15
+  }
+ },
+ "concentration": {
+  "by_asset_class_pct": {
+   "Equity": 100.0
+  },
+  "top_holding": {
+   "ticker": "SMH",
+   "weight_pct": 35
+  }
+ },
+ "exposure": {
+  "top_themes": [
+   {
+    "theme": "半导体产能扩张",
+    "n_events": 22,
+    "n_days": 10,
+    "pos": 4.017,
+    "neg": 0.159,
+    "net": 3.858,
+    "avg_per_event": 0.1754,
+    "rank_score": 0.8225,
+    "drivers": [
+     {
+      "ticker": "SMH",
+      "net": 3.497
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.226
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.084
+     },
+     {
+      "ticker": "AIQ",
+      "net": 0.051
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 17,
+     "PolicyEvents": 3,
+     "MacroEvents": 2
+    }
+   },
+   {
+    "theme": "AI芯片设计与设备",
+    "n_events": 12,
+    "n_days": 7,
+    "pos": 3.665,
+    "neg": 0.0,
+    "net": 3.665,
+    "avg_per_event": 0.3054,
+    "rank_score": 1.0581,
+    "drivers": [
+     {
+      "ticker": "SMH",
+      "net": 2.061
+     },
+     {
+      "ticker": "AIQ",
+      "net": 1.23
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.287
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.088
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 8,
+     "MarketEvents": 4
+    }
+   },
+   {
+    "theme": "AI内存与半导体技术",
+    "n_events": 15,
+    "n_days": 9,
+    "pos": 4.282,
+    "neg": 0.726,
+    "net": 3.556,
+    "avg_per_event": 0.2371,
+    "rank_score": 0.9183,
+    "drivers": [
+     {
+      "ticker": "SMH",
+      "net": 1.999
+     },
+     {
+      "ticker": "AIQ",
+      "net": 1.194
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.279
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.085
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 12,
+     "MarketEvents": 3
+    }
+   },
+   {
+    "theme": "AI半导体供需",
+    "n_events": 12,
+    "n_days": 10,
+    "pos": 3.448,
+    "neg": 0.261,
+    "net": 3.186,
+    "avg_per_event": 0.2655,
+    "rank_score": 0.9198,
+    "drivers": [
+     {
+      "ticker": "SMH",
+      "net": 1.791
+     },
+     {
+      "ticker": "AIQ",
+      "net": 1.069
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.25
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.076
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MacroEvents": 3,
+     "PolicyEvents": 1,
+     "MarketEvents": 2
+    }
+   },
+   {
+    "theme": "半导体行业展望",
+    "n_events": 20,
+    "n_days": 14,
+    "pos": 2.287,
+    "neg": 0.656,
+    "net": 1.631,
+    "avg_per_event": 0.0815,
+    "rank_score": 0.3646,
+    "drivers": [
+     {
+      "ticker": "SMH",
+      "net": 1.478
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.096
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.036
+     },
+     {
+      "ticker": "AIQ",
+      "net": 0.021
+     }
+    ],
+    "by_category": {
+     "PolicyEvents": 2,
+     "MarketEvents": 12,
+     "CorporateEvents": 5,
+     "MacroEvents": 1
+    }
+   },
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.062,
+    "neg": 1.533,
+    "net": -1.471,
+    "avg_per_event": -0.0588,
+    "rank_score": -0.2941,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.874
+     },
+     {
+      "ticker": "SMH",
+      "net": -0.413
+     },
+     {
+      "ticker": "AIQ",
+      "net": -0.14
+     },
+     {
+      "ticker": "BOTZ",
+      "net": -0.043
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   }
+  ],
+  "risk_themes": [
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.062,
+    "neg": 1.533,
+    "net": -1.471,
+    "avg_per_event": -0.0588,
+    "rank_score": -0.2941,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.874
+     },
+     {
+      "ticker": "SMH",
+      "net": -0.413
+     },
+     {
+      "ticker": "AIQ",
+      "net": -0.14
+     },
+     {
+      "ticker": "BOTZ",
+      "net": -0.043
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "AI政策与监管",
+    "n_events": 12,
+    "n_days": 8,
+    "pos": 0.312,
+    "neg": 1.191,
+    "net": -0.879,
+    "avg_per_event": -0.0733,
+    "rank_score": -0.2538,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": -0.639
+     },
+     {
+      "ticker": "SMH",
+      "net": -0.127
+     },
+     {
+      "ticker": "QQQ",
+      "net": -0.09
+     },
+     {
+      "ticker": "BOTZ",
+      "net": -0.023
+     }
+    ],
+    "by_category": {
+     "PolicyEvents": 6,
+     "MarketEvents": 3,
+     "CorporateEvents": 1,
+     "MacroEvents": 2
+    }
+   },
+   {
+    "theme": "AI安全与风险管理",
+    "n_events": 5,
+    "n_days": 3,
+    "pos": 0.0,
+    "neg": 0.62,
+    "net": -0.62,
+    "avg_per_event": -0.124,
+    "rank_score": -0.2773,
+    "drivers": [
+     {
+      "ticker": "AIQ",
+      "net": -0.451
+     },
+     {
+      "ticker": "SMH",
+      "net": -0.09
+     },
+     {
+      "ticker": "QQQ",
+      "net": -0.063
+     },
+     {
+      "ticker": "BOTZ",
+      "net": -0.016
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 4,
+     "CorporateEvents": 1
+    }
+   }
+  ],
+  "opportunity_themes": [
+   {
+    "theme": "半导体产能扩张",
+    "n_events": 22,
+    "n_days": 10,
+    "pos": 4.017,
+    "neg": 0.159,
+    "net": 3.858,
+    "avg_per_event": 0.1754,
+    "rank_score": 0.8225,
+    "drivers": [
+     {
+      "ticker": "SMH",
+      "net": 3.497
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.226
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.084
+     },
+     {
+      "ticker": "AIQ",
+      "net": 0.051
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 17,
+     "PolicyEvents": 3,
+     "MacroEvents": 2
+    }
+   },
+   {
+    "theme": "AI芯片设计与设备",
+    "n_events": 12,
+    "n_days": 7,
+    "pos": 3.665,
+    "neg": 0.0,
+    "net": 3.665,
+    "avg_per_event": 0.3054,
+    "rank_score": 1.0581,
+    "drivers": [
+     {
+      "ticker": "SMH",
+      "net": 2.061
+     },
+     {
+      "ticker": "AIQ",
+      "net": 1.23
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.287
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.088
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 8,
+     "MarketEvents": 4
+    }
+   },
+   {
+    "theme": "AI内存与半导体技术",
+    "n_events": 15,
+    "n_days": 9,
+    "pos": 4.282,
+    "neg": 0.726,
+    "net": 3.556,
+    "avg_per_event": 0.2371,
+    "rank_score": 0.9183,
+    "drivers": [
+     {
+      "ticker": "SMH",
+      "net": 1.999
+     },
+     {
+      "ticker": "AIQ",
+      "net": 1.194
+     },
+     {
+      "ticker": "QQQ",
+      "net": 0.279
+     },
+     {
+      "ticker": "BOTZ",
+      "net": 0.085
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 12,
+     "MarketEvents": 3
+    }
+   }
+  ]
+ },
+ "gaps": [],
+ "timing": {
+  "ref_date": "2026-09-29",
+  "items": [
+   {
+    "kind": "idle_cash",
+    "ratio": 0.182,
+    "note": "闲钱 200,000 元，占总资产 18.2%"
+   }
+  ],
+  "last_contact": {
+   "date": "2026-09-19",
+   "days_ago": 10,
+   "channel": "微信",
+   "summary": "客户主动问半导体 ETF 能不能定投"
+  }
+ },
+ "meta": {
+  "w_category": {
+   "CorporateEvents": 1.0,
+   "CommodityEvents": 1.0,
+   "PolicyEvents": 0.9,
+   "MacroEvents": 0.8,
+   "MarketEvents": 0.6
+  },
+  "w_scope": {
+   "entity": 1.0,
+   "sector": 0.9,
+   "macro": 0.8,
+   "market": 0.7,
+   "weak": 0.6
+  },
+  "risk_floor": {
+   "AGG": "C1",
+   "TLT": "C1",
+   "GLD": "C1",
+   "UUP": "C1",
+   "QQQ": "C2",
+   "AIQ": "C2",
+   "XLK": "C3",
+   "BOTZ": "C3",
+   "SMH": "C4",
+   "SOXX": "C4",
+   "KWEB": "C4",
+   "CQQQ": "C4",
+   "USO": "C4"
+  },
+  "rank_mode": "net",
+  "rank_rule": "default: abs(net); optional: abs(net)/sqrt(n_events) 或 abs(avg_per_event)",
+  "source": "kg_yf_v2 + exposure_v2 + customers_all_in_one"
+ },
+ "advice": [
+  "给客户经理的沟通建议：",
+  "1. 【机会】建议借客户 2026-09-19 微信主动联系、距今 10 天的窗口，在截至 2026-09-29 的沟通中跟进定投话题，因为“AI芯片设计与设备”主题净暴露 +3.665，drivers 为 SMH +2.061、AIQ +1.23、QQQ +0.287、BOTZ +0.088，且其持仓权重为 SMH 35%、AIQ 30%、QQQ 20%、BOTZ 15%。",
+  "2. 【机会】建议优先用“半导体产能扩张”和“AI内存与半导体技术”解释持仓的进攻性，因为前者净暴露 +3.858（SMH +3.497、QQQ +0.226、BOTZ +0.084、AIQ +0.051），后者净暴露 +3.556（SMH +1.999、AIQ +1.194、QQQ +0.279、BOTZ +0.085）。",
+  "3. 【机会】建议把 200,000 元闲钱（占总资产 18.2%）和 2027-03 到期的 100,000 元定存作为分批/再平衡来源，因为客户总资产 1,100,000 元且当前权益类持仓权重为 100%。",
+  "4. 【风险】建议明确提示“股市回调与崩盘风险”，因为该主题净暴露 -1.471，drivers 为 QQQ -0.874、SMH -0.413、AIQ -0.14、BOTZ -0.043，叠加客户权益类持仓 100%、SMH 单一权重 35%。",
+  "5. 【风险】建议同时提示“AI政策与监管”和“AI安全与风险管理”的负暴露，因为前者净暴露 -0.879（AIQ -0.639、SMH -0.127、QQQ -0.09、BOTZ -0.023），后者净暴露 -0.62（AIQ -0.451、SMH -0.09、QQQ -0.063、BOTZ -0.016）。"
+ ]
+}

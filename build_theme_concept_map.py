@@ -16,6 +16,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--api_base", default="https://api.deepseek.com")
 parser.add_argument("--api_key", default=os.getenv("OPENAI_API_KEY", ""))
 parser.add_argument("--model", default="deepseek-v4-flash-vision-exp")
+parser.add_argument("--suffix", default="", help="给产出加后缀（如 _v2），配合对应版本的词表")
 args, _ = parser.parse_known_args()
 if not args.api_key:
     raise SystemExit("need --api_key or OPENAI_API_KEY")
@@ -35,7 +36,7 @@ def parse_json(s):
 
 
 def main():
-    vocab = json.load(open("_yf_data/theme_vocab.json", encoding="utf-8"))["themes"]
+    vocab = json.load(open(f"_yf_data/theme_vocab{args.suffix}.json", encoding="utf-8"))["themes"]
     concepts = json.load(open("_yf_data/concepts.json", encoding="utf-8"))["concepts"]
 
     themes_txt = "\n".join(f"- {k}: {v['name']}" for k, v in vocab.items())
@@ -83,7 +84,7 @@ B. 可投资概念 Concept（由主题 ETF 定义）：
         cs = [c for c in (cs or []) if c in concepts]
         if cs:
             clean[t] = cs
-    json.dump(clean, open("_yf_data/theme_concept_map.json", "w", encoding="utf-8"),
+    json.dump(clean, open(f"_yf_data/theme_concept_map{args.suffix}.json", "w", encoding="utf-8"),
               ensure_ascii=False, indent=2, sort_keys=True)
 
     print(f"[INFO] Theme {len(vocab)} 个 → 有映射 {len(clean)} 个（无映射 {len(vocab)-len(clean)}）")

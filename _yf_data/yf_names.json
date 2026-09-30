@@ -48,6 +48,13 @@
     "quoteType": "EQUITY",
     "shortName": "KUAISHOU-W"
   },
+  "1211.HK": {
+    "currency": "HKD",
+    "exchange": "HKSE",
+    "longName": "BYD Company Limited",
+    "quoteType": "EQUITY",
+    "shortName": "BYD COMPANY"
+  },
   "1347.HK": {
     "currency": "HKD",
     "exchange": "HKSE",
@@ -237,6 +244,13 @@
     "quoteType": "EQUITY",
     "shortName": "Amazon.com, Inc."
   },
+  "ARM": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Arm Holdings plc",
+    "quoteType": "EQUITY",
+    "shortName": "Arm Holdings plc"
+  },
   "ASML": {
     "currency": "USD",
     "exchange": "NasdaqGS",
@@ -349,6 +363,27 @@
     "quoteType": "EQUITY",
     "shortName": "Lam Research Corporation"
   },
+  "LSCC": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Lattice Semiconductor Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "Lattice Semiconductor Corporati"
+  },
+  "MDB": {
+    "currency": "USD",
+    "exchange": "NasdaqGM",
+    "longName": "MongoDB, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "MongoDB, Inc."
+  },
+  "META": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Meta Platforms, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Meta Platforms, Inc."
+  },
   "MRVL": {
     "currency": "USD",
     "exchange": "NasdaqGS",
@@ -370,6 +405,13 @@
     "quoteType": "EQUITY",
     "shortName": "Micron Technology, Inc."
   },
+  "NEM": {
+    "currency": "USD",
+    "exchange": "NYSE",
+    "longName": "Newmont Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "Newmont Corporation"
+  },
   "NFLX": {
     "currency": "USD",
     "exchange": "NasdaqGS",
@@ -377,12 +419,26 @@
     "quoteType": "EQUITY",
     "shortName": "Netflix, Inc."
   },
+  "NOW": {
+    "currency": "USD",
+    "exchange": "NYSE",
+    "longName": "ServiceNow, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "ServiceNow, Inc."
+  },
   "NVDA": {
     "currency": "USD",
     "exchange": "NasdaqGS",
     "longName": "NVIDIA Corporation",
     "quoteType": "EQUITY",
     "shortName": "NVIDIA Corporation"
+  },
+  "ON": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "ON Semiconductor Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "ON Semiconductor Corporation"
   },
   "ORCL": {
     "currency": "USD",
@@ -405,6 +461,13 @@
     "quoteType": "EQUITY",
     "shortName": "Palantir Technologies Inc."
   },
+  "QCOM": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "QUALCOMM Incorporated",
+    "quoteType": "EQUITY",
+    "shortName": "QUALCOMM Incorporated"
+  },
   "QQQ": {
     "currency": "USD",
     "exchange": "NasdaqGM",
@@ -418,6 +481,27 @@
     "longName": "VanEck Semiconductor ETF",
     "quoteType": "ETF",
     "shortName": "VanEck Semiconductor ETF"
+  },
+  "SMTC": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Semtech Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "Semtech Corporation"
+  },
+  "SNAP": {
+    "currency": "USD",
+    "exchange": "NYSE",
+    "longName": "Snap Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Snap Inc."
+  },
+  "SNPS": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Synopsys, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Synopsys, Inc."
   },
   "SOXX": {
     "currency": "USD",
@@ -433,12 +517,26 @@
     "quoteType": "EQUITY",
     "shortName": "Space Exploration Technologies "
   },
+  "TER": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Teradyne, Inc.",
+    "quoteType": "EQUITY",
+    "shortName": "Teradyne, Inc."
+  },
   "TLT": {
     "currency": "USD",
     "exchange": "NasdaqGM",
     "longName": "iShares 20+ Year Treasury Bond ETF",
     "quoteType": "ETF",
     "shortName": "iShares 20+ Year Treasury Bond "
+  },
+  "TSEM": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Tower Semiconductor Ltd.",
+    "quoteType": "EQUITY",
+    "shortName": "Tower Semiconductor Ltd."
   },
   "TSLA": {
     "currency": "USD",
@@ -474,6 +572,13 @@
     "longName": "Invesco DB US Dollar Index Bullish Fund",
     "quoteType": "ETF",
     "shortName": "Invesco DB USD Index Bullish Fu"
+  },
+  "WDC": {
+    "currency": "USD",
+    "exchange": "NasdaqGS",
+    "longName": "Western Digital Corporation",
+    "quoteType": "EQUITY",
+    "shortName": "Western Digital Corporation"
   },
   "XLK": {
     "currency": "USD",

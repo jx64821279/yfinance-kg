@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "source": "news_raw_v2.json",
+    "fetched_at": "2026-09-29 18:04",
+    "window_days": 30,
+    "cutoff": "2026-08-30",
+    "latest_date": "2026-09-29",
+    "similarity_threshold": 0.85,
+    "policy": "只有 scope=off（宽流里完全不沾边）才丢弃；macro/market 一律保留，因为它们会经资产类别与宽基概念传导到产品",
+    "scopes": {
+      "entity": "命中 universe 公司/产品名",
+      "sector": "命中产品定义词",
+      "macro": "命中宏观/政策/地缘词",
+      "market": "命中大盘综述词",
+      "weak": "来自逐 ticker 通道但标题未命中，需靠原文给证据"
+    }
+  },
+  "input": {
+    "total": 1369,
+    "by_channel": {
+      "wide": 1000,
+      "topic": 106,
+      "entity": 263
+    }
+  },
+  "kept": {
+    "total": 1040,
+    "by_scope": {
+      "sector": 484,
+      "entity": 222,
+      "market": 119,
+      "weak": 25,
+      "macro": 190
+    },
+    "by_channel": {
+      "wide": 808,
+      "entity": 197,
+      "topic": 36
+    },
+    "scope_by_channel": {
+      "entity|entity": 67,
+      "entity|macro": 12,
+      "entity|market": 33,
+      "entity|sector": 60,
+      "entity|weak": 25,
+      "topic|entity": 16,
+      "topic|macro": 2,
+      "topic|market": 3,
+      "topic|sector": 14,
+      "wide|entity": 139,
+      "wide|macro": 176,
+      "wide|market": 83,
+      "wide|sector": 410
+    }
+  },
+  "dropped": {
+    "out_of_window": 35,
+    "off_topic": 205,
+    "off_universe_company": 36,
+    "duplicate_title": 49,
+    "near_duplicate": 4,
+    "off_topic_examples": [
+      "Real-Time Prices, Charts &amp; News | Deutsche Börse: Xetra &amp; Frankfurt - Börse Frankf",
+      "Bringing World Models to Booth (WM@Booth) - The University of Chicago Booth School of Busi",
+      "UNESCO opens third edition of its course on digital citizenship and - UNESCO",
+      "AAA Fuel Prices - AAA Gas Prices",
+      "Why people in the Northeast will be paying higher heating bills this winter - thehill.com",
+      "Kroger Reports Second Quarter 2026 Results and Updates Guidance for 2026 - Kroger",
+      "lululemon athletica inc. Announces Second Quarter Fiscal 2026 Results - Lululemon",
+      "Earnings Calendar for: - Yahoo Finance",
+      "Learnings from Earnings - Goldman Sachs Asset Management",
+      "Macy's posts strong results, raises guidance as turnaround begins to take hold - CNBC"
+    ],
+    "off_universe_examples": [
+      "Multibillion-Dollar Stock-Market Scandal Roils Erdogan’s Turkey - WSJ",
+      "As Stock Market Warning Signs Pile Up, Here's What History Says Comes Next - Yahoo Finance",
+      "Indian shares slide to near six-month low as US-Iran deadlock lifts oil prices - Reuters",
+      "Sturdy stock market mints a record number of 401(k) millionaires - CBS News",
+      "Shein shares slide on fast-fashion retailer’s stock market debut - The Guardian",
+      "Dollar Jumps to 8-Week High on Fed Rate-Hike Bets - WSJ",
+      "Gold falls more than 1% after Fed hikes interest rates - Reuters",
+      "Oil falls but head for 8% weekly gain on tight supply; US diesel hits record - reuters.com",
+      "Oil falls 1% as investors watch Middle East supply disruptions - reuters.com",
+      "Oil rises past $100 a barrel after latest Middle East attacks - thehill.com"
+    ],
+    "out_of_window_examples": [
+      "2026-08-28 Meituan Returns to Profit as Food-Delivery Competition Eases",
+      "2026-08-27 China E-Commerce Stocks Sink While Baidu Climbs 4%: Alibaba Falls 4%, ",
+      "2026-08-28 The Zacks Analyst Blog Highlights NVIDIA,CHAT, AIS, AIQ,  QTUM, ROBO a",
+      "2026-08-27 NVIDIA Raises the Bar on AI Growth: AI ETFs to Win",
+      "2026-08-18 Gorilla Technology Rises 3% as AI Infrastructure Momentum Builds: How ",
+      "2026-08-13 A Guide to Investing in AI ETFs"
+    ],
+    "near_duplicate_examples": [
+      {
+        "keep": "Alibaba Climbs 3%, PDD and JD.com Tick Up: Is China Technology Finding",
+        "dropped": [
+          "Alibaba Climbs 3%, PDD and JD.com Tick Up: Is China Technology Finding Buyers Again? - 24/"
+        ]
+      },
+      {
+        "keep": "What Fed rate hikes mean for gold prices in 2027, according to Goldman",
+        "dropped": [
+          "What Fed rate hikes mean for gold prices in 2027, according to Goldman - Yahoo! Finance Ca"
+        ]
+      },
+      {
+        "keep": "AI risks: Will artificial intelligence really kill us all? - CBS News",
+        "dropped": [
+          "Will artificial intelligence really kill us all? - CBS News"
+        ]
+      },
+      {
+        "keep": "Stocks fall as higher oil prices, Treasury yields weigh - Reuters",
+        "dropped": [
+          "Stocks fall as higher oil prices, Treasury yields weigh - reuters.com"
+        ]
+      }
+    ]
+  },
+  "date_range": {
+    "min": "2026-08-31",
+    "max": "2026-09-29"
+  },
+  "daily_counts_top": {
+    "2026-09-28": 161,
+    "2026-09-24": 76,
+    "2026-09-23": 74,
+    "2026-09-16": 72,
+    "2026-09-25": 66,
+    "2026-09-21": 64,
+    "2026-09-22": 59,
+    "2026-09-29": 55,
+    "2026-09-17": 53,
+    "2026-09-18": 48
+  }
+}

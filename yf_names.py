@@ -14,6 +14,7 @@ import http.cookiejar
 
 SUMMARY = "_yf_data/yf_summary.json"
 EVENTS = "_yf_data/events_extracted.json"
+EXTRA = "_yf_data/universe_extra.json"      # universe 扩充名单（见文件内说明）
 OUT = "_yf_data/yf_names.json"
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
@@ -77,6 +78,8 @@ def collect_tickers():
     if os.path.exists(EVENTS):
         for ev in json.load(open(EVENTS, encoding="utf-8")):
             tickers.update(ev.get("affected_tickers") or [])
+    if os.path.exists(EXTRA):
+        tickers.update(json.load(open(EXTRA, encoding="utf-8")).get("tickers") or [])
     return sorted(t for t in tickers if t)
 
 

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_for": "yfinance KG (30 news events)",
+    "generated_for": "yfinance KG v1：436 条新闻事件",
     "theme_vocab_version": 1,
     "entity_types": [
       "AssetClass",
@@ -27,8 +27,8 @@
       "IS_CLASS",
       "MAPS_TO"
     ],
-    "n_entities": 626,
-    "n_edges": 1358
+    "n_entities": 656,
+    "n_edges": 1388
   },
   "entities": [
     {
@@ -164,6 +164,24 @@
       ],
       "aliases": [
         "Kuaishou Technology Ordinary Shares - Class B"
+      ]
+    },
+    {
+      "id": "stock_1211.HK",
+      "type": "Stock",
+      "name": "BYD",
+      "ticker": "1211.HK",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_byd",
+      "type": "Company",
+      "name": "BYD",
+      "tickers": [
+        "1211.HK"
+      ],
+      "aliases": [
+        "BYD Company Limited"
       ]
     },
     {
@@ -622,6 +640,24 @@
       ]
     },
     {
+      "id": "stock_ARM",
+      "type": "Stock",
+      "name": "Arm Holdings",
+      "ticker": "ARM",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_arm",
+      "type": "Company",
+      "name": "Arm Holdings",
+      "tickers": [
+        "ARM"
+      ],
+      "aliases": [
+        "Arm Holdings plc"
+      ]
+    },
+    {
       "id": "stock_ASML",
       "type": "Stock",
       "name": "ASML",
@@ -809,6 +845,60 @@
       ]
     },
     {
+      "id": "stock_LSCC",
+      "type": "Stock",
+      "name": "Lattice Semiconductor",
+      "ticker": "LSCC",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_lattice_semiconductor",
+      "type": "Company",
+      "name": "Lattice Semiconductor",
+      "tickers": [
+        "LSCC"
+      ],
+      "aliases": [
+        "Lattice Semiconductor Corporation"
+      ]
+    },
+    {
+      "id": "stock_MDB",
+      "type": "Stock",
+      "name": "MongoDB",
+      "ticker": "MDB",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_mongodb",
+      "type": "Company",
+      "name": "MongoDB",
+      "tickers": [
+        "MDB"
+      ],
+      "aliases": [
+        "MongoDB, Inc."
+      ]
+    },
+    {
+      "id": "stock_META",
+      "type": "Stock",
+      "name": "Meta Platforms",
+      "ticker": "META",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_meta_platforms",
+      "type": "Company",
+      "name": "Meta Platforms",
+      "tickers": [
+        "META"
+      ],
+      "aliases": [
+        "Meta Platforms, Inc."
+      ]
+    },
+    {
       "id": "stock_MRVL",
       "type": "Stock",
       "name": "Marvell Technology",
@@ -866,6 +956,24 @@
       ]
     },
     {
+      "id": "stock_NEM",
+      "type": "Stock",
+      "name": "Newmont",
+      "ticker": "NEM",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_newmont",
+      "type": "Company",
+      "name": "Newmont",
+      "tickers": [
+        "NEM"
+      ],
+      "aliases": [
+        "Newmont Corporation"
+      ]
+    },
+    {
       "id": "stock_NFLX",
       "type": "Stock",
       "name": "Netflix",
@@ -885,6 +993,24 @@
       ]
     },
     {
+      "id": "stock_NOW",
+      "type": "Stock",
+      "name": "ServiceNow",
+      "ticker": "NOW",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_servicenow",
+      "type": "Company",
+      "name": "ServiceNow",
+      "tickers": [
+        "NOW"
+      ],
+      "aliases": [
+        "ServiceNow, Inc."
+      ]
+    },
+    {
       "id": "stock_NVDA",
       "type": "Stock",
       "name": "NVIDIA",
@@ -901,6 +1027,24 @@
       "aliases": [
         "NVIDIA Corporation",
         "NVIDIA Corp"
+      ]
+    },
+    {
+      "id": "stock_ON",
+      "type": "Stock",
+      "name": "ON Semiconductor",
+      "ticker": "ON",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_on_semiconductor",
+      "type": "Company",
+      "name": "ON Semiconductor",
+      "tickers": [
+        "ON"
+      ],
+      "aliases": [
+        "ON Semiconductor Corporation"
       ]
     },
     {
@@ -961,6 +1105,78 @@
       ]
     },
     {
+      "id": "stock_QCOM",
+      "type": "Stock",
+      "name": "QUALCOMM",
+      "ticker": "QCOM",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_qualcomm",
+      "type": "Company",
+      "name": "QUALCOMM",
+      "tickers": [
+        "QCOM"
+      ],
+      "aliases": [
+        "QUALCOMM Incorporated"
+      ]
+    },
+    {
+      "id": "stock_SMTC",
+      "type": "Stock",
+      "name": "Semtech",
+      "ticker": "SMTC",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_semtech",
+      "type": "Company",
+      "name": "Semtech",
+      "tickers": [
+        "SMTC"
+      ],
+      "aliases": [
+        "Semtech Corporation"
+      ]
+    },
+    {
+      "id": "stock_SNAP",
+      "type": "Stock",
+      "name": "Snap",
+      "ticker": "SNAP",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_snap",
+      "type": "Company",
+      "name": "Snap",
+      "tickers": [
+        "SNAP"
+      ],
+      "aliases": [
+        "Snap Inc."
+      ]
+    },
+    {
+      "id": "stock_SNPS",
+      "type": "Stock",
+      "name": "Synopsys",
+      "ticker": "SNPS",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_synopsys",
+      "type": "Company",
+      "name": "Synopsys",
+      "tickers": [
+        "SNPS"
+      ],
+      "aliases": [
+        "Synopsys, Inc."
+      ]
+    },
+    {
       "id": "stock_SPCX",
       "type": "Stock",
       "name": "Space Exploration Technologies",
@@ -977,6 +1193,42 @@
       "aliases": [
         "Space Exploration Technologies Corp.",
         "Space Exploration Technologies Corp Class A"
+      ]
+    },
+    {
+      "id": "stock_TER",
+      "type": "Stock",
+      "name": "Teradyne",
+      "ticker": "TER",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_teradyne",
+      "type": "Company",
+      "name": "Teradyne",
+      "tickers": [
+        "TER"
+      ],
+      "aliases": [
+        "Teradyne, Inc."
+      ]
+    },
+    {
+      "id": "stock_TSEM",
+      "type": "Stock",
+      "name": "Tower Semiconductor",
+      "ticker": "TSEM",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_tower_semiconductor",
+      "type": "Company",
+      "name": "Tower Semiconductor",
+      "tickers": [
+        "TSEM"
+      ],
+      "aliases": [
+        "Tower Semiconductor Ltd."
       ]
     },
     {
@@ -1034,6 +1286,24 @@
       "aliases": [
         "Texas Instruments Incorporated",
         "Texas Instruments Inc"
+      ]
+    },
+    {
+      "id": "stock_WDC",
+      "type": "Stock",
+      "name": "Western Digital",
+      "ticker": "WDC",
+      "asset_class": "Equity"
+    },
+    {
+      "id": "company_western_digital",
+      "type": "Company",
+      "name": "Western Digital",
+      "tickers": [
+        "WDC"
+      ],
+      "aliases": [
+        "Western Digital Corporation"
       ]
     },
     {
@@ -7386,6 +7656,16 @@
       "target": "stock_1024.HK"
     },
     {
+      "source": "stock_1211.HK",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_byd",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_1211.HK"
+    },
+    {
       "source": "stock_1347.HK",
       "relation": "IS_CLASS",
       "target": "asset_class_Equity"
@@ -7626,6 +7906,16 @@
       "target": "stock_AMZN"
     },
     {
+      "source": "stock_ARM",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_arm",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_ARM"
+    },
+    {
       "source": "stock_ASML",
       "relation": "IS_CLASS",
       "target": "asset_class_Equity"
@@ -7736,6 +8026,36 @@
       "target": "stock_LRCX"
     },
     {
+      "source": "stock_LSCC",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_lattice_semiconductor",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_LSCC"
+    },
+    {
+      "source": "stock_MDB",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_mongodb",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_MDB"
+    },
+    {
+      "source": "stock_META",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_meta_platforms",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_META"
+    },
+    {
       "source": "stock_MRVL",
       "relation": "IS_CLASS",
       "target": "asset_class_Equity"
@@ -7766,6 +8086,16 @@
       "target": "stock_MU"
     },
     {
+      "source": "stock_NEM",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_newmont",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_NEM"
+    },
+    {
       "source": "stock_NFLX",
       "relation": "IS_CLASS",
       "target": "asset_class_Equity"
@@ -7776,6 +8106,16 @@
       "target": "stock_NFLX"
     },
     {
+      "source": "stock_NOW",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_servicenow",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_NOW"
+    },
+    {
       "source": "stock_NVDA",
       "relation": "IS_CLASS",
       "target": "asset_class_Equity"
@@ -7784,6 +8124,16 @@
       "source": "company_nvidia",
       "relation": "CORRESPONDS_TO",
       "target": "stock_NVDA"
+    },
+    {
+      "source": "stock_ON",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_on_semiconductor",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_ON"
     },
     {
       "source": "stock_ORCL",
@@ -7816,6 +8166,46 @@
       "target": "stock_PLTR"
     },
     {
+      "source": "stock_QCOM",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_qualcomm",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_QCOM"
+    },
+    {
+      "source": "stock_SMTC",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_semtech",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_SMTC"
+    },
+    {
+      "source": "stock_SNAP",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_snap",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_SNAP"
+    },
+    {
+      "source": "stock_SNPS",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_synopsys",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_SNPS"
+    },
+    {
       "source": "stock_SPCX",
       "relation": "IS_CLASS",
       "target": "asset_class_Equity"
@@ -7824,6 +8214,26 @@
       "source": "company_space_exploration",
       "relation": "CORRESPONDS_TO",
       "target": "stock_SPCX"
+    },
+    {
+      "source": "stock_TER",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_teradyne",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_TER"
+    },
+    {
+      "source": "stock_TSEM",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_tower_semiconductor",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_TSEM"
     },
     {
       "source": "stock_TSLA",
@@ -7854,6 +8264,16 @@
       "source": "company_texas_instruments",
       "relation": "CORRESPONDS_TO",
       "target": "stock_TXN"
+    },
+    {
+      "source": "stock_WDC",
+      "relation": "IS_CLASS",
+      "target": "asset_class_Equity"
+    },
+    {
+      "source": "company_western_digital",
+      "relation": "CORRESPONDS_TO",
+      "target": "stock_WDC"
     },
     {
       "source": "stock_AAPL",

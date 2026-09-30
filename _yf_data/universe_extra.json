@@ -1,0 +1,32 @@
+{
+  "note": "universe 扩充名单：来自 v2 新闻抽取时未能落地的公司名（unresolved_mentions）。这些公司不在 13 只 ETF 的前十大持仓里，因此加入后只有事件/公司层连接，暂时没有基金持仓边；要连到产品需要补全 ETF 全持仓。",
+  "source": "_yf_data/events_v2_sample.json 的 unresolved_mentions（2026-09-29 抽样）",
+  "round": 2,
+  "tickers": [
+    "META",
+    "SNPS",
+    "TER",
+    "LSCC",
+    "TSEM",
+    "NOW",
+    "MDB",
+    "SNAP",
+    "1211.HK",
+    "QCOM",
+    "ON",
+    "WDC",
+    "ARM",
+    "SMTC",
+    "NEM"
+  ],
+  "skipped": {
+    "GLDM": "是另一家发行的黄金 ETF（产品而非公司），要接需要单独抓产品数据",
+    "Binance": "未上市，无可用 ticker",
+    "Ceconomy": "德国零售公司，与本 universe 主题无关",
+    "Tim Cook": "人名，抽取时误当公司，已在提示词侧修正",
+    "Alif Semiconductor": "未上市（正被 ADI 收购），等私有公司建模方案确定后再进图",
+    "Tata Electronics": "未上市（塔塔集团旗下），同上",
+    "OpenAI": "未上市 AI 实验室，同上（见私有公司建模方案）",
+    "Anthropic": "未上市（数据里已在筹备 IPO），同上"
+  }
+}

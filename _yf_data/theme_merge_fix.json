@@ -1,0 +1,26 @@
+{
+  "note": "词表 v2.1 人工补丁：把 pass2 归并时漏掉的原始主题并入已有规范主题（主语优先，只并一个）。落不到唯一答案的保持不映射，不做强行映射。",
+  "applied_by": "apply_theme_fixes.py",
+  "merge": {
+    "semiconductor stock rebound": "semiconductor_industry_outlook",
+    "semiconductor stock relative valuation": "semiconductor_industry_outlook",
+    "semiconductor stock upside comparison": "semiconductor_industry_outlook",
+    "semiconductor valuation opportunity": "semiconductor_industry_outlook",
+    "semiconductor profit taking after rally": "semiconductor_industry_outlook",
+    "semiconductor workforce development": "semiconductor_industry_outlook",
+    "semiconductor tariff risk": "semiconductor_industry_outlook",
+    "space and semiconductor technology investment": "semiconductor_industry_outlook",
+    "semiconductor production investment": "semiconductor_capacity_expansion",
+    "semiconductor supply chain reconfiguration": "semiconductor_capacity_expansion",
+    "semiconductor shortage auto production disruption": "semiconductor_capacity_expansion",
+    "Fed signals pressure gold prices": "gold_precious_metals",
+    "stock market crash risk": "equity_market_correction_crash_risk",
+    "stock market crash preparation": "equity_market_correction_crash_risk"
+  },
+  "leave_unmapped": {
+    "US economic slowdown fears": "主语不唯一：既可能是债券（避险/降息），也可能是大盘情绪，不硬凑",
+    "student loan rate cut deadline": "与 13 只产品无对应关系",
+    "space laser energy generation test": "与 13 只产品无对应关系",
+    "veteran civilian labor market outcomes": "与 13 只产品无对应关系"
+  }
+}

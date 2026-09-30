@@ -1,0 +1,2088 @@
+{
+  "meta": {
+    "source": "news_filtered_v2_llm.json",
+    "seed": 20260929,
+    "quota": {
+      "entity": 30,
+      "sector": 30,
+      "macro": 20,
+      "market": 15,
+      "weak": 5
+    },
+    "picked": {
+      "entity": 30,
+      "sector": 30,
+      "macro": 20,
+      "market": 15,
+      "weak": 5
+    },
+    "total": 100
+  },
+  "items": [
+    {
+      "title": "Why interest rate expectations are pointing north - marketplace.org",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSFRsQzd0QnVwMmFibXFQNkdSSlBhVWEtTVpGTWNrYnI0eWpfM2dSSS16cFE0eVhVZnUwbUU2TlVvOVc4bktmMjBYOGpJQUgxZkZVTTg0NmFoQUlmaXNVaFM3czlxc0ltUnV6YU9yR0dnN1Bmbjd3UHo1VHZaVVhRYXYxWjhhVzR4Wll6dFBxNWVqRmRha1Vnd3pIRQ?oc=5",
+      "date": "2026-08-31",
+      "publisher": "marketplace.org",
+      "channel": "wide",
+      "query": "interest rates when:30d",
+      "group": "interest rates",
+      "scope": "macro",
+      "matched": "interest rate",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "interest rates"
+      ],
+      "id": "n0017",
+      "sample_id": "s001"
+    },
+    {
+      "title": "Jim Cramer's top 10 things to watch in the stock market Monday - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZHFzaGViNktORU9yQkl4TC1wSEQzcWFrS2RFMGtLYTMxLXZVa2NMUlFWNV9WdGhEdUVCQkx0QzZLOGdjM3dIMmF5ck1Lc2F1MngtdTk4QlJOTC1yMjRxQlJScW5yeEt5RVdnclJQeVV0ZFNDVFhsVF91U1F3X3NBeFlvSUx4YmpLeGxzTGxieVJweXhVNVkzRzIwNERQNmc?oc=5",
+      "date": "2026-08-31",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "market",
+      "matched": "stock market",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0008",
+      "sample_id": "s002"
+    },
+    {
+      "title": "House Intelligence Committee warns of 'Black Swan' AI risks - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSldFa0VOb0pOQTkxckR0ZHBOSWJFalQ1NVIyaFdPVDM5SEQ3RXFxOEJjY0Y3cEU3QWcwMC1kTWRyak00THMxNXhuTGZ5THdvLVZuTFdTTXBDbjhFVWxibVhYdGNYQmF2S3p6bzA3TnBuR3ZEbVNlLXNwWEZpMFhQdWJR0gGHAUFVX3lxTE9BbzhvdWdiTFcxcXB0SDcxSVlDekRsZlcwUldyTEtoU09rc21aTk9iU3I3WXV2cW1wcXJmQ0s3LTR1VnEyWm9nU21GaFlvZEg1ZFgtZ1V3YUY3UjBDd0c4c3ZnaUVZNFYxeUdLZV9hZ1hBaEs0bUtPbjNHQnRMSnA3T3dzd29hRQ?oc=5",
+      "date": "2026-08-31",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "artificial intelligence when:30d",
+      "group": "artificial intelligence",
+      "scope": "sector",
+      "matched": "ai",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "artificial intelligence"
+      ],
+      "id": "n0006",
+      "sample_id": "s003"
+    },
+    {
+      "title": "Oracle (ORCL) Earnings Expected to Grow: Should You Buy? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOWG41X2RNX0pycm9kZWN5cC0zS1BITmxjdHkxMUFyT1ppWG03UlpzYXdOSG9UNUVOQkVmb3g0WElhOWVOTU5jeURLdHN3XzU3RTdrckRpLXlrbk8yaHVlUVRlTFpQNW1XODJwd0tCTDVXYnhtVWptQi10MENwbS1iU1FSSTZHRjZIclYyMjdCVU1rMFI5Zm5PMEU1Y2JBVTN6?oc=5",
+      "date": "2026-09-01",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings",
+      "scope": "entity",
+      "matched": "orcl",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "earnings"
+      ],
+      "id": "n0032",
+      "sample_id": "s004"
+    },
+    {
+      "title": "What higher interest rates are telling us - Axios",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53VFp2ZWpPaXo5UGNjQ0RHRlpCQy1jaTU2WVU1NUFFbHEzZUxBd1dmYzJNNEhVODA1b3RSU0dJSktfc2t6aV95Vmx0azJyTFRFcHcyN25aeWtuMzZsRGN4MVlDdkY5QlUwUGtzNmFwdW8?oc=5",
+      "date": "2026-09-01",
+      "publisher": "Axios",
+      "channel": "wide",
+      "query": "interest rates when:30d",
+      "group": "interest rates",
+      "scope": "macro",
+      "matched": "interest rate",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "interest rates"
+      ],
+      "id": "n0039",
+      "sample_id": "s005"
+    },
+    {
+      "title": "Trump Promised Cheaper Gas. Now His Team Blames Ukraine—and Paul Krugman Says They Have 'No Cards' Left to Stop It",
+      "link": "https://finance.yahoo.com/energy/articles/trump-promised-cheaper-gas-now-120016602.html",
+      "date": "2026-09-04",
+      "publisher": "Benzinga",
+      "relatedTickers": [
+        "USO"
+      ],
+      "channel": "entity",
+      "query": "USO",
+      "group": "USO",
+      "scope": "macro",
+      "matched": "trump",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "USO"
+      ],
+      "id": "n0078",
+      "sample_id": "s006"
+    },
+    {
+      "title": "ETF Zoo: Industry Scale, Speculation, and Sports Betting",
+      "link": "https://finance.yahoo.com/markets/options/articles/etf-zoo-industry-scale-speculation-170858111.html",
+      "date": "2026-09-04",
+      "publisher": "etf.com",
+      "relatedTickers": [
+        "IBIT",
+        "VOO",
+        "SOXX",
+        "AGG",
+        "SMH"
+      ],
+      "channel": "entity",
+      "query": "AGG",
+      "group": "AGG",
+      "scope": "weak",
+      "matched": null,
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "AGG"
+      ],
+      "id": "n0072",
+      "sample_id": "s007"
+    },
+    {
+      "title": "Michael Burry Says He Sold Alibaba, Calling It Pricey Before $10.2 Billion Share Sale",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-says-sold-alibaba-224525107.html",
+      "date": "2026-09-05",
+      "publisher": "Insider Monkey",
+      "relatedTickers": [
+        "BABA",
+        "JD"
+      ],
+      "channel": "entity",
+      "query": "JD",
+      "group": "JD",
+      "scope": "entity",
+      "matched": "alibaba",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "JD"
+      ],
+      "id": "n0082",
+      "sample_id": "s008"
+    },
+    {
+      "title": "Arete Downgrades JD.com to Neutral From Buy, Adjusts PT to $30 From $36",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/arete-downgrades-jd-com-neutral-111510680.html",
+      "date": "2026-09-08",
+      "publisher": "MT Newswires",
+      "relatedTickers": [
+        "JD"
+      ],
+      "channel": "entity",
+      "query": "JD",
+      "group": "JD",
+      "scope": "entity",
+      "matched": "jd.com",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "JD"
+      ],
+      "id": "n0096",
+      "sample_id": "s009"
+    },
+    {
+      "title": "Oil surges above $100 a barrel as US and Iran launch new attacks, while gasoline prices also jump - AP News",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdGg1NEo3VVRGTDl0eEFZVkVVWjVUTGtmVC1haUp5c2kzb1NYcXMzNFlVZk9rQl92VTNFREZuSDlBTEhYQ19Lci1ZV2tCTk1tLVRDMEcydzk4ZEZOY3dEMUhhSlU5eXdOVnBLQWRxUlk1bXl3QjNQWklTYm9jdVZ6NHB6V0FkamhIUFJJYjhsMVk5XzlOWnZfbm1IVTVmR05TYmc?oc=5",
+      "date": "2026-09-09",
+      "publisher": "AP News",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices",
+      "scope": "sector",
+      "matched": "oil",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "oil prices"
+      ],
+      "id": "n0129",
+      "sample_id": "s010"
+    },
+    {
+      "title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates - AP News",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQU1FDWlZxem5yejRWekJjdmdOVW4tU2RQYWpQX2FDWmlHZ3lBOVlYNjdEb01mcUFvM2FhaV9fMG5kUno1VzRjY0F6WkhKbmgxTzUwZXdabXprUjdGbTBuVE5jR2s4QVJqdkt6cS1QTVcwMW82d29FYjBvMFoxdjVrdkxwS0wyY0toNWNYaUpqUkJ6ZkM0bFZHdDk4RU1qWm9Ga0VUQ1J3WQ?oc=5",
+      "date": "2026-09-09",
+      "publisher": "AP News",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices",
+      "scope": "sector",
+      "matched": "oil",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "oil prices"
+      ],
+      "id": "n0133",
+      "sample_id": "s011"
+    },
+    {
+      "title": "Earnings season guide: How to read an earnings report – and what it means for the stock market - Chase Bank",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcmlSTHRjT0paN0VzUzV0YUF3THVMNUxFdl96aDFPSjZMeHVVTlZMTGFkdUtVem5DMGcwT01YM1RvQ3M5V3ltOWxwLUlJYnRjTWR1cC1WZjhrV3JkSFhUWS1PVGR4NVJBaHZzcEF3TkplZi1zR0ZfTGVzMDhJYVJtbUdLaUhfVENybGpmLTZIUHlvU1JzLVdsYlpWSk5ZRlB5emxDUWxYVS1mTDBHS0pTYUhmZW54SEZpZWNTbGljTm4wMHc?oc=5",
+      "date": "2026-09-10",
+      "publisher": "Chase Bank",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings",
+      "scope": "market",
+      "matched": "stock market",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "earnings"
+      ],
+      "id": "n0143",
+      "sample_id": "s012"
+    },
+    {
+      "title": "The next frontier is not artificial intelligence, it’s artificial societies - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeDFCRTVHOE1HQmpHR2VBeFl3N05pOERtc2xHN1pxb2RHeHN3SXhJQ2pVRFM3WFcyYTVhRmNlelUtS205cm5iNmhWb1RuZXBBcVFzMFNfQlJyY20xbUlJQWRNd0htM2M0d2hOOEtGY1ZvRUdhZnRCbFMtTkxDYWd2eFNmeDdCNTNBMnJLMjNFd1JRRFV5a3ZuajYxb2VTam1EcmF0a2FGZmM3NTBt?oc=5",
+      "date": "2026-09-10",
+      "publisher": "The Conversation",
+      "channel": "wide",
+      "query": "artificial intelligence when:30d",
+      "group": "artificial intelligence",
+      "scope": "sector",
+      "matched": "artificial intelligence",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "artificial intelligence"
+      ],
+      "id": "n0151",
+      "sample_id": "s013"
+    },
+    {
+      "title": "Market Chatter: JD.com Facing Criticism Over Concessions to Clear Ceconomy Acquisition in EU",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/market-chatter-jd-com-facing-084902951.html",
+      "date": "2026-09-11",
+      "publisher": "MT Newswires",
+      "relatedTickers": [
+        "JD",
+        "CEC.DE"
+      ],
+      "channel": "entity",
+      "query": "JD",
+      "group": "JD",
+      "scope": "entity",
+      "matched": "jd.com",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "JD"
+      ],
+      "id": "n0162",
+      "sample_id": "s014"
+    },
+    {
+      "title": "Fall Market Crash Risk: 6 Defensive Moves for Boomers & Gen X Investors",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/fall-market-crash-risk-6-131541671.html",
+      "date": "2026-09-11",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "GLD",
+        "BIL"
+      ],
+      "channel": "entity",
+      "query": "GLD",
+      "group": "GLD",
+      "scope": "market",
+      "matched": "investor",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "GLD"
+      ],
+      "id": "n0157",
+      "sample_id": "s015"
+    },
+    {
+      "title": "Stocks are in a late-stage bubble and poised to crash 21% next year, analyst says - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU29aRl84bG1Nbkx1N2h0Rk9lS2ozcHB5R3hNNEFBT3JhTk8zLWEtT0ZHM3B6ZlE4YUszbXA3dE5UaTJfVTY0R2JiZnFoQ2pHaWZ1d1RhZjZnZWhKODh2LUVsbzBUdTVvVTc2OUFGa3pJWDZNbTdLeUJUM05HVW9IZXZ0NS0yUHZtVXJqN2I1eWtLY2JfM1dYV0NTckFscHN4ZFJ6WUtZWnVLeUE?oc=5",
+      "date": "2026-09-13",
+      "publisher": "Fortune",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "market",
+      "matched": "stock",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0176",
+      "sample_id": "s016"
+    },
+    {
+      "title": "Energy ETF (USO) Hits New 52-Week High",
+      "link": "https://finance.yahoo.com/energy/articles/energy-etf-uso-hits-52-151900990.html",
+      "date": "2026-09-14",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "CL=F",
+        "USO"
+      ],
+      "channel": "entity",
+      "query": "USO",
+      "group": "USO",
+      "scope": "entity",
+      "matched": "uso",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "USO"
+      ],
+      "id": "n0186",
+      "sample_id": "s017"
+    },
+    {
+      "title": "Gold prices today, Monday, September 14, 2026: Gold sinks following new attacks on Saudi pipeline and more - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObTY1bDhNV2xibUJrcFd3QW9IUXRYdTNoamlIb2YtakZvMHV5QVFWZUx0Tk0zd2V0bHQwLWhKTVdCMjZsc0dObHZOM1ZHd210d1RvUEs0V1hhRXhySVNoUkU2SG9mVHowLTBVMGJ5OXF4QnpmUTYwcE1tMHp2OEpRcDZLS2Z6bnNmYVhHa0RJaEpBdHVTeXNtU3dvTmJ6VHk3SHBNMFYyUWhCZjNXcmRuZ1Q2dnpJdHlqZ0lRN0V0elpOak1jeHgxSmpTeXdGbjlCLWYzd0N0WGkwVDNqSlJGRkIxQ0diMEFlRUt5b3htM2NkX2cwakNxZ3BqanJ4NHJFS1p1dC1DTHRzUQ?oc=5",
+      "date": "2026-09-14",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices",
+      "scope": "sector",
+      "matched": "gold",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "gold prices"
+      ],
+      "id": "n0190",
+      "sample_id": "s018"
+    },
+    {
+      "title": "Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeDdvckhVQlJKZzN2eU90TEg3YU9vRmhZdTdjdkZ1cExSOUd4N09GVEktMTBVT012ZUdGWUdtc2JLaDdIWDJWWFdpUmlJU3pMVWt3MXR2bXRyUXlnSHJTVDJ2Vzg1bmx1ZFptX3ZoVmlMZS1EODlaM3FHbGFJTHFUM0I5YkE5WVRGcEs0UlNkZjdsdXhzdHF6dXFqbHV0bFFZRmRCNDF1WHpQOGZLeGJCdkJIRmNOa1Bzb1FKNU9fcGc?oc=5",
+      "date": "2026-09-14",
+      "publisher": "WSJ",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices",
+      "scope": "sector",
+      "matched": "oil",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "oil prices"
+      ],
+      "id": "n0191",
+      "sample_id": "s019"
+    },
+    {
+      "title": "WATCH: Warsh says 'inflation is too high' after Fed raises interest rate 1st time in 3 years - pbs.org",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbG5TakU0X3dMbFJEZU9LRkkweWpLSC1HQnR0ZGZjSnBBMnhxeDJfeXpJbl9ETDVKajhrMnZIZy1hRUdpZFllY2VTbmROclRnbUk5TU9xalVmbUxkVEd5THdtaW9ReHpua1M0Q3RLdFlTOWQ3UGxkUmF0QjZELWhNSjRENm1FbGl1RWN2VHd4Y291RGdpN0RtRDdjdFJmSjFGcU5TQVRlT0w5T3o1TzZZSHAwMTRrUHZCLU9acUZB0gHDAUFVX3lxTFBFVmt4Z21jOVJHWklFdzlfMS1HOXVvdXRJdV9sZmhENW9OWDVrdVF3UHpuYk03VFZfVVB1V3pjLUtJaUd5TUswTFhUZTNXTFYtZXdaOWIyeGszNmNwM2ZKeUhHcThwRUJSNHduR0V3cHVrTHljM25HazRWcXB0VlYtekVnZW5NQlE0ZU9YY2h1NkFmeGRsOWRBNXkxTGVVYlRUR3JKR1JwUjRfQ0xjZU9nTjBadjZqeThjeExQbG56X0Zwcw?oc=5",
+      "date": "2026-09-15",
+      "publisher": "pbs.org",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "fed",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve",
+        "interest rates"
+      ],
+      "id": "n0217",
+      "sample_id": "s020"
+    },
+    {
+      "title": "Building health-literate artificial intelligence - Nature",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE00b21CUlNaajh3MXN5ZlBnZVVnRWZaVlptcW5NM2VUbGoyX1U0LW5CX0dqWHpkWkIxcVVIa1lkZmFlcGFDVzZld3VjVkFzMjktTHk1bGZPaktjZWx3WUNZ?oc=5",
+      "date": "2026-09-15",
+      "publisher": "Nature",
+      "channel": "wide",
+      "query": "artificial intelligence when:30d",
+      "group": "artificial intelligence",
+      "scope": "sector",
+      "matched": "artificial intelligence",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "artificial intelligence"
+      ],
+      "id": "n0202",
+      "sample_id": "s021"
+    },
+    {
+      "title": "Fed Delivers First Rate Hike in Years With Unanimous Vote - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSnY3TVFMMUNHQklOdVhJV2JyYzZwRVhSZVJCNTFsZkdMR3Z5dmM4TGlxR3FqYUlhUEgwTlpXR25pNC1PdXF6bHJ1NHpLVzl5Q3NBanFRcnNjMFZhS01HMzFZZ0dzVzFvX0xZeTZxd0gwaUZpOFZIcUpvdzA3NkpXTlN3U0tVZFpXbWJZZ3FkUENBd1lsSTRacFBKeHl1c2JT?oc=5",
+      "date": "2026-09-16",
+      "publisher": "WSJ",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "fed",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve",
+        "interest rates"
+      ],
+      "id": "n0235",
+      "sample_id": "s022"
+    },
+    {
+      "title": "Fed hikes interest rates by quarter point - thehill.com",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10WjRJZFk4cWQyZWF6YjdVVlZ3SEZXdUExTGczbHFBcTUwR1Ffa1B3TjJ3c0NNTlVsOWlaRXlkb25VMHpOeVVaU0lvRWhvVmdvT3F3cDRFNTIwcnNvV3JVN3hycmFhT1BKVmtDbmhmZ3bSAXZBVV95cUxPZk04U2xfdlBMdnl6b1h3a1otVVc4aVJIUEZ3bDZ0NnZ4TnlEcEphdE1vU05tZVhLc1QtNFFDMVBRMjdDSGNOTlVqdDUzc3ZxazRIcU9RUDZ6M0p5cWplZUNoWGxUWTFSMGpKd3dGWDlpd3J2aTNR?oc=5",
+      "date": "2026-09-16",
+      "publisher": "thehill.com",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "fed",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve",
+        "interest rates"
+      ],
+      "id": "n0239",
+      "sample_id": "s023"
+    },
+    {
+      "title": "Federal Reserve raises interest rates for the first time since 2023 - CBS News",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aQTI5TnA0bk5pNlk0b0E3NkpjR1Jfd1BFa1FwZ1ZhY01FS1NfMFBHVnBySWdFY1FBN1RibF9hZk1tU180bU1EdTFQS3JuNHotRE5TNjk1REFsdG5iY2hqeXpmeEJNMVNFWnQ5aF9fSQ?oc=5",
+      "date": "2026-09-16",
+      "publisher": "CBS News",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "federal reserve",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve",
+        "interest rates"
+      ],
+      "id": "n0250",
+      "sample_id": "s024"
+    },
+    {
+      "title": "Interest rate hike a ‘reassuring’ sign Fed is acting independently, economist says - pbs.org",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQzRDTXM5bUZmc3lTdUVjVkYyaGFoUGEwZlY0b2s2dmh4UWZNYy02QUxxUDNNZnNEVXlCZ3hVeEZxd2Mwd0JGaVJMWW5Vck00dDJaQ0tmdEk2Q3ZBZkJDSTdHaXh1VmxwV1VhZ1J4X2VaWGYtTmJnM2g2djNGTnpHOEhYM2xsRlE1aEo2U1RZX0FRdFJNTkNMaTNUR2lUWHZZNzlUUGczSXRLTUJ0VExRdGtsQQ?oc=5",
+      "date": "2026-09-16",
+      "publisher": "pbs.org",
+      "channel": "wide",
+      "query": "interest rates when:30d",
+      "group": "interest rates",
+      "scope": "macro",
+      "matched": "fed",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "interest rates"
+      ],
+      "id": "n0255",
+      "sample_id": "s025"
+    },
+    {
+      "title": "What the September 2026 Fed Rate Hike Means for CDs - NerdWallet",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QSXJuUHdkQ2d4aU5FV3JVYzFETEpzbU41ZXpjUmx3NmprRHdpZ3BfUkFEUEhURnpKQV9McTV5dC00Tzc2cENGZlFOSTE5OUZFY1RnazdvbWdoWE5mNDh6M2R0WjgzMTlzSy1HR1FaNVFuTFU?oc=5",
+      "date": "2026-09-16",
+      "publisher": "NerdWallet",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "fed",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve"
+      ],
+      "id": "n0284",
+      "sample_id": "s026"
+    },
+    {
+      "title": "World's top-performing sovereign wealth fund warns of looming pullback in U.S. stock market - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeHUwWWtoaWJwVDF2ekVpZ0pKRFhBRGROOHpBRjhxTjMyN0ZKa21IdFZZazJXT3RTM3Z6cTZ2ZWUxN09VcC0waUFrOWU2SlVTMVNCNi0xY3pTTGlROGgwMWszcVhzUkVqbEZjVm5aX3N0enR4Z3JmTWtVbExGeHN1SmE5elZmQVZRQmd30gGQAUFVX3lxTE9HZWw2Qmw2X2NRblVfRnpGczNJOVV4UmNoRV9lU0Vzd19TTUJnU0FJZHlBMTJENDh1ajRfQVZMTFlpT3NVbV9zODNKZHVMWnB5RkFCMzMzNEFoaExrb3RpNTd2QXRPZmc0QTQyY1hrVHVPU2N5clV5aHNPZWhpUExYYjdlTWV2aGRid0dIeDFfTA?oc=5",
+      "date": "2026-09-16",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "market",
+      "matched": "stock market",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0289",
+      "sample_id": "s027"
+    },
+    {
+      "title": "On Artificial Intelligence in the Military Domain and the Implications for Human Rights - Carnegie Endowment for International Peace",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOTW0yaDdCYmhnS3RNbE9TUnl4djZsaWhrTmx3bXdnV1YxNzZ6ek4tc2N5a3NVeVRsUmYwSF9XYzFRN2ZEUHdMSWtjbnY0NldZYkt2a0xwNUhqeFpJMUQzNE5TWVVyaHVOVElHWTNDNmRyQl9IeEhScTBGdUtWbS03d19UZUdJdEx1enZkWElWM1pLa0tmQ1hTQmpWN2ZEMVVWS2dTaUM1ZzNfZEZvdUQzQXQ0WDZKbFFZeFBWZmh1Vi1MWUhMOTRVeVBaSQ?oc=5",
+      "date": "2026-09-16",
+      "publisher": "Carnegie Endowment for International Peace",
+      "channel": "wide",
+      "query": "artificial intelligence when:30d",
+      "group": "artificial intelligence",
+      "scope": "sector",
+      "matched": "artificial intelligence",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "artificial intelligence"
+      ],
+      "id": "n0264",
+      "sample_id": "s028"
+    },
+    {
+      "title": "JD.com (JD) Stock Could Still Be A Bargain On Earnings",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/jd-com-jd-stock-could-011326101.html",
+      "date": "2026-09-17",
+      "publisher": "Simply Wall St.",
+      "relatedTickers": [
+        "JD",
+        "JD"
+      ],
+      "channel": "entity",
+      "query": "JD",
+      "group": "JD",
+      "scope": "entity",
+      "matched": "jd.com",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "JD"
+      ],
+      "id": "n0318",
+      "sample_id": "s029"
+    },
+    {
+      "title": "Stocks Soar as Fed Uncertainty Fades: Stock Market Today - Kiplinger",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSmhpNFJfZVZDWEpwekFvQWNnUHRGU042c0s0ZVRIRVdZcV81MHpYTU01dC1EdVNtT0ZjVG9nY25Ed2tRX0YwSEVvcWNwRFJzbXJLb2RYNUF6RXBvZERZU1d3bWc1V2VYVWxWa0ozOTA3ejdpWmhvVnVZdVh2RmpubHF1bVY4Z2R4UFRDeW5YT0VqbUdveFlDUnpwSExPNnc?oc=5",
+      "date": "2026-09-17",
+      "publisher": "Kiplinger",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "macro",
+      "matched": "fed",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0324",
+      "sample_id": "s030"
+    },
+    {
+      "title": "ETF Oasis at Future Proof: Tuesday Highlights",
+      "link": "https://finance.yahoo.com/markets/options/articles/etf-oasis-future-proof-tuesday-223819508.html",
+      "date": "2026-09-17",
+      "publisher": "etf.com",
+      "relatedTickers": [
+        "VFFSX",
+        "AGG",
+        "SPY",
+        "TLT"
+      ],
+      "channel": "entity",
+      "query": "TLT",
+      "group": "TLT",
+      "scope": "market",
+      "matched": "future",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "TLT",
+        "AGG"
+      ],
+      "id": "n0305",
+      "sample_id": "s031"
+    },
+    {
+      "title": "North American Gold ETF Buying Jumped From $71 Million to $7.7 Billion in One Month. Can GLDM Hold Up?",
+      "link": "https://finance.yahoo.com/markets/commodities/articles/north-american-gold-etf-buying-153725893.html",
+      "date": "2026-09-17",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "GC=F",
+        "GLD",
+        "IAU",
+        "IAUM",
+        "GLDM",
+        "SGOL"
+      ],
+      "channel": "entity",
+      "query": "GLD",
+      "group": "GLD",
+      "scope": "sector",
+      "matched": "gold",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "GLD"
+      ],
+      "id": "n0322",
+      "sample_id": "s032"
+    },
+    {
+      "title": "Why XLK’s Next Rebalance Won’t Fix Its Massive Concentration Problem",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-xlk-next-rebalance-won-172540422.html",
+      "date": "2026-09-18",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "MU",
+        "XLK",
+        "SMH",
+        "SOXX",
+        "INTC"
+      ],
+      "channel": "entity",
+      "query": "SMH",
+      "group": "SMH",
+      "scope": "entity",
+      "matched": "xlk",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "SMH"
+      ],
+      "id": "n0386",
+      "sample_id": "s033"
+    },
+    {
+      "title": "Senate Republicans rebuff Trump’s attacks on Supreme Court, Federal Reserve - thehill.com",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWlpGSk16Nmg0MW9zazc4SWJvbUcyQ2s5cm9UTE5hQ1FaRUg5LXZCZV8tWVVXV2tHa2YxbHpONHM1SV9RUEtJRkYyRmVydnpQTkNzRjlSd1RrYUE5d3BkT09sQkE4eUZDTXAzMDM5VGFVcnQydlpXem9MTENRUU4yQnpmTdIBiAFBVV95cUxQRGU5c0RkY09NenA3NHFSOGFMM1NaMmlCdkR0S0JyUDZWTEEzZHpDbDVUVGlrTzQ1NG03SXpVY1lkTWctazdCeHBydDB5bC0zOVN5Z0hZSHJQVW80dER6Mm1tZm5HZU5ka0xHakVKNlNSdWNiakNuOHdDeGdkVi1IYV9hMWVSdDNZ?oc=5",
+      "date": "2026-09-18",
+      "publisher": "thehill.com",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "federal reserve",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve"
+      ],
+      "id": "n0367",
+      "sample_id": "s034"
+    },
+    {
+      "title": "Trump will swear in Warsh on Friday to lead US Federal Reserve - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNmNoUXE5aXQyaFdoS0RkR1YyVkF2bDVxSnBISDRtc0plV2swZ1pZQ081SzdUdGFFcXpGTHE0LUVwQ19JS0dYWUljMjRhMzhlbkp0ejNIeHlWamMtMHpPR3FwX044QWx5cE5FOHE0RmpHV2xwUTVjcng2UnNUNDI5aG93OEVmbHlRRFppb3hrdEtfWmVSeVBxY19sbWl1R0k?oc=5",
+      "date": "2026-09-18",
+      "publisher": "Reuters",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "federal reserve",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve"
+      ],
+      "id": "n0382",
+      "sample_id": "s035"
+    },
+    {
+      "title": "Bears are taking control of the stock market. Bulls want you to buy anyway - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5MUnlFWWtQdHh3SlprbUp6eWpzUWdoT3IwT0xUUjdhSkRCN0tkZ19pYmttUnFZVURfWkJyYnJ5dHJMSDlqYW9ETXpuVDdnR1Rpa1J6SkRBZEVhVFNkbl8zMmE5QndGUEpGY3dWcnhXX0pEQk0?oc=5",
+      "date": "2026-09-18",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "market",
+      "matched": "stock market",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0348",
+      "sample_id": "s036"
+    },
+    {
+      "title": "AIMG’s AI Concentration Bet Launches With a Steep 0.61% Fee and No Track Record to Prove It",
+      "link": "https://finance.yahoo.com/markets/options/articles/portfolio-fit-aimg-130050973.html",
+      "date": "2026-09-18",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "QQQ",
+        "AIQ"
+      ],
+      "channel": "entity",
+      "query": "AIQ",
+      "group": "AIQ",
+      "scope": "sector",
+      "matched": "ai",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "AIQ"
+      ],
+      "id": "n0344",
+      "sample_id": "s037"
+    },
+    {
+      "title": "Foreign investors buy Vietnam stocks ahead of FTSE market upgrade - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaHVpajJINGk2TFRUNDZoNWl0T2hodnJPc040VUlzWHhmRXdnVU9ndWpydUpWVlIxb2xFcHlBTmhyc3lCWFJLQU9OTzVJNVZ4bjZsYVlvRExTTWJzZlFYazdLTWc0MWE5M3hrak5xa1hsRFRPLUJRdjVTOC1ESjBtaW8wMUoyc0k3ejhKQnA2V19RdFBYY2FQXzJKNGJGOEpaS0p2VlgzSGludnA4R2o2TFNIOGMwVmth?oc=5",
+      "date": "2026-09-19",
+      "publisher": "Reuters",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "market",
+      "matched": "stock",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0396",
+      "sample_id": "s038"
+    },
+    {
+      "title": "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says This Will Happen Next. - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNVFmTDEyZGdmOW9nNl9ra0tsc2dOTmNiSkNvZXBjSFR6bUVHTjBRS1ljVjBHZndyNjRMUWJHdXVGeHh1Z3JmVXIxQlNBbEV2T0NLVEFua1ltLTJwT1BwdGFvUElGUjQ2TDZlVU5NX2ZnT1ZTTDJ1WmpBWGt3Ym0xR0hPOHd6RzFyYkRxTnQyMXZobExpamhpakZZZHA?oc=5",
+      "date": "2026-09-20",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "federal reserve",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve"
+      ],
+      "id": "n0415",
+      "sample_id": "s039"
+    },
+    {
+      "title": "The Silver Lining in Soaring Interest Rates: The Economy Can Handle Them - WSJ",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOFNjb3dWRURPbU9ZTXVqcG52dmZHUjBSQ0R5RlE3RkktMkgtZ00ycW5OQTdvajk1NnQyWkR5TTNBZkNzNXkwLUdIbl9EeWJHOGQzU3ZSNFRLTnktRkoyNnY0X05PdzBSOTMwTE10RkNucjBuOU9iUzM5T3RIU2s3OFB4eWViT3hDd0NsdjBtUmt6NUNFRm5oclBteTlDUk52TkxsQWNBcWhua0JMdjBGMkF0bnlHQmtqVmRQTV9wMEV0Zw?oc=5",
+      "date": "2026-09-20",
+      "publisher": "WSJ",
+      "channel": "wide",
+      "query": "interest rates when:30d",
+      "group": "interest rates",
+      "scope": "macro",
+      "matched": "interest rate",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "interest rates"
+      ],
+      "id": "n0416",
+      "sample_id": "s040"
+    },
+    {
+      "title": "The Stock Market's Best Quarter of the Year Is About to Start. The S&amp;P 500 Has Risen in 34 of the Last 41. - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVGs1R19wU0VTazVubTZoLWhodUxvdHZsSS0yeXNnUlEyd1RhMk5GeFloSUpuR0lWNkdKUjNRTUkyWlpkRjNCbmtCd2FvaDBJb2dwSklpTmpLeFcyX2VBUUR1TW8xUElJbXF3ZjJIME9KZ0pHWjVrYTJqdkhJd1VaVGtTdkhsZWJQV3VQWGJoRE9rY0hGbk9DLTVTWmlWZw?oc=5",
+      "date": "2026-09-20",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "market",
+      "matched": "stock market",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0417",
+      "sample_id": "s041"
+    },
+    {
+      "title": "UK launches defence and security semiconductor paper - Compound Semiconductor",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNS2Y1cEpLb0FjVG9oM0s5dDJPd2VHYy1EZktlajk5YUVkQU5VQUF2dHhiQWQ4eEZWOWtEYWhHREY4SEk4UTA0YkV0S2xac1hVVUp5TGFob1ZQNXV1UUxQOG5BaHQ2ZTUwNmdQUWJ3OThBVU9ZdlUyZkNVbFlQYUt3bEhib2hHVWo4SFdMcFQxSlZKLU4zdXdoeXpzb0Y5bjFHM1JN?oc=5",
+      "date": "2026-09-21",
+      "publisher": "Compound Semiconductor",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0472",
+      "sample_id": "s042"
+    },
+    {
+      "title": "Fighting inflation likely to be 'painful,' Chicago Fed president says - pbs.org",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQVR1azg4WmktY0lXSExsMzBsSVpRVzhqR2pFTUN2YkNRNVNDeFgxU0VfdzFzbHRJMHdHd1ZPWDdxdWl0eXdFRVoxdTNUQ0xISHI3Y1ZlTm8tQzZvLXZDR1EwOFVUNE9WdWhNYWFPMVB0cHFXU2szS2l0TzVPM08xNXRYMHdCN2lXdXBIdGNoTEhDWk1aYVZvaUJjcmxpRDlFUUllRGRR?oc=5",
+      "date": "2026-09-21",
+      "publisher": "pbs.org",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "fed",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve"
+      ],
+      "id": "n0442",
+      "sample_id": "s043"
+    },
+    {
+      "title": "China Stocks Gain as PBOC Stands Pat - tradingview.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLVo3MmhkM21nRWtKcFVtQ3JBMzczUG0xVHZsTkhpaXVnZWxYbjNrZkNZYmVWUERYNXZabHM4cnNiRjYtVGtBME5mOXgtX3l1ZXM5aXZkaFlpSk1SNEZDUXZraU1ubXhlUE55RkJoTlYydnk2ak5YM1E1TEZ2dy1tbkJDTnlOZXdUbkViUGMwcDQ?oc=5",
+      "date": "2026-09-21",
+      "publisher": "tradingview.com",
+      "channel": "wide",
+      "query": "China stocks when:30d",
+      "group": "China stocks",
+      "scope": "sector",
+      "matched": "china",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "China stocks"
+      ],
+      "id": "n0426",
+      "sample_id": "s044"
+    },
+    {
+      "title": "Why a Global Quality Platform Is a Key Merger and Acquisition Enabler - Consumer Goods Technology",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLUo4M0FEdGVfOUNTaERSX2dpUHdHNkFLLUEzWDNIVmloTnVzdEFnSkd2NUgzX0Y5WlFLcFhUcW9ScHVsWnh6Ny1xQTFGNHM1UTZidnUzUW9rOVR2Y1JnZFAyRG9NWEN2SVE5WnhPZmZmYTc1RXlMLUJ5anJTdVVMbzlDSG13MElIcDJkTFZWTUVTdw?oc=5",
+      "date": "2026-09-21",
+      "publisher": "Consumer Goods Technology",
+      "channel": "wide",
+      "query": "mergers and acquisitions when:30d",
+      "group": "mergers and acquisitions",
+      "scope": "sector",
+      "matched": "technology",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "mergers and acquisitions"
+      ],
+      "id": "n0477",
+      "sample_id": "s045"
+    },
+    {
+      "title": "Why oil prices are sliding again after their latest $100-a-barrel spike - Business Insider",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNOEk3TFN5TjVXaEZqRVdUZ2RBcm9mQjEzUGVwTW9wT1ZIdmxuN1JidlN3TV9WaF8yeUxiQmJRS1RDelVoTmdISDBndkhJMHg2U3hreTEwLWM2RWxhS21CckoxTEdaNHlxbjhCSVpqNGtnUjNLMUVyR0R0bllSWGNUVG1LVDh1NGJrRDVCNHgxd29qOEI5?oc=5",
+      "date": "2026-09-21",
+      "publisher": "Business Insider",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices",
+      "scope": "sector",
+      "matched": "oil",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "oil prices"
+      ],
+      "id": "n0478",
+      "sample_id": "s046"
+    },
+    {
+      "title": "Apple Executive Chair Tim Cook to Receive Semiconductor Industry’s Top Honor - Semiconductor Industry Association | SIA",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYURUS0hUa3ZIMnNxQmV3YjhUaUNoa0FVSlg5a1NGXy1fdlZXS01tcHhxUGNtc25Ic0tDbjJGV2JoS1g4cUYxVDBpMVFfd0dsV2tkTW16SUVITXJDaE9lMVA4VU9DR1JNUFd5T2hzNHVMTE8zcExnQ1V2WmVPT0QyS2x2ZVc5VUJHYjkwV29COUkxRDVqcU4tQWZTUkx3SHpvdGUzM183M1V1Ymc?oc=5",
+      "date": "2026-09-22",
+      "publisher": "Semiconductor Industry Association | SIA",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0486",
+      "sample_id": "s047"
+    },
+    {
+      "title": "Why Are Lattice Semiconductor (LSCC) Shares Soaring Today - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeVpUVVhtR3llZkp4SzNQQ0thWDVOMzd1S3QyU0Z5MnF1TzNnQ1g5UWdsaG5Ca1NpQ2l1d09XMFkyZUZHaWNzLWZBTUNqOVNSZGhlZDY0S1hlTDY3emZHTGF4R3hYSnRjaHk2UTBNc0pMOHBzandRMk5BWWE1TjE1a0NXU0N0b0ZDVmdzN1JaaTNXUC05MGtVUmRqYzNicEQxaGZtLQ?oc=5",
+      "date": "2026-09-22",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0538",
+      "sample_id": "s048"
+    },
+    {
+      "title": "Explainer: Why Turkey's stock market is under scrutiny after last week's selloff - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORXJNem45NUNJS2NlWDN4TVNMMzdrc00xUERuQndJd2tjeVV3Ul9EZHlSVkNxNEJ0aWtuVkt3ODZONnczYllrcnVPV0VNekZZOHpkdUljekdyRjVpSTIzcDNCa21WaFN6SnIzdU80THdlNlhKOFhaZkw4c1VZTE1WNmJnMVVLMWVYUEItdHU4NGdKM2hqQWNuc0c5dS1Wc3JGaHNGSU9Bc1d5eXlJQ1ZLMWt3UDlRYklEUldLSlVn?oc=5",
+      "date": "2026-09-22",
+      "publisher": "Reuters",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "market",
+      "matched": "stock market",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0496",
+      "sample_id": "s049"
+    },
+    {
+      "title": "AI Pick-And-Shovel Stocks To Watch As Xi And Trump Meet - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZS1CRHdBTGRSNnFrTUgzUE1qc0tIWFp5VFVCNzRJOXBDNnFmdWJ0RUVUM3hCMGNjeTFkNkYxQ2g1US16bkNQSFlyZDY2VzEyd2JnaV84czE1eUJGX1RSQjdHX21TSWRZSWZXZU8ySHFET2hJOXUyM2NtMG9BRVJPalNVelVsNmM?oc=5",
+      "date": "2026-09-22",
+      "publisher": "Investor's Business Daily",
+      "channel": "wide",
+      "query": "China stocks when:30d",
+      "group": "China stocks",
+      "scope": "sector",
+      "matched": "ai",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "China stocks"
+      ],
+      "id": "n0484",
+      "sample_id": "s050"
+    },
+    {
+      "title": "BYD's China Business Is Slowing. Here's the Part of the Company That's Taking Off - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSFk4eElURnEzaWQ0eHZwVjZiaGJ4QjRvMTQ0a01sQmxvYmJVQkRHZ0R6YUtzSTRSRU9tM1JxalVhRXM2TkJOTE1ZRHRmSGZNcUJTTngwYzBsT21lUkRmRV9CY0RnckxCVDBMWFlNQmZkQWxQeGQ2MUcyNklJZURWMFJPMXBhNWZrMVM0emMtV2lRejFKdnc?oc=5",
+      "date": "2026-09-22",
+      "publisher": "The Motley Fool",
+      "channel": "wide",
+      "query": "China stocks when:30d",
+      "group": "China stocks",
+      "scope": "sector",
+      "matched": "china",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "China stocks"
+      ],
+      "id": "n0489",
+      "sample_id": "s051"
+    },
+    {
+      "title": "Gold Prices Fall as Stronger Dollar and Fed Rate Expectations Weigh on Bullion - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMC1xcEp4NlVGQi0zN29RSDQ4YVlhNFN3NzJ2dHkybG00TXBjck1xbk03enFYalRrSHl1Sm1UUTlYZ0pJX3haYkVyaThiemJpM3UwVnA4NGE2djhOLUdZQXJIWWU0Vk9DeVZOM3NVVmhXV3BRMlZmdFRUczY5U1JqSXQ5MTNtaG5Rb3ZEa0dZdml3cGMwd19zV2ZYaFdnU1UwU2xLcg?oc=5",
+      "date": "2026-09-22",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices",
+      "scope": "sector",
+      "matched": "gold",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "gold prices"
+      ],
+      "id": "n0501",
+      "sample_id": "s052"
+    },
+    {
+      "title": "The difference between the \"paper\" price of Brent crude and what refiners pay for it - marketplace.org",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxObUNSTkNpZ0k1dnRyYUtkRjRhNHpPenVhZzNYQThBeVdmYUxTa2hPcmdVOEItOTNQMEl5S0tERlU5UWRmSGlBMUxYRmFocjQ2MVduUThUbzJEcTVhSmNHOGZPdlUwWUFXdU8xX25oejhxVXlPQ2VNdWZtbWxyMzdXclFEVk1wWDRyaGxHRGNYcHNOZm9HZjZnNHNtRXVWaWZENWpwOQ?oc=5",
+      "date": "2026-09-22",
+      "publisher": "marketplace.org",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices",
+      "scope": "sector",
+      "matched": "crude",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "oil prices"
+      ],
+      "id": "n0531",
+      "sample_id": "s053"
+    },
+    {
+      "title": "ZAWYA: Gold prices in Egypt slightly down on September 21 - tradingview.com",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNLVpLeGpFd3VVU1luclJzeWVMVXd1MXI2YWQ4M0dQRXVzUV9vbUtvWkloUF9wdmFpcDhxU0Zzc3V3OS1OeTM0ckNfMnQ4eWhyZ0ZIZDU3ZUpVNFdrQXdiSjEzc1drdkFtQlR2d2dRMXFRcU1XVHhMeTBGZkNMbFczQ3NoQjlzNVRDZVlpWHBRMXZucENHekZmT2t5SXFaWXI3dDVDLW9Xa1hjQVVWMEd4a193Sm81a3RZWWRjM21ZaDNRRVZaaGRaS2pnRlA?oc=5",
+      "date": "2026-09-22",
+      "publisher": "tradingview.com",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices",
+      "scope": "sector",
+      "matched": "gold",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "gold prices"
+      ],
+      "id": "n0539",
+      "sample_id": "s054"
+    },
+    {
+      "title": "ETF Zoo: 6 Pundits Walk Into a Bar",
+      "link": "https://finance.yahoo.com/markets/options/articles/etf-zoo-6-pundits-walk-180901573.html",
+      "date": "2026-09-22",
+      "publisher": "etf.com",
+      "relatedTickers": [
+        "TLT",
+        "VFFSX",
+        "SPY",
+        "AGG"
+      ],
+      "channel": "entity",
+      "query": "TLT",
+      "group": "TLT",
+      "scope": "weak",
+      "matched": null,
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "TLT",
+        "AGG"
+      ],
+      "id": "n0494",
+      "sample_id": "s055"
+    },
+    {
+      "title": "COMMENTARY: What's the latest with semiconductor export controls? - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVy1RZjhpbWhZNDJ3Z3FvajRGbXdwamp6c192eUpWVHlKVC15RkoxbGpVUzc4RWxLVk80TEZqd2dodkg3T0xOUF9rM2lDUzVvTjAtRGhvYkZtQ2tjdllqVXNqWHU3dVJpM1hfSzJWMnlDUGhQYUx4cVN3aGtSOXNicUhjOER0NkVOdm5MT1NFaW5weGw4RDBLbnJIc3h0ekpGYll5TlQzVURRMnZjcXRFeQ?oc=5",
+      "date": "2026-09-23",
+      "publisher": "Reuters",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0551",
+      "sample_id": "s056"
+    },
+    {
+      "title": "The AI factory is becoming the computer and it’s changing the semiconductor race - siliconangle.com",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb3oyeHlhYjM4eXkzWU5vOXp2bWV6UGQ1N0dINVg3YlVjWlZqU0F2Q1RSMkZBS2dxOU5rb21YZ1d1OFpGdWpMbWZHcUZVVTQwMU1vamVWY0c2aDJjWVlHTzMzQWpEUS1qYUloSnozY0Q5d0RZeUdyOTZHTTFYNlo0WDF1YkFLcnpPTWc0eHhSS2Z2TDZDeXBXakZxZnpjcjkyclFwbUEzTDc5ajdBQXZybHU4UXdwZjQ?oc=5",
+      "date": "2026-09-23",
+      "publisher": "siliconangle.com",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0599",
+      "sample_id": "s057"
+    },
+    {
+      "title": "Minnesota farmers face bigger loan payments as Federal Reserve hikes interest rates - MPR News",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaWNDVk9lWERIbTdRRUF6SmFBc3BHQk1sWmctVWJSeHQyR0gtQ2pFdDZmR2pMbk9QZUQtSEJkUEFGeXhrVHNFbGxWdmI2OHcwWW5JRUNpVS1oaXZnOG1FaTlHcERWOEZJeUlzakJrTThrOEZzRW1ZVktpQmhNYm53anFieGktRHA4dWdCU0lKZ1VqMk9KdC1wbnQyb1ZOZHhU?oc=5",
+      "date": "2026-09-23",
+      "publisher": "MPR News",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "federal reserve",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve"
+      ],
+      "id": "n0580",
+      "sample_id": "s058"
+    },
+    {
+      "title": "Rejoice! The Summer Stock Slump is Over",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/rejoice-summer-stock-slump-over-173100996.html",
+      "date": "2026-09-23",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "^NDX",
+        "MU",
+        "QQQ",
+        "GLD",
+        "USO",
+        "TWLO"
+      ],
+      "channel": "entity",
+      "query": "GLD",
+      "group": "GLD",
+      "scope": "market",
+      "matched": "stock",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "GLD",
+        "USO"
+      ],
+      "id": "n0592",
+      "sample_id": "s059"
+    },
+    {
+      "title": "Atrocity Alert No. 495: Artificial Intelligence and Climate Change - Global Centre for the Responsibility to Protect",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA3YlE4S2d0ZnlWRE5oVGNGb2hzaHI3WVJuU1JtZllEUnZIdmw2ZXVZbnoxaXlxMGszR3lZY1k2cGNMZ0hiWU5IMjREd2JoamRuU3Q4bldpa2cxM0RNdVUwbks3Y1phbk04T3NmLUR3?oc=5",
+      "date": "2026-09-23",
+      "publisher": "Global Centre for the Responsibility to Protect",
+      "channel": "wide",
+      "query": "artificial intelligence when:30d",
+      "group": "artificial intelligence",
+      "scope": "sector",
+      "matched": "artificial intelligence",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "artificial intelligence"
+      ],
+      "id": "n0549",
+      "sample_id": "s060"
+    },
+    {
+      "title": "Gold’s bull run isn’t over: TD Securities sees next leg above $5,000 - Kitco",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN1JkYzlhaEJ4dnJOYzBpRF9oc1JGcEpMQ2JQQVMzQXBkOE1RZjdYQTBVRGRQUWxqRDljRUo5c1NieFU2SnRwRGRRM2Z4YkpNdFRCS0VnVmRGQ0RDOFJPU05HcjVMXzBjTVRoNnFCbnU0cXEtdUE1TVR2eUp5ZE56emVDWmtlTzZDTEM3M21tODBSeWdoUDJzMmt6UTJFNXhDSzhDUGdwdEcwVWZ3S1E?oc=5",
+      "date": "2026-09-23",
+      "publisher": "Kitco",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices",
+      "scope": "sector",
+      "matched": "gold",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "gold prices"
+      ],
+      "id": "n0574",
+      "sample_id": "s061"
+    },
+    {
+      "title": "Building for the future of space and semiconductors - MSUToday",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSmktN0NGYmNsYmJIMThIbkd2MGxqVl9RWng2M2NTYjlZcmhxX3RMeVMtRzh5RUU5dFk3WUpfdllJTXBMZVFMN0d0bWJ5YVBHVDBUQWhYeWZhenVuXzJhVDdZNXVWZ2dtY2NScUw2bVVFTWF5QldGS0IteVVjUFo4Z0wzdmZwY1l6SU55SWo1cEJ2V0E?oc=5",
+      "date": "2026-09-24",
+      "publisher": "MSUToday",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "space",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0627",
+      "sample_id": "s062"
+    },
+    {
+      "title": "German semiconductor firm shops north San Jose offices - The Real Deal",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUk1lQlNyZEtqMnVYY3FsdkM2cWhFOGpqa2dHRC15aVNTVEZuRVZQRGY1RDM5N0R2TDFjSnV6U2xtOFBBNUZ6aFZ1V3JNU0N3N3N0THVGcXZDXzRUaUNjY3pCS0ZyZ1RIOXZEVms4RVRidS1uMDN5a18xZXh2b0Z6WlQ1Q3MzRkRFbVJ0TzRYVWcxd0l2eGFlYkRLc3ZIckRtM2pNOQ?oc=5",
+      "date": "2026-09-24",
+      "publisher": "The Real Deal",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0640",
+      "sample_id": "s063"
+    },
+    {
+      "title": "Here's Why JD.com, Inc. (JD) Fell More Than Broader Market",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/heres-why-jd-com-inc-204504308.html",
+      "date": "2026-09-24",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "JD",
+        "^GSPC",
+        "^DJI",
+        "^IXIC",
+        "JD"
+      ],
+      "channel": "entity",
+      "query": "JD",
+      "group": "JD",
+      "scope": "entity",
+      "matched": "jd.com",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "JD"
+      ],
+      "id": "n0648",
+      "sample_id": "s064"
+    },
+    {
+      "title": "Reflecting On Semiconductor Manufacturing Stocks’ Q2 Earnings: Teradyne (NASDAQ:TER) - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOUFNOU4xRzlNcndQQnZFYVlZTGlVS21rNW5Cdm1GSG9lRXB3Y1pRWlNhd3hCY1NaNnNnemhTVkVLelJfb25iS1V0dWdLdUhHV2R0YXRIRURyVDFzQlJENGJkanh2Vi1QaGRBTmMxZlNHWGI1T05FUWZ3UTN0cTF0c2VFRFJ4aHNVMThNOUhkQnNPOUM3SmZ2X0o2ek0xREd6SlJkSXpVNFBUcTMyNmpVdU5DTQ?oc=5",
+      "date": "2026-09-24",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0662",
+      "sample_id": "s065"
+    },
+    {
+      "title": "Self-driving lab automates semiconductor ink synthesis and thin-film characterization - Phys.org",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONTA5UERQT1hhU3AyZFN4Wkc1U0lkclpLZk9pVm1jMkRvWEltZTZGODB0TkZlLVNXOEtZVmNTRGRxckJpX1NLNVQ0cGplY042OVppNjhNVHJVSm1GeGdnWHhadndCcTlIeGJGS3dkcFV1dmppbF9OcVZSSWUtNWZLQ1h3?oc=5",
+      "date": "2026-09-24",
+      "publisher": "Phys.org",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0667",
+      "sample_id": "s066"
+    },
+    {
+      "title": "Why Semiconductor Investors Are Rotating From SMH’s Nvidia Concentration to PSI’s Equal-Weight Approach",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/why-semiconductor-investors-rotating-smh-210124470.html",
+      "date": "2026-09-24",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "NVDA",
+        "SOXX",
+        "SMH",
+        "PSI"
+      ],
+      "channel": "entity",
+      "query": "SMH",
+      "group": "SMH",
+      "scope": "entity",
+      "matched": "smh",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "SMH",
+        "SOXX"
+      ],
+      "id": "n0682",
+      "sample_id": "s067"
+    },
+    {
+      "title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins - CoinDesk",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbUY3ODFfcExuOU91aFVJWDIwN2NManJRZEJRMEdjQ0MyU05ZTkZyczJiaDh6dk45Y3FnUFNKRDhlbm9nSm1LQ3h3SENzZzV1My1HOVg5bkZnSFBOY2dIdkN0YmpGZ015c0lPYWltSWdTZHZuc0lxRkQyd0o2dkVfZFQtMzZwTVctdmtsQ3JnZ09OSFpxMnE2ZG9aRlJ6dzN5aUVyMW51UTBOZnhGNzdZRTFEUlZkaDlXbVZmd1JR?oc=5",
+      "date": "2026-09-24",
+      "publisher": "CoinDesk",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "federal reserve",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve"
+      ],
+      "id": "n0679",
+      "sample_id": "s068"
+    },
+    {
+      "title": "With the stock market ‘priced for perfection,’ the S&amp;P 500 is in danger of a 20% slump next year - MarketWatch",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZ0ZfQWxNUm10enNXX3N4UzIwUW9BekV3X0hpeV9HT1BuZGhZY0VkUGtlNkE1c2FfSWZVTEY0M1VqNm4xQXp5VWpOUW95YXl1MUpJbkcxM29xTGgyZVF4aEdWMWNHMlFUZDd0Vm00YVBZdUt3MHB4bmFwcExmVWUwcHRBWEg0blpMNVRONnAtSEhKUE1lNmpkN3N1ZThibUp0cThxOEo3UGF3el83cjB3andKclh0M3kyNHdWN1FCRWtkQU93enVINmdiRUIzRlpPNFBPSmdZRlhoS1BiTndrQ0hLZWRzdw?oc=5",
+      "date": "2026-09-24",
+      "publisher": "MarketWatch",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "market",
+      "matched": "stock market",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0684",
+      "sample_id": "s069"
+    },
+    {
+      "title": "Peter Schiff predicts economic 'downturn,' higher oil prices: 'I don't think it's over' - Fox Business",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdTlyQzI1aEY5TTNYTWlCUTlsUFA5NnB1X1NDY3hLd09INmdDb19DWnlRV2VlMDd2aXJ1Vng3OFVYdk1WY2NmRVQ4bGs0RmxmMTZaRXkweTF5em5ONnQ3MUVNRGw4OHkzUTg0SzFkYUF4UVlDSWM4VU1JcGtvaFJINnV4d2k0SzlEaGJBSkkyZWRsLVlPTnhrRlh2dm0zYjd3cmhwMGdLdC1xQWlGMGViVnhyRGVkQdIBuwFBVV95cUxPbzAxQUNpVHJ0MHI0WEgxby1XcXlVbUY1Vk4yS1R3V09PVTI5c3FQS2dIc1JXUXU1RWxPY0hwR1piVzE5bjBSYVZkZV9Bd0lfaEVhUmpnMlNscHdNeUExblJtOGRtWWlqeEIyaGZnQi1TZUliSjdTOHJDeC15MzBPcWg0UXZsN01fOUZWQTAwOTNIOUtubjdjQ0tUZk92dGo2UW53Q0laTDA2Y2gwRUNHQkhkcjNERXpqaVRv?oc=5",
+      "date": "2026-09-24",
+      "publisher": "Fox Business",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices",
+      "scope": "sector",
+      "matched": "oil",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "oil prices"
+      ],
+      "id": "n0660",
+      "sample_id": "s070"
+    },
+    {
+      "title": "Chip Stocks Rise After Two-Day Skid. Tower Semiconductor Among Leaders. - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ1hIUEdSWDFKVGNKeEZjNk1wRXhRaVQxNWxSODdBR2h0cWtOT3BxYkZOTUlmQV8tUEFZaHVLZjhkcDZfeVFJNmI1d21NZnFXNkRyZmM5U3huZHd2LW1xeUFxWWdPUXhMTVFmenlVOFYxdXU1RkJUb0tOdFcwNGhBNjZSZUtKMTM5dFRmejFrRmVEZld5d3VWQVUxajNZN0RMTHRzVjRET2ZkTHdIRWpkQzdB?oc=5",
+      "date": "2026-09-25",
+      "publisher": "Investor's Business Daily",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0693",
+      "sample_id": "s071"
+    },
+    {
+      "title": "Is Taiwan Semiconductor Stock an Undervalued AI Stock to Buy Right Now? - The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONHBHSE1VendpcDdRLV96bWwtTTl5aUtkSUs4Y19wOWQwaEx6Sm5LWmNVd0VLRHhPRW1LS3RRZl91QjVqbzVaWjdsOEZLcVpveWswZzFnTHQ1cnVmblBpNURLaXhrNmhPcDNnYk5KSF9fRVdJbzNiYVVMYjlnMzZId0NiTE1CSHlwZzU0eFA1dV8wZHdpMWxzeQ?oc=5",
+      "date": "2026-09-25",
+      "publisher": "The Motley Fool",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0714",
+      "sample_id": "s072"
+    },
+    {
+      "title": "Micron Likely to Beat Q4 Earnings Estimates: How to Play MU Stock? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObDQ3azZ3VUFYczBpbEdaMDVjbHlrUWpvLV96cUhsanhsOFpqQkFEVEs0SXh0SHlKTU41QUkyR3FVdjV6M0ZaTEVDNHdyaGpCTldjNHhpcEJCNGwwV1hXWnYwb29fYk1sX1d1aVlVa1ZrN2x3OGQ0aFNlYjBsTFYyT2tsbmt2RWJiajZBSmFjUGFKMkd6UDhocVByUQ?oc=5",
+      "date": "2026-09-25",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "earnings when:30d",
+      "group": "earnings",
+      "scope": "entity",
+      "matched": "micron",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "earnings"
+      ],
+      "id": "n0718",
+      "sample_id": "s073"
+    },
+    {
+      "title": "Current price of oil as of September 25, 2026 - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9DVE10MHdQOXV3X0ZlbGNJS0J4ZXg2Tm1GSVVQcmdJVExmVUo5R2FPbjBDRVJ3eUZLeWd2SC1CVnZLUHNYZkx6M1NoNnFkMGpKUHFBZjh4clhDZDZlZ1Vmak5B?oc=5",
+      "date": "2026-09-25",
+      "publisher": "Fortune",
+      "channel": "wide",
+      "query": "oil prices when:30d",
+      "group": "oil prices",
+      "scope": "sector",
+      "matched": "oil",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "oil prices"
+      ],
+      "id": "n0695",
+      "sample_id": "s074"
+    },
+    {
+      "title": "Gold Price Forecast: XAU/USD Avoids Breakdown as Yields Surged but Can it Continue? - stonex.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb2EyRjNoUzZEbUZQSTdqVzVKU1JCMGV3VngxN0NxR3pzUGR2SkVJV3g0NWxSSlFXa0FyUFJvOTRYTDMyVHdsTmF6S2VuMkhFNkpucllpUkkwbkk5US1BYWdQWGJyYW0xX3l6V2JaWUNIMmh6aGVjMHYxZU9uVnBidS10OEVOYXNZNHd2SE9ubUVacHBkRUxIaEQwcnZpMDAyMy1kWUQzQkZJdzEzaGFCVVNHVEJic3VEWVdCUUo4cmNlRFk2S0M2TGk5YUhJZmlPNnRWSkJsUQ?oc=5",
+      "date": "2026-09-25",
+      "publisher": "stonex.com",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices",
+      "scope": "sector",
+      "matched": "gold",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "gold prices"
+      ],
+      "id": "n0706",
+      "sample_id": "s075"
+    },
+    {
+      "title": "Sector Update: Tech Stocks Advance Premarket Friday",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-advance-premarket-131256449.html",
+      "date": "2026-09-25",
+      "publisher": "MT Newswires",
+      "relatedTickers": [
+        "PPLI",
+        "GDDY",
+        "AKAM",
+        "MGM",
+        "XLK",
+        "SOXX"
+      ],
+      "channel": "entity",
+      "query": "SOXX",
+      "group": "SOXX",
+      "scope": "sector",
+      "matched": "premarket",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "SOXX",
+        "XLK"
+      ],
+      "id": "n0729",
+      "scope_source": "llm",
+      "sample_id": "s076"
+    },
+    {
+      "title": "Treasury Yields Passed 5.2%. 5 Fixed-Income Plays for Safe Returns.",
+      "link": "https://finance.yahoo.com/m/b35c0f0b-58de-3d4d-b8ac-1d6f2537fe6c/treasury-yields-passed-5.2%25..html",
+      "date": "2026-09-25",
+      "publisher": "Barrons.com",
+      "relatedTickers": [
+        "DFCF",
+        "^GSPC",
+        "AGG",
+        "GS",
+        "MBB"
+      ],
+      "channel": "entity",
+      "query": "AGG",
+      "group": "AGG",
+      "scope": "sector",
+      "matched": "treasury",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "AGG"
+      ],
+      "id": "n0740",
+      "sample_id": "s077"
+    },
+    {
+      "title": "Watch How Syracuse's Semiconductor Gamble May Help Save the Rust Belt - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQkFkN0I0bkJGeTExWTItSG4taUVVbEhMYk9xT01KLTFJeHpROENjaWNrVndsNFNndmF3cm1xYmZhZWg4MHN6eUZpNi1RQUx5LTdpUDVVYWtCNF9YTEZMbFd6SFlhMkdmcjQyQm05MXhiV1A1eG9YSVY4SVFkM0RtWXV3UzA0eVRaQXFvRjlGOVM2TVpJWHRNVzRyb0RmZw?oc=5",
+      "date": "2026-09-26",
+      "publisher": "Bloomberg.com",
+      "channel": "wide",
+      "query": "semiconductor when:30d",
+      "group": "semiconductor",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "semiconductor"
+      ],
+      "id": "n0772",
+      "sample_id": "s078"
+    },
+    {
+      "title": "China May Reopen Nvidia's AI Market. How Will NVDA Stock React Monday? - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYWFxY2xrRWMwRWhXUlQ0MDhsUlJlQjJraTJnUGpKaDN5QVF6TTltWDJTT2syQ0pRdFRNNjZDb3VvU1lma21vLThXR0dOX3JKTktUdjNITjB2M0RRUnlNVTlITDVqNzVjNW8xemZBcHA4WkhEZlVmOGJQa0kwY1ZwVnJqR2RUeXlfc2VtNmVQelBhcE5UZ0E0?oc=5",
+      "date": "2026-09-27",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "China stocks when:30d",
+      "group": "China stocks",
+      "scope": "entity",
+      "matched": "nvidia",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "China stocks"
+      ],
+      "id": "n0785",
+      "sample_id": "s079"
+    },
+    {
+      "title": "Forget AGG in Retirement. MUB Does the Same Job With a Smaller Tax Bill",
+      "link": "https://finance.yahoo.com/markets/options/articles/forget-agg-retirement-mub-does-223149186.html",
+      "date": "2026-09-27",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "^GSPC",
+        "AGG",
+        "MUB"
+      ],
+      "channel": "entity",
+      "query": "AGG",
+      "group": "AGG",
+      "scope": "entity",
+      "matched": "agg",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "AGG"
+      ],
+      "id": "n0792",
+      "sample_id": "s080"
+    },
+    {
+      "title": "Fed raises rates for first time in years: What it means for your wallet - Fox Business",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdW9MbjJ4RUlWcnM0RUpIQkE1LVd2SzlMcXlobGpUYmpzZ3Rudk1pQmhWSDV5Y0ZxUHEwWWNFWGNFSFNfcHVNamE0RG9QbzFZOC16bFBOSEg3RkZYd0Q2aVhrczZHWWF4T1dwMFVwem9OQTJsb0ZzcGRKUkdvcHkyc2lsUkczYXNlTDcyNWFpV0gwZmpSdUN3VElzdm1aN0tmU1Yw0gGoAUFVX3lxTFBUOVY4M3M1R2dFam5YNVlZbk5XbFR6bGs4OGNwZUE4RzZ5dmVLbU04ZmsxcldQeVpueVU5VV9BTDJ5aFFIM09zUHJGU1d1S2o5eVpuanpsVVFWTlZRdURZdk9CeHdhaUJCNkdaVFNzdFdBS0ZSVVl1QzRtV0k3ZXNwYmtxZWQ0ck5YLTA4NzdrMF9Xell6SFo3Mkh1bnp6VWNCRHRqcXZjTw?oc=5",
+      "date": "2026-09-27",
+      "publisher": "Fox Business",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "macro",
+      "matched": "fed",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve"
+      ],
+      "id": "n0791",
+      "sample_id": "s081"
+    },
+    {
+      "title": "Here are the 4 big things we're watching in the stock market in the week ahead - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX0p2MmpQNG1lWktLTzV3eDhjN21jN2pjV0VEM3V6SDhZVlE5N0JvVFJvbHJVaE9iOVN1ZzhDSkgwNFYyTWp2aGh3VlBsNjZieDVwc2pta1pRem1xYVdDY1ZlR2JXOGxhVHowQTlzTEstTHJlbUZoeFVxRlZ3eVIwRDRZWG5wRmJHWHIzQlZMeHdqODdqd2J0Q1lwVFJZbXVKWVA2cC1DOHlzSUZrQllsM2ZreFA?oc=5",
+      "date": "2026-09-27",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "market",
+      "matched": "stock market",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0794",
+      "sample_id": "s082"
+    },
+    {
+      "title": "As A.I. Accelerates, Governments Are Increasingly Being Left Behind - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPajQ0bkdBX2JMZzdXbG1BaVM3enFHQUsxVUZhT3V2MUVGdV9fck5tTDRlbjA1TWpPR003NFgtYUh2d0UxNnk4VXVpNWVQbkJKT3ViR0pLcjZ6OVhlTk9xbEtyelcxcHJna1NEeWhGSlYwb0pQd2pMT3ZNdXRkNlVqMQ?oc=5",
+      "date": "2026-09-27",
+      "publisher": "The New York Times",
+      "channel": "wide",
+      "query": "artificial intelligence when:30d",
+      "group": "artificial intelligence",
+      "scope": "sector",
+      "matched": "ai",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "artificial intelligence"
+      ],
+      "id": "n0779",
+      "sample_id": "s083"
+    },
+    {
+      "title": "Binance to Support SpaceX and QQQ Token Airdrops — Here’s Who Qualifies",
+      "link": "https://finance.yahoo.com/markets/crypto/articles/binance-support-spacex-qqq-token-142215971.html",
+      "date": "2026-09-28",
+      "publisher": "CCN",
+      "relatedTickers": [
+        "MARSCOIN-USD",
+        "SPCX",
+        "QQQ"
+      ],
+      "channel": "entity",
+      "query": "QQQ",
+      "group": "QQQ",
+      "scope": "entity",
+      "matched": "qqq",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "QQQ"
+      ],
+      "id": "n0833",
+      "sample_id": "s084"
+    },
+    {
+      "title": "China chipmaking stocks tumble as Beijing reportedly mulls allowing Nvidia sales - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWldkSHZoaUVhUXZRZUdERm1TanBaLWhjbV8yWTZFVFVNNmtwVU93ZTkyWENJQzV4cW9KODRkRW1hY2hLYmhPNS11VjU0bXRyMWFDNUF4Yk1TZWhCcC1fbzA5V0xuSktMdFlhYzBUelZEU2ZCLXJVdVBHWDMyRVktNVNsdDVobzFwazdHSjd1Xzk2NjlpVmNINEVSTV9tVVlQalBkVV9n?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "China stocks when:30d",
+      "group": "China stocks",
+      "scope": "entity",
+      "matched": "nvidia",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "China stocks"
+      ],
+      "id": "n0842",
+      "sample_id": "s085"
+    },
+    {
+      "title": "JD.com Stock May Look Ugly, But Options Traders Perceive an Opportunity",
+      "link": "https://finance.yahoo.com/markets/options/articles/jd-com-stock-may-look-131502863.html",
+      "date": "2026-09-28",
+      "publisher": "Barchart",
+      "relatedTickers": [
+        "JD"
+      ],
+      "channel": "entity",
+      "query": "JD",
+      "group": "JD",
+      "scope": "entity",
+      "matched": "jd.com",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "JD"
+      ],
+      "id": "n0891",
+      "sample_id": "s086"
+    },
+    {
+      "title": "Nvidia's new AI platform, Nor'easter flight delays, NFL's drone focus and more in Morning Squawk - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOOWJsc3YtMzFrcHdhNlNPRDdZTHZqcWFiY2JjdzZJTTlSNlFJbXBvNC1uYjgzcHdCYXdRMmpJMndkNUg0R2hxcExwbUlKSHdJUFdrUEJnNjR5c1VFNC1fM21sLWI0ZElfUEpDX1IzWUViOWVoaG8tNnF6N0JsSXYtcHpENHhVcGR1Vmdj0gGQAUFVX3lxTE1KZHJhek1uc0ROamdRZDgyRzhlTDZoZkgwWUMzVkczNHpNUEI2R3RIS04wZDBwWV91bmplWEhOT01XYWVqbmY3b3FmV091Z2h4Wk9rMHBpbDczaGJvQ1VSVG9ybDNZYXliMVE4aDZINjNEUDI0RDAwRi1lWHU0V2RRdzZzbDgwSGRycjVxWEY3eA?oc=5",
+      "date": "2026-09-28",
+      "publisher": "CNBC",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "entity",
+      "matched": "nvidia",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0909",
+      "sample_id": "s087"
+    },
+    {
+      "title": "When the Chips Went Down: Motor Vehicle Production and the 2021-2022 Semiconductor Shortages - Federal Reserve Board (.gov)",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOYU1LZUs1SU5rdDZvOEhlQlV1OFZYSE12azk4ZEc4WTB0RFJreTViaDl2em01TE1TaXRqamhaaGw2TnZxYkEwWms3ZG4zMldvdzUzRV90SUgwdy1fQkEwOXJQb1RxMHNzbXRnMURyUGZ5MS1UY3NIOWFyM29MbTNhU3U3ZnZDTlVoTXpNV3dsWXMzb2txTkRrT2xCX3JBa1ZFdEl0Y0JnZjhuUnEwamZydlFGMElBVmRXZ2hveGFQazFZR0tzQm1iNkdJQjZpSVJ0UzBsWjZmTWJ3Y2JFVWV3akxJTmc3alkzSVFfU2ZUeWVWVmM?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Federal Reserve Board (.gov)",
+      "channel": "wide",
+      "query": "Federal Reserve when:30d",
+      "group": "Federal Reserve",
+      "scope": "entity",
+      "matched": "semiconductor",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "Federal Reserve"
+      ],
+      "id": "n0968",
+      "sample_id": "s088"
+    },
+    {
+      "title": "RBI to raise interest rates to 5.50% in October as inflation broadens: Reuters poll - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZHFfU2IzeXpweG9ZdmFoZE9oV1BiN0hzZk4zNENnS2VMSDNVTnlLVzRWVXhsYVB5blA2QkF2emhVY0x6VHNYWW5pSFI0R3JmTGk1VlZVaXZKOEdtU0poUVhQOWFxREk2N3JOSktsZVdaZFBGRmFDaTRUUzNRTC04VVFuZnVXek5EczhLY1RfN3pSWUdRbnlNUUZkRktETGNIb3NuWlVR?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Reuters",
+      "channel": "wide",
+      "query": "interest rates when:30d",
+      "group": "interest rates",
+      "scope": "macro",
+      "matched": "interest rate",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "interest rates"
+      ],
+      "id": "n0922",
+      "sample_id": "s089"
+    },
+    {
+      "title": "Why S&amp;P 500 stock valuations are falling - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTDBGWjBLd1VJWDJ4clp6cFpoYUZDUXlkeDVtWDBjdTRXRFN0eW4zVnBOcklsV2VTMWNyQm1teTBrUkVtTmZfdVI5TG0tdVRlUE9vMWw5R3VDNEVadXUzdVFsZTh0Q1E5X3U3TWxnZ1o1TWdWb0pVeUNiV21WSkVDai1HOXFhRllPTXpNWC01Z2dyZE9SN0h3a2Z1UXY?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "market",
+      "matched": "s&p 500",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0970",
+      "sample_id": "s090"
+    },
+    {
+      "title": "Global Funds End Underweight Position on China After Four Years - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQWo0cFZPYWcza3Zqc1RwQlZXZ0lwSXFPaFlSRkRmdmpoRHRzOUp1SXF4VkdFZjdndUhmX3J1aXBMaE55Qjl5VmdXdzcyUnVHcXVCNGp6dmQxYzZuOFFwQ1Bfd3MzZy1HckRCckkxcnp1ZFREOEY4SnVMUEJES0ppMWg1SHR2VWFDNnh3YWVndmQxVEJmQnZ2QjFGRlNaalNNWEgwMnBWWlJpSG9RNUUyVzNPTVE?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Bloomberg.com",
+      "channel": "wide",
+      "query": "China stocks when:30d",
+      "group": "China stocks",
+      "scope": "sector",
+      "matched": "china",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "China stocks"
+      ],
+      "id": "n0861",
+      "sample_id": "s091"
+    },
+    {
+      "title": "Gold Sinks To 7-Week Low As Treasury Yields, Fed Hike Bets Rise — Hansen Warns Bullion’s ‘Resilience’ Faces Its ‘Toughest Test Yet’ - Yahoo Finance",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNC1WT045SThNUWlteWVzRzNYaGZ2MkdXZDJqQTdqb1YyM3RGQmVBVE5GYUh1bXFfWEctUVJORVZ6MjlrakVUcFpXaXZ0UjVsQk52QUgyWTlWWVlDX09Oemx3LTkycWJCMC1TcVo3V25WUGEzaXhKbTkyNjRWMHlUTnVUNVJwTFRUS0s4eDNIQVVSY0g0cFE?oc=5",
+      "date": "2026-09-28",
+      "publisher": "Yahoo Finance",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices",
+      "scope": "sector",
+      "matched": "treasury",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "gold prices"
+      ],
+      "id": "n0865",
+      "sample_id": "s092"
+    },
+    {
+      "title": "Gold price breaks below $4,200 as surging Treasury yields deepen the technical damage - investingLive",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYUg5Tng1RmFMMk8xSmRTdmpmTnRsQl9rUWFCYnhrN1pNckJZdTNLVi1jWWFwSTJSWWR6TExGWkJObTdPdDBGTVlvY28tVEgxUkpqY29sYnNfbmYtNXVJUDhZRUpBSHJEeUNXUHFOSlZKbnJ1SWtLTF9OZWsxWVlvVFRlY2F4SUdMRW9FV3diMzJSYXpNY0NGT3NJYl80VEpqc3Nuc2xGdW9QSU9DTHFpajRJME54WTZBSTNTUlFvOXY?oc=5",
+      "date": "2026-09-28",
+      "publisher": "investingLive",
+      "channel": "wide",
+      "query": "gold prices when:30d",
+      "group": "gold prices",
+      "scope": "sector",
+      "matched": "treasury",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "gold prices"
+      ],
+      "id": "n0871",
+      "sample_id": "s093"
+    },
+    {
+      "title": "Synopsys Could Be One of the Biggest AI Picks Nobody Talks About",
+      "link": "https://finance.yahoo.com/technology/ai/articles/synopsys-could-one-biggest-ai-170034635.html",
+      "date": "2026-09-28",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "SNPS",
+        "TSM",
+        "CDNS",
+        "TSM",
+        "KEYS"
+      ],
+      "channel": "entity",
+      "query": "TSM",
+      "group": "TSM",
+      "scope": "sector",
+      "matched": "ai",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "TSM"
+      ],
+      "id": "n0946",
+      "sample_id": "s094"
+    },
+    {
+      "title": "Meta and ServiceNow Drop 4% as Enterprise Platform Launch Reprices Software; MongoDB Tumbles 19%",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/meta-servicenow-drop-4-enterprise-144338703.html",
+      "date": "2026-09-28",
+      "publisher": "24/7 Wall St.",
+      "relatedTickers": [
+        "META",
+        "NOW",
+        "MDB",
+        "IGV",
+        "CRM",
+        "WDAY",
+        "QQQ",
+        "META PLATFORMS"
+      ],
+      "channel": "entity",
+      "query": "QQQ",
+      "group": "QQQ",
+      "scope": "weak",
+      "matched": null,
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "QQQ"
+      ],
+      "id": "n0896",
+      "sample_id": "s095"
+    },
+    {
+      "title": "Dow Jones Futures: Trump Sparks Stock Market Losses; Elon Musk-Led SpaceX, Tesla Sell Off - Investor's Business Daily",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWWk2YThmRWdIMTQ0SWMxNEVnQ2haSFBKXzZqT0JmbG9rQ05DN2FoeU12RXJfb0Zjdm1jN3R2dWw2MGVlWFA3dUF3bGoyOGF6Vm55VWdsNWF5czlLVnlxZV9CUzZfLVNfakdnRnEwM25OaE9wTXFxanFHNXJOb3ZLdUdrdkdTTjJfdkVPT1h5UlR6dGpHSFFqc0N5UlVKNG9KNWsxMGhnZVJiVHJxZDI4YUt4MllQdktvX1JNM05ESUZ5cWM?oc=5",
+      "date": "2026-09-29",
+      "publisher": "Investor's Business Daily",
+      "channel": "wide",
+      "query": "stock market when:30d",
+      "group": "stock market",
+      "scope": "entity",
+      "matched": "tesla",
+      "channels": [
+        "wide"
+      ],
+      "queries": [
+        "stock market"
+      ],
+      "id": "n0997",
+      "sample_id": "s096"
+    },
+    {
+      "title": "Michael Burry Weighs Peter Schiff’s S&P 500 Crash Warning As UBS Flags Fed Risk — Rare October Hike Odds Hit 70%",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/michael-burry-weighs-peter-schiff-070714027.html",
+      "date": "2026-09-29",
+      "publisher": "Stocktwits",
+      "relatedTickers": [
+        "QQQ",
+        "SPY",
+        "^GSPC"
+      ],
+      "channel": "entity",
+      "query": "QQQ",
+      "group": "QQQ",
+      "scope": "macro",
+      "matched": "fed",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "QQQ"
+      ],
+      "id": "n1006",
+      "sample_id": "s097"
+    },
+    {
+      "title": "The Stock Market Sounds an Alarm After Warren Buffett Issues a Warning. History Says This Will Happen Next.",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/stock-market-sounds-alarm-warren-093201385.html",
+      "date": "2026-09-29",
+      "publisher": "Motley Fool",
+      "relatedTickers": [
+        "^GSPC",
+        "NVDA"
+      ],
+      "channel": "entity",
+      "query": "NVDA",
+      "group": "NVDA",
+      "scope": "market",
+      "matched": "stock market",
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "NVDA"
+      ],
+      "id": "n1026",
+      "sample_id": "s098"
+    },
+    {
+      "title": "Can Snap (SNAP) Turn SPECS Intelligence Into a Credible Enterprise AR Profit Engine?",
+      "link": "https://finance.yahoo.com/technology/ai/articles/snap-snap-turn-specs-intelligence-090830996.html",
+      "date": "2026-09-29",
+      "publisher": "Simply Wall St.",
+      "relatedTickers": [
+        "SNAP",
+        "CRM",
+        "NVDA",
+        "TRIFOR.CO"
+      ],
+      "channel": "entity",
+      "query": "NVDA",
+      "group": "NVDA",
+      "scope": "weak",
+      "matched": null,
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "NVDA"
+      ],
+      "id": "n0987",
+      "sample_id": "s099"
+    },
+    {
+      "title": "Company News for Sep 29, 2026",
+      "link": "https://finance.yahoo.com/markets/stocks/articles/company-news-sep-29-2026-083700205.html",
+      "date": "2026-09-29",
+      "publisher": "Zacks",
+      "relatedTickers": [
+        "NVDA",
+        "NEM",
+        "UAL",
+        "CL=F",
+        "BA"
+      ],
+      "channel": "entity",
+      "query": "NVDA",
+      "group": "NVDA",
+      "scope": "weak",
+      "matched": null,
+      "channels": [
+        "entity"
+      ],
+      "queries": [
+        "NVDA"
+      ],
+      "id": "n0995",
+      "sample_id": "s100"
+    }
+  ]
+}

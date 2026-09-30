@@ -1,0 +1,2624 @@
+[
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Interest rate expectations",
+    "event_type_summary": "Market expectations for interest rates are shifting higher",
+    "theme": "Rising rate expectations",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline indicates interest rate expectations are pointing north, i.e., markets expect higher rates. For fixed income, rising rate expectations are typically negative for bond prices. No specific companies are named in the headline.",
+    "_title": "Why interest rate expectations are pointing north - marketplace.org",
+    "_date": "2026-08-31",
+    "_publisher": "marketplace.org",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s001",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "market_preview",
+    "event_type_summary": "Market preview of key items to watch",
+    "theme": "market watchlist preview",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "CNBC's Jim Cramer previews the top things to watch in the stock market, a broad market-level preview with no specific company named in the headline.",
+    "_title": "Jim Cramer's top 10 things to watch in the stock market Monday - CNBC",
+    "_date": "2026-08-31",
+    "_publisher": "CNBC",
+    "_scope": "market",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s002",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Regulatory Warning",
+    "event_type_summary": "House Intelligence Committee issues warning on AI-related systemic risks",
+    "theme": "AI systemic risk warning",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "A congressional committee warning about 'Black Swan' AI risks signals potential regulatory scrutiny and tail-risk concerns for AI-exposed equities, a negative sentiment driver for the Equity asset class.",
+    "_title": "House Intelligence Committee warns of 'Black Swan' AI risks - CNBC",
+    "_date": "2026-08-31",
+    "_publisher": "CNBC",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s003",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "earnings_preview",
+    "event_type_summary": "Oracle earnings expected to grow, investor buy consideration",
+    "theme": "Oracle earnings growth outlook",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "Oracle",
+      "ORCL"
+    ],
+    "evidence": {
+      "Oracle": "Oracle (ORCL) Earnings Expected to Grow",
+      "ORCL": "Oracle (ORCL) Earnings Expected to Grow"
+    },
+    "rationale_text": "标题显示Oracle盈利预期增长，并讨论是否买入，对该公司股票构成正面信号。",
+    "_title": "Oracle (ORCL) Earnings Expected to Grow: Should You Buy? - Yahoo Finance",
+    "_date": "2026-09-01",
+    "_publisher": "Yahoo Finance",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s004",
+    "companies_kept": [
+      "Oracle",
+      "ORCL"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "ORCL"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Interest rate analysis",
+    "event_type_summary": "Analysis of what higher interest rates signal for markets and the economy",
+    "theme": "Higher interest rate implications",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline discusses higher interest rates at a macro level, which is negative for fixed income as rising rates pressure bond prices.",
+    "_title": "What higher interest rates are telling us - Axios",
+    "_date": "2026-09-01",
+    "_publisher": "Axios",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s005",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Energy price pressure",
+    "event_type_summary": "Rising gasoline prices amid geopolitical tensions, with limited policy options to curb them",
+    "theme": "Gasoline price surge and policy constraints",
+    "asset_class": "Commodity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline discusses rising gas prices and the administration's inability to stop them, which is bullish for crude oil/gasoline commodities. It is a macro-level energy price event, so no individual equities are attached.",
+    "_title": "Trump Promised Cheaper Gas. Now His Team Blames Ukraine—and Paul Krugman Says They Have 'No Cards' Left to Stop It",
+    "_date": "2026-09-04",
+    "_publisher": "Benzinga",
+    "_scope": "macro",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s006",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "ETF industry commentary",
+    "event_type_summary": "ETF industry scale, speculation and sports-betting themed products discussed",
+    "theme": "ETF industry growth and speculative product trends",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "标题为ETF行业综述，讨论行业规模、投机及体育博彩主题产品，未点名任何公司，也未指向明确方向，故对权益资产中性。",
+    "_title": "ETF Zoo: Industry Scale, Speculation, and Sports Betting",
+    "_date": "2026-09-04",
+    "_publisher": "etf.com",
+    "_scope": "weak",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s007",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "Investor Commentary",
+    "event_type_summary": "Michael Burry says he sold Alibaba, calling it pricey before a $10.2 billion share sale",
+    "theme": "Alibaba valuation concerns",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "Alibaba"
+    ],
+    "evidence": {
+      "Alibaba": "Alibaba"
+    },
+    "rationale_text": "Michael Burry's disclosure that he sold Alibaba and called it pricey before a $10.2 billion share sale signals negative sentiment on Alibaba equity.",
+    "_title": "Michael Burry Says He Sold Alibaba, Calling It Pricey Before $10.2 Billion Share Sale",
+    "_date": "2026-09-05",
+    "_publisher": "Insider Monkey",
+    "_scope": "entity",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s008",
+    "companies_kept": [
+      "Alibaba"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "9988.HK"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "Analyst Rating Downgrade",
+    "event_type_summary": "Arete downgrades JD.com to Neutral from Buy and lowers price target to $30 from $36",
+    "theme": "JD.com analyst downgrade",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "JD.com"
+    ],
+    "evidence": {
+      "JD.com": "JD.com"
+    },
+    "rationale_text": "A downgrade to Neutral and a lowered price target are negative for JD.com equity.",
+    "_title": "Arete Downgrades JD.com to Neutral From Buy, Adjusts PT to $30 From $36",
+    "_date": "2026-09-08",
+    "_publisher": "MT Newswires",
+    "_scope": "entity",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s009",
+    "companies_kept": [
+      "JD.com"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "9618.HK",
+      "JD"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Oil price surge",
+    "event_type_summary": "Oil surges above $100 a barrel as US and Iran launch new attacks, while gasoline prices also jump",
+    "theme": "Oil supply shock from US-Iran conflict",
+    "asset_class": "Commodity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports a sharp rise in oil prices above $100 per barrel driven by new US-Iran attacks, which is a commodity market event. For the commodity asset class (crude oil), the price surge is positive. No specific companies are named in the headline.",
+    "_title": "Oil surges above $100 a barrel as US and Iran launch new attacks, while gasoline prices also jump - AP News",
+    "_date": "2026-09-09",
+    "_publisher": "AP News",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s010",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Geopolitical oil price shock",
+    "event_type_summary": "Escalation of Iran war pushes oil back above $100, pressuring equities",
+    "theme": "Oil price spike on Iran war escalation",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports Wall Street stocks falling as oil prices jump back above $100 a barrel following escalation of the Iran war. This is a market-level event driven by geopolitical supply risk, negative for equities.",
+    "_title": "Stocks fall on Wall Street as oil prices jump back above $100 a barrel after Iran war escalates - AP News",
+    "_date": "2026-09-09",
+    "_publisher": "AP News",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s011",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Earnings Season Guidance",
+    "event_type_summary": "Educational guide on interpreting earnings reports and their market implications ahead of earnings season",
+    "theme": "Earnings season market impact",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The article is an educational guide on how to read earnings reports and what they mean for the stock market, published ahead of earnings season. It is market-level content with no specific company mentioned in the title, so no individual equities are attached. The tone is neutral and informational, hence neutral polarity for Equity.",
+    "_title": "Earnings season guide: How to read an earnings report – and what it means for the stock market - Chase Bank",
+    "_date": "2026-09-10",
+    "_publisher": "Chase Bank",
+    "_scope": "market",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s012",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Technological paradigm shift",
+    "event_type_summary": "Opinion piece argues that artificial societies, not artificial intelligence, represent the next technological frontier, implying a shift in long-term societal and economic focus.",
+    "theme": "Artificial societies as next tech frontier",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline is a forward-looking opinion about the next technological frontier, which could influence long-term equity themes but does not name any specific company or asset. It is classified as a MacroEvent with neutral polarity for equities because it is a broad societal/technological observation rather than a direct market catalyst.",
+    "_title": "The next frontier is not artificial intelligence, it’s artificial societies - The Conversation",
+    "_date": "2026-09-10",
+    "_publisher": "The Conversation",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s013",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "regulatory_scrutiny",
+    "event_type_summary": "JD.com faces criticism over concessions made to secure EU approval for Ceconomy acquisition",
+    "theme": "EU regulatory scrutiny on JD.com's Ceconomy acquisition",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "JD.com",
+      "Ceconomy"
+    ],
+    "evidence": {
+      "JD.com": "JD.com Facing Criticism",
+      "Ceconomy": "Ceconomy Acquisition"
+    },
+    "rationale_text": "The headline indicates JD.com is facing criticism regarding concessions to clear its acquisition of Ceconomy in the EU, implying regulatory hurdles and negative sentiment for the acquirer's equity.",
+    "_title": "Market Chatter: JD.com Facing Criticism Over Concessions to Clear Ceconomy Acquisition in EU",
+    "_date": "2026-09-11",
+    "_publisher": "MT Newswires",
+    "_scope": "entity",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s014",
+    "companies_kept": [
+      "JD.com"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [
+      "Ceconomy"
+    ],
+    "affected_tickers": [
+      "9618.HK",
+      "JD"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "market_crash_risk",
+    "event_type_summary": "Media warns of fall market crash risk and suggests defensive moves for older investors",
+    "theme": "fall market crash risk defensive positioning",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline warns of a fall market crash risk and advises defensive moves for Boomers and Gen X investors, implying negative sentiment for equities at the broad market level.",
+    "_title": "Fall Market Crash Risk: 6 Defensive Moves for Boomers & Gen X Investors",
+    "_date": "2026-09-11",
+    "_publisher": "24/7 Wall St.",
+    "_scope": "market",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s015",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Bubble Warning",
+    "event_type_summary": "Analyst warns stocks are in a late-stage bubble and poised to crash 21% next year",
+    "theme": "Equity bubble crash risk",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline is a market-level analyst warning that stocks are in a late-stage bubble and could crash 21% next year, implying a negative directional risk for equities. No individual company is named in the headline, so companies and evidence are empty.",
+    "_title": "Stocks are in a late-stage bubble and poised to crash 21% next year, analyst says - Fortune",
+    "_date": "2026-09-13",
+    "_publisher": "Fortune",
+    "_scope": "market",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s016",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "52-week high",
+    "event_type_summary": "USO ETF reaches a new 52-week high",
+    "theme": "Energy ETF price momentum",
+    "asset_class": "Commodity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports that the Energy ETF (USO) hit a new 52-week high, a positive price-momentum event for the commodity-linked energy fund.",
+    "_title": "Energy ETF (USO) Hits New 52-Week High",
+    "_date": "2026-09-14",
+    "_publisher": "Zacks",
+    "_scope": "entity",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s017",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Gold price decline",
+    "event_type_summary": "Gold prices fell following new attacks on a Saudi pipeline and other developments.",
+    "theme": "Gold price decline on geopolitical supply risk",
+    "asset_class": "Commodity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports that gold prices sank after new attacks on a Saudi pipeline. This is a commodity market event with negative polarity for gold, as the headline explicitly states gold prices declined.",
+    "_title": "Gold prices today, Monday, September 14, 2026: Gold sinks following new attacks on Saudi pipeline and more - Yahoo Finance",
+    "_date": "2026-09-14",
+    "_publisher": "Yahoo Finance",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s018",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Geopolitical supply disruption",
+    "event_type_summary": "Attack on Saudi East-West pipeline threatens oil export routes, pushing crude prices higher.",
+    "theme": "Oil supply disruption risk",
+    "asset_class": "Commodity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports an attack on Saudi Arabia's East-West Pipeline that threatens export routes, which is bullish for oil prices. No specific company names appear in the headline.",
+    "_title": "Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes - WSJ",
+    "_date": "2026-09-14",
+    "_publisher": "WSJ",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s019",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Fed rate hike",
+    "event_type_summary": "Fed raises interest rate for the first time in three years amid high inflation",
+    "theme": "Fed rate hike amid high inflation",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The Fed raising rates for the first time in three years is a hawkish policy shift driven by high inflation, which is negative for fixed income as bond prices fall when rates rise. The scope is macro, so no individual companies are attached.",
+    "_title": "WATCH: Warsh says 'inflation is too high' after Fed raises interest rate 1st time in 3 years - pbs.org",
+    "_date": "2026-09-15",
+    "_publisher": "pbs.org",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s020",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "health_literacy_ai_research",
+    "event_type_summary": "Nature article discusses building health-literate artificial intelligence, highlighting AI applications in healthcare and health literacy.",
+    "theme": "AI health literacy development",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The news is a Nature article about building health-literate AI, which is a sector-level research/technology development item. It does not mention any specific company in the headline, so companies is empty. It relates to the AI and healthcare sector, which is equity-relevant, but the headline itself does not indicate a clear positive or negative market direction, so polarity is neutral.",
+    "_title": "Building health-literate artificial intelligence - Nature",
+    "_date": "2026-09-15",
+    "_publisher": "Nature",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s021",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Rate Hike",
+    "event_type_summary": "Fed raises rates for the first time in years with unanimous vote",
+    "theme": "Fed rate hike",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The Fed's first rate hike in years is a monetary policy tightening event, which is bearish for fixed income as bond prices fall when rates rise. No individual companies are mentioned in the headline.",
+    "_title": "Fed Delivers First Rate Hike in Years With Unanimous Vote - WSJ",
+    "_date": "2026-09-16",
+    "_publisher": "WSJ",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s022",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Rate hike",
+    "event_type_summary": "Fed raises interest rates by 25 basis points",
+    "theme": "Fed rate hike",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The Federal Reserve raising interest rates by a quarter point is a monetary policy action that pushes bond yields higher and prices lower, a negative for FixedIncome. It is a macro/policy-level event with no individual companies named in the headline.",
+    "_title": "Fed hikes interest rates by quarter point - thehill.com",
+    "_date": "2026-09-16",
+    "_publisher": "thehill.com",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s023",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Rate hike",
+    "event_type_summary": "Federal Reserve raises interest rates for the first time since 2023",
+    "theme": "Fed rate hike",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The Federal Reserve raising interest rates is a monetary policy event that primarily affects fixed income assets negatively, as higher rates push bond prices down. No individual companies are mentioned in the headline.",
+    "_title": "Federal Reserve raises interest rates for the first time since 2023 - CBS News",
+    "_date": "2026-09-16",
+    "_publisher": "CBS News",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s024",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Fed rate hike",
+    "event_type_summary": "Economist views a Federal Reserve interest rate hike as a reassuring sign of central bank independence.",
+    "theme": "Fed rate hike independence signal",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline concerns a Federal Reserve interest rate hike and its interpretation as a sign of Fed independence, which is a macro/policy-level event. A rate hike is typically negative for fixed income prices, so polarity is negative for FixedIncome. No company names appear in the headline.",
+    "_title": "Interest rate hike a ‘reassuring’ sign Fed is acting independently, economist says - pbs.org",
+    "_date": "2026-09-16",
+    "_publisher": "pbs.org",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s025",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Fed rate hike",
+    "event_type_summary": "The Federal Reserve raises interest rates, affecting certificate of deposit yields.",
+    "theme": "Fed rate hike impact on CDs",
+    "asset_class": "MoneyMarket",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline announces a September 2026 Fed rate hike and its implications for certificates of deposit (CDs). As a macro/policy event, no individual companies are named. Higher policy rates typically lead to higher CD yields, which is positive for money market instruments.",
+    "_title": "What the September 2026 Fed Rate Hike Means for CDs - NerdWallet",
+    "_date": "2026-09-16",
+    "_publisher": "NerdWallet",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s026",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Sovereign wealth fund warns of US equity pullback",
+    "event_type_summary": "A top-performing sovereign wealth fund cautions that the U.S. stock market is due for a pullback.",
+    "theme": "US equity pullback warning",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline signals a warning from a major sovereign wealth fund about an impending decline in the U.S. stock market, which is negative for equities at the market level. No specific company is named in the headline, so companies is empty.",
+    "_title": "World's top-performing sovereign wealth fund warns of looming pullback in U.S. stock market - CNBC",
+    "_date": "2026-09-16",
+    "_publisher": "CNBC",
+    "_scope": "market",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s027",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "AI military human rights implications",
+    "event_type_summary": "Carnegie report examines military AI and human rights implications",
+    "theme": "Military AI governance and human rights",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline is a think-tank report on military AI and human rights, not a market-moving corporate or policy action; it has no direct directional impact on equities, so polarity is neutral and no companies are named in the title.",
+    "_title": "On Artificial Intelligence in the Military Domain and the Implications for Human Rights - Carnegie Endowment for International Peace",
+    "_date": "2026-09-16",
+    "_publisher": "Carnegie Endowment for International Peace",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s028",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "earnings_valuation",
+    "event_type_summary": "JD.com stock seen as potentially undervalued ahead of earnings",
+    "theme": "JD.com earnings valuation",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "JD.com",
+      "JD"
+    ],
+    "evidence": {
+      "JD.com": "JD.com",
+      "JD": "JD"
+    },
+    "rationale_text": "The headline suggests JD.com stock may still be a bargain on earnings, implying a positive valuation view for the equity.",
+    "_title": "JD.com (JD) Stock Could Still Be A Bargain On Earnings",
+    "_date": "2026-09-17",
+    "_publisher": "Simply Wall St.",
+    "_scope": "entity",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s029",
+    "companies_kept": [
+      "JD.com",
+      "JD"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "9618.HK",
+      "JD"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Fed policy uncertainty resolution",
+    "event_type_summary": "Stock market rallies as uncertainty over Federal Reserve policy fades",
+    "theme": "Fed policy uncertainty easing",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline indicates stocks are soaring because uncertainty about the Federal Reserve has faded, which is a macro-level policy development that is positive for equities. No individual companies are named in the headline.",
+    "_title": "Stocks Soar as Fed Uncertainty Fades: Stock Market Today - Kiplinger",
+    "_date": "2026-09-17",
+    "_publisher": "Kiplinger",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s030",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "ETF industry conference coverage",
+    "event_type_summary": "Media coverage of ETF industry conference sessions and highlights",
+    "theme": "ETF industry conference highlights",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline references an ETF industry conference ('ETF Oasis at Future Proof') and its Tuesday highlights, which is market-level industry news without any specific company or directional market signal. No individual companies are named in the headline, so companies is empty. The asset class is mapped to Equity as the broad ETF market context, with neutral polarity given the absence of directional information.",
+    "_title": "ETF Oasis at Future Proof: Tuesday Highlights",
+    "_date": "2026-09-17",
+    "_publisher": "etf.com",
+    "_scope": "market",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s031",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "ETF inflows surge",
+    "event_type_summary": "North American gold ETF buying jumped from $71 million to $7.7 billion in one month, raising questions about GLDM's sustainability.",
+    "theme": "Gold ETF demand surge",
+    "asset_class": "Commodity",
+    "polarity": "positive",
+    "companies": [
+      "GLDM"
+    ],
+    "evidence": {
+      "GLDM": "Can GLDM Hold Up?"
+    },
+    "rationale_text": "The headline reports a sharp surge in North American gold ETF buying, which is positive for gold as a commodity asset class. GLDM is explicitly named in the title.",
+    "_title": "North American Gold ETF Buying Jumped From $71 Million to $7.7 Billion in One Month. Can GLDM Hold Up?",
+    "_date": "2026-09-17",
+    "_publisher": "24/7 Wall St.",
+    "_scope": "sector",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s032",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [
+      "GLDM"
+    ],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Index Rebalance Concentration Risk",
+    "event_type_summary": "XLK's upcoming rebalance is unlikely to resolve its heavy concentration in a few large holdings.",
+    "theme": "Tech sector ETF concentration risk",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline discusses XLK, a technology sector ETF, and its inability to fix a massive concentration problem through rebalancing. This is a market structure/index event affecting Equity exposure, with negative implications for concentration risk. No individual company names appear in the headline.",
+    "_title": "Why XLK’s Next Rebalance Won’t Fix Its Massive Concentration Problem",
+    "_date": "2026-09-18",
+    "_publisher": "24/7 Wall St.",
+    "_scope": "entity",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s033",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Political pushback on institutional attacks",
+    "event_type_summary": "Senate Republicans publicly reject Trump's attacks on the Supreme Court and Federal Reserve, signaling institutional independence support.",
+    "theme": "Fed independence political risk",
+    "asset_class": "FixedIncome",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The news is macro-level and involves political dynamics around the Federal Reserve's independence. Senate Republicans rebuffing attacks on the Fed reduces perceived political interference risk, which is supportive for fixed income (lower uncertainty premium, stable monetary policy expectations). No specific companies are mentioned in the headline, so companies list is empty.",
+    "_title": "Senate Republicans rebuff Trump’s attacks on Supreme Court, Federal Reserve - thehill.com",
+    "_date": "2026-09-18",
+    "_publisher": "thehill.com",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s034",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Fed leadership appointment",
+    "event_type_summary": "Trump to swear in Warsh as Federal Reserve chair on Friday",
+    "theme": "Fed leadership transition",
+    "asset_class": "FixedIncome",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "Macro/policy-level news about the swearing-in of a new Federal Reserve chair; no individual companies are named in the headline, so companies is empty. The leadership change at the Fed is most directly relevant to FixedIncome, with neutral polarity given the uncertainty around policy implications.",
+    "_title": "Trump will swear in Warsh on Friday to lead US Federal Reserve - Reuters",
+    "_date": "2026-09-18",
+    "_publisher": "Reuters",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s035",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Market Sentiment Shift",
+    "event_type_summary": "Bearish sentiment is taking control of the stock market while bulls encourage buying",
+    "theme": "Bearish market sentiment",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline indicates bears are taking control of the stock market, signaling negative sentiment for equities, while bulls advocate buying. No specific companies are mentioned in the title.",
+    "_title": "Bears are taking control of the stock market. Bulls want you to buy anyway - CNBC",
+    "_date": "2026-09-18",
+    "_publisher": "CNBC",
+    "_scope": "market",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s036",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "ETF launch",
+    "event_type_summary": "AIMG launches an AI-concentrated ETF with a 0.61% fee and no track record",
+    "theme": "AI concentration ETF launch",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline announces the launch of AIMG, an AI-concentrated equity ETF, noting its steep 0.61% fee and lack of track record. This is a corporate/product event for an equity fund. No specific company names appear in the headline, so companies is empty. The launch itself is neutral for the equity asset class.",
+    "_title": "AIMG’s AI Concentration Bet Launches With a Steep 0.61% Fee and No Track Record to Prove It",
+    "_date": "2026-09-18",
+    "_publisher": "24/7 Wall St.",
+    "_scope": "sector",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s037",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Foreign capital inflow ahead of index upgrade",
+    "event_type_summary": "Foreign investors are buying Vietnamese stocks in anticipation of FTSE market upgrade, signaling positive sentiment and potential liquidity boost.",
+    "theme": "Vietnam equity market upgrade inflows",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The news is market-level, indicating foreign investor buying in Vietnam stocks ahead of FTSE market upgrade. This is positive for Vietnamese equities as it suggests increased foreign participation and potential re-rating. No specific companies are mentioned in the headline.",
+    "_title": "Foreign investors buy Vietnam stocks ahead of FTSE market upgrade - Reuters",
+    "_date": "2026-09-19",
+    "_publisher": "Reuters",
+    "_scope": "market",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s038",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Fed policy signal",
+    "event_type_summary": "Federal Reserve delivers bad news to stock market investors, with historical precedent suggesting a subsequent market reaction",
+    "theme": "Fed hawkish signal equity risk",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline indicates the Federal Reserve has delivered bad news to stock market investors, implying a negative signal for equities. As a macro-level news item, no individual companies are named in the headline, so the companies list is empty.",
+    "_title": "Stock Market Investors Just Got Bad News From the Federal Reserve. History Says This Will Happen Next. - Yahoo Finance",
+    "_date": "2026-09-20",
+    "_publisher": "Yahoo Finance",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s039",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Interest rate environment assessment",
+    "event_type_summary": "WSJ argues the economy can withstand elevated interest rates, framing high rates as manageable rather than destabilizing.",
+    "theme": "Economy resilient to high interest rates",
+    "asset_class": "FixedIncome",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline discusses the macroeconomic capacity to handle soaring interest rates, which is a macro-level assessment of the rate environment. It does not mention any specific company, so the companies list is empty. The asset class most directly affected is FixedIncome, and the tone is neutral because it presents a balanced view that high rates are tolerable rather than clearly positive or negative for the asset class.",
+    "_title": "The Silver Lining in Soaring Interest Rates: The Economy Can Handle Them - WSJ",
+    "_date": "2026-09-20",
+    "_publisher": "WSJ",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s040",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "seasonal_market_pattern",
+    "event_type_summary": "Historical seasonal pattern shows S&P 500 rising in the upcoming quarter",
+    "theme": "S&P 500 seasonal strength",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline highlights a historically strong seasonal quarter for the S&P 500, with the index rising in 34 of the last 41 such periods, implying a positive seasonal bias for equities at the market level.",
+    "_title": "The Stock Market's Best Quarter of the Year Is About to Start. The S&amp;P 500 Has Risen in 34 of the Last 41. - Yahoo Finance",
+    "_date": "2026-09-20",
+    "_publisher": "Yahoo Finance",
+    "_scope": "market",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s041",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Government policy announcement",
+    "event_type_summary": "UK government launches a defence and security semiconductor paper, signaling policy support for the domestic semiconductor sector",
+    "theme": "UK semiconductor defence policy support",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The UK government's launch of a defence and security semiconductor paper implies increased policy attention and potential funding for the semiconductor industry, which is positive for semiconductor equities. No specific company is named in the headline.",
+    "_title": "UK launches defence and security semiconductor paper - Compound Semiconductor",
+    "_date": "2026-09-21",
+    "_publisher": "Compound Semiconductor",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s042",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "MonetaryPolicyStance",
+    "event_type_summary": "Chicago Fed president warns that fighting inflation will likely be painful, signaling continued restrictive monetary policy",
+    "theme": "restrictive monetary policy inflation fight",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "A Fed official's warning that inflation-fighting will be painful implies tighter-for-longer policy, which is negative for fixed income via higher yields and lower bond prices.",
+    "_title": "Fighting inflation likely to be 'painful,' Chicago Fed president says - pbs.org",
+    "_date": "2026-09-21",
+    "_publisher": "pbs.org",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s043",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "central_bank_decision",
+    "event_type_summary": "PBOC keeps policy rate unchanged; China stocks rise",
+    "theme": "China equity gains on PBOC policy hold",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline states China stocks gained after the PBOC stood pat, indicating a positive equity market reaction to unchanged monetary policy.",
+    "_title": "China Stocks Gain as PBOC Stands Pat - tradingview.com",
+    "_date": "2026-09-21",
+    "_publisher": "tradingview.com",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s044",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "M&A enabler platform",
+    "event_type_summary": "A global quality platform is highlighted as a key enabler for mergers and acquisitions in the consumer goods sector.",
+    "theme": "M&A enablement via quality platform",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline discusses a global quality platform as an M&A enabler in the consumer goods sector, which is a corporate/industry development relevant to Equity. No specific company names appear in the headline, so companies and evidence are empty. The polarity is neutral as the headline does not indicate a clear positive or negative direction for the asset class.",
+    "_title": "Why a Global Quality Platform Is a Key Merger and Acquisition Enabler - Consumer Goods Technology",
+    "_date": "2026-09-21",
+    "_publisher": "Consumer Goods Technology",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s045",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "oil_price_decline",
+    "event_type_summary": "Oil prices slide again after a recent spike to $100 per barrel",
+    "theme": "oil price pullback after $100 spike",
+    "asset_class": "Commodity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports a renewed decline in oil prices following a recent spike to $100 a barrel, which is bearish for the commodity asset class.",
+    "_title": "Why oil prices are sliding again after their latest $100-a-barrel spike - Business Insider",
+    "_date": "2026-09-21",
+    "_publisher": "Business Insider",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s046",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "executive_industry_award",
+    "event_type_summary": "Apple Executive Chair Tim Cook to receive the semiconductor industry's top honor from SIA",
+    "theme": "Semiconductor industry executive recognition",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [
+      "Apple",
+      "Tim Cook"
+    ],
+    "evidence": {
+      "Apple": "Apple Executive Chair",
+      "Tim Cook": "Tim Cook"
+    },
+    "rationale_text": "The headline announces an industry honor for Apple's Executive Chair Tim Cook, a corporate/executive recognition event with no direct financial or market-directional implication for equities, hence neutral polarity.",
+    "_title": "Apple Executive Chair Tim Cook to Receive Semiconductor Industry’s Top Honor - Semiconductor Industry Association | SIA",
+    "_date": "2026-09-22",
+    "_publisher": "Semiconductor Industry Association | SIA",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s047",
+    "companies_kept": [
+      "Apple"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [
+      "Tim Cook"
+    ],
+    "affected_tickers": [
+      "AAPL"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "share_price_surge",
+    "event_type_summary": "Lattice Semiconductor shares are soaring, indicating a sharp positive price move for the stock.",
+    "theme": "LSCC share price surge",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "Lattice Semiconductor",
+      "LSCC"
+    ],
+    "evidence": {
+      "Lattice Semiconductor": "Lattice Semiconductor (LSCC)",
+      "LSCC": "LSCC"
+    },
+    "rationale_text": "The headline explicitly states that Lattice Semiconductor (LSCC) shares are soaring today, which is a positive corporate event for the equity. The company names are taken directly from the title.",
+    "_title": "Why Are Lattice Semiconductor (LSCC) Shares Soaring Today - Yahoo Finance",
+    "_date": "2026-09-22",
+    "_publisher": "Yahoo Finance",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s048",
+    "companies_kept": [
+      "Lattice Semiconductor",
+      "LSCC"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "LSCC"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Market scrutiny",
+    "event_type_summary": "Turkish stock market under scrutiny following a selloff",
+    "theme": "Turkey equity market selloff scrutiny",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline refers to Turkey's stock market being under scrutiny after last week's selloff, indicating negative sentiment for Turkish equities at the market level. No individual companies are named in the headline.",
+    "_title": "Explainer: Why Turkey's stock market is under scrutiny after last week's selloff - Reuters",
+    "_date": "2026-09-22",
+    "_publisher": "Reuters",
+    "_scope": "market",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s049",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Geopolitical meeting",
+    "event_type_summary": "Xi and Trump meeting with focus on AI pick-and-shovel stocks",
+    "theme": "US-China AI policy meeting",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline highlights a meeting between Xi and Trump and AI pick-and-shovel stocks to watch, but no specific company names appear in the title, so companies is empty. The event is macro/policy-related and neutral for equities pending outcomes.",
+    "_title": "AI Pick-And-Shovel Stocks To Watch As Xi And Trump Meet - Investor's Business Daily",
+    "_date": "2026-09-22",
+    "_publisher": "Investor's Business Daily",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s050",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "business_segment_divergence",
+    "event_type_summary": "BYD's China business slowing while another segment accelerates",
+    "theme": "BYD China slowdown offset by overseas growth",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [
+      "BYD"
+    ],
+    "evidence": {
+      "BYD": "BYD's China Business Is Slowing"
+    },
+    "rationale_text": "The headline highlights a mixed corporate development for BYD: its China business is slowing, but another part of the company is taking off. This is company-specific news affecting equity sentiment, with offsetting negative and positive elements, hence neutral polarity.",
+    "_title": "BYD's China Business Is Slowing. Here's the Part of the Company That's Taking Off - The Motley Fool",
+    "_date": "2026-09-22",
+    "_publisher": "The Motley Fool",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s051",
+    "companies_kept": [
+      "BYD"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "1211.HK"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "commodity_price_move",
+    "event_type_summary": "Gold prices decline on stronger dollar and Fed rate expectations",
+    "theme": "Gold price decline on dollar strength and Fed rate expectations",
+    "asset_class": "Commodity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports gold prices falling, driven by a stronger dollar and Fed rate expectations, which is negative for the commodity asset class.",
+    "_title": "Gold Prices Fall as Stronger Dollar and Fed Rate Expectations Weigh on Bullion - Yahoo Finance",
+    "_date": "2026-09-22",
+    "_publisher": "Yahoo Finance",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s052",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "commodity_price_dynamics",
+    "event_type_summary": "Brent crude paper price diverges from refiner physical prices",
+    "theme": "Brent crude paper vs physical price divergence",
+    "asset_class": "Commodity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline discusses the difference between the paper price of Brent crude and the price refiners actually pay, a commodity market pricing dynamic. No specific company is named in the headline, so companies is empty. The divergence itself is neutral in direction for the commodity asset class.",
+    "_title": "The difference between the \"paper\" price of Brent crude and what refiners pay for it - marketplace.org",
+    "_date": "2026-09-22",
+    "_publisher": "marketplace.org",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s053",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Gold price movement",
+    "event_type_summary": "Gold prices in Egypt slightly declined on September 21",
+    "theme": "Egypt gold price decline",
+    "asset_class": "Commodity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports a slight decline in gold prices in Egypt, which is a commodity market event. The negative polarity reflects the downward price movement for gold as a commodity. No specific companies are mentioned in the headline.",
+    "_title": "ZAWYA: Gold prices in Egypt slightly down on September 21 - tradingview.com",
+    "_date": "2026-09-22",
+    "_publisher": "tradingview.com",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s054",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "market_commentary",
+    "event_type_summary": "ETF pundits discuss market views in a roundtable-style commentary",
+    "theme": "ETF market commentary",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "标题为媒体评论/圆桌类内容，未点名任何公司，也未指向具体资产类别；按ETF相关市场评论归为Equity、中性。",
+    "_title": "ETF Zoo: 6 Pundits Walk Into a Bar",
+    "_date": "2026-09-22",
+    "_publisher": "etf.com",
+    "_scope": "weak",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s055",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "export_controls_commentary",
+    "event_type_summary": "Reuters commentary on the latest developments regarding semiconductor export controls",
+    "theme": "semiconductor export controls",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline is a commentary piece about semiconductor export controls, a policy topic affecting the semiconductor equity sector, but it names no specific company and gives no directional signal, so polarity is neutral.",
+    "_title": "COMMENTARY: What's the latest with semiconductor export controls? - Reuters",
+    "_date": "2026-09-23",
+    "_publisher": "Reuters",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s056",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Industry trend",
+    "event_type_summary": "AI factory architecture shift reshaping semiconductor competition",
+    "theme": "AI factory architecture shift in semiconductor race",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline discusses a structural shift in AI computing architecture and its impact on the semiconductor industry, which is a market/industry trend rather than a single-company corporate event. No specific company names appear in the headline, so companies is empty. The direction for semiconductor equities is ambiguous, hence neutral polarity.",
+    "_title": "The AI factory is becoming the computer and it’s changing the semiconductor race - siliconangle.com",
+    "_date": "2026-09-23",
+    "_publisher": "siliconangle.com",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s057",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Interest rate hike impact on agricultural borrowers",
+    "event_type_summary": "Federal Reserve interest rate hikes increase loan payment burdens for Minnesota farmers",
+    "theme": "Rate hike pressure on farm credit",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline describes a macro-level consequence of Federal Reserve rate hikes: Minnesota farmers facing larger loan payments. This is a macro/policy-driven credit condition story, not a corporate event, and no individual company is named in the headline. The relevant asset class is FixedIncome because the core mechanism is higher interest rates raising debt servicing costs.",
+    "_title": "Minnesota farmers face bigger loan payments as Federal Reserve hikes interest rates - MPR News",
+    "_date": "2026-09-23",
+    "_publisher": "MPR News",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s058",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "MarketOutlook",
+    "event_type_summary": "Market commentary indicating the end of a summer stock slump",
+    "theme": "Summer stock slump ends",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline signals the end of a seasonal equity market decline, which is positive for equities at the broad market level. No specific companies are mentioned in the title.",
+    "_title": "Rejoice! The Summer Stock Slump is Over",
+    "_date": "2026-09-23",
+    "_publisher": "Zacks",
+    "_scope": "market",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s059",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "AI and climate change atrocity risk alert",
+    "event_type_summary": "A human-rights alert linking artificial intelligence and climate change to atrocity risks",
+    "theme": "AI and climate change atrocity risk",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline is a responsibility-to-protect alert warning about artificial intelligence and climate change, which implies heightened regulatory, reputational, and systemic risk for technology-related equities; no specific company is named in the headline.",
+    "_title": "Atrocity Alert No. 495: Artificial Intelligence and Climate Change - Global Centre for the Responsibility to Protect",
+    "_date": "2026-09-23",
+    "_publisher": "Global Centre for the Responsibility to Protect",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s060",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "commodity_price_forecast",
+    "event_type_summary": "TD Securities forecasts gold to extend its bull run above $5,000",
+    "theme": "Gold bull run continuation",
+    "asset_class": "Commodity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "TD Securities sees gold's next leg above $5,000, implying continued upward momentum for the commodity, which is positive for gold as a Commodity asset.",
+    "_title": "Gold’s bull run isn’t over: TD Securities sees next leg above $5,000 - Kitco",
+    "_date": "2026-09-23",
+    "_publisher": "Kitco",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s061",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "Strategic initiative",
+    "event_type_summary": "University announces initiative focused on space and semiconductor technology development",
+    "theme": "Space and semiconductor technology development",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline references a university initiative related to space and semiconductors, but does not name any specific publicly traded company. The scope is entity, yet no company appears in the title, so companies and evidence are empty. The event is classified as CorporateEvents because it describes an organizational strategic initiative, with neutral polarity for Equity as no direct market impact or named company is present.",
+    "_title": "Building for the future of space and semiconductors - MSUToday",
+    "_date": "2026-09-24",
+    "_publisher": "MSUToday",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s062",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "office_sale",
+    "event_type_summary": "German semiconductor firm is shopping its north San Jose offices, indicating a potential real estate divestment.",
+    "theme": "semiconductor office real estate divestment",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports a German semiconductor firm shopping its north San Jose offices, a corporate real estate action. No specific company name appears in the headline, so companies is empty. The event is neutral for Equity as it is a property transaction without clear directional impact on the firm's equity.",
+    "_title": "German semiconductor firm shops north San Jose offices - The Real Deal",
+    "_date": "2026-09-24",
+    "_publisher": "The Real Deal",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s063",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "stock_price_decline",
+    "event_type_summary": "JD.com shares fell more than the broader market",
+    "theme": "JD.com underperformance vs broader market",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "JD.com, Inc.",
+      "JD"
+    ],
+    "evidence": {
+      "JD.com, Inc.": "JD.com, Inc.",
+      "JD": "(JD)"
+    },
+    "rationale_text": "The headline states that JD.com, Inc. (JD) fell more than the broader market, indicating negative equity price performance for the named company.",
+    "_title": "Here's Why JD.com, Inc. (JD) Fell More Than Broader Market",
+    "_date": "2026-09-24",
+    "_publisher": "Zacks",
+    "_scope": "entity",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s064",
+    "companies_kept": [
+      "JD.com, Inc.",
+      "JD"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "9618.HK",
+      "JD"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "earnings_review",
+    "event_type_summary": "Review of Q2 earnings for semiconductor manufacturing stocks, focusing on Teradyne",
+    "theme": "Semiconductor manufacturing Q2 earnings review",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [
+      "Teradyne"
+    ],
+    "evidence": {
+      "Teradyne": "Teradyne (NASDAQ:TER)"
+    },
+    "rationale_text": "The headline reflects on Q2 earnings of semiconductor manufacturing stocks, specifically mentioning Teradyne. It is a corporate earnings-related event for the Equity asset class, with neutral polarity as no directional performance is indicated.",
+    "_title": "Reflecting On Semiconductor Manufacturing Stocks’ Q2 Earnings: Teradyne (NASDAQ:TER) - Yahoo Finance",
+    "_date": "2026-09-24",
+    "_publisher": "Yahoo Finance",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s065",
+    "companies_kept": [
+      "Teradyne"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "TER"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "technology_innovation",
+    "event_type_summary": "Self-driving lab automates semiconductor ink synthesis and thin-film characterization",
+    "theme": "semiconductor materials R&D automation",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The news reports a technological advancement in automating semiconductor ink synthesis and thin-film characterization, which could improve efficiency in semiconductor materials research. This is positive for the semiconductor equity sector, though no specific company is named in the headline.",
+    "_title": "Self-driving lab automates semiconductor ink synthesis and thin-film characterization - Phys.org",
+    "_date": "2026-09-24",
+    "_publisher": "Phys.org",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s066",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Sector Rotation",
+    "event_type_summary": "Investors rotating from concentrated semiconductor ETF (SMH) to equal-weight semiconductor ETF (PSI)",
+    "theme": "Semiconductor ETF rotation from concentration to equal-weight",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline describes a rotation among semiconductor ETFs, driven by Nvidia concentration concerns in SMH versus PSI's equal-weight approach. No specific company names appear in the headline, so companies is empty. The event is a market flow/rotation event affecting equity sector exposure, with neutral polarity as it reflects a shift in investor preference rather than a directional market call.",
+    "_title": "Why Semiconductor Investors Are Rotating From SMH’s Nvidia Concentration to PSI’s Equal-Weight Approach",
+    "_date": "2026-09-24",
+    "_publisher": "24/7 Wall St.",
+    "_scope": "entity",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s067",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Stablecoin regulation implementation",
+    "event_type_summary": "The U.S. Federal Reserve advances proposals to implement the GENIUS Act for stablecoins, signaling a clearer regulatory framework for dollar-backed digital assets.",
+    "theme": "Stablecoin regulatory clarity",
+    "asset_class": "MoneyMarket",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The Federal Reserve's move to implement the GENIUS Act is a policy-level development that reduces regulatory uncertainty for stablecoins, which function as money-market-like instruments. As a macro/policy event, no individual companies are named in the headline, so the companies list is empty.",
+    "_title": "U.S. Federal Reserve moves on proposals to implement GENIUS Act for stablecoins - CoinDesk",
+    "_date": "2026-09-24",
+    "_publisher": "CoinDesk",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s068",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Market outlook warning",
+    "event_type_summary": "Analyst warns S&P 500 is priced for perfection and risks a 20% slump next year",
+    "theme": "S&P 500 overvaluation correction risk",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline warns that the S&P 500, being 'priced for perfection,' is in danger of a 20% slump next year, implying a bearish market-level outlook for equities. No individual companies are named in the headline, so companies and evidence are empty.",
+    "_title": "With the stock market ‘priced for perfection,’ the S&amp;P 500 is in danger of a 20% slump next year - MarketWatch",
+    "_date": "2026-09-24",
+    "_publisher": "MarketWatch",
+    "_scope": "market",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s069",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "economic_downturn_forecast",
+    "event_type_summary": "Peter Schiff predicts an economic downturn and higher oil prices, warning the situation is not over.",
+    "theme": "economic downturn and oil price surge",
+    "asset_class": "Commodity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline features a forecast of an economic downturn and higher oil prices. For commodities, particularly oil, higher prices imply a positive directional impact. No specific companies are named in the headline.",
+    "_title": "Peter Schiff predicts economic 'downturn,' higher oil prices: 'I don't think it's over' - Fox Business",
+    "_date": "2026-09-24",
+    "_publisher": "Fox Business",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s070",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "sector_rebound",
+    "event_type_summary": "Semiconductor stocks rebound after two-day decline, with Tower Semiconductor leading gains",
+    "theme": "chip stock rebound",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "Tower Semiconductor"
+    ],
+    "evidence": {
+      "Tower Semiconductor": "Tower Semiconductor Among Leaders"
+    },
+    "rationale_text": "The headline reports a rise in chip stocks after a two-day skid, with Tower Semiconductor named among the leaders, indicating positive momentum for semiconductor equities.",
+    "_title": "Chip Stocks Rise After Two-Day Skid. Tower Semiconductor Among Leaders. - Investor's Business Daily",
+    "_date": "2026-09-25",
+    "_publisher": "Investor's Business Daily",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s071",
+    "companies_kept": [
+      "Tower Semiconductor"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "TSEM"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "Equity",
+    "event_type": "Valuation",
+    "event_type_summary": "AI stock valuation analysis",
+    "theme": "AI stock valuation",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [
+      "Taiwan Semiconductor"
+    ],
+    "evidence": {
+      "Taiwan Semiconductor": "Taiwan Semiconductor"
+    },
+    "rationale_text": "The headline discusses whether Taiwan Semiconductor stock is undervalued as an AI stock, which is a valuation-focused equity event with neutral polarity.",
+    "_title": "Is Taiwan Semiconductor Stock an Undervalued AI Stock to Buy Right Now? - The Motley Fool",
+    "_date": "2026-09-25",
+    "_publisher": "The Motley Fool",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s072",
+    "companies_kept": [
+      "Taiwan Semiconductor"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "earnings_preview",
+    "event_type_summary": "Micron expected to beat Q4 earnings estimates, with guidance on how to trade MU stock",
+    "theme": "Micron Q4 earnings beat expectations",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "Micron",
+      "MU"
+    ],
+    "evidence": {
+      "Micron": "Micron Likely to Beat Q4 Earnings Estimates",
+      "MU": "How to Play MU Stock?"
+    },
+    "rationale_text": "The headline indicates Micron is likely to beat Q4 earnings estimates, which is positive for its equity, and mentions MU stock trading strategy.",
+    "_title": "Micron Likely to Beat Q4 Earnings Estimates: How to Play MU Stock? - Yahoo Finance",
+    "_date": "2026-09-25",
+    "_publisher": "Yahoo Finance",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s073",
+    "companies_kept": [
+      "Micron",
+      "MU"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "MU"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "oil_price_update",
+    "event_type_summary": "Daily oil price quote as of September 25, 2026",
+    "theme": "oil price level",
+    "asset_class": "Commodity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline only reports the current price of oil on a given date, which is a neutral market data update for the commodity asset class, with no company names mentioned.",
+    "_title": "Current price of oil as of September 25, 2026 - Fortune",
+    "_date": "2026-09-25",
+    "_publisher": "Fortune",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s074",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Gold price forecast",
+    "event_type_summary": "Gold avoids breakdown despite surging yields, with focus on whether the resilience can continue",
+    "theme": "Gold resilience amid rising yields",
+    "asset_class": "Commodity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline discusses XAU/USD (gold) avoiding a breakdown even as yields surged, questioning whether the resilience can continue. This is a market event for the commodity asset class with a neutral directional bias, as no clear positive or negative resolution is indicated. No company names appear in the headline.",
+    "_title": "Gold Price Forecast: XAU/USD Avoids Breakdown as Yields Surged but Can it Continue? - stonex.com",
+    "_date": "2026-09-25",
+    "_publisher": "stonex.com",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s075",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "SectorAdvance",
+    "event_type_summary": "Tech stocks advance in premarket trading",
+    "theme": "Tech sector premarket strength",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports a sector-level update that tech stocks are advancing in premarket trading on Friday, which is positive for the Equity asset class, specifically the tech sector. No individual companies are named in the headline.",
+    "_title": "Sector Update: Tech Stocks Advance Premarket Friday",
+    "_date": "2026-09-25",
+    "_publisher": "MT Newswires",
+    "_scope": "sector",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s076",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Treasury yields rise above 5.2%",
+    "event_type_summary": "Treasury yields surpass 5.2%, prompting a look at fixed-income plays for safe returns.",
+    "theme": "Rising Treasury yields and fixed-income safe return plays",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports Treasury yields passing 5.2%, a rise in yields that pressures fixed-income prices, hence negative for the FixedIncome asset class. The article is sector-level and mentions no specific companies in the title.",
+    "_title": "Treasury Yields Passed 5.2%. 5 Fixed-Income Plays for Safe Returns.",
+    "_date": "2026-09-25",
+    "_publisher": "Barrons.com",
+    "_scope": "sector",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s077",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "semiconductor_fab_investment",
+    "event_type_summary": "Syracuse's semiconductor investment may help revive the Rust Belt",
+    "theme": "US semiconductor manufacturing revival",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline discusses Syracuse's semiconductor gamble and its potential to help save the Rust Belt, implying positive implications for the semiconductor sector and related equities, but no specific company is named in the headline.",
+    "_title": "Watch How Syracuse's Semiconductor Gamble May Help Save the Rust Belt - Bloomberg.com",
+    "_date": "2026-09-26",
+    "_publisher": "Bloomberg.com",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s078",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "market_reopening",
+    "event_type_summary": "China may reopen Nvidia's AI market, potentially benefiting NVDA stock",
+    "theme": "China AI market reopening for Nvidia",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "Nvidia",
+      "NVDA"
+    ],
+    "evidence": {
+      "Nvidia": "Nvidia's AI Market",
+      "NVDA": "NVDA Stock"
+    },
+    "rationale_text": "The headline suggests China may reopen Nvidia's AI market, which is positive for Nvidia equity (NVDA).",
+    "_title": "China May Reopen Nvidia's AI Market. How Will NVDA Stock React Monday? - Yahoo Finance",
+    "_date": "2026-09-27",
+    "_publisher": "Yahoo Finance",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s079",
+    "companies_kept": [
+      "Nvidia",
+      "NVDA"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "ETF comparison",
+    "event_type_summary": "Comparison of municipal bond ETF MUB versus aggregate bond ETF AGG for retirement accounts, highlighting tax advantages of MUB.",
+    "theme": "Municipal bond ETF tax advantage",
+    "asset_class": "FixedIncome",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline compares MUB (iShares National Muni Bond ETF) and AGG (iShares Core U.S. Aggregate Bond ETF), both fixed income ETFs, and suggests MUB offers similar exposure with lower taxes. This is positive for the municipal bond segment of fixed income. No individual company names appear in the headline, so companies is empty.",
+    "_title": "Forget AGG in Retirement. MUB Does the Same Job With a Smaller Tax Bill",
+    "_date": "2026-09-27",
+    "_publisher": "24/7 Wall St.",
+    "_scope": "entity",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s080",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "PolicyEvents",
+    "event_type": "Fed rate hike",
+    "event_type_summary": "Federal Reserve raises interest rates for the first time in years, affecting borrowing costs and consumer finances.",
+    "theme": "Fed rate hike expectations",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports a Fed rate hike, a monetary policy action. For fixed income, rising rates typically push bond prices lower, hence negative polarity. No specific companies are named in the headline, so companies is empty.",
+    "_title": "Fed raises rates for first time in years: What it means for your wallet - Fox Business",
+    "_date": "2026-09-27",
+    "_publisher": "Fox Business",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s081",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Market Outlook",
+    "event_type_summary": "Weekly preview of key market catalysts and themes for the stock market",
+    "theme": "weekly market catalysts preview",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline is a broad market preview of the week ahead for the stock market, with no specific company mentioned and no directional bias, so it is classified as a neutral Equity MarketEvents item.",
+    "_title": "Here are the 4 big things we're watching in the stock market in the week ahead - CNBC",
+    "_date": "2026-09-27",
+    "_publisher": "CNBC",
+    "_scope": "market",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s082",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "AI governance gap",
+    "event_type_summary": "Governments are increasingly falling behind as AI accelerates, raising concerns about regulatory and policy readiness.",
+    "theme": "AI acceleration outpacing government regulation",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline discusses a macro-level governance and regulatory gap amid rapid AI advancement, which is a broad structural theme rather than a company-specific event. No company names appear in the headline, so companies and evidence are empty. The asset class is mapped to Equity as the sector-level AI theme primarily affects equity markets, with neutral polarity given the ambiguous market direction.",
+    "_title": "As A.I. Accelerates, Governments Are Increasingly Being Left Behind - The New York Times",
+    "_date": "2026-09-27",
+    "_publisher": "The New York Times",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s083",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "Token Airdrop Announcement",
+    "event_type_summary": "Binance announces support for token airdrops tied to SpaceX and QQQ, specifying eligibility criteria.",
+    "theme": "Tokenized equity airdrop support",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "Binance",
+      "SpaceX",
+      "QQQ"
+    ],
+    "evidence": {
+      "Binance": "Binance to Support",
+      "SpaceX": "SpaceX",
+      "QQQ": "QQQ"
+    },
+    "rationale_text": "The headline announces Binance's support for token airdrops linked to SpaceX and QQQ, which are equity-related assets. This is a corporate event for Binance and positively impacts the tokenized equity space by increasing accessibility and liquidity.",
+    "_title": "Binance to Support SpaceX and QQQ Token Airdrops — Here’s Who Qualifies",
+    "_date": "2026-09-28",
+    "_publisher": "CCN",
+    "_scope": "entity",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s084",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [
+      "Binance",
+      "SpaceX",
+      "QQQ"
+    ],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Sector Selloff",
+    "event_type_summary": "Chinese chipmaking stocks fall on reports Beijing may allow Nvidia sales",
+    "theme": "China chip sector selloff on Nvidia sales resumption",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports a tumble in China chipmaking stocks, a negative equity-market event for the sector, driven by reports that Beijing may allow Nvidia sales. No specific company names appear in the headline, so companies is empty.",
+    "_title": "China chipmaking stocks tumble as Beijing reportedly mulls allowing Nvidia sales - Yahoo Finance",
+    "_date": "2026-09-28",
+    "_publisher": "Yahoo Finance",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s085",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "options_market_sentiment",
+    "event_type_summary": "Options traders see opportunity in JD.com despite weak stock appearance",
+    "theme": "JD.com options trading opportunity",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "JD.com"
+    ],
+    "evidence": {
+      "JD.com": "JD.com Stock May Look Ugly, But Options Traders Perceive an Opportunity"
+    },
+    "rationale_text": "The headline focuses on JD.com equity and notes that options traders perceive an opportunity despite the stock looking weak, implying a positive options-market sentiment toward the equity.",
+    "_title": "JD.com Stock May Look Ugly, But Options Traders Perceive an Opportunity",
+    "_date": "2026-09-28",
+    "_publisher": "Barchart",
+    "_scope": "entity",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s086",
+    "companies_kept": [
+      "JD.com"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "9618.HK",
+      "JD"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "product_launch",
+    "event_type_summary": "Nvidia announces a new AI platform",
+    "theme": "Nvidia AI platform launch",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "Nvidia"
+    ],
+    "evidence": {
+      "Nvidia": "Nvidia's new AI platform"
+    },
+    "rationale_text": "The headline highlights Nvidia's new AI platform, a corporate product announcement that is positive for Nvidia equity.",
+    "_title": "Nvidia's new AI platform, Nor'easter flight delays, NFL's drone focus and more in Morning Squawk - CNBC",
+    "_date": "2026-09-28",
+    "_publisher": "CNBC",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s087",
+    "companies_kept": [
+      "Nvidia"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "NVDA"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Semiconductor shortage impact on motor vehicle production",
+    "event_type_summary": "Federal Reserve Board analysis of the 2021-2022 semiconductor shortages and their effect on motor vehicle production",
+    "theme": "Semiconductor shortage auto production disruption",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline references a Federal Reserve Board study on the 2021-2022 semiconductor shortages and their impact on motor vehicle production. This is a macro-level supply chain disruption event, negative for equity markets due to production losses, but no specific company names appear in the headline.",
+    "_title": "When the Chips Went Down: Motor Vehicle Production and the 2021-2022 Semiconductor Shortages - Federal Reserve Board (.gov)",
+    "_date": "2026-09-28",
+    "_publisher": "Federal Reserve Board (.gov)",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s088",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "rate hike expectation",
+    "event_type_summary": "Reuters poll expects RBI to raise rates to 5.50% in October as inflation broadens",
+    "theme": "RBI rate hike expectations",
+    "asset_class": "FixedIncome",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "A Reuters poll signals the RBI will hike rates to 5.50% in October amid broadening inflation, implying higher yields and negative price pressure for Indian fixed income.",
+    "_title": "RBI to raise interest rates to 5.50% in October as inflation broadens: Reuters poll - Reuters",
+    "_date": "2026-09-28",
+    "_publisher": "Reuters",
+    "_scope": "macro",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s089",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Valuation Compression",
+    "event_type_summary": "S&P 500 stock valuations are declining, indicating broad market de-rating.",
+    "theme": "S&P 500 valuation decline",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline explicitly states that S&P 500 stock valuations are falling, which is a broad equity market development. Since the scope is market-level, no individual companies are attached. The decline in valuations is negative for the Equity asset class.",
+    "_title": "Why S&amp;P 500 stock valuations are falling - Yahoo Finance",
+    "_date": "2026-09-28",
+    "_publisher": "Yahoo Finance",
+    "_scope": "market",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s090",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Positioning shift",
+    "event_type_summary": "Global funds end underweight position on China after four years",
+    "theme": "China equity positioning normalization",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "Global funds ending a four-year underweight stance on China signals renewed foreign capital inflows and improved sentiment toward Chinese equities, a positive development for the Equity asset class.",
+    "_title": "Global Funds End Underweight Position on China After Four Years - Bloomberg.com",
+    "_date": "2026-09-28",
+    "_publisher": "Bloomberg.com",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s091",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Gold price decline on rising Treasury yields and Fed hike bets",
+    "event_type_summary": "Gold falls to a 7-week low as Treasury yields rise and Fed rate hike expectations increase, with analyst warning bullion's resilience faces its toughest test.",
+    "theme": "Gold weakness on rising yields and Fed hike bets",
+    "asset_class": "Commodity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline directly states gold sinking to a 7-week low driven by rising Treasury yields and Fed hike bets, which is negative for gold (Commodity). No specific company names appear in the headline.",
+    "_title": "Gold Sinks To 7-Week Low As Treasury Yields, Fed Hike Bets Rise — Hansen Warns Bullion’s ‘Resilience’ Faces Its ‘Toughest Test Yet’ - Yahoo Finance",
+    "_date": "2026-09-28",
+    "_publisher": "Yahoo Finance",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s092",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Gold price decline",
+    "event_type_summary": "Gold price breaks below $4,200 as surging Treasury yields deepen technical damage",
+    "theme": "Gold selloff on rising Treasury yields",
+    "asset_class": "Commodity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline reports gold breaking below $4,200, driven by surging Treasury yields, which is negative for the commodity asset class.",
+    "_title": "Gold price breaks below $4,200 as surging Treasury yields deepen the technical damage - investingLive",
+    "_date": "2026-09-28",
+    "_publisher": "investingLive",
+    "_scope": "sector",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s093",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "analyst_commentary",
+    "event_type_summary": "Media highlights Synopsys as an underappreciated AI beneficiary",
+    "theme": "Underappreciated AI equity pick",
+    "asset_class": "Equity",
+    "polarity": "positive",
+    "companies": [
+      "Synopsys"
+    ],
+    "evidence": {
+      "Synopsys": "Synopsys Could Be One of the Biggest AI Picks Nobody Talks About"
+    },
+    "rationale_text": "The headline frames Synopsys as a major but overlooked AI investment opportunity, a positive signal for the company's equity within the AI-exposed semiconductor/EDA sector.",
+    "_title": "Synopsys Could Be One of the Biggest AI Picks Nobody Talks About",
+    "_date": "2026-09-28",
+    "_publisher": "24/7 Wall St.",
+    "_scope": "sector",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s094",
+    "companies_kept": [
+      "Synopsys"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "SNPS"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "Enterprise platform launch repricing software stocks",
+    "event_type_summary": "Meta and ServiceNow fall 4% and MongoDB drops 19% as a new enterprise platform launch reprices software sector valuations",
+    "theme": "Enterprise software repricing on platform launch",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "Meta",
+      "ServiceNow",
+      "MongoDB"
+    ],
+    "evidence": {
+      "Meta": "Meta and ServiceNow Drop 4%",
+      "ServiceNow": "Meta and ServiceNow Drop 4%",
+      "MongoDB": "MongoDB Tumbles 19%"
+    },
+    "rationale_text": "The headline reports sharp declines in software equities (Meta, ServiceNow down 4%; MongoDB down 19%) tied to an enterprise platform launch that is repricing the software sector, a negative equity event.",
+    "_title": "Meta and ServiceNow Drop 4% as Enterprise Platform Launch Reprices Software; MongoDB Tumbles 19%",
+    "_date": "2026-09-28",
+    "_publisher": "24/7 Wall St.",
+    "_scope": "weak",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s095",
+    "companies_kept": [
+      "Meta",
+      "ServiceNow",
+      "MongoDB"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "MDB",
+      "META",
+      "NOW"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Stock market selloff",
+    "event_type_summary": "Trump-related news sparks broad stock market losses, with SpaceX and Tesla selling off.",
+    "theme": "Trump-driven equity selloff",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [
+      "SpaceX",
+      "Tesla"
+    ],
+    "evidence": {
+      "SpaceX": "Elon Musk-Led SpaceX",
+      "Tesla": "Tesla Sell Off"
+    },
+    "rationale_text": "The headline reports stock market losses triggered by Trump and a selloff in SpaceX and Tesla, indicating negative sentiment for equities.",
+    "_title": "Dow Jones Futures: Trump Sparks Stock Market Losses; Elon Musk-Led SpaceX, Tesla Sell Off - Investor's Business Daily",
+    "_date": "2026-09-29",
+    "_publisher": "Investor's Business Daily",
+    "_scope": "entity",
+    "_channels": [
+      "wide"
+    ],
+    "_sample_id": "s096",
+    "companies_kept": [
+      "Tesla"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [
+      "SpaceX"
+    ],
+    "affected_tickers": [
+      "TSLA"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "MacroEvents",
+    "event_type": "Fed policy risk / rate hike odds",
+    "event_type_summary": "UBS flags Fed risk as rare October hike odds hit 70%, with Michael Burry weighing Peter Schiff's S&P 500 crash warning",
+    "theme": "October Fed hike risk and S&P 500 crash warning",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline centers on macro-level Fed policy risk (rare October hike odds at 70%) and a crash warning for the S&P 500, which is negative for equities. No individual company names appear in the title, so companies is empty.",
+    "_title": "Michael Burry Weighs Peter Schiff’s S&P 500 Crash Warning As UBS Flags Fed Risk — Rare October Hike Odds Hit 70%",
+    "_date": "2026-09-29",
+    "_publisher": "Stocktwits",
+    "_scope": "macro",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s097",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "MarketEvents",
+    "event_type": "Market Warning",
+    "event_type_summary": "Warren Buffett issues a market warning, prompting stock market alarm and historical analysis of what follows.",
+    "theme": "Buffett market warning",
+    "asset_class": "Equity",
+    "polarity": "negative",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline describes a market-wide warning from Warren Buffett and the stock market sounding an alarm, which is a negative signal for equities. No specific company names appear in the headline, so companies is empty.",
+    "_title": "The Stock Market Sounds an Alarm After Warren Buffett Issues a Warning. History Says This Will Happen Next.",
+    "_date": "2026-09-29",
+    "_publisher": "Motley Fool",
+    "_scope": "market",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s098",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "enterprise AR strategy",
+    "event_type_summary": "Snap explores monetizing SPECS intelligence for enterprise AR",
+    "theme": "enterprise AR monetization",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [
+      "Snap",
+      "SNAP"
+    ],
+    "evidence": {
+      "Snap": "Snap (SNAP)",
+      "SNAP": "Snap (SNAP)"
+    },
+    "rationale_text": "The headline questions whether Snap can turn SPECS intelligence into a credible enterprise AR profit engine, a company-specific strategic/monetization topic with neutral directional implication for Snap equity.",
+    "_title": "Can Snap (SNAP) Turn SPECS Intelligence Into a Credible Enterprise AR Profit Engine?",
+    "_date": "2026-09-29",
+    "_publisher": "Simply Wall St.",
+    "_scope": "weak",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s099",
+    "companies_kept": [
+      "Snap",
+      "SNAP"
+    ],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [
+      "SNAP"
+    ],
+    "affected_products": []
+  },
+  {
+    "event_category": "CorporateEvents",
+    "event_type": "corporate_news_roundup",
+    "event_type_summary": "Daily company news roundup with no specific company or event disclosed in the headline",
+    "theme": "corporate news roundup",
+    "asset_class": "Equity",
+    "polarity": "neutral",
+    "companies": [],
+    "evidence": {},
+    "rationale_text": "The headline is a generic daily company news roundup from Zacks and does not name any specific company, event, or directional catalyst. Therefore no companies can be extracted and the item is treated as neutral Equity corporate news.",
+    "_title": "Company News for Sep 29, 2026",
+    "_date": "2026-09-29",
+    "_publisher": "Zacks",
+    "_scope": "weak",
+    "_channels": [
+      "entity"
+    ],
+    "_sample_id": "s100",
+    "companies_kept": [],
+    "evidence_failed": [],
+    "unresolved_mentions": [],
+    "affected_tickers": [],
+    "affected_products": []
+  }
+]

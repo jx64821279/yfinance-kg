@@ -1,0 +1,142 @@
+{
+  "ai_adoption_by_industry": [
+    "ai"
+  ],
+  "ai_app_monetization": [
+    "ai",
+    "us_tech"
+  ],
+  "ai_chip_design_equipment": [
+    "semiconductor",
+    "ai"
+  ],
+  "ai_competition_landscape": [
+    "ai",
+    "us_tech"
+  ],
+  "ai_enterprise_software": [
+    "ai",
+    "us_tech"
+  ],
+  "ai_export_geopolitical_risk": [
+    "ai",
+    "semiconductor"
+  ],
+  "ai_forecasting_disruption": [
+    "ai"
+  ],
+  "ai_governance_accountability": [
+    "ai"
+  ],
+  "ai_inference_cost_efficiency": [
+    "ai",
+    "us_tech"
+  ],
+  "ai_infrastructure_growth": [
+    "ai",
+    "us_tech"
+  ],
+  "ai_investment_market_dynamics": [
+    "ai",
+    "nasdaq100"
+  ],
+  "ai_it_ma": [
+    "ai",
+    "us_tech"
+  ],
+  "ai_labor_workforce": [
+    "ai"
+  ],
+  "ai_memory_semiconductor_tech": [
+    "semiconductor",
+    "ai"
+  ],
+  "ai_model_agi_development": [
+    "ai",
+    "us_tech"
+  ],
+  "ai_policy_regulation": [
+    "ai"
+  ],
+  "ai_safety_risk_management": [
+    "ai"
+  ],
+  "ai_security_platform": [
+    "ai"
+  ],
+  "ai_semiconductor_supply_demand": [
+    "semiconductor",
+    "ai"
+  ],
+  "ai_societal_ethical_impact": [
+    "ai"
+  ],
+  "ai_surveillance_products": [
+    "ai"
+  ],
+  "apple_product_software": [
+    "us_tech",
+    "nasdaq100"
+  ],
+  "china_equity_market": [
+    "china_tech",
+    "china_internet"
+  ],
+  "chip_etf_semiconductor_investing": [
+    "semiconductor"
+  ],
+  "consumer_electronics_products": [
+    "us_tech"
+  ],
+  "equity_market_correction_crash_risk": [
+    "nasdaq100"
+  ],
+  "fed_monetary_policy": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+  ],
+  "global_central_banks": [
+    "us_agg_bond",
+    "usd_index"
+  ],
+  "global_geopolitical_risk": [
+    "gold",
+    "oil",
+    "usd_index"
+  ],
+  "gold_precious_metals": [
+    "gold"
+  ],
+  "market_volatility_sentiment": [
+    "nasdaq100"
+  ],
+  "oil_energy_market": [
+    "oil"
+  ],
+  "semiconductor_capacity_expansion": [
+    "semiconductor"
+  ],
+  "semiconductor_industry_outlook": [
+    "semiconductor"
+  ],
+  "tech_sector_performance": [
+    "us_tech",
+    "nasdaq100"
+  ],
+  "treasury_yields_bond_market": [
+    "us_long_treasury",
+    "us_agg_bond"
+  ],
+  "us_china_relations": [
+    "china_tech",
+    "china_internet"
+  ],
+  "us_dollar_fx": [
+    "usd_index"
+  ],
+  "us_equity_market": [
+    "nasdaq100",
+    "us_tech"
+  ]
+}

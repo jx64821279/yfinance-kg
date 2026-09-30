@@ -1,0 +1,364 @@
+{
+ "customer": {
+  "id": "C004",
+  "name": "张敏",
+  "age": 42,
+  "city": "深圳",
+  "occupation": "中学教师",
+  "risk_level": "C2",
+  "total_assets": 1300000,
+  "idle_cash": 80000,
+  "time_deposit": 500000,
+  "deposit_maturity": "2027-01",
+  "holdings": {
+   "AGG": 45,
+   "GLD": 25,
+   "QQQ": 20,
+   "TLT": 10
+  }
+ },
+ "concentration": {
+  "by_asset_class_pct": {
+   "FixedIncome": 55.0,
+   "Commodity": 25.0,
+   "Equity": 20.0
+  },
+  "top_holding": {
+   "ticker": "AGG",
+   "weight_pct": 45
+  }
+ },
+ "exposure": {
+  "top_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 2.369,
+    "neg": 26.971,
+    "net": -24.602,
+    "avg_per_event": -0.1878,
+    "rank_score": -2.1494,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -20.129
+     },
+     {
+      "ticker": "TLT",
+      "net": -4.473
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 1.597,
+    "neg": 4.396,
+    "net": -2.8,
+    "avg_per_event": -0.0933,
+    "rank_score": -0.5111,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -2.192
+     },
+     {
+      "ticker": "TLT",
+      "net": -0.607
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.037,
+    "neg": 0.911,
+    "net": -0.874,
+    "avg_per_event": -0.035,
+    "rank_score": -0.1748,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.874
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "全球央行政策",
+    "n_events": 11,
+    "n_days": 7,
+    "pos": 0.47,
+    "neg": 1.218,
+    "net": -0.748,
+    "avg_per_event": -0.068,
+    "rank_score": -0.2256,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -0.697
+     },
+     {
+      "ticker": "TLT",
+      "net": -0.052
+     }
+    ],
+    "by_category": {
+     "PolicyEvents": 9,
+     "MacroEvents": 2
+    }
+   },
+   {
+    "theme": "AI投资与市场动态",
+    "n_events": 27,
+    "n_days": 16,
+    "pos": 1.151,
+    "neg": 0.694,
+    "net": 0.457,
+    "avg_per_event": 0.0169,
+    "rank_score": 0.0879,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": 0.457
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 18,
+     "MacroEvents": 2,
+     "PolicyEvents": 1
+    }
+   },
+   {
+    "theme": "全球地缘政治风险",
+    "n_events": 14,
+    "n_days": 6,
+    "pos": 0.21,
+    "neg": 0.587,
+    "net": -0.377,
+    "avg_per_event": -0.0269,
+    "rank_score": -0.1008,
+    "drivers": [
+     {
+      "ticker": "GLD",
+      "net": -0.377
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 4,
+     "MacroEvents": 2,
+     "MarketEvents": 2,
+     "PolicyEvents": 6
+    }
+   }
+  ],
+  "risk_themes": [
+   {
+    "theme": "美联储货币政策",
+    "n_events": 131,
+    "n_days": 26,
+    "pos": 2.369,
+    "neg": 26.971,
+    "net": -24.602,
+    "avg_per_event": -0.1878,
+    "rank_score": -2.1494,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -20.129
+     },
+     {
+      "ticker": "TLT",
+      "net": -4.473
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 58,
+     "PolicyEvents": 63,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "theme": "国债收益率与债券市场",
+    "n_events": 30,
+    "n_days": 13,
+    "pos": 1.597,
+    "neg": 4.396,
+    "net": -2.8,
+    "avg_per_event": -0.0933,
+    "rank_score": -0.5111,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -2.192
+     },
+     {
+      "ticker": "TLT",
+      "net": -0.607
+     }
+    ],
+    "by_category": {
+     "MacroEvents": 5,
+     "MarketEvents": 25
+    }
+   },
+   {
+    "theme": "股市回调与崩盘风险",
+    "n_events": 25,
+    "n_days": 15,
+    "pos": 0.037,
+    "neg": 0.911,
+    "net": -0.874,
+    "avg_per_event": -0.035,
+    "rank_score": -0.1748,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.874
+     }
+    ],
+    "by_category": {
+     "MarketEvents": 25
+    }
+   }
+  ],
+  "opportunity_themes": [
+   {
+    "theme": "AI投资与市场动态",
+    "n_events": 27,
+    "n_days": 16,
+    "pos": 1.151,
+    "neg": 0.694,
+    "net": 0.457,
+    "avg_per_event": 0.0169,
+    "rank_score": 0.0879,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": 0.457
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 6,
+     "MarketEvents": 18,
+     "MacroEvents": 2,
+     "PolicyEvents": 1
+    }
+   },
+   {
+    "theme": "AI芯片设计与设备",
+    "n_events": 12,
+    "n_days": 7,
+    "pos": 0.287,
+    "neg": 0.0,
+    "net": 0.287,
+    "avg_per_event": 0.0239,
+    "rank_score": 0.0829,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": 0.287
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 8,
+     "MarketEvents": 4
+    }
+   },
+   {
+    "theme": "AI内存与半导体技术",
+    "n_events": 15,
+    "n_days": 9,
+    "pos": 0.335,
+    "neg": 0.057,
+    "net": 0.279,
+    "avg_per_event": 0.0186,
+    "rank_score": 0.0719,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": 0.279
+     }
+    ],
+    "by_category": {
+     "CorporateEvents": 12,
+     "MarketEvents": 3
+    }
+   }
+  ]
+ },
+ "gaps": [],
+ "timing": {
+  "ref_date": "2026-09-29",
+  "items": [
+   {
+    "kind": "deposit_maturity",
+    "month": "2027-01",
+    "months": 4,
+    "note": "定期 500,000 元将于 2027-01 到期（约 4 个月后到期；数据只到月份，无具体日期）"
+   }
+  ],
+  "last_contact": {
+   "date": "2026-09-08",
+   "days_ago": 21,
+   "channel": "电话",
+   "summary": "解释定期到期后的三种处理方式"
+  }
+ },
+ "meta": {
+  "w_category": {
+   "CorporateEvents": 1.0,
+   "CommodityEvents": 1.0,
+   "PolicyEvents": 0.9,
+   "MacroEvents": 0.8,
+   "MarketEvents": 0.6
+  },
+  "w_scope": {
+   "entity": 1.0,
+   "sector": 0.9,
+   "macro": 0.8,
+   "market": 0.7,
+   "weak": 0.6
+  },
+  "risk_floor": {
+   "AGG": "C1",
+   "TLT": "C1",
+   "GLD": "C1",
+   "UUP": "C1",
+   "QQQ": "C2",
+   "AIQ": "C2",
+   "XLK": "C3",
+   "BOTZ": "C3",
+   "SMH": "C4",
+   "SOXX": "C4",
+   "KWEB": "C4",
+   "CQQQ": "C4",
+   "USO": "C4"
+  },
+  "rank_mode": "net",
+  "rank_rule": "default: abs(net); optional: abs(net)/sqrt(n_events) 或 abs(avg_per_event)",
+  "source": "kg_yf_v2 + exposure_v2 + customers_all_in_one"
+ },
+ "advice": [
+  "1. 风险：优先提示“美联储货币政策”是当前组合最大拖累，沟通时聚焦 AGG 与 TLT 的利率敏感度；依据：该主题暴露 net -24.602，drivers 中 AGG（权重 45%）net -20.129、TLT（权重 10%）net -4.473。",
+  "2. 风险：债券相关主题整体偏负且 AGG 45% 集中度会放大波动，需一并提示；依据：国债收益率与债券市场 net -2.8（AGG -2.192、TLT -0.607），全球央行政策 net -0.748（AGG -0.697、TLT -0.052）。",
+  "3. 风险：权益与黄金的负暴露应分开归因，不要混入债券主题；依据：股市回调与崩盘风险 net -0.874（唯一 driver 为 QQQ，权重 20%，net -0.874），全球地缘政治风险 net -0.377（唯一 driver 为 GLD，权重 25%，net -0.377）。",
+  "4. 机会：AI 相关主题是当前正向暴露，可用 QQQ 作为讨论抓手但须同时说明其回调风险；依据：AI投资与市场动态 net +0.457（QQQ +0.457）、AI芯片设计与设备 net +0.287（QQQ +0.287）、AI内存与半导体技术 net +0.279（QQQ +0.279）。",
+  "5. 沟通动作：应在 2026-09-08 电话后 21 天的节点继续跟进，并把 2027-01 到期的定期 500,000 元、80,000 元闲置现金和总资产 1,300,000 元纳入再平衡讨论；依据：上次联系为 2026-09-08 电话（距今 21 天，曾解释定期到期后的三种处理方式），定期 500,000 元于 2027-01 到期（约 4 个月后到期；数据只到月份）。"
+ ]
+}

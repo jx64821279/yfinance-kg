@@ -16,19 +16,28 @@
 import os
 import re
 import json
+import argparse
 
-EVENTS = ("_yf_data/events_extracted_all.json"
-          if os.path.exists("_yf_data/events_extracted_all.json")
-          else "_yf_data/events_extracted.json")
+# --suffix _v2：读 v2 语料与 v2 词表，输出 kg_yf_v2.json（不动 v1 的产物）
+parser = argparse.ArgumentParser()
+parser.add_argument("--suffix", default="", help="如 _v2：读 events_v2_all.json 与 theme_*_v2.json")
+args, _ = parser.parse_known_args()
+SUF = args.suffix
+
+EVENTS = (f"_yf_data/events{SUF}_all.json" if SUF else
+          ("_yf_data/events_extracted_all.json"
+           if os.path.exists("_yf_data/events_extracted_all.json")
+           else "_yf_data/events_extracted.json"))
 SUMMARY = "_yf_data/yf_summary.json"
 NAMES = "_yf_data/yf_names.json"
-THEME_VOCAB = "_yf_data/theme_vocab.json"
-THEME_MAP = "_yf_data/theme_map.json"
+THEME_VOCAB = f"_yf_data/theme_vocab{SUF}.json"
+THEME_MAP = f"_yf_data/theme_map{SUF}.json"
 CONCEPTS = "_yf_data/concepts.json"
-THEME_CONCEPT = "_yf_data/theme_concept_map.json"
+THEME_CONCEPT = f"_yf_data/theme_concept_map{SUF}.json"
+UNIVERSE_EXTRA = "_yf_data/universe_extra.json"   # universe 扩充名单
 SIC = "_yf_data/edgar_sic.json"
 OUT_DIR = os.path.join("src", "kg")
-OS_PATH = os.path.join(OUT_DIR, "kg_yf.json")
+OS_PATH = os.path.join(OUT_DIR, f"kg_yf{SUF}.json")
 
 ASSET_CLASSES = ["Equity", "FixedIncome", "MoneyMarket", "Commodity", "FX"]
 
@@ -184,6 +193,9 @@ def main():
     all_tickers.update(stocks_meta.keys())
     for ev in events:
         all_tickers.update(ev.get("affected_tickers") or [])
+    # 扩充名单：新闻里出现过、但不在 ETF 前十大持仓里的公司
+    if os.path.exists(UNIVERSE_EXTRA):
+        all_tickers.update(json.load(open(UNIVERSE_EXTRA, encoding="utf-8")).get("tickers") or [])
 
     alias_map = {}          # 名称 -> company id
     company_by_key = {}     # 归一化名 -> company id
@@ -335,8 +347,10 @@ def main():
         add_entity(eid, "Event", ev.get("event_type_summary") or raw_theme,
                    {"theme": (vt or {}).get("name") or raw_theme, "asset_class": acab, "polarity": ev.get("polarity"),
                     "event_category": ev.get("event_category"), "rationale": ev.get("rationale_text"),
-                    "news_title": ev.get("_news_title"), "news_source": ev.get("_from_source"),
-                    "pub_date": ev.get("_pub_date")})
+                    "news_title": ev.get("_news_title") or ev.get("_title"),
+                    "news_source": ev.get("_from_source") or ev.get("_publisher"),
+                    "pub_date": ev.get("_pub_date") or ev.get("_date"),
+                    "scope": ev.get("_scope")})
         add_edge(eid, "HAS_THEME", tid)
         add_edge(tid, "IMPACTS", f"asset_class_{acab}")
         for tk in (ev.get("affected_tickers") or []):
@@ -351,6 +365,11 @@ def main():
             add_edge(sid, "IS_CLASS", "asset_class_Equity")
             add_edge(eid, "AFFECTS", sid,
                      {"polarity": ev.get("polarity"), "news_source": ev.get("company_source")})
+        # v2：新闻直接点名的产品（ETF）连到基金节点
+        for pf in (ev.get("affected_products") or []):
+            if f"fund_{pf}" in entities:
+                add_edge(eid, "AFFECTS", f"fund_{pf}",
+                         {"polarity": ev.get("polarity"), "scope": ev.get("_scope")})
 
     # ---- 最后一环：Theme --MAPS_TO--> Concept ----
     # 让"没点名具体公司的新闻"也能沿着 Event→Theme→Concept→(Stock 或 AssetClass)→Fund 传下去
@@ -366,7 +385,8 @@ def main():
                 n_t2c += 1
 
     os.makedirs(OUT_DIR, exist_ok=True)
-    result = {"meta": {"generated_for": "yfinance KG (30 news events)",
+    label = f"yfinance KG {SUF.strip('_')}" if SUF else "yfinance KG v1"
+    result = {"meta": {"generated_for": f"{label}：{len(events)} 条新闻事件",
                        "theme_vocab_version": (vocab or {}).get("version"),
                        "entity_types": sorted({e["type"] for e in entities.values()}),
                        "relation_types": sorted({e["relation"] for e in edges}),

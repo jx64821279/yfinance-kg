@@ -27,6 +27,7 @@ parser.add_argument("--model", default="deepseek-v4-flash-vision-exp")
 parser.add_argument("--events", default="_yf_data/events_extracted_all.json")
 parser.add_argument("--chunk", type=int, default=60)
 parser.add_argument("--cache", default="_yf_data/theme_vocab_pass1.json")
+parser.add_argument("--suffix", default="", help="给产出加后缀（如 _v2），避免覆盖上一版词表")
 args, _ = parser.parse_known_args()
 if not args.api_key:
     raise SystemExit("need --api_key or OPENAI_API_KEY")
@@ -153,9 +154,9 @@ def main():
         "stats": {"raw_themes": len(uniq), "canonical_themes": len(finals),
                   "mapped": len(theme_map), "unmapped": len(set(uniq) - set(theme_map))},
     }
-    json.dump(vocab, open("_yf_data/theme_vocab.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    json.dump(theme_map, open("_yf_data/theme_map.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2, sort_keys=True)
-    print(f"[INFO] vocab {len(finals)} 个主题 -> _yf_data/theme_vocab.json")
+    json.dump(vocab, open(f"_yf_data/theme_vocab{args.suffix}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2)
+    json.dump(theme_map, open(f"_yf_data/theme_map{args.suffix}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=2, sort_keys=True)
+    print(f"[INFO] vocab {len(finals)} 个主题 -> _yf_data/theme_vocab{args.suffix}.json")
     print(f"[INFO] 映射 {len(theme_map)}/{len(uniq)} 条（{len(set(uniq) - set(theme_map))} 条未映射）")
     missing = sorted(set(uniq) - set(theme_map))
     if missing:

@@ -1,6 +1,8 @@
 # 安装：pip install -r requirements.txt
 
-# LLM 三步（news_to_event / build_theme_vocab / build_theme_concept_map）
+# 调用 LLM 的步骤：事件抽取（news_to_event / news_to_event_v2）、
+# 主题词表（build_theme_vocab）、主题→概念映射（build_theme_concept_map）、
+# 新闻 scope 复核（news_scope_llm），以及客户简报的行动建议（customer_brief.py --llm）
 # 注意必须锁 0.28.x：脚本用的是旧版接口 openai.ChatCompletion.create，
 # 装成 1.x 会直接报错。
 openai==0.28.0
