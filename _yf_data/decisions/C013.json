@@ -1,0 +1,97 @@
+{
+ "priority": "高",
+ "summary": "客户重仓美国债券，近期利率上行事件与上次“利率下行周期”假设冲突，建议尽快主动联系并复盘TLT/AGG久期与集中度。",
+ "risks": [
+  {
+   "point": "TLT与AGG合计权重60%，事件面显示利率上行和通胀扩散风险，与客户上次讨论的利率下行周期假设相反。",
+   "evidence": [
+    "event_335",
+    "event_922",
+    "event_596"
+   ]
+  },
+  {
+   "point": "TLT事件面偏负，且市场对长端国债是否“便宜或陷阱”存在质疑，长端久期风险需重新评估。",
+   "evidence": [
+    "event_806"
+   ]
+  },
+  {
+   "point": "非债券持仓也并非一致正向：QQQ有财报后下跌的负向信号，GLD有加息预期下行的负向信号。",
+   "evidence": [
+    "event_901",
+    "event_022"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "若利率路径转向，TLT/AGG可能出现修复机会，当前政界施压降息的声音可作为观察信号。",
+   "evidence": [
+    "event_070",
+    "event_182"
+   ]
+  },
+  {
+   "point": "QQQ存在正向事件支撑，Microsoft目标价上调和科技资本开支/半导体项目启动可作再平衡讨论切入点。",
+   "evidence": [
+    "event_719",
+    "event_471"
+   ]
+  },
+  {
+   "point": "GLD存在市场流正向信号，黄金买盘和金价回升相关事件可作为对冲仓位检视依据。",
+   "evidence": [
+    "event_294",
+    "event_905"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "主动联系客户，复盘上次“利率下行周期”假设；以近期美联储加息、海外加息和通胀扩散事件为切入点，先检视TLT/AGG合计60%仓位与久期，不急于加仓债券。",
+   "timing": "尽快，建议2026-09-29后1-3个工作日",
+   "reason": "利率上行事件与客户上次讨论的利率下行周期假设冲突，且债券暴露高，需优先沟通。",
+   "evidence": [
+    "event_335",
+    "event_922",
+    "event_596",
+    "event_806"
+   ]
+  },
+  {
+   "action": "若客户接受，安排组合再平衡讨论：重点讨论TLT/AGG是否降低长端久期或调整比例；220,000闲置现金暂保持流动性，不推荐新增非C3风险产品。",
+   "timing": "联系后一周内",
+   "reason": "事件面显示固定收益承压，且客户风险等级为C3，应先控回撤与保持流动性。",
+   "evidence": [
+    "event_335",
+    "event_806",
+    "event_022"
+   ]
+  },
+  {
+   "action": "在债券之外，检视QQQ/GLD现有20%仓位：QQQ可借Microsoft目标价上调和科技资本开支事件切入，GLD可借市场流正向事件切入；但不追涨，均按C3风险上限做小幅再平衡。",
+   "timing": "组合复盘时",
+   "reason": "QQQ和GLD存在正向事件信号，但宏观/利率风险仍存，适合检视而非追买。",
+   "evidence": [
+    "event_719",
+    "event_471",
+    "event_294",
+    "event_905",
+    "event_901",
+    "event_022"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 16
+ },
+ "_meta": {
+  "customer_id": "C013",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C013.json",
+  "brief": "C013.json"
+ }
+}

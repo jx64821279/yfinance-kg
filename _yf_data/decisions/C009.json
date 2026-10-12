@@ -1,0 +1,87 @@
+{
+ "priority": "高",
+ "summary": "优先本周联系，以固定收益与汇率利率风险为切入，复盘 AGG、TLT 及 QQQ、SMH、AIQ 的集中度，暂不主动推 UUP、不追高科技成长。",
+ "risks": [
+  {
+   "point": "固定收益暴露较高：AGG 20%、TLT 15%，事件面对美国综合债券与长期国债均为负向，需优先检视利率久期风险。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "point": "科技成长集中度较高：QQQ 25%、SMH 10%、AIQ 10%，财报与情绪扰动可能带来回撤。",
+   "evidence": [
+    "event_901",
+    "event_900"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "半导体事件面偏正，可借战略项目与财报预期复盘 SMH 的持有逻辑，但不建议追高。",
+   "evidence": [
+    "event_471",
+    "event_718"
+   ]
+  },
+  {
+   "point": "人工智能出现龙头收入与销售预期正向信号，可复盘 AIQ 是否继续持有并设置再平衡纪律。",
+   "evidence": [
+    "event_719",
+    "event_583"
+   ]
+  },
+  {
+   "point": "黄金与原油出现正向市场流信号，可作为分散仓位的小幅再平衡讨论项，而非主线追涨。",
+   "evidence": [
+    "event_294",
+    "event_905",
+    "event_186"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "本周内主动联系客户，预约电话或视频；以固定收益与汇率利率环境为切入，复盘 AGG、TLT 的久期与占比；不主动推 UUP，若客户提及再换组合对冲角度谈。",
+   "timing": "本周内",
+   "reason": "AGG 20%、TLT 15%的事件面偏负，且客户近期关注汇率但曾拒绝 UUP，需先处理主风险再谈工具。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "action": "同次沟通或下一交易日跟进，聊科技成长财报与情绪扰动，检查 QQQ、SMH、AIQ 的集中度与止盈/再平衡规则；可继续持有但不追高，暂不新增激进加仓。",
+   "timing": "同次沟通或下一交易日",
+   "reason": "科技成长持仓权重大，事件面正向与财报后波动并存，适合做持仓纪律沟通。",
+   "evidence": [
+    "event_901",
+    "event_900",
+    "event_718",
+    "event_719"
+   ]
+  },
+  {
+   "action": "提示闲钱 1,200,000 元与 2027-04 定存到期月，若客户有意动钱，优先讨论 GLD、USO 等分散仓位的分批再平衡；暂不新增 UUP 推荐。",
+   "timing": "本周内提示，2027-04 到期月前再检视",
+   "reason": "闲钱占总资产 10% 是时机信号；黄金与原油有正向事件/市场流信号，但 UUP 曾被拒绝，不宜直接再推。",
+   "evidence": [
+    "event_294",
+    "event_905",
+    "event_186"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 22
+ },
+ "_meta": {
+  "customer_id": "C009",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C009.json",
+  "brief": "C009.json"
+ }
+}

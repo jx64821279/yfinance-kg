@@ -1,0 +1,367 @@
+{
+ "customer": {
+  "id": "C004",
+  "name": "张敏",
+  "age": 42,
+  "city": "深圳",
+  "occupation": "中学教师",
+  "risk_level": "C2",
+  "total_assets": 1300000,
+  "idle_cash": 80000,
+  "time_deposit": 500000,
+  "deposit_maturity": "2027-01",
+  "holdings": {
+   "AGG": 45,
+   "GLD": 25,
+   "QQQ": 20,
+   "TLT": 10
+  }
+ },
+ "concentration": {
+  "by_asset_class_pct": {
+   "FixedIncome": 55.0,
+   "Commodity": 25.0,
+   "Equity": 20.0
+  },
+  "top_holding": {
+   "ticker": "AGG",
+   "weight_pct": 45
+  }
+ },
+ "exposure": {
+  "top_concepts": [
+   {
+    "concept": "美国综合债券",
+    "n_events": 151,
+    "n_days": 25,
+    "pos": 2.406,
+    "neg": 22.689,
+    "net": -20.284,
+    "avg_per_event": -0.1343,
+    "rank_score": -1.6507,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -20.284
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -18.868,
+     "Market Flow": -0.645,
+     "Policy/Regulation": -0.367,
+     "Geopolitics": -0.367,
+     "Efficiency/Cost": -0.036
+    },
+    "by_category": {
+     "MacroEvents": 49,
+     "PolicyEvents": 67,
+     "MarketEvents": 35
+    }
+   },
+   {
+    "concept": "美国长期国债",
+    "n_events": 151,
+    "n_days": 25,
+    "pos": 0.437,
+    "neg": 5.206,
+    "net": -4.769,
+    "avg_per_event": -0.0316,
+    "rank_score": -0.3881,
+    "drivers": [
+     {
+      "ticker": "TLT",
+      "net": -4.769
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -4.364,
+     "Market Flow": -0.217,
+     "Policy/Regulation": -0.082,
+     "Geopolitics": -0.082,
+     "Efficiency/Cost": -0.024
+    },
+    "by_category": {
+     "MacroEvents": 49,
+     "PolicyEvents": 67,
+     "MarketEvents": 35
+    }
+   },
+   {
+    "concept": "黄金",
+    "n_events": 78,
+    "n_days": 18,
+    "pos": 1.397,
+    "neg": 2.005,
+    "net": -0.608,
+    "avg_per_event": -0.0078,
+    "rank_score": -0.0689,
+    "drivers": [
+     {
+      "ticker": "GLD",
+      "net": -0.608
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -1.06,
+     "Market Flow": 0.365,
+     "Demand": 0.27,
+     "Geopolitics": -0.243,
+     "Policy/Regulation": 0.061,
+     "Industry Cycle": 0.0
+    },
+    "by_category": {
+     "MarketEvents": 63,
+     "MacroEvents": 11,
+     "PolicyEvents": 1,
+     "CorporateEvents": 2,
+     "CommodityEvents": 1
+    }
+   },
+   {
+    "concept": "纳斯达克100/大盘成长",
+    "n_events": 330,
+    "n_days": 29,
+    "pos": 6.632,
+    "neg": 7.123,
+    "net": -0.49,
+    "avg_per_event": -0.0015,
+    "rank_score": -0.027,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.49
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -2.891,
+     "Revenue": 1.314,
+     "Strategic Action": 1.097,
+     "Market Flow": -0.995,
+     "Technology/Innovation": 0.955,
+     "Demand": 0.444,
+     "Policy/Regulation": -0.422,
+     "Efficiency/Cost": -0.135,
+     "Geopolitics": 0.128,
+     "Supply": 0.08,
+     "Industry Cycle": -0.064
+    },
+    "by_category": {
+     "PolicyEvents": 41,
+     "CorporateEvents": 103,
+     "MacroEvents": 47,
+     "MarketEvents": 139
+    }
+   }
+  ],
+  "risk_concepts": [
+   {
+    "concept": "美国综合债券",
+    "n_events": 151,
+    "n_days": 25,
+    "pos": 2.406,
+    "neg": 22.689,
+    "net": -20.284,
+    "avg_per_event": -0.1343,
+    "rank_score": -1.6507,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -20.284
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -18.868,
+     "Market Flow": -0.645,
+     "Policy/Regulation": -0.367,
+     "Geopolitics": -0.367,
+     "Efficiency/Cost": -0.036
+    },
+    "by_category": {
+     "MacroEvents": 49,
+     "PolicyEvents": 67,
+     "MarketEvents": 35
+    }
+   },
+   {
+    "concept": "美国长期国债",
+    "n_events": 151,
+    "n_days": 25,
+    "pos": 0.437,
+    "neg": 5.206,
+    "net": -4.769,
+    "avg_per_event": -0.0316,
+    "rank_score": -0.3881,
+    "drivers": [
+     {
+      "ticker": "TLT",
+      "net": -4.769
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -4.364,
+     "Market Flow": -0.217,
+     "Policy/Regulation": -0.082,
+     "Geopolitics": -0.082,
+     "Efficiency/Cost": -0.024
+    },
+    "by_category": {
+     "MacroEvents": 49,
+     "PolicyEvents": 67,
+     "MarketEvents": 35
+    }
+   },
+   {
+    "concept": "黄金",
+    "n_events": 78,
+    "n_days": 18,
+    "pos": 1.397,
+    "neg": 2.005,
+    "net": -0.608,
+    "avg_per_event": -0.0078,
+    "rank_score": -0.0689,
+    "drivers": [
+     {
+      "ticker": "GLD",
+      "net": -0.608
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -1.06,
+     "Market Flow": 0.365,
+     "Demand": 0.27,
+     "Geopolitics": -0.243,
+     "Policy/Regulation": 0.061,
+     "Industry Cycle": 0.0
+    },
+    "by_category": {
+     "MarketEvents": 63,
+     "MacroEvents": 11,
+     "PolicyEvents": 1,
+     "CorporateEvents": 2,
+     "CommodityEvents": 1
+    }
+   }
+  ],
+  "opportunity_concepts": [],
+  "market_channel": [
+   {
+    "asset_class": "FixedIncome",
+    "n_events": 2,
+    "net": -0.748,
+    "by_driver": {
+     "Macro & FX": -0.748
+    }
+   },
+   {
+    "asset_class": "Equity",
+    "n_events": 18,
+    "net": -0.256,
+    "by_driver": {
+     "Macro & FX": -0.128,
+     "Market Flow": -0.128
+    }
+   },
+   {
+    "asset_class": "Commodity",
+    "n_events": 1,
+    "net": 0.135,
+    "by_driver": {
+     "Market Flow": 0.135
+    }
+   }
+  ],
+  "performance": {
+   "window_days": 5,
+   "as_of": "2026-09-29",
+   "portfolio_pct": -0.025306,
+   "coverage_pct": 100.0,
+   "holdings": [
+    {
+     "ticker": "AGG",
+     "weight_pct": 45,
+     "pct_5d": -0.017143,
+     "pct_1d": -0.000528,
+     "last_date": "2026-09-29",
+     "last_close": 94.6
+    },
+    {
+     "ticker": "GLD",
+     "weight_pct": 25,
+     "pct_5d": -0.042942,
+     "pct_1d": 0.013178,
+     "last_date": "2026-09-29",
+     "last_close": 382.89
+    },
+    {
+     "ticker": "QQQ",
+     "weight_pct": 20,
+     "pct_5d": -0.01275,
+     "pct_1d": 0.001901,
+     "last_date": "2026-09-29",
+     "last_close": 737.93
+    },
+    {
+     "ticker": "TLT",
+     "weight_pct": 10,
+     "pct_5d": -0.043058,
+     "pct_1d": -0.00496,
+     "last_date": "2026-09-29",
+     "last_close": 78.23
+    }
+   ]
+  }
+ },
+ "gaps": [],
+ "timing": {
+  "ref_date": "2026-09-29",
+  "items": [
+   {
+    "kind": "deposit_maturity",
+    "month": "2027-01",
+    "months": 4,
+    "note": "定期 500,000 元将于 2027-01 到期（约 4 个月后到期；数据只到月份，无具体日期）"
+   }
+  ],
+  "last_contact": {
+   "date": "2026-09-08",
+   "days_ago": 21,
+   "channel": "电话",
+   "summary": "解释定期到期后的三种处理方式"
+  }
+ },
+ "meta": {
+  "w_category": {
+   "CorporateEvents": 1.0,
+   "CommodityEvents": 1.0,
+   "PolicyEvents": 0.9,
+   "MacroEvents": 0.8,
+   "MarketEvents": 0.6
+  },
+  "w_scope": {
+   "entity": 1.0,
+   "sector": 0.9,
+   "macro": 0.8,
+   "market": 0.7,
+   "weak": 0.6
+  },
+  "risk_floor": {
+   "AGG": "C1",
+   "TLT": "C1",
+   "GLD": "C1",
+   "UUP": "C1",
+   "QQQ": "C2",
+   "AIQ": "C2",
+   "XLK": "C3",
+   "BOTZ": "C3",
+   "SMH": "C4",
+   "SOXX": "C4",
+   "KWEB": "C4",
+   "CQQQ": "C4",
+   "USO": "C4"
+  },
+  "rank_mode": "net",
+  "rank_rule": "default: abs(net); optional: abs(net)/sqrt(n_events) 或 abs(avg_per_event)",
+  "bucket_rule": "从产品出发：每只产品的暴露归入它自己所属的概念",
+  "source": "kg_yf_v3.json + exposure_v3.json + customers_all_in_one.csv + prices_v3.json"
+ }
+}

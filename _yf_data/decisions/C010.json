@@ -1,0 +1,91 @@
+{
+ "priority": "中",
+ "summary": "事件面显示AGG/TLT等固定收益承压（event_335,event_806），客户有闲钱且16天未联系，建议中优先级主动沟通并围绕再平衡与费率。",
+ "risks": [
+  {
+   "point": "AGG和TLT在事件面上受宏观与利率压制：AGG有加息负面事件，TLT有市场流负面事件，且与近一周实际回撤互相印证，需优先确认客户对债券回撤的容忍度。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "point": "XLK和QQQ相关的美国科技与纳斯达克持仓存在集中度和个股财报波动风险：XLK再平衡难解集中度问题，个股财报后有负向收入事件。",
+   "evidence": [
+    "event_386",
+    "event_901"
+   ]
+  },
+  {
+   "point": "GLD存在宏观利率压制风险：加息预期下黄金走低的事件仍在，需避免仅因分散属性而忽视短期波动。",
+   "evidence": [
+    "event_022"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "QQQ和XLK相关科技持仓存在正向事件驱动：收入与战略动作类事件偏正，若再平衡可关注，但不宜追高。",
+   "evidence": [
+    "event_719",
+    "event_471",
+    "event_718"
+   ]
+  },
+  {
+   "point": "TLT存在利率预期反转的潜在修复线索：有降低利率的呼声事件，可作为沟通关注点，但不是加仓依据。",
+   "evidence": [
+    "event_070",
+    "event_182"
+   ]
+  },
+  {
+   "point": "闲钱260,000元可作为后续分批部署来源；市场层面有缓解恐慌和资金流入的正面背景信号，但只能作为背景提示，不能对应到单一产品推荐。",
+   "evidence": [
+    "event_387",
+    "event_499"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "联系客户，以AGG/TLT相关事件面固定收益压力为切入，先确认她对债券回撤与费率的容忍度，不急于推新增产品。",
+   "timing": "本周内，距上次联系已16天",
+   "reason": "固定收益事件面负暴露强，且上次沟通关注产品费率，适合先做风险确认。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "action": "若客户问到持仓调整，先讨论降低AGG/TLT暴露或维持现有QQQ/XLK/GLD/TLT/AGG比例的风险预算，明确暂不主动推XLK加仓。",
+   "timing": "首次沟通后",
+   "reason": "XLK有集中度风险事件，TLT有市场流负面事件，需先控制集中度与久期风险。",
+   "evidence": [
+    "event_386",
+    "event_806"
+   ]
+  },
+  {
+   "action": "若客户主动问闲钱260,000元，先聊分批再平衡和费率，不因市场层面正面情绪事件直接推荐单一产品；可把TLT利率预期修复线索作为讨论项而非买入理由。",
+   "timing": "客户问及闲钱时",
+   "reason": "闲钱占比8.1%，事件面分化，市场层信号只能作背景，需避免追高。",
+   "evidence": [
+    "event_387",
+    "event_499",
+    "event_070"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 18
+ },
+ "_meta": {
+  "customer_id": "C010",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C010.json",
+  "brief": "C010.json"
+ }
+}

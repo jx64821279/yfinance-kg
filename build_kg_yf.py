@@ -41,6 +41,20 @@ OS_PATH = os.path.join(OUT_DIR, f"kg_yf{SUF}.json")
 
 ASSET_CLASSES = ["Equity", "FixedIncome", "MoneyMarket", "Commodity", "FX"]
 
+# ---- v3：主题不再走「自由主题 + LLM 归并」，改由「概念 × 驱动」组合生成 ----
+V3 = (SUF == "_v3")
+V3_ASSIGN = os.path.join("_yf_data", "theme_assign_v3.json")
+DRIVER_ZH = {
+    "Supply": "供给", "Demand": "需求", "Revenue": "收入与盈利",
+    "Efficiency/Cost": "效率与成本", "Strategic Action": "战略动作",
+    "Technology/Innovation": "技术与创新", "Policy/Regulation": "政策与监管",
+    "Macro & FX": "宏观与汇率", "Geopolitics": "地缘政治",
+    "Market Flow": "市场资金面", "Industry Cycle": "行业周期",
+}
+# 事件落不到具体概念时，这两类驱动说明它是「大盘 / 情绪」层面，单独走一条通道，
+# 其余驱动则是「对我们的产品货架没有落点」。
+MARKET_DRIVERS = {"Market Flow", "Macro & FX"}
+
 
 def slug(s):
     s = re.sub(r"[^\w\u4e00-\u9fff]+", "_", str(s)).strip("_")
@@ -320,6 +334,11 @@ def main():
     tmap = json.load(open(THEME_MAP, encoding="utf-8")) if os.path.exists(THEME_MAP) else {}
     t2c = json.load(open(THEME_CONCEPT, encoding="utf-8")) if os.path.exists(THEME_CONCEPT) else {}
     themes_v = (vocab or {}).get("themes", {})
+    if V3:
+        n_missing = sum(1 for ev in events if "concepts" not in ev or "driver" not in ev)
+        if n_missing:
+            raise SystemExit("v3 的事件文件缺少 concepts/driver 字段（%d 条），"
+                             "请先跑 classify_theme_v3.py" % n_missing)
 
     for i, ev in enumerate(events, 1):
         if "error" in ev:
@@ -329,30 +348,69 @@ def main():
         acab = ev.get("asset_class") or "Equity"
         if acab not in ASSET_CLASSES:
             acab = "Equity"
-        key = tmap.get(raw_theme)
-        vt = themes_v.get(key) if key else None
-        if vt:
-            tid = f"theme_{key}"
-            add_entity(tid, "Theme", vt.get("name") or key,
-                       {"key": key, "driver_category": vt.get("driver_category"),
-                        "aliases": "; ".join(vt.get("aliases", [])[:6])})
-            dc = vt.get("driver_category")
-            if dc:
-                did = f"driver_category_{slug(dc)}"
-                add_entity(did, "DriverCategory", dc)
+        theme_name = raw_theme
+        extra_props = {}
+        theme_ids = []
+        if V3:
+            cs = [c for c in (ev.get("concepts") or []) if f"concept_{c}" in entities]
+            drv = ev.get("driver")
+            did = f"driver_category_{slug(drv)}"
+            add_entity(did, "DriverCategory", drv)
+            if cs:
+                # 一个事件可以落多个概念 → 生成多个「概念 × 驱动」主题
+                theme_names = []
+                for c in cs:
+                    t = f"theme_{c}_{slug(drv)}"
+                    nm = "%s × %s" % (entities[f"concept_{c}"]["name"], DRIVER_ZH.get(drv, drv))
+                    add_entity(t, "Theme", nm, {"key": f"{c}_{slug(drv)}", "concept": c,
+                                                "driver_category": drv, "channel": "concept"})
+                    add_edge(t, "BELONGS_TO", did)
+                    add_edge(t, "MAPS_TO", f"concept_{c}", {"mapping_source": "combo"})
+                    theme_names.append(nm)
+                    theme_ids.append(t)
+                theme_name = "、".join(theme_names)
+                # concepts 存成列表（不是逗号分隔的字符串）：查询时不用再拆字符串
+                extra_props = {"driver_category": drv, "concepts": cs, "channel": "concept"}
+            else:
+                ch = "market" if drv in MARKET_DRIVERS else "gap"
+                prefix = "市场层面 × " if ch == "market" else "无落点 × "
+                tid = f"theme_{ch}_{slug(drv)}"
+                theme_name = prefix + DRIVER_ZH.get(drv, drv)
+                add_entity(tid, "Theme", theme_name,
+                           {"driver_category": drv, "channel": ch})
                 add_edge(tid, "BELONGS_TO", did)
+                theme_ids.append(tid)
+                # 没有落点概念时也保留空列表，字段始终存在，免得查询时不知道是"没有"还是"没写"
+                extra_props = {"driver_category": drv, "concepts": [], "channel": ch}
         else:
-            tid = f"theme_{slug(raw_theme)}"
-            add_entity(tid, "Theme", raw_theme)
-        add_entity(eid, "Event", ev.get("event_type_summary") or raw_theme,
-                   {"theme": (vt or {}).get("name") or raw_theme, "asset_class": acab, "polarity": ev.get("polarity"),
-                    "event_category": ev.get("event_category"), "rationale": ev.get("rationale_text"),
-                    "news_title": ev.get("_news_title") or ev.get("_title"),
-                    "news_source": ev.get("_from_source") or ev.get("_publisher"),
-                    "pub_date": ev.get("_pub_date") or ev.get("_date"),
-                    "scope": ev.get("_scope")})
-        add_edge(eid, "HAS_THEME", tid)
-        add_edge(tid, "IMPACTS", f"asset_class_{acab}")
+            key = tmap.get(raw_theme)
+            vt = themes_v.get(key) if key else None
+            if vt:
+                tid = f"theme_{key}"
+                add_entity(tid, "Theme", vt.get("name") or key,
+                           {"key": key, "driver_category": vt.get("driver_category"),
+                            "aliases": "; ".join(vt.get("aliases", [])[:6])})
+                dc = vt.get("driver_category")
+                if dc:
+                    did = f"driver_category_{slug(dc)}"
+                    add_entity(did, "DriverCategory", dc)
+                    add_edge(tid, "BELONGS_TO", did)
+            else:
+                tid = f"theme_{slug(raw_theme)}"
+                add_entity(tid, "Theme", raw_theme)
+            theme_name = (vt or {}).get("name") or raw_theme
+            theme_ids = [tid]
+        props = {"theme": theme_name, "asset_class": acab, "polarity": ev.get("polarity"),
+                 "event_category": ev.get("event_category"), "rationale": ev.get("rationale_text"),
+                 "news_title": ev.get("_news_title") or ev.get("_title"),
+                 "news_source": ev.get("_from_source") or ev.get("_publisher"),
+                 "pub_date": ev.get("_pub_date") or ev.get("_date"),
+                 "scope": ev.get("_scope")}
+        props.update(extra_props)
+        add_entity(eid, "Event", ev.get("event_type_summary") or raw_theme, props)
+        for t in theme_ids:
+            add_edge(eid, "HAS_THEME", t)
+            add_edge(t, "IMPACTS", f"asset_class_{acab}")
         for tk in (ev.get("affected_tickers") or []):
             if is_fund_type(tk):
                 # 新闻直接点名了产品本身（如"半导体ETF"），挂到 Fund 上
@@ -423,7 +481,9 @@ def main():
     print(f"[INFO] entities {len(entities)} | edges {len(edges)}")
     print(f"[INFO] companies {len(company_index)} | aliases {len(alias_map)} -> _yf_data/company_alias.json")
     n_theme_entities = sum(1 for e in entities.values() if e["type"] == "Theme")
-    print(f"[INFO] Theme->Concept 边 {n_t2c} 条 | 有映射的 Theme {len(t2c)}/{n_theme_entities}")
+    n_mapped = len({e["source"] for e in edges if e["relation"] == "MAPS_TO"})
+    n_maps = sum(1 for e in edges if e["relation"] == "MAPS_TO")
+    print(f"[INFO] Theme->Concept 边 {n_maps} 条 | 有映射的 Theme {n_mapped}/{n_theme_entities}")
     print(f"[INFO] 持仓表里的基金类条目 {n_fund_holdings} 条，已按现金处理（HAS_CASH），未建节点")
     print("[INFO] entity types:", result["meta"]["entity_types"])
     print("[INFO] relation types:", result["meta"]["relation_types"])

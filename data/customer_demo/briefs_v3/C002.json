@@ -1,0 +1,354 @@
+{
+ "customer": {
+  "id": "C002",
+  "name": "王秀兰",
+  "age": 65,
+  "city": "苏州",
+  "occupation": "退休（中学教师）",
+  "risk_level": "C1",
+  "total_assets": 2100000,
+  "idle_cash": 60000,
+  "time_deposit": 1200000,
+  "deposit_maturity": "2026-12",
+  "holdings": {
+   "AGG": 50,
+   "TLT": 25,
+   "GLD": 15,
+   "UUP": 10
+  }
+ },
+ "concentration": {
+  "by_asset_class_pct": {
+   "FixedIncome": 75.0,
+   "Commodity": 15.0,
+   "FX": 10.0
+  },
+  "top_holding": {
+   "ticker": "AGG",
+   "weight_pct": 50
+  }
+ },
+ "exposure": {
+  "top_concepts": [
+   {
+    "concept": "美国综合债券",
+    "n_events": 151,
+    "n_days": 25,
+    "pos": 2.673,
+    "neg": 25.211,
+    "net": -22.538,
+    "avg_per_event": -0.1493,
+    "rank_score": -1.8341,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -22.538
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -20.964,
+     "Market Flow": -0.717,
+     "Policy/Regulation": -0.408,
+     "Geopolitics": -0.408,
+     "Efficiency/Cost": -0.041
+    },
+    "by_category": {
+     "MacroEvents": 49,
+     "PolicyEvents": 67,
+     "MarketEvents": 35
+    }
+   },
+   {
+    "concept": "美国长期国债",
+    "n_events": 151,
+    "n_days": 25,
+    "pos": 1.093,
+    "neg": 13.015,
+    "net": -11.921,
+    "avg_per_event": -0.0789,
+    "rank_score": -0.9701,
+    "drivers": [
+     {
+      "ticker": "TLT",
+      "net": -11.921
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -10.911,
+     "Market Flow": -0.541,
+     "Policy/Regulation": -0.204,
+     "Geopolitics": -0.204,
+     "Efficiency/Cost": -0.061
+    },
+    "by_category": {
+     "MacroEvents": 49,
+     "PolicyEvents": 67,
+     "MarketEvents": 35
+    }
+   },
+   {
+    "concept": "美元指数",
+    "n_events": 65,
+    "n_days": 19,
+    "pos": 0.208,
+    "neg": 1.115,
+    "net": -0.907,
+    "avg_per_event": -0.014,
+    "rank_score": -0.1125,
+    "drivers": [
+     {
+      "ticker": "UUP",
+      "net": -0.907
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -0.82,
+     "Geopolitics": -0.062,
+     "Policy/Regulation": -0.041,
+     "Market Flow": 0.016
+    },
+    "by_category": {
+     "PolicyEvents": 44,
+     "MacroEvents": 11,
+     "MarketEvents": 10
+    }
+   },
+   {
+    "concept": "黄金",
+    "n_events": 78,
+    "n_days": 18,
+    "pos": 0.838,
+    "neg": 1.203,
+    "net": -0.365,
+    "avg_per_event": -0.0047,
+    "rank_score": -0.0413,
+    "drivers": [
+     {
+      "ticker": "GLD",
+      "net": -0.365
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -0.636,
+     "Market Flow": 0.219,
+     "Demand": 0.162,
+     "Geopolitics": -0.146,
+     "Policy/Regulation": 0.036,
+     "Industry Cycle": 0.0
+    },
+    "by_category": {
+     "MarketEvents": 63,
+     "MacroEvents": 11,
+     "PolicyEvents": 1,
+     "CorporateEvents": 2,
+     "CommodityEvents": 1
+    }
+   }
+  ],
+  "risk_concepts": [
+   {
+    "concept": "美国综合债券",
+    "n_events": 151,
+    "n_days": 25,
+    "pos": 2.673,
+    "neg": 25.211,
+    "net": -22.538,
+    "avg_per_event": -0.1493,
+    "rank_score": -1.8341,
+    "drivers": [
+     {
+      "ticker": "AGG",
+      "net": -22.538
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -20.964,
+     "Market Flow": -0.717,
+     "Policy/Regulation": -0.408,
+     "Geopolitics": -0.408,
+     "Efficiency/Cost": -0.041
+    },
+    "by_category": {
+     "MacroEvents": 49,
+     "PolicyEvents": 67,
+     "MarketEvents": 35
+    }
+   },
+   {
+    "concept": "美国长期国债",
+    "n_events": 151,
+    "n_days": 25,
+    "pos": 1.093,
+    "neg": 13.015,
+    "net": -11.921,
+    "avg_per_event": -0.0789,
+    "rank_score": -0.9701,
+    "drivers": [
+     {
+      "ticker": "TLT",
+      "net": -11.921
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -10.911,
+     "Market Flow": -0.541,
+     "Policy/Regulation": -0.204,
+     "Geopolitics": -0.204,
+     "Efficiency/Cost": -0.061
+    },
+    "by_category": {
+     "MacroEvents": 49,
+     "PolicyEvents": 67,
+     "MarketEvents": 35
+    }
+   },
+   {
+    "concept": "美元指数",
+    "n_events": 65,
+    "n_days": 19,
+    "pos": 0.208,
+    "neg": 1.115,
+    "net": -0.907,
+    "avg_per_event": -0.014,
+    "rank_score": -0.1125,
+    "drivers": [
+     {
+      "ticker": "UUP",
+      "net": -0.907
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -0.82,
+     "Geopolitics": -0.062,
+     "Policy/Regulation": -0.041,
+     "Market Flow": 0.016
+    },
+    "by_category": {
+     "PolicyEvents": 44,
+     "MacroEvents": 11,
+     "MarketEvents": 10
+    }
+   }
+  ],
+  "opportunity_concepts": [],
+  "market_channel": [
+   {
+    "asset_class": "FixedIncome",
+    "n_events": 2,
+    "net": -1.02,
+    "by_driver": {
+     "Macro & FX": -1.02
+    }
+   },
+   {
+    "asset_class": "Commodity",
+    "n_events": 1,
+    "net": 0.081,
+    "by_driver": {
+     "Market Flow": 0.081
+    }
+   },
+   {
+    "asset_class": "FX",
+    "n_events": 1,
+    "net": 0.072,
+    "by_driver": {
+     "Macro & FX": 0.072
+    }
+   }
+  ],
+  "performance": {
+   "window_days": 5,
+   "as_of": "2026-09-29",
+   "portfolio_pct": -0.024829,
+   "coverage_pct": 100.0,
+   "holdings": [
+    {
+     "ticker": "AGG",
+     "weight_pct": 50,
+     "pct_5d": -0.017143,
+     "pct_1d": -0.000528,
+     "last_date": "2026-09-29",
+     "last_close": 94.6
+    },
+    {
+     "ticker": "TLT",
+     "weight_pct": 25,
+     "pct_5d": -0.043058,
+     "pct_1d": -0.00496,
+     "last_date": "2026-09-29",
+     "last_close": 78.23
+    },
+    {
+     "ticker": "GLD",
+     "weight_pct": 15,
+     "pct_5d": -0.042942,
+     "pct_1d": 0.013178,
+     "last_date": "2026-09-29",
+     "last_close": 382.89
+    },
+    {
+     "ticker": "UUP",
+     "weight_pct": 10,
+     "pct_5d": 0.00948,
+     "pct_1d": 0.001742,
+     "last_date": "2026-09-29",
+     "last_close": 28.75
+    }
+   ]
+  }
+ },
+ "gaps": [],
+ "timing": {
+  "ref_date": "2026-09-29",
+  "items": [
+   {
+    "kind": "deposit_maturity",
+    "month": "2026-12",
+    "months": 3,
+    "note": "定期 1,200,000 元将于 2026-12 到期（约 3 个月后到期；数据只到月份，无具体日期）"
+   }
+  ],
+  "last_contact": {
+   "date": "2026-09-12",
+   "days_ago": 17,
+   "channel": "电话",
+   "summary": "提醒 12 月定期到期，沟通续存与产品衔接"
+  }
+ },
+ "meta": {
+  "w_category": {
+   "CorporateEvents": 1.0,
+   "CommodityEvents": 1.0,
+   "PolicyEvents": 0.9,
+   "MacroEvents": 0.8,
+   "MarketEvents": 0.6
+  },
+  "w_scope": {
+   "entity": 1.0,
+   "sector": 0.9,
+   "macro": 0.8,
+   "market": 0.7,
+   "weak": 0.6
+  },
+  "risk_floor": {
+   "AGG": "C1",
+   "TLT": "C1",
+   "GLD": "C1",
+   "UUP": "C1",
+   "QQQ": "C2",
+   "AIQ": "C2",
+   "XLK": "C3",
+   "BOTZ": "C3",
+   "SMH": "C4",
+   "SOXX": "C4",
+   "KWEB": "C4",
+   "CQQQ": "C4",
+   "USO": "C4"
+  },
+  "rank_mode": "net",
+  "rank_rule": "default: abs(net); optional: abs(net)/sqrt(n_events) 或 abs(avg_per_event)",
+  "bucket_rule": "从产品出发：每只产品的暴露归入它自己所属的概念",
+  "source": "kg_yf_v3.json + exposure_v3.json + customers_all_in_one.csv + prices_v3.json"
+ }
+}

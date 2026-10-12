@@ -1,0 +1,97 @@
+{
+ "priority": "高",
+ "summary": "客户有10%闲置现金且近一周组合回撤，AGG/TLT等债券端事件面偏负，建议本周内主动联系，先做风险复盘，再讨论闲钱分批再平衡与GLD/UUP的实物资产、汇率对冲角色，暂不主动追加 TLT/AGG/USO。",
+ "risks": [
+  {
+   "point": "AGG/TLT 的事件面受 Macro & FX 负向拖累，且近期两者回撤明显，债券端是当前组合主要风险源。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "point": "QQQ/AIQ/SMH 合计暴露较高，AI与半导体事件面虽有多项正向，但市场流与财报扰动仍有负向信号，短线波动可能放大。",
+   "evidence": [
+    "event_900",
+    "event_826",
+    "event_901"
+   ]
+  },
+  {
+   "point": "GLD/USO 所代表的实物资产短线波动明显：GLD 受利率预期负向事件扰动，USO 受供应恢复事件压制。",
+   "evidence": [
+    "event_022",
+    "event_261"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "AIQ/SMH 的事件面仍有战略行动、技术创新和收入正向支撑，可作为解释长期逻辑的抓手，但不作为短线追涨理由。",
+   "evidence": [
+    "event_718",
+    "event_719",
+    "event_583",
+    "event_471"
+   ]
+  },
+  {
+   "point": "GLD 有正向市场流事件且近期出现单日反弹，客户又关注实物资产，可借机讨论黄金在组合中的对冲角色与仓位再平衡。",
+   "evidence": [
+    "event_294",
+    "event_905"
+   ]
+  },
+  {
+   "point": "闲置现金50万元可用于分批再平衡而非一次性追入；市场层存在不宜被短期回调恐惧主导的正面情绪事件，可作为沟通切入。",
+   "evidence": [
+    "event_387",
+    "event_499"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "主动联系客户，以近一周组合回撤和债券端波动为切入，安排风险复盘；暂不主动追加 TLT/AGG，先确认客户对利率与久期风险的接受度，再讨论是否用闲钱分批再平衡。",
+   "timing": "本周内，最好在下一交易日前后",
+   "reason": "客户闲钱占总资产10%，近一周组合为负；AGG/TLT 事件面受宏观利率负向事件拖累，需先管理风险预期。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "action": "沟通中聊实物资产与汇率：检视 GLD 与 UUP 的对冲角色，若客户仍关注实物资产可讨论维持或小幅再平衡 GLD；不追涨 USO，等待供应事件消化。",
+   "timing": "本次沟通中",
+   "reason": "GLD 有正向市场流事件，USO 受供应恢复负向事件压制，且客户上次关注实物资产与汇率。",
+   "evidence": [
+    "event_294",
+    "event_905",
+    "event_261",
+    "event_061"
+   ]
+  },
+  {
+   "action": "若客户问到 AIQ/SMH，解释事件面正向与市场流负向并存，建议维持现有仓位并设置再平衡阈值，不因短期反弹追加。",
+   "timing": "本次沟通或客户追问时",
+   "reason": "AI/半导体事件面有正向支撑，但市场流和财报扰动仍在，且持仓暴露较高。",
+   "evidence": [
+    "event_719",
+    "event_583",
+    "event_900",
+    "event_826"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 23
+ },
+ "_meta": {
+  "customer_id": "C011",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C011.json",
+  "brief": "C011.json"
+ }
+}

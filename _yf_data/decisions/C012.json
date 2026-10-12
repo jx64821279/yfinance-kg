@@ -1,0 +1,89 @@
+{
+ "priority": "高",
+ "summary": "何静下月有定期到期且闲钱充足，AGG事件面负暴露最强、近一周组合回撤，应优先主动联系做再平衡沟通。",
+ "risks": [
+  {
+   "point": "AGG事件面负暴露最强：美国综合债券净暴露-18.03、Macro & FX贡献-16.771，且出现美联储加息事件；与AGG近一周-1.7143%的实际下跌互相印证。",
+   "evidence": [
+    "event_335",
+    "event_596"
+   ]
+  },
+  {
+   "point": "QQQ宏观与市场流拖累仍大：Macro & FX贡献-4.336、Market Flow贡献-1.493，近一周QQQ下跌1.275%，不宜继续集中成长暴露。",
+   "evidence": [
+    "event_826",
+    "event_901"
+   ]
+  },
+  {
+   "point": "GLD宏观与FX压力未消：黄金Macro & FX贡献-1.273，且出现利率预期压制金价事件；近一周GLD下跌4.2942%，不能只按避险逻辑加仓。",
+   "evidence": [
+    "event_022"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "QQQ事件面有结构性正贡献：Revenue +1.971、Strategic Action +1.645、Technology/Innovation +1.432，可作为成长仓位的持有依据。",
+   "evidence": [
+    "event_719",
+    "event_471"
+   ]
+  },
+  {
+   "point": "黄金需求与市场流仍有正贡献：Market Flow +0.437、Demand +0.324，且出现金价回升与需求事件。",
+   "evidence": [
+    "event_294",
+    "event_905"
+   ]
+  },
+  {
+   "point": "美国综合债券有正向市场流事件，可在到期资金再配置时评估其分散价值，但需结合利率风险。",
+   "evidence": [
+    "event_792",
+    "event_070"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "联系：现在主动电话联系，以2026-10定期到期和9万元闲钱为切入，先复盘近一周回撤与事件面变化；不直接推新购买。",
+   "timing": "现在至2026-10到期前",
+   "reason": "AGG事件面负暴露最强，且定期到期与闲钱构成再配置窗口。",
+   "evidence": [
+    "event_335"
+   ]
+  },
+  {
+   "action": "聊什么/推什么：围绕AGG、QQQ、GLD现有持仓做再平衡；AGG重点谈利率与宏观风险，QQQ谈结构性正贡献但不追高，GLD谈需求与市场流但承认宏观压制；不新增非AGG/QQQ/GLD标的。",
+   "timing": "本次联系时",
+   "reason": "概念暴露分化，需按C2风险等级控制集中度。",
+   "evidence": [
+    "event_335",
+    "event_719",
+    "event_294"
+   ]
+  },
+  {
+   "action": "跟进：若电话未接，微信留痕并约定2026-10到期前再谈；请客户确认到期资金是否续存，只给AGG/QQQ/GLD再平衡选项，不直接推荐具体买卖。",
+   "timing": "2026-10内，到期前及到账后",
+   "reason": "上次联系2026-09-14已过15天，且下月到期需提前确认。",
+   "evidence": [
+    "event_792",
+    "event_070"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 14
+ },
+ "_meta": {
+  "customer_id": "C012",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C012.json",
+  "brief": "C012.json"
+ }
+}

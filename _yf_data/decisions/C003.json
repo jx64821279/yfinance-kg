@@ -1,0 +1,97 @@
+{
+ "priority": "中",
+ "summary": "优先级中：固定收益负面前瞻信号较强且有一定闲钱，但刚电话联系、XLK 曾被拒，下一步应先不主动触达，准备 AGG/TLT 复核后再择机沟通。",
+ "risks": [
+  {
+   "point": "固定收益敞口较高（AGG 30% + TLT 10%），事件面对美国综合债券与美国长期国债均偏负，且近一周 AGG/TLT 实际回撤与负面前瞻信号相互印证。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "point": "XLK 存在集中度与再平衡风险，不宜作为本轮加仓或重复推荐抓手。",
+   "evidence": [
+    "event_386"
+   ]
+  },
+  {
+   "point": "宏观与利率预期对 QQQ、GLD、TLT 均有扰动：黄金受利率预期压制，长端国债虽有鸽派表态但资金面仍有负面信号。",
+   "evidence": [
+    "event_022",
+    "event_070",
+    "event_182",
+    "event_806"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "QQQ 所对应的纳斯达克100/大盘成长有收入与战略行动正向事件，但也有个股收入负向事件，适合在再平衡中审视而非追高。",
+   "evidence": [
+    "event_719",
+    "event_471",
+    "event_901"
+   ]
+  },
+  {
+   "point": "TLT 有政策利率鸽派表态带来的潜在修复线索，但需与偏负资金面信号一起看，暂不宜单边加仓。",
+   "evidence": [
+    "event_070",
+    "event_182",
+    "event_806"
+   ]
+  },
+  {
+   "point": "黄金有资金流正向事件，可作为组合对冲观察项，但宏观利率负向信号仍在。",
+   "evidence": [
+    "event_294",
+    "event_905",
+    "event_022"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "暂不主动联系客户；先内部准备固定收益与科技集中度复核材料。",
+   "timing": "冷却期内，最近一次电话沟通后仅5天",
+   "reason": "上次已电话沟通组合再平衡，且 XLK 曾被拒绝，短期重复触达不合适；固定收益与 XLK 集中度需要先梳理。",
+   "evidence": [
+    "event_335",
+    "event_806",
+    "event_386"
+   ]
+  },
+  {
+   "action": "若客户主动来询或冷却期结束，切入固定收益持仓复核：重点聊 AGG、TLT 的事件面压力与实际回撤是否仍匹配 C3 风险等级；不推 XLK。",
+   "timing": "客户主动触发或冷却期结束后",
+   "reason": "固定收益事件面偏负且近一周实际回撤明显，需复核但不急迫；XLK 已有拒绝记录，不宜正面重复推荐。",
+   "evidence": [
+    "event_335",
+    "event_806",
+    "event_386"
+   ]
+  },
+  {
+   "action": "准备再平衡备选：仅在 QQQ、AGG、GLD、TLT、XLK 范围内讨论权重调整；本轮不新增 XLK，若需表达科技敞口则优先用现有 QQQ 做再平衡讨论。",
+   "timing": "下次触达前准备",
+   "reason": "QQQ/科技有正向事件支撑，但 XLK 集中度与拒绝记录使其不宜作为新增抓手。",
+   "evidence": [
+    "event_719",
+    "event_471",
+    "event_386"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 18
+ },
+ "_meta": {
+  "customer_id": "C003",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C003.json",
+  "brief": "C003.json"
+ }
+}

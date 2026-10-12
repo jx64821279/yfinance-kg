@@ -98,6 +98,7 @@ def esc(v):
 LABELS = {
     "theme": "主题", "event_category": "事件域", "polarity": "方向", "asset_class": "资产类别",
     "rationale": "概括", "news_title": "新闻", "driver_category": "驱动类别", "aliases": "别名",
+    "concepts": "落点概念", "channel": "通道",
     "concept_type": "概念类型", "markets": "市场", "n_members": "成员数", "ticker": "代码",
     "family": "基金公司", "category": "类别", "key": "键", "standard": "分类标准", "sic": "SIC",
     "news_source": "新闻来源", "pub_date": "发布日",
@@ -107,7 +108,8 @@ LABELS = {
 }
 # 每种类型只展示这些字段（按顺序），不再把所有字段倒出来
 TOOLTIP_FIELDS = {
-    "Event": ["date", "pub_date", "event_category", "theme", "asset_class", "polarity",
+    "Event": ["date", "pub_date", "event_category", "concepts", "channel", "theme",
+              "asset_class", "polarity",
               "rationale", "news_source", "news_title"],
     "Theme": ["driver_category", "key", "aliases"],
     "DriverCategory": [],

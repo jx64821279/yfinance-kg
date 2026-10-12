@@ -1,0 +1,95 @@
+{
+ "priority": "高",
+ "summary": "建议本周主动微信联系，延续因子暴露话题，先复盘半导体/AI事件面与近一周实际回撤的背离，重点处理400,000元闲钱与现有持仓重叠，暂不追高或新增产品。",
+ "risks": [
+  {
+   "point": "组合集中度偏高：SMH与SOXX合计35%半导体，AIQ与QQQ合计50% AI/纳指成长，BOTZ 15%机器人；半导体事件面净13.139虽强，但并非全线正向，宏观与市场流信号会放大波动。",
+   "evidence": [
+    "event_718",
+    "event_826",
+    "event_900"
+   ]
+  },
+  {
+   "point": "大盘/情绪层面偏负：market_channel中Equity净-1.28，Market Flow和Macro & FX均-0.64；AI概念有Policy/Regulation -1.03，纳指成长有Macro & FX -3.614和Market Flow -1.244，可能压制高估值成长持仓。",
+   "evidence": [
+    "event_826",
+    "event_900",
+    "event_901"
+   ]
+  },
+  {
+   "point": "近一周实际组合-1.4235%，AIQ -2.503%、BOTZ -2.1383%回撤较大；事件面前瞻信号与价格后验存在背离，若只按事件加仓会忽视短期波动。",
+   "evidence": [
+    "event_900",
+    "event_406"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "半导体事件面强正：净13.139，Strategic Action 5.577、Technology/Innovation 2.749、Demand 2.275、Revenue 2.273；可用于讨论SMH/SOXX维持或再平衡，但不主张追高。",
+   "evidence": [
+    "event_718",
+    "event_471"
+   ]
+  },
+  {
+   "point": "AI事件面仍偏正：净2.708，Strategic Action 1.607、Technology/Innovation 1.191、Revenue 1.014、Demand 0.709；可作为AIQ/QQQ因子复盘切入点。",
+   "evidence": [
+    "event_719",
+    "event_583"
+   ]
+  },
+  {
+   "point": "机器人/自动化有技术/收入正事件，但净暴露仅0.419；可把BOTZ作为事件净暴露较低的复盘对象，观察是否与AI/半导体持仓重叠。",
+   "evidence": [
+    "event_667",
+    "event_042"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "主动微信联系客户，切口用上次因子暴露话题，先复盘半导体/AI事件面与近一周实际回撤的背离，不直接推产品。",
+   "timing": "本周内，上次联系为2026-09-20已隔9天",
+   "reason": "暴露集中且闲钱14.3%，事件面半导体/AI有正信号但大盘情绪偏负，适合先做诊断而非追涨。",
+   "evidence": [
+    "event_718",
+    "event_719",
+    "event_826"
+   ]
+  },
+  {
+   "action": "聊400,000元闲钱：建议分批与现有持仓合并看重叠度，优先讨论降低半导体重复暴露；不推SMH/SOXX加仓。",
+   "timing": "联系后1-2周内",
+   "reason": "SMH与SOXX合计35%，半导体事件净13.139但存在宏观与市场流逆风，闲钱14.3%若追高会放大集中度。",
+   "evidence": [
+    "event_718",
+    "event_826",
+    "event_900"
+   ]
+  },
+  {
+   "action": "围绕现有AIQ/QQQ/SMH/SOXX/BOTZ做再平衡清单；重点复盘AIQ/BOTZ回撤，SMH/SOXX维持观察；不新增其他产品。",
+   "timing": "下次沟通或出现明显回调时",
+   "reason": "AIQ/BOTZ近5日跌幅较大，机器人有技术正事件但市场流负，半导体事件面强但不宜追涨。",
+   "evidence": [
+    "event_667",
+    "event_406",
+    "event_900"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 14
+ },
+ "_meta": {
+  "customer_id": "C015",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C015.json",
+  "brief": "C015.json"
+ }
+}

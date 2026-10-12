@@ -1,0 +1,94 @@
+{
+ "priority": "高",
+ "summary": "AGG/TLT事件面受利率负向冲击（event_335、event_806），且2027-01定期到期临近，建议高优先级主动联系。",
+ "risks": [
+  {
+   "point": "AGG与TLT合计55%，事件面受美国加息与长债市场流负向信号压制，C2客户需复核固收高暴露。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "point": "GLD事件面宏观负向信号明显，近一周实际回撤可作印证，未回顾前不宜加仓。",
+   "evidence": [
+    "event_022"
+   ]
+  },
+  {
+   "point": "市场层面全球加息与通胀事件偏负，构成整体风险偏好背景压力。",
+   "evidence": [
+    "event_596",
+    "event_922"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "QQQ存在企业收入与战略正向事件，但同概念也有收入负向事件，适合做结构沟通而非单边加仓。",
+   "evidence": [
+    "event_719",
+    "event_471",
+    "event_901"
+   ]
+  },
+  {
+   "point": "TLT存在政策降息呼声的正向事件，可作为久期风险再评估的沟通素材。",
+   "evidence": [
+    "event_070",
+    "event_182"
+   ]
+  },
+  {
+   "point": "GLD存在市场流与需求正向事件，可解释黄金配置价值，但需与宏观负向并列说明。",
+   "evidence": [
+    "event_294",
+    "event_905"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "联系客户，以利率事件对AGG/TLT的事件面负向信号为切入，先确认C2风险感受与流动性需求；不主动推任何新产品。",
+   "timing": "本周内",
+   "reason": "AGG/TLT事件面受利率负向冲击，且上次电话已隔21天，需要主动维护。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "action": "在沟通中提前准备2027-01定期到期预案，确认到期资金是否用于再平衡现有AGG/TLT/GLD/QQQ比例；不新增其他产品。",
+   "timing": "2026年10月内",
+   "reason": "定期到期尚有约4个月，需提前准备；固收事件面负向要求先做风险预算。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "action": "若客户主动问成长或黄金，分别用QQQ正负事件和GLD正负事件做教育；不主动建议加仓QQQ或GLD。",
+   "timing": "本次沟通或下次跟进",
+   "reason": "QQQ与GLD均为正负信号并存，适合解释而非追涨。",
+   "evidence": [
+    "event_719",
+    "event_471",
+    "event_901",
+    "event_294",
+    "event_905",
+    "event_022"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 16
+ },
+ "_meta": {
+  "customer_id": "C004",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C004.json",
+  "brief": "C004.json"
+ }
+}

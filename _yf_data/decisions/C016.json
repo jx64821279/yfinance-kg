@@ -1,0 +1,97 @@
+{
+ "priority": "高",
+ "summary": "客户固定收益与黄金仓位的事件面偏负且近一周 TLT/GLD 回撤明显，叠加其此前降波动诉求，应优先联系并围绕降波再平衡沟通。",
+ "risks": [
+  {
+   "point": "固定收益暴露高：AGG 35%、TLT 10%，事件面对 AGG/TLT 的 Macro & FX 明显偏负；近一周 TLT -4.31%、AGG -1.71%，事件面与实际回撤互相印证。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "point": "权益端 QQQ 25%、XLK 10% 虽有个股与科技正向事件，但 Macro & FX、Market Flow 仍有拖累，且盈利回撤与集中度事件提示波动风险；近一周 QQQ -1.28%、XLK -0.90%。",
+   "evidence": [
+    "event_901",
+    "event_386",
+    "event_826"
+   ]
+  },
+  {
+   "point": "GLD 20% 近一周 -4.29%，黄金事件面 Macro & FX 净负，加息预期相关事件仍可能压制短期金价波动。",
+   "evidence": [
+    "event_022"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "QQQ/XLK 有 Revenue、Strategic Action、Technology 正向事件支撑，若市场情绪修复，权益端可优先观察，但不宜追高。",
+   "evidence": [
+    "event_719",
+    "event_471",
+    "event_718"
+   ]
+  },
+  {
+   "point": "GLD 有 Market Flow/Demand 正贡献，黄金资金面仍有支撑，可作为分散工具保留观察。",
+   "evidence": [
+    "event_294",
+    "event_905"
+   ]
+  },
+  {
+   "point": "AGG 有资金流正面信号，TLT 有降息预期相关正面事件；若利率预期转向，固定收益可获修复窗口。",
+   "evidence": [
+    "event_792",
+    "event_070",
+    "event_182"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "尽快电话联系客户，先复盘近一周 AGG/TLT/GLD 回撤，以“降波动再平衡”切入；不推加仓 QQQ、XLK、TLT，优先讨论 AGG/TLT 久期风险和 GLD 波动控制。",
+   "timing": "3个交易日内",
+   "reason": "事件面对固定收益和黄金偏负，近一周 TLT/GLD 回撤大，需要先安抚并确认风险承受。",
+   "evidence": [
+    "event_335",
+    "event_806",
+    "event_022"
+   ]
+  },
+  {
+   "action": "沟通闲置现金 150000 CNY 与 2027-06 到期定存的安排：可讨论用闲置现金做流动性缓冲，不急于新增高波动资产；若再平衡，优先在 AGG、TLT、GLD、QQQ、XLK 之间调整权重。",
+   "timing": "同一通电话或1周内",
+   "reason": "闲置现金可缓冲波动，定存到期尚早，当前不宜追涨。",
+   "evidence": [
+    "event_806",
+    "event_022",
+    "event_901"
+   ]
+  },
+  {
+   "action": "设置后续触发条件：若利率压力延续，暂缓 AGG/TLT 加仓；若降息预期升温或权益正向驱动延续，再评估 QQQ/XLK 与 AGG/TLT 的再平衡。",
+   "timing": "下次联系或1个月内",
+   "reason": "事件面多空分化，需动态跟踪而非一次性调仓。",
+   "evidence": [
+    "event_335",
+    "event_070",
+    "event_182",
+    "event_719",
+    "event_471"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 18
+ },
+ "_meta": {
+  "customer_id": "C016",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C016.json",
+  "brief": "C016.json"
+ }
+}

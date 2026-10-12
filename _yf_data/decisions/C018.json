@@ -1,0 +1,93 @@
+{
+ "priority": "高",
+ "summary": "建议尽快主动联系，以组合分散和闲置资金安排为切入，先复盘 AGG/GLD 与科技敞口，不直接重复推荐被拒的 CQQQ。",
+ "risks": [
+  {
+   "point": "AGG 与 GLD 均受利率和宏观事件扰动，组合中合计 30% 的防御/分散资产存在事件面压力。",
+   "evidence": [
+    "event_335",
+    "event_022"
+   ]
+  },
+  {
+   "point": "QQQ、SMH、AIQ 偏科技成长，事件面虽偏正面但已有财报后下跌与 AI 情绪转弱的负面事件，短期波动风险不低。",
+   "evidence": [
+    "event_901",
+    "event_900"
+   ]
+  },
+  {
+   "point": "KWEB 所代表的中概互联网事件面多空交织，仍存在资金面负面扰动，沟通中不宜把中概分散说成单边机会。",
+   "evidence": [
+    "event_082"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "半导体事件面偏强，SMH 有正面收入、技术与战略事件支撑，可作为持有逻辑沟通。",
+   "evidence": [
+    "event_718",
+    "event_471"
+   ]
+  },
+  {
+   "point": "人工智能事件面有正面收入与战略事件支撑，AIQ 的持有逻辑仍可解释。",
+   "evidence": [
+    "event_719",
+    "event_583"
+   ]
+  },
+  {
+   "point": "中概互联网存在正面技术与资金事件，可作为与客户换角度沟通中国科技/中概敞口的切口；CQQQ 曾被拒，不宜直接重复推荐。",
+   "evidence": [
+    "event_485",
+    "event_318"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "主动联系客户，先复盘“组合更分散”的诉求和闲置资金安排；沟通中国科技/中概时只用 KWEB 现有敞口和事件多空做切入，不直接重复推荐 CQQQ。",
+   "timing": "尽快，优先电话或面访",
+   "reason": "客户曾面访提出更分散且拒绝 CQQQ，当前中概事件面多空交织，需要先对齐诉求再谈配置。",
+   "evidence": [
+    "event_485",
+    "event_082"
+   ]
+  },
+  {
+   "action": "在同一轮沟通中复盘 AGG 与 GLD：说明利率上行与降息表态反复带来的事件面扰动，评估是否用闲钱分批配置 AGG/GLD 或保留现金，不把市场层面信号当作单一产品推荐。",
+   "timing": "同一轮沟通中",
+   "reason": "AGG/GLD 合计权重较高，且事件面存在利率正负信号，客户又有闲置资金需要安排。",
+   "evidence": [
+    "event_335",
+    "event_022",
+    "event_070",
+    "event_294"
+   ]
+  },
+  {
+   "action": "若客户问科技，解释 SMH/AIQ 事件面偏正面但已有合计 30% 敞口，不建议追高；可讨论在 QQQ/SMH/AIQ 之间再平衡，或保留现金等待。",
+   "timing": "客户询问科技配置时",
+   "reason": "科技事件面有正面也有负面，当前组合科技敞口集中，追高会放大波动。",
+   "evidence": [
+    "event_718",
+    "event_719",
+    "event_900",
+    "event_901"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 20
+ },
+ "_meta": {
+  "customer_id": "C018",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C018.json",
+  "brief": "C018.json"
+ }
+}

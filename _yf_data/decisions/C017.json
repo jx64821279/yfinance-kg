@@ -1,0 +1,100 @@
+{
+ "priority": "高",
+ "summary": "客户固收暴露高且事件面偏负，近一周实际回撤明显，叠加2027-01大额存款到期，建议尽快联系，先做风险解释与到期资金规划，不急于调仓或加仓TLT。",
+ "risks": [
+  {
+   "point": "AGG与TLT合计权重约70%，两者对应事件面净暴露明显偏负，且都由Macro & FX主导，利率上行/通胀扩散会放大久期资产压力。",
+   "evidence": [
+    "event_335",
+    "event_596",
+    "event_922",
+    "event_806"
+   ]
+  },
+  {
+   "point": "TLT近一周实际下跌（后验）与事件面负面同向；市场也在讨论其大幅回撤后是机会还是陷阱，客户持有信心可能受冲击。",
+   "evidence": [
+    "event_806"
+   ]
+  },
+  {
+   "point": "GLD与QQQ短期事件面存在分歧：GLD受Macro & FX负面压制但有Market Flow/Demand正贡献，QQQ受Macro & FX压制但部分Revenue/Strategic正面，容易造成客户对波动理解不一致。",
+   "evidence": [
+    "event_022",
+    "event_905",
+    "event_901",
+    "event_719",
+    "event_471"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "AGG有事件从退休组合税务效率角度讨论其角色，属于正向市场流信号，可作为沟通切入，帮助客户区分短期价格与长期配置角色。",
+   "evidence": [
+    "event_792"
+   ]
+  },
+  {
+   "point": "QQQ事件面虽整体净负，但Revenue、Strategic Action、Technology/Innovation有正贡献，可在控制权重前提下讨论其成长暴露价值。",
+   "evidence": [
+    "event_719",
+    "event_471"
+   ]
+  },
+  {
+   "point": "GLD事件面整体接近中性，Market Flow和Demand有正贡献，且有黄金价格/资金流正面事件，可作为组合分散与风险对冲的沟通点。",
+   "evidence": [
+    "event_905",
+    "event_294"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "尽快主动联系客户：先电话或面谈同步近一周实际涨跌与事件面利率/宏观风险，解释AGG、TLT、GLD、QQQ的分项表现，先安抚持有体验，不主动推荐新增产品。",
+   "timing": "本周内安排，优先电话/面谈而非只发文字。",
+   "reason": "固收类暴露高且事件面偏负，近一周实际回撤明显，需防止客户因短期波动误判。",
+   "evidence": [
+    "event_335",
+    "event_596",
+    "event_922",
+    "event_806"
+   ]
+  },
+  {
+   "action": "围绕2027-01定期存款到期做专项沟通：盘点100,000闲钱与1,400,000到期资金，讨论流动性、期限匹配和C2风险承受，不急于把到期资金集中投入高波动资产；具体到期日不推算。",
+   "timing": "在2027-01前安排，建议下次联系先预约该专项沟通。",
+   "reason": "大额定期到期是再配置窗口，但当前利率/通胀事件面不确定，需提前规划而非到期时仓促决定。",
+   "evidence": [
+    "event_596",
+    "event_922",
+    "event_335"
+   ]
+  },
+  {
+   "action": "若客户问调仓：不主动加仓TLT久期暴露；可围绕AGG的退休组合角色做持有逻辑沟通，围绕GLD分散价值和QQQ小比例成长暴露做再平衡讨论，所有调整需匹配C2风险。",
+   "timing": "首次联系后视客户反馈推进，不急于一次性调仓。",
+   "reason": "TLT事件面与市场讨论偏负，AGG有正向市场流事件，GLD/QQQ有结构性正贡献但宏观压制，适合先沟通逻辑再做小步调整。",
+   "evidence": [
+    "event_806",
+    "event_792",
+    "event_905",
+    "event_719",
+    "event_471",
+    "event_294"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 16
+ },
+ "_meta": {
+  "customer_id": "C017",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C017.json",
+  "brief": "C017.json"
+ }
+}

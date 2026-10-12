@@ -1,4 +1,4 @@
-# 知识图谱 demo：事件 → 主题 → 概念 → 产品 → 客户
+# 知识图谱 demo：事件 → 概念 → 产品 → 客户
 
 本仓库是一个可运行的 demo 工程：**用公开市场数据构建知识图谱，并在这张图上接入客户**，
 覆盖从"一条新闻"到"对某个客户意味着什么"的完整链路。
@@ -11,13 +11,15 @@
 |---|---|---|
 | **v1 基础链路** | 抓公开市场数据，建出 `事件 → 主题 → 概念 → 公司股票 → 基金（产品）` | `src/kg/kg_yf.json`（436 事件 / 626 节点 / 1358 边） |
 | **v2 数据质量改造** | 新闻改为"宽流抓取 + 分层过滤"，事件扩到 1031 条，资产类别不再几乎全是权益 | `src/kg/kg_yf_v2.json`（1265 节点 / 1805 边） |
-| **客户层** | 以客户为对象、用知识层判断外部事件对他的影响，产出客户简报与行动建议 | `data/customer_demo/`（20 个合成客户 + 20 份简报） |
+| **v2 客户接入** | 以客户为对象、用知识层判断外部事件对他的影响 | `data/customer_demo/`（20 个合成客户） |
+| **v3 主题层重构 + 检索 / 决策层** | 主题改成「概念 × 驱动」的组合；图谱入库；新增"取客户子图"的检索层与出判断的决策层；加入价格 | `src/kg/kg_yf_v3.json`（1316 节点 / 2590 边）、`data/kg_v3.db`、`_yf_data/decisions/` |
 
 ## 建议先读
 
 | 文档 | 内容 |
 |---|---|
-| [docs/demo_说明.md](docs/demo_说明.md) | **先看这份**：整体做了什么、结论是什么、有哪些设计取舍、已知限制 |
+| [docs/demo_说明_v3.md](docs/demo_说明_v3.md) | **先看这份**：v3 做了什么（主题层重构、检索层、决策层、价格）、有哪些取舍与限制 |
+| [docs/demo_说明.md](docs/demo_说明.md) | v2：数据质量改造 + 客户接入 |
 | [docs/yf_kg_data.md](docs/yf_kg_data.md) | 数据来源、字段含义、规模与已知问题（v1 口径） |
 | [docs/yf_kg_architecture.md](docs/yf_kg_architecture.md) | 管线架构、每个脚本的职责、图谱 schema（v1 口径） |
 
@@ -25,10 +27,11 @@
 
 | 路径 | 内容 |
 |---|---|
-| `*.py` | 22 个管线脚本 |
+| `*.py` | 29 个管线脚本 |
 | `_yf_data/` | 中间数据与数据产物（JSON） |
-| `src/kg/` | 知识图谱 `kg_yf.json`（v1）与 `kg_yf_v2.json`（v2），及对应的交互式可视化 HTML |
-| `data/customer_demo/` | 客户层：合成客户数据（CSV）与 20 份客户简报（JSON） |
+| `src/kg/` | 知识图谱 `kg_yf.json`（v1）、`kg_yf_v2.json`（v2）、`kg_yf_v3.json`（v3），及对应的交互式可视化 HTML |
+| `data/kg_v3.db` | v3 的 SQLite 库：知识层 + 客户层 + 曝光度 + 价格 |
+| `data/customer_demo/` | 客户层：合成客户数据（CSV）与客户简报（JSON） |
 | `docs/` | 说明文档 |
 
 ## 脚本一览
@@ -62,6 +65,7 @@
 | `build_theme_vocab.py` | 主题受控词表（两轮归并），`--suffix _v2` 出 v2 词表 | `theme_vocab.json` / `theme_vocab_v2.json` |
 | `apply_theme_fixes.py` | 词表人工补丁（把漏归并的原始主题并入规范主题） | `theme_map_v2.json` |
 | `build_theme_concept_map.py` | 主题 → 可投资概念，`--suffix _v2` 对应 v2 | `theme_concept_map*.json` |
+| `classify_theme_v3.py` | **v3 主题层**：给每条事件选「概念 + 驱动」（两个封闭集合分类，可断点续跑） | `theme_assign_v3.json`、`events_v3_all.json` |
 
 **图谱构建层**
 
@@ -69,15 +73,20 @@
 |---|---|---|
 | `company_norm.py` | 公司名归一化解析器（模块） | — |
 | `build_concepts.py` | 概念层骨架 | `concepts.json` |
-| `build_kg_yf.py` | 主建图脚本，`--suffix _v2` 建 v2 图 | `src/kg/kg_yf*.json`、`company_alias/index.json` |
+| `build_kg_yf.py` | 主建图脚本，`--suffix _v2` / `--suffix _v3` 分别建 v2 / v3 图 | `src/kg/kg_yf*.json`、`company_alias/index.json` |
 
-**检索层与客户层**
+**v3 检索层与决策层**
 
 | 脚本 | 作用 | 产出 |
 |---|---|---|
-| `exposure_v2.py` | 事件 → 产品曝光度打分（独立于图，参数可调） | `exposure_v2.json` |
+| `exposure_v2.py` | 事件 → 产品曝光度打分（独立于图，参数可调） | `exposure_v2.json` / `exposure_v3.json` |
 | `gen_customer_demo.py` | 生成 20 个合成客户（数据写死，可复现） | `data/customer_demo/customers_all_in_one.csv` |
-| `customer_brief.py` | 客户简报：暴露地图 + 需求缺口 + 时机与避雷（可选调 LLM 生成行动建议） | `data/customer_demo/briefs/*.json` |
+| `yf_prices.py` | 抓 13 只 ETF 日线收盘价（锚定 as_of、用复权价） | `prices_v3.json` |
+| `build_kg_db.py` | 把 KG + 客户数据 + 曝光度 + 价格装进 SQLite | `data/kg_v3.db` |
+| `kg_subgraph.py` | **检索层**：取客户子图，含 top-k 有界选取（默认正负两头对称取） | `_yf_data/subs/*.json` |
+| `customer_brief.py` | **事实层**：确定性事实清单（概念暴露 / 市场层面 / 需求缺口 / 时机 / 持仓近一周表现） | `data/customer_demo/briefs_v3*/` |
+| `customer_decision.py` | **决策层**：子图 + 简报 → 模型决策（每条结论挂事件证据，自动自检越界） | `_yf_data/decisions/*.json` |
+| `kg_common.py` | 检索层与决策层共用的口径参数（模块） | — |
 
 **展示层**
 
@@ -111,16 +120,33 @@ python build_kg_yf.py --suffix _v2
 python kg_to_pyvis.py --kg src/kg/kg_yf_v2.json --out src/kg/kg_yf_v2.html
 ```
 
-### 3) 客户层（前三步不调模型）
+### 3) 生成合成客户与曝光度（不调模型）
 
 ```powershell
 python exposure_v2.py                                   # 事件 → 产品曝光度
 python gen_customer_demo.py                             # 生成合成客户数据
-python customer_brief.py --all --outdir data/customer_demo/briefs
-python customer_brief.py --customer C009 --llm --api_key sk-...   # 加 LLM 行动建议
 ```
 
-### 4) 从头抓数据并重跑抽取（需要联网 + LLM key）
+### 4) v3 全链路：主题标注 → 建图 → 入库 → 检索 → 事实 → 决策
+
+```powershell
+# 主题标注（调 LLM，可断点续跑）
+python classify_theme_v3.py --api_key sk-...
+# 建 v3 图谱
+python build_kg_yf.py --suffix _v3
+python kg_to_pyvis.py --kg src/kg/kg_yf_v3.json --out src/kg/kg_yf_v3.html
+# 抓价格（需要能访问 Yahoo）→ 建库
+python yf_prices.py
+python build_kg_db.py --suffix _v3
+# 检索层：取客户子图
+python kg_subgraph.py --db data/kg_v3.db --all --outdir _yf_data/subs
+# 事实层：每个客户一份简报（走子图；也可以不加 --subgraph，直接读文件）
+foreach ($f in Get-ChildItem _yf_data/subs -File) { python customer_brief.py --subgraph $f.FullName --outdir data/customer_demo/briefs_v3_sub }
+# 决策层（调 LLM）
+python customer_decision.py --subdir _yf_data/subs --briefs data/customer_demo/briefs_v3_sub --api_key sk-...
+```
+
+### 5) 从头抓数据并重跑抽取（需要联网 + LLM key）
 
 ```powershell
 python yf_fetch.py; python yf_names.py; python yf_news.py; python edgar_sic.py
@@ -145,5 +171,7 @@ python build_sample_v2.py; python news_to_event_v2.py --news <抽样文件> --ou
 ## 说明
 
 - 图谱数据来自公开市场数据（Yahoo Finance / SEC EDGAR / Google News RSS），抓取时间见 `docs/yf_kg_data.md`；**客户数据是合成的**，仅用于跑通链路。
-- 需要调用 LLM 的步骤：事件抽取、主题词表、主题→概念映射，以及客户简报里的行动建议；其余步骤都可以离线复算。
+- 需要调用 LLM 的步骤：事件抽取、v2 的主题词表与主题→概念映射、v3 的主题标注（`classify_theme_v3.py`）、决策层（`customer_decision.py`）；其余步骤都可以离线复算。
+- v3 把「事实」和「判断」分开了：`customer_brief.py` 只出确定性的事实清单，判断在 `customer_decision.py`（每条结论都要挂事件证据，并自动自检越界）。
+- `_yf_data/subs/`（客户子图）是检索层的中间产物，不在仓库里，按第 4 节的命令一条就能重新生成。
 - 重跑抓取会覆盖 `_yf_data/` 下的同名文件，若要保留某次快照请先备份。

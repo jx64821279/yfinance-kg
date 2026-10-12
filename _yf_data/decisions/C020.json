@@ -1,0 +1,93 @@
+{
+ "priority": "高",
+ "summary": "建议高优先级联系杨帆，以近一周回撤和AGG/TLT固定收益事件面压力为切入，先做风险复核与再平衡沟通，暂不追加AGG/TLT、不直接重推上次已拒绝的对冲方向，24万闲钱分批而非一次性配置。",
+ "risks": [
+  {
+   "point": "AGG与TLT合计40%暴露，美国综合债券事件面净-11.269、美国长期国债净-7.153，宏观与汇率是主要拖累；近一周AGG/TLT实际下跌，与事件面压力互相印证。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "point": "QQQ与XLK合计45%暴露，美国科技事件面虽净正，但纳斯达克100/大盘成长受宏观与汇率拖累，且XLK存在集中度争议；近一周QQQ/XLK实际下跌。",
+   "evidence": [
+    "event_901",
+    "event_386"
+   ]
+  },
+  {
+   "point": "GLD 15%暴露，黄金事件面净-0.365且宏观与汇率负贡献明显；近一周GLD实际下跌，与事件面偏负互相印证。",
+   "evidence": [
+    "event_022",
+    "event_335"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "美国科技事件面净正，Revenue、Strategic Action、Technology/Innovation提供支撑，QQQ/XLK可持有并做集中度管理，而非因短期回撤砍仓。",
+   "evidence": [
+    "event_719",
+    "event_471",
+    "event_718"
+   ]
+  },
+  {
+   "point": "利率方向存在政策分歧，未来若降息预期升温，AGG/TLT压力可能缓解，可作为沟通与观察点而非立即加仓。",
+   "evidence": [
+    "event_070",
+    "event_182"
+   ]
+  },
+  {
+   "point": "黄金有市场流与需求正面事件，GLD可保留观察仓；但宏观压制仍在，不宜加仓。",
+   "evidence": [
+    "event_294",
+    "event_905"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "联系：本周内电话杨帆，切入近一周组合回撤与AGG/TLT事件面压力，复核C3风险承受与再平衡意愿；不直接重推上次已拒绝的对冲方向。",
+   "timing": "本周内，距上次联系17天",
+   "reason": "AGG/TLT事件面净负且近一周实际下跌，需确认客户是否希望调整固收久期暴露。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "action": "推/不推：暂不新增AGG/TLT；QQQ/XLK可继续持有并检查集中度，若客户要动，优先讨论再平衡而非追涨。",
+   "timing": "同次电话沟通中",
+   "reason": "美国科技事件面有正贡献，但纳斯达克受宏观与汇率拖累，XLK也有集中度争议。",
+   "evidence": [
+    "event_719",
+    "event_471",
+    "event_901",
+    "event_386"
+   ]
+  },
+  {
+   "action": "闲钱：联系时确认24万闲钱流动性需求，暂不一次性加固收；可讨论分批配置或等待利率信号，GLD仅观察。",
+   "timing": "本周联系时确认",
+   "reason": "固收事件面压力大，黄金事件面也偏负，闲钱不宜急于一次性投入。",
+   "evidence": [
+    "event_335",
+    "event_022"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 18
+ },
+ "_meta": {
+  "customer_id": "C020",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C020.json",
+  "brief": "C020.json"
+ }
+}

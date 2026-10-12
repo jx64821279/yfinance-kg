@@ -1,0 +1,6503 @@
+{
+ "meta": {
+  "source_events": "events_v2_all.json",
+  "model": "deepseek-v4-flash-vision-exp",
+  "max_concepts": 3,
+  "n_events": 1031
+ },
+ "events": {
+  "event_061": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_062": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_063": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_064": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_065": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_066": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_067": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_068": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_069": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_070": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_071": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_072": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_073": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Demand"
+  },
+  "event_074": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_075": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_076": {
+   "concepts": [
+    "us_agg_bond"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_077": {
+   "concepts": [
+    "nasdaq100",
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_078": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_079": {
+   "concepts": [
+    "usd_index"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_080": {
+   "concepts": [
+    "usd_index"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_081": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_082": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_083": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_084": {
+   "concepts": [
+    "china_internet",
+    "china_tech",
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_085": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_086": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_087": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_088": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_089": {
+   "concepts": [
+    "usd_index"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_090": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_091": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_092": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_093": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_094": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_095": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "oil"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_096": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_097": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_098": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_099": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Revenue"
+  },
+  "event_100": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Revenue"
+  },
+  "event_101": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_102": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Demand"
+  },
+  "event_103": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_104": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_105": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_106": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_107": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_108": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_109": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_110": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_111": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_112": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_113": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_114": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_115": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_116": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_117": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_118": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_119": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_120": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_021": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Demand"
+  },
+  "event_022": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_023": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_024": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_025": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_026": {
+   "concepts": [
+    "oil",
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_027": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_028": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_029": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_030": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_031": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_032": {
+   "concepts": [
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Revenue"
+  },
+  "event_033": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_034": {
+   "concepts": [
+    "ai",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Demand"
+  },
+  "event_035": {
+   "concepts": [
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_036": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_037": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_038": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_039": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_040": {
+   "concepts": [
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Revenue"
+  },
+  "event_041": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_042": {
+   "concepts": [
+    "semiconductor",
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Revenue"
+  },
+  "event_043": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_044": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_045": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_046": {
+   "concepts": [
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_047": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_048": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_049": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_050": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_051": {
+   "concepts": [
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_052": {
+   "concepts": [
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Revenue"
+  },
+  "event_053": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_054": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_055": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_056": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_057": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_058": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_059": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_060": {
+   "concepts": [
+    "us_tech"
+   ],
+   "driver": "Revenue"
+  },
+  "event_001": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_002": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_003": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Revenue"
+  },
+  "event_004": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_005": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_006": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_007": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_008": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_009": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_010": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_011": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_012": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_013": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_014": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_015": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_016": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_017": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_018": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_019": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Revenue"
+  },
+  "event_020": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Efficiency/Cost"
+  },
+  "event_121": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_122": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_123": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_124": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_125": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Demand"
+  },
+  "event_126": {
+   "concepts": [
+    "gold",
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_127": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_128": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_129": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_130": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_131": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_132": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_133": {
+   "concepts": [
+    "oil",
+    "nasdaq100"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_134": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_135": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_136": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_137": {
+   "concepts": [
+    "us_agg_bond"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_138": {
+   "concepts": [
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Revenue"
+  },
+  "event_139": {
+   "concepts": [
+    "ai",
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_140": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Efficiency/Cost"
+  },
+  "event_161": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_162": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_163": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_164": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_165": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_166": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_167": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_168": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_169": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_170": {
+   "concepts": [
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_171": {
+   "concepts": [
+    "ai",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_172": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_173": {
+   "concepts": [
+    "semiconductor",
+    "china_tech"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_174": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_175": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_176": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_177": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_178": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_179": {
+   "concepts": [
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_180": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "oil"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_141": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_142": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_143": {
+   "concepts": [],
+   "driver": "Revenue"
+  },
+  "event_144": {
+   "concepts": [
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_145": {
+   "concepts": [
+    "nasdaq100",
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_146": {
+   "concepts": [
+    "oil",
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_147": {
+   "concepts": [
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_148": {
+   "concepts": [
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_149": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_150": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_151": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_152": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_153": {
+   "concepts": [
+    "oil",
+    "gold"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_154": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_155": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_156": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_157": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_158": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_159": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_160": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_181": {
+   "concepts": [
+    "ai",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_182": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_183": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_184": {
+   "concepts": [
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_185": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_186": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_187": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_188": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Demand"
+  },
+  "event_189": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_190": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_191": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_192": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_193": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_194": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_195": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_196": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_197": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_198": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_199": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_200": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_221": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_222": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_223": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_224": {
+   "concepts": [
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_225": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_226": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_227": {
+   "concepts": [
+    "china_tech",
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_228": {
+   "concepts": [
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_229": {
+   "concepts": [
+    "china_tech",
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_230": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_231": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_232": {
+   "concepts": [
+    "oil",
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_233": {
+   "concepts": [
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_234": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_235": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_236": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_237": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_238": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_239": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_240": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_241": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_242": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_243": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_244": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_245": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_246": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_247": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_248": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_249": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_250": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_251": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_252": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_253": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_254": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_255": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_256": {
+   "concepts": [],
+   "driver": "Demand"
+  },
+  "event_257": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_258": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_259": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_260": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_201": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_202": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_203": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech",
+    "usd_index"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_204": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_205": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_206": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_207": {
+   "concepts": [
+    "oil",
+    "nasdaq100",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_208": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_209": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_210": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_211": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_212": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Demand"
+  },
+  "event_213": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_214": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_215": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Demand"
+  },
+  "event_216": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_217": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_218": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_219": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Demand"
+  },
+  "event_220": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_261": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_262": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_263": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_264": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_265": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_266": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_267": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_268": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_269": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_270": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_271": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_272": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_273": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_274": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_275": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_276": {
+   "concepts": [
+    "nasdaq100",
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_277": {
+   "concepts": [
+    "nasdaq100",
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_278": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_279": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_280": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_321": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_322": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_323": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_324": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_325": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_326": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_327": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_328": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_329": {
+   "concepts": [
+    "oil",
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_330": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_331": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_332": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_333": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_334": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_335": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_336": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_337": {
+   "concepts": [
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_338": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_339": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_340": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_301": {
+   "concepts": [
+    "china_tech",
+    "china_internet",
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_302": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_303": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_304": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_305": {
+   "concepts": [],
+   "driver": "Industry Cycle"
+  },
+  "event_306": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_307": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_308": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_309": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_310": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_311": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_312": {
+   "concepts": [
+    "gold",
+    "usd_index",
+    "oil"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_313": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_314": {
+   "concepts": [
+    "gold",
+    "usd_index",
+    "oil"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_315": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_316": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Demand"
+  },
+  "event_317": {
+   "concepts": [
+    "usd_index",
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_318": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_319": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_320": {
+   "concepts": [
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_361": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_362": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_363": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Demand"
+  },
+  "event_364": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Demand"
+  },
+  "event_365": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_366": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_367": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_368": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_369": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_370": {
+   "concepts": [
+    "china_internet",
+    "china_tech",
+    "semiconductor"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_371": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_372": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_373": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_374": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_375": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_376": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_377": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_378": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_379": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_380": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_281": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_282": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_283": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_284": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_285": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_286": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_287": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_288": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_289": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_290": {
+   "concepts": [
+    "us_long_treasury"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_291": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_292": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_293": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_294": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_295": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Demand"
+  },
+  "event_296": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_297": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_298": {
+   "concepts": [
+    "us_agg_bond"
+   ],
+   "driver": "Efficiency/Cost"
+  },
+  "event_299": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_300": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_341": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_342": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_343": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_344": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_345": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_346": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_347": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_348": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_349": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_350": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_351": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_352": {
+   "concepts": [],
+   "driver": "Geopolitics"
+  },
+  "event_353": {
+   "concepts": [
+    "nasdaq100",
+    "oil",
+    "us_agg_bond"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_354": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_355": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_356": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_357": {
+   "concepts": [
+    "gold",
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_358": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_359": {
+   "concepts": [
+    "ai",
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_360": {
+   "concepts": [
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_401": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_402": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_403": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_404": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_405": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_406": {
+   "concepts": [
+    "robotics"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_407": {
+   "concepts": [
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_408": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_409": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_410": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_411": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_412": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_413": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_414": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_415": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_416": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_417": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_418": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_419": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Efficiency/Cost"
+  },
+  "event_420": {
+   "concepts": [],
+   "driver": "Industry Cycle"
+  },
+  "event_421": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_422": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_423": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_424": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_425": {
+   "concepts": [
+    "oil",
+    "gold"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_426": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_427": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_428": {
+   "concepts": [
+    "ai",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_429": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_430": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_431": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_432": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_433": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_434": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_435": {
+   "concepts": [
+    "oil",
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_436": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_437": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_438": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_439": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_440": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_381": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_382": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_383": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_384": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_385": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_386": {
+   "concepts": [
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_387": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_388": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_389": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_390": {
+   "concepts": [],
+   "driver": "Revenue"
+  },
+  "event_391": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_392": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_393": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_394": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_395": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_396": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_397": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_398": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Supply"
+  },
+  "event_399": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Demand"
+  },
+  "event_400": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_441": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_442": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_443": {
+   "concepts": [
+    "oil",
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_444": {
+   "concepts": [
+    "oil",
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_445": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_446": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_447": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_448": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_449": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_450": {
+   "concepts": [
+    "nasdaq100",
+    "ai",
+    "us_long_treasury"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_451": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_452": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_453": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_454": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_455": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_456": {
+   "concepts": [],
+   "driver": "Geopolitics"
+  },
+  "event_457": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_458": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_459": {
+   "concepts": [
+    "nasdaq100",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_460": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_461": {
+   "concepts": [
+    "china_internet",
+    "china_tech",
+    "nasdaq100"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_462": {
+   "concepts": [
+    "china_internet",
+    "china_tech",
+    "nasdaq100"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_463": {
+   "concepts": [
+    "china_internet",
+    "china_tech",
+    "nasdaq100"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_464": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_465": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_466": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Demand"
+  },
+  "event_467": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_468": {
+   "concepts": [
+    "oil",
+    "usd_index",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_469": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_470": {
+   "concepts": [
+    "china_internet",
+    "china_tech",
+    "usd_index"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_471": {
+   "concepts": [
+    "us_tech",
+    "semiconductor",
+    "nasdaq100"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_472": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_473": {
+   "concepts": [
+    "usd_index",
+    "oil",
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_474": {
+   "concepts": [
+    "china_internet",
+    "china_tech",
+    "nasdaq100"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_475": {
+   "concepts": [
+    "china_internet",
+    "china_tech",
+    "nasdaq100"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_476": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_477": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_478": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_479": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_480": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_481": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_482": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_483": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_484": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_485": {
+   "concepts": [
+    "china_internet",
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_486": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_487": {
+   "concepts": [
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_488": {
+   "concepts": [
+    "china_tech",
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_489": {
+   "concepts": [],
+   "driver": "Demand"
+  },
+  "event_490": {
+   "concepts": [
+    "ai",
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_491": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_492": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_493": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_494": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_495": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_496": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_497": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_498": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_499": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_500": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_521": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_522": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_523": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_524": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_525": {
+   "concepts": [
+    "ai",
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_526": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_527": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_528": {
+   "concepts": [
+    "us_tech",
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_529": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_530": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_531": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_532": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_533": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_534": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_535": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_536": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_537": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_538": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_539": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_540": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_501": {
+   "concepts": [
+    "gold",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_502": {
+   "concepts": [
+    "gold",
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_503": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Demand"
+  },
+  "event_504": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_505": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_506": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_507": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_508": {
+   "concepts": [
+    "ai",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Efficiency/Cost"
+  },
+  "event_509": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_510": {
+   "concepts": [
+    "nasdaq100",
+    "semiconductor",
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_511": {
+   "concepts": [
+    "nasdaq100",
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_512": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_513": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_514": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_515": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_516": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_517": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_518": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_519": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_520": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_541": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_542": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_543": {
+   "concepts": [
+    "ai",
+    "oil"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_544": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_545": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_546": {
+   "concepts": [
+    "china_internet",
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_547": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_548": {
+   "concepts": [],
+   "driver": "Geopolitics"
+  },
+  "event_549": {
+   "concepts": [],
+   "driver": "Geopolitics"
+  },
+  "event_550": {
+   "concepts": [
+    "ai",
+    "china_tech",
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_551": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_552": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_553": {
+   "concepts": [
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_554": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_555": {
+   "concepts": [
+    "ai",
+    "china_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_556": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_557": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_558": {
+   "concepts": [
+    "ai",
+    "china_tech",
+    "china_internet"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_559": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_560": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_561": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_562": {
+   "concepts": [
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_563": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_564": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_565": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_566": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_567": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_568": {
+   "concepts": [
+    "gold",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_569": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_570": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Demand"
+  },
+  "event_571": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_572": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Demand"
+  },
+  "event_573": {
+   "concepts": [
+    "gold",
+    "oil",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_574": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_575": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_576": {
+   "concepts": [
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_577": {
+   "concepts": [
+    "semiconductor",
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_578": {
+   "concepts": [
+    "semiconductor",
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_579": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_580": {
+   "concepts": [
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_581": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_582": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_583": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_584": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_585": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_586": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_587": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_588": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_589": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_590": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_591": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_592": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_593": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_594": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_595": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_596": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_597": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_598": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_599": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_600": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_601": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_602": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_603": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_604": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_605": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_606": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_607": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_608": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_609": {
+   "concepts": [
+    "us_long_treasury",
+    "nasdaq100",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_610": {
+   "concepts": [
+    "oil",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_611": {
+   "concepts": [
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_612": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_613": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_614": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_615": {
+   "concepts": [],
+   "driver": "Supply"
+  },
+  "event_616": {
+   "concepts": [
+    "semiconductor",
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_617": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_618": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_619": {
+   "concepts": [
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_620": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_641": {
+   "concepts": [
+    "gold",
+    "oil",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_642": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_643": {
+   "concepts": [
+    "gold",
+    "oil",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_644": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_645": {
+   "concepts": [
+    "gold",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_646": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_647": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_648": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_649": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_650": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_651": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Supply"
+  },
+  "event_652": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_653": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_654": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_655": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_656": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_657": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_658": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_659": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_660": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_621": {
+   "concepts": [],
+   "driver": "Geopolitics"
+  },
+  "event_622": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_623": {
+   "concepts": [],
+   "driver": "Demand"
+  },
+  "event_624": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_625": {
+   "concepts": [
+    "oil",
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_626": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "oil"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_627": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_628": {
+   "concepts": [
+    "china_tech",
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_629": {
+   "concepts": [
+    "china_tech",
+    "china_internet"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_630": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_631": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_632": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_633": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_634": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_635": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_636": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_637": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_638": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_639": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Supply"
+  },
+  "event_640": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_701": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_702": {
+   "concepts": [
+    "ai",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_703": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_704": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_705": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_706": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_707": {
+   "concepts": [
+    "gold",
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_708": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_709": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_710": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_711": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_712": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_713": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_714": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_715": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_716": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_717": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_718": {
+   "concepts": [
+    "semiconductor",
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Revenue"
+  },
+  "event_719": {
+   "concepts": [
+    "ai",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_720": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_661": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_662": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Revenue"
+  },
+  "event_663": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Supply"
+  },
+  "event_664": {
+   "concepts": [
+    "us_long_treasury",
+    "oil",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_665": {
+   "concepts": [
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_666": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_667": {
+   "concepts": [
+    "semiconductor",
+    "robotics"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_668": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_669": {
+   "concepts": [
+    "semiconductor",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_670": {
+   "concepts": [
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_671": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_672": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_673": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_674": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_675": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Supply"
+  },
+  "event_676": {
+   "concepts": [
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_677": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_678": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_679": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_680": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_681": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_682": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_683": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_684": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_685": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_686": {
+   "concepts": [
+    "semiconductor",
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_687": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_688": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_689": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_690": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_691": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_692": {
+   "concepts": [],
+   "driver": "Supply"
+  },
+  "event_693": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_694": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_695": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_696": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_697": {
+   "concepts": [
+    "oil",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_698": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_699": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_700": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_721": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_722": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_723": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_724": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_725": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_726": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_727": {
+   "concepts": [
+    "nasdaq100",
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_728": {
+   "concepts": [
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_729": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_730": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_731": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_732": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_733": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_734": {
+   "concepts": [
+    "us_tech",
+    "china_tech",
+    "china_internet"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_735": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_736": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_737": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_738": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_739": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_740": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_741": {
+   "concepts": [
+    "china_tech",
+    "ai",
+    "china_internet"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_742": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_743": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_744": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_745": {
+   "concepts": [
+    "ai",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_746": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_747": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_748": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Revenue"
+  },
+  "event_749": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_750": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_751": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_752": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_753": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_754": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_755": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_756": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_757": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_758": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_759": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_760": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_761": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_762": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Demand"
+  },
+  "event_763": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_764": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_765": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_766": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_767": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_768": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_769": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_770": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_771": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_772": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_773": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_774": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_775": {
+   "concepts": [
+    "china_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_776": {
+   "concepts": [],
+   "driver": "Geopolitics"
+  },
+  "event_777": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_778": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_779": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_780": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_781": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_782": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_783": {
+   "concepts": [
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_784": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_785": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_786": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_787": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_788": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_789": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_790": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_791": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_792": {
+   "concepts": [
+    "us_agg_bond"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_793": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_794": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_795": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_796": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_797": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_798": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_799": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_800": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_861": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_862": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_863": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_864": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_865": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_866": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_867": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_868": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_869": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_870": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_871": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_872": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_873": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_874": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_875": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_876": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_877": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_878": {
+   "concepts": [
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_879": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_880": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_821": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_822": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_823": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Demand"
+  },
+  "event_824": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_825": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_826": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_827": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_828": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_829": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_830": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_831": {
+   "concepts": [
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_832": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_833": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_834": {
+   "concepts": [
+    "china_tech",
+    "china_internet"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_835": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_836": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_837": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_838": {
+   "concepts": [],
+   "driver": "Industry Cycle"
+  },
+  "event_839": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_840": {
+   "concepts": [
+    "china_tech",
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_881": {
+   "concepts": [],
+   "driver": "Revenue"
+  },
+  "event_882": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_883": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_884": {
+   "concepts": [],
+   "driver": "Demand"
+  },
+  "event_885": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_886": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_887": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_888": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_889": {
+   "concepts": [
+    "semiconductor",
+    "ai",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_890": {
+   "concepts": [],
+   "driver": "Revenue"
+  },
+  "event_891": {
+   "concepts": [
+    "china_internet"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_892": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "nasdaq100"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_893": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_894": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_895": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_896": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_897": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_898": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_899": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_900": {
+   "concepts": [
+    "semiconductor",
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_801": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_802": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Demand"
+  },
+  "event_803": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Supply"
+  },
+  "event_804": {
+   "concepts": [
+    "nasdaq100",
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_805": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_806": {
+   "concepts": [
+    "us_long_treasury"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_807": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_808": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_809": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_810": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_811": {
+   "concepts": [
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_812": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_813": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_814": {
+   "concepts": [
+    "us_long_treasury"
+   ],
+   "driver": "Efficiency/Cost"
+  },
+  "event_815": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_816": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_817": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_818": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_819": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Demand"
+  },
+  "event_820": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_841": {
+   "concepts": [
+    "china_tech",
+    "china_internet"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_842": {
+   "concepts": [
+    "semiconductor",
+    "china_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_843": {
+   "concepts": [],
+   "driver": "Geopolitics"
+  },
+  "event_844": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Demand"
+  },
+  "event_845": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_846": {
+   "concepts": [
+    "china_tech",
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_847": {
+   "concepts": [
+    "china_tech",
+    "china_internet"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_848": {
+   "concepts": [
+    "china_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_849": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_850": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_851": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_852": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_853": {
+   "concepts": [
+    "nasdaq100",
+    "oil"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_854": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_855": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_856": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_857": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_858": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_859": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_860": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_941": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_942": {
+   "concepts": [
+    "oil",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_943": {
+   "concepts": [
+    "oil",
+    "nasdaq100"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_944": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_945": {
+   "concepts": [
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_946": {
+   "concepts": [
+    "ai",
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_947": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Supply"
+  },
+  "event_948": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Supply"
+  },
+  "event_949": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Supply"
+  },
+  "event_950": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_951": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_952": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Demand"
+  },
+  "event_953": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_954": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_955": {
+   "concepts": [],
+   "driver": "Supply"
+  },
+  "event_956": {
+   "concepts": [],
+   "driver": "Supply"
+  },
+  "event_957": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_958": {
+   "concepts": [
+    "us_long_treasury",
+    "oil",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_959": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_960": {
+   "concepts": [
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_901": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_902": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_903": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_904": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "nasdaq100"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_905": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_906": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_907": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_908": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_909": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_910": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_911": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "nasdaq100"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_912": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_913": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_914": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_915": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_916": {
+   "concepts": [
+    "oil",
+    "us_agg_bond",
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_917": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_918": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_919": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_920": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_921": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_922": {
+   "concepts": [],
+   "driver": "Macro & FX"
+  },
+  "event_923": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_924": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_925": {
+   "concepts": [
+    "nasdaq100",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_926": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_927": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_928": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_929": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_930": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_931": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Demand"
+  },
+  "event_932": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_933": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_934": {
+   "concepts": [
+    "semiconductor",
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_935": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_936": {
+   "concepts": [
+    "ai",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_937": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_938": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_939": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_940": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_961": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_962": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_963": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_964": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_965": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Supply"
+  },
+  "event_966": {
+   "concepts": [
+    "oil",
+    "china_tech"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_967": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_968": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Supply"
+  },
+  "event_969": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_970": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_971": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100",
+    "ai"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_972": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_973": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_974": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_975": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_976": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_977": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_978": {
+   "concepts": [
+    "us_long_treasury",
+    "us_agg_bond",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_979": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_980": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_1001": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_1002": {
+   "concepts": [
+    "gold"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_1003": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_1004": {
+   "concepts": [
+    "semiconductor",
+    "ai",
+    "us_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_1005": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_1006": {
+   "concepts": [
+    "nasdaq100",
+    "us_long_treasury",
+    "usd_index"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_1007": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Revenue"
+  },
+  "event_1008": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Supply"
+  },
+  "event_1009": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_1010": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Demand"
+  },
+  "event_1011": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_1012": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Industry Cycle"
+  },
+  "event_1013": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_1014": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_1015": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_1016": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_1017": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_1018": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_1019": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_1020": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_1021": {
+   "concepts": [
+    "oil"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_1022": {
+   "concepts": [
+    "ai"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_1023": {
+   "concepts": [
+    "semiconductor",
+    "china_tech"
+   ],
+   "driver": "Supply"
+  },
+  "event_1024": {
+   "concepts": [],
+   "driver": "Revenue"
+  },
+  "event_1025": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_1026": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_1027": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_1028": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_1029": {
+   "concepts": [
+    "usd_index"
+   ],
+   "driver": "Geopolitics"
+  },
+  "event_1030": {
+   "concepts": [
+    "nasdaq100"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_1031": {
+   "concepts": [
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Technology/Innovation"
+  },
+  "event_981": {
+   "concepts": [
+    "ai",
+    "semiconductor",
+    "us_tech"
+   ],
+   "driver": "Strategic Action"
+  },
+  "event_982": {
+   "concepts": [
+    "semiconductor"
+   ],
+   "driver": "Efficiency/Cost"
+  },
+  "event_983": {
+   "concepts": [
+    "semiconductor",
+    "us_tech",
+    "nasdaq100"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_984": {
+   "concepts": [
+    "us_agg_bond",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_985": {
+   "concepts": [],
+   "driver": "Strategic Action"
+  },
+  "event_986": {
+   "concepts": [],
+   "driver": "Technology/Innovation"
+  },
+  "event_987": {
+   "concepts": [],
+   "driver": "Revenue"
+  },
+  "event_988": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_989": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_990": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_991": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_992": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_993": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_994": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_995": {
+   "concepts": [],
+   "driver": "Market Flow"
+  },
+  "event_996": {
+   "concepts": [],
+   "driver": "Policy/Regulation"
+  },
+  "event_997": {
+   "concepts": [
+    "nasdaq100",
+    "us_tech"
+   ],
+   "driver": "Market Flow"
+  },
+  "event_998": {
+   "concepts": [
+    "oil",
+    "us_long_treasury",
+    "nasdaq100"
+   ],
+   "driver": "Macro & FX"
+  },
+  "event_999": {
+   "concepts": [
+    "china_internet",
+    "china_tech"
+   ],
+   "driver": "Policy/Regulation"
+  },
+  "event_1000": {
+   "concepts": [
+    "gold",
+    "usd_index",
+    "us_long_treasury"
+   ],
+   "driver": "Macro & FX"
+  }
+ }
+}

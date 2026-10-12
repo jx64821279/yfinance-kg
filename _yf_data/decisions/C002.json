@@ -1,0 +1,93 @@
+{
+ "priority": "高",
+ "summary": "客户为 C1 退休客户，定存 1,200,000 元将于 2026-12 到期，现有 AGG/TLT/GLD/UUP 事件面普遍偏负且近一周实际回撤，建议尽快联系做到期前再检视并控制新增风险。",
+ "risks": [
+  {
+   "point": "组合 75% 集中在 AGG 和 TLT，事件面受宏观与利率上行信号压制；近一周实际表现也偏弱，利率暴露是当前主要风险。",
+   "evidence": [
+    "event_335",
+    "event_806",
+    "event_596",
+    "event_922"
+   ]
+  },
+  {
+   "point": "TLT 有明确负向资金流事件，且事件面长期国债净信号偏负，25% 权重可能放大组合波动。",
+   "evidence": [
+    "event_806"
+   ]
+  },
+  {
+   "point": "GLD 与 UUP 的事件面净信号偏负，局部正向事件不足以支撑追高。",
+   "evidence": [
+    "event_022",
+    "event_061",
+    "event_294"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "AGG 有资金流层面的正向事件，若定存到期后需要低波动底仓，可优先检视 AGG 的保留或再平衡价值，而非直接追加 TLT。",
+   "evidence": [
+    "event_792"
+   ]
+  },
+  {
+   "point": "GLD 出现局部资金流与需求正向事件，可作为组合分散化讨论点，但事件面整体仍偏负，只宜观察。",
+   "evidence": [
+    "event_294",
+    "event_905"
+   ]
+  },
+  {
+   "point": "TLT 有政策层面要求降息的正面事件，若利率预期转向可缓解压力，但当前事件面仍净负，只宜观察不加仓。",
+   "evidence": [
+    "event_070",
+    "event_182"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "现在联系客户，以“2026-12 定存到期前的资产检视”为切入，先复盘 AGG/TLT/GLD/UUP 的事件面偏负与近一周实际回撤，不主动推新增产品。",
+   "timing": "现在联系；2026-12 前完成检视",
+   "reason": "定存到期是明确衔接窗口，且现有持仓事件面与近一周表现互相印证偏弱，需要提前沟通预期。",
+   "evidence": [
+    "event_335",
+    "event_806"
+   ]
+  },
+  {
+   "action": "沟通时重点谈债券端：确认客户对 AGG/TLT 波动承受度，评估是否降低 TLT 权重，保留 AGG 作为底仓或再平衡对象；不新增 TLT。",
+   "timing": "2026-12 定存到期前",
+   "reason": "AGG 与 TLT 权重高且受利率与宏观事件压制，TLT 负向事件更强，先处理集中度而非追涨。",
+   "evidence": [
+    "event_335",
+    "event_806",
+    "event_792"
+   ]
+  },
+  {
+   "action": "对 GLD/UUP 只作分散化与对冲观察，不因局部正向事件追高；到期资金先留足流动性，再讨论是否维持现有 GLD/UUP 权重。",
+   "timing": "2026-12 定存到期前及资金衔接时",
+   "reason": "GLD 与 UUP 事件面净信号偏负，局部正信号不足以构成追买理由。",
+   "evidence": [
+    "event_022",
+    "event_061",
+    "event_294"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 13
+ },
+ "_meta": {
+  "customer_id": "C002",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C002.json",
+  "brief": "C002.json"
+ }
+}

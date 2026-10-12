@@ -1,0 +1,85 @@
+{
+ "priority": "高",
+ "summary": "优先级高：客户有20万闲钱（占总资产18.2%）且10天前主动问过SMH定投，组合集中半导体/AI/科技，事件面半导体与AI偏正但市场流有反复，宜主动联系并分批沟通SMH/AIQ。",
+ "risks": [
+  {
+   "point": "组合集中暴露于半导体、人工智能、纳斯达克100/大盘成长和机器人与自动化，近期出现市场流负向与AI情绪反复事件，主题波动可能放大。",
+   "evidence": [
+    "event_826",
+    "event_900",
+    "event_901"
+   ]
+  },
+  {
+   "point": "QQQ相关大盘成长事件面净偏负，市场流出现负向信号，不宜在短期反弹时追高加仓。",
+   "evidence": [
+    "event_826",
+    "event_900"
+   ]
+  },
+  {
+   "point": "BOTZ所在机器人与自动化主题虽有小幅正贡献，但存在负向市场流事件，短期不宜优先加仓。",
+   "evidence": [
+    "event_406"
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "point": "半导体事件面净正，战略行动、收入等驱动偏正，SMH可作为定投沟通主标的。",
+   "evidence": [
+    "event_718",
+    "event_471"
+   ]
+  },
+  {
+   "point": "人工智能事件面净正，收入与战略行动仍有支撑，AIQ可与SMH搭配分批沟通。",
+   "evidence": [
+    "event_719",
+    "event_583"
+   ]
+  }
+ ],
+ "actions": [
+  {
+   "action": "主动联系：本周微信切入上次客户问过的SMH定投，先确认闲钱期限与回撤承受力，再讨论分批定投SMH；不推一次性满仓。",
+   "timing": "本周（距上次联系约10天）",
+   "reason": "半导体事件面偏正且客户有20万闲钱，适合用定投方式承接兴趣并控制追高风险。",
+   "evidence": [
+    "event_718",
+    "event_471"
+   ]
+  },
+  {
+   "action": "同一轮沟通中把AIQ作为与SMH搭配的小比例分批候选，提示AI情绪波动；暂不优先新增QQQ或BOTZ。",
+   "timing": "同一轮沟通",
+   "reason": "AI事件面有收入和战略支撑，但也出现AI情绪负向市场流，宜搭配而非重仓。",
+   "evidence": [
+    "event_719",
+    "event_583",
+    "event_900"
+   ]
+  },
+  {
+   "action": "若客户问到QQQ或BOTZ，说明QQQ大盘成长受宏观/市场流压制、BOTZ主题信号不强，建议等回撤或下一轮事件确认；定存2027-03到期前不纳入本次配置。",
+   "timing": "本次沟通及后续跟踪",
+   "reason": "QQQ与BOTZ的事件面支撑弱于半导体和AI，优先把闲钱分批用于SMH/AIQ更符合当前事件面。",
+   "evidence": [
+    "event_826",
+    "event_406",
+    "event_900"
+   ]
+  }
+ ],
+ "_check": {
+  "bad_evidence_ids": [],
+  "products_out_of_scope": [],
+  "n_evidence_events": 14
+ },
+ "_meta": {
+  "customer_id": "C019",
+  "model": "deepseek-v4-flash-vision-exp",
+  "subgraph": "C019.json",
+  "brief": "C019.json"
+ }
+}
