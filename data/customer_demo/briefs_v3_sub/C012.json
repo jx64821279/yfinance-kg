@@ -58,41 +58,6 @@
     }
    },
    {
-    "concept": "纳斯达克100/大盘成长",
-    "n_events": 330,
-    "n_days": 29,
-    "pos": 9.949,
-    "neg": 10.684,
-    "net": -0.735,
-    "avg_per_event": -0.0022,
-    "rank_score": -0.0405,
-    "drivers": [
-     {
-      "ticker": "QQQ",
-      "net": -0.735
-     }
-    ],
-    "by_driver": {
-     "Macro & FX": -4.336,
-     "Revenue": 1.971,
-     "Strategic Action": 1.645,
-     "Market Flow": -1.493,
-     "Technology/Innovation": 1.432,
-     "Demand": 0.667,
-     "Policy/Regulation": -0.633,
-     "Efficiency/Cost": -0.203,
-     "Geopolitics": 0.192,
-     "Supply": 0.121,
-     "Industry Cycle": -0.097
-    },
-    "by_category": {
-     "PolicyEvents": 41,
-     "CorporateEvents": 103,
-     "MacroEvents": 47,
-     "MarketEvents": 139
-    }
-   },
-   {
     "concept": "黄金",
     "n_events": 78,
     "n_days": 18,
@@ -121,6 +86,41 @@
      "PolicyEvents": 1,
      "CorporateEvents": 2,
      "CommodityEvents": 1
+    }
+   },
+   {
+    "concept": "纳斯达克100/大盘成长",
+    "n_events": 330,
+    "n_days": 29,
+    "pos": 10.588,
+    "neg": 10.95,
+    "net": -0.362,
+    "avg_per_event": -0.0011,
+    "rank_score": -0.0199,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.362
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -4.418,
+     "Revenue": 2.107,
+     "Strategic Action": 1.812,
+     "Technology/Innovation": 1.535,
+     "Market Flow": -1.504,
+     "Demand": 0.728,
+     "Policy/Regulation": -0.6,
+     "Efficiency/Cost": -0.203,
+     "Geopolitics": 0.192,
+     "Industry Cycle": -0.132,
+     "Supply": 0.121
+    },
+    "by_category": {
+     "PolicyEvents": 41,
+     "CorporateEvents": 103,
+     "MacroEvents": 47,
+     "MarketEvents": 139
     }
    }
   ],
@@ -154,41 +154,6 @@
     }
    },
    {
-    "concept": "纳斯达克100/大盘成长",
-    "n_events": 330,
-    "n_days": 29,
-    "pos": 9.949,
-    "neg": 10.684,
-    "net": -0.735,
-    "avg_per_event": -0.0022,
-    "rank_score": -0.0405,
-    "drivers": [
-     {
-      "ticker": "QQQ",
-      "net": -0.735
-     }
-    ],
-    "by_driver": {
-     "Macro & FX": -4.336,
-     "Revenue": 1.971,
-     "Strategic Action": 1.645,
-     "Market Flow": -1.493,
-     "Technology/Innovation": 1.432,
-     "Demand": 0.667,
-     "Policy/Regulation": -0.633,
-     "Efficiency/Cost": -0.203,
-     "Geopolitics": 0.192,
-     "Supply": 0.121,
-     "Industry Cycle": -0.097
-    },
-    "by_category": {
-     "PolicyEvents": 41,
-     "CorporateEvents": 103,
-     "MacroEvents": 47,
-     "MarketEvents": 139
-    }
-   },
-   {
     "concept": "黄金",
     "n_events": 78,
     "n_days": 18,
@@ -217,6 +182,41 @@
      "PolicyEvents": 1,
      "CorporateEvents": 2,
      "CommodityEvents": 1
+    }
+   },
+   {
+    "concept": "纳斯达克100/大盘成长",
+    "n_events": 330,
+    "n_days": 29,
+    "pos": 10.588,
+    "neg": 10.95,
+    "net": -0.362,
+    "avg_per_event": -0.0011,
+    "rank_score": -0.0199,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.362
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -4.418,
+     "Revenue": 2.107,
+     "Strategic Action": 1.812,
+     "Technology/Innovation": 1.535,
+     "Market Flow": -1.504,
+     "Demand": 0.728,
+     "Policy/Regulation": -0.6,
+     "Efficiency/Cost": -0.203,
+     "Geopolitics": 0.192,
+     "Industry Cycle": -0.132,
+     "Supply": 0.121
+    },
+    "by_category": {
+     "PolicyEvents": 41,
+     "CorporateEvents": 103,
+     "MacroEvents": 47,
+     "MarketEvents": 139
     }
    }
   ],

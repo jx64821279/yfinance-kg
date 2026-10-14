@@ -4,6 +4,7 @@
 输入：_yf_data/news_raw_v2.json（yf_news_v2.py 的产物，含 wide / topic / entity 三个通道）
 产出：_yf_data/news_filtered_v2.json   过滤后的新闻（每条带 scope 标签，供抽取使用）
       _yf_data/news_quality_report_v2.json  质量报告（保留/丢弃的原因与分布）
+      _yf_data/news_dropped_v2.json         丢弃明细（试跑单条新闻时用 --dropped 指到别处）
 
 处理三件事：
   ① 时间窗：以语料里最新日期为基准，只保留最近 N 天（默认 30，不用"今天"，保证可复现）
@@ -30,11 +31,14 @@ OUT_DIR = "_yf_data"
 RAW_IN = os.path.join(OUT_DIR, "news_raw_v2.json")
 FILTERED_OUT = os.path.join(OUT_DIR, "news_filtered_v2.json")
 REPORT_OUT = os.path.join(OUT_DIR, "news_quality_report_v2.json")
+DROPPED_OUT = os.path.join(OUT_DIR, "news_dropped_v2.json")
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--raw", default=RAW_IN)
 parser.add_argument("--out", default=FILTERED_OUT)
 parser.add_argument("--report", default=REPORT_OUT)
+parser.add_argument("--dropped", default=DROPPED_OUT,
+                    help="丢弃明细（单条/小批量试跑时务必指到别处，别覆盖语料那一份）")
 parser.add_argument("--window", type=int, default=30, help="时间窗（天），以语料最新日期为基准")
 parser.add_argument("--sim", type=float, default=0.85, help="同日近似重复的 Jaccard 阈值")
 args, _ = parser.parse_known_args()
@@ -316,7 +320,7 @@ def main():
         json.dump(report, f, ensure_ascii=False, indent=2)
 
     # 被丢弃的条目也落盘：未命中桶要交给 LLM 复核，其余留作审计
-    dropped_path = os.path.join(OUT_DIR, "news_dropped_v2.json")
+    dropped_path = args.dropped
     with open(dropped_path, "w", encoding="utf-8") as f:
         json.dump({
             "out_of_window": dropped_window,

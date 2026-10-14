@@ -11,9 +11,10 @@
     selected_events     有界选取：每个概念只留 top-k 条（细粒度检索的"k"），
                         市场层面单独一批；正负两头对称取，避免只留同方向的信号
 
-为什么把曝光度也放进库
-    简报要给"哪些事件对这个客户影响最大"排序，就得有分数；分数放库里，
-    检索层才能在 SQL 里完成筛选和排序，而不是把全量文件读进内存再挑。
+曝光度怎么来的
+    库里**不存**分数（存了就会随参数漂移）。这里用 exposure_v2.py 现算：
+    只装这个客户持有的产品（ExposureModel.from_db(fund_ids=…)），
+    别人的产品根本不参与计算，所以"以客户为入口"是算出来的，不是筛出来的。
 
 用法
     python kg_subgraph.py --db data/kg_v3.db --customer C009
@@ -27,6 +28,7 @@ import os
 import sqlite3
 from datetime import datetime
 
+from exposure_v2 import ExposureModel
 from kg_common import SIGN, materiality, pct_change
 
 parser = argparse.ArgumentParser()
@@ -133,26 +135,32 @@ def build_subgraph(con, customer_id, top_events=3):
         WHERE f.type = 'Fund' ORDER BY f.ticker"""):
         funds_all.append(dict(r))
 
-    # 事件 × 他持有的产品 的曝光分
+    # 事件 × 他持有的产品 的曝光分：现算，且只装他持有的产品
+    fund_ids = [f["fund_id"] for f in funds if f.get("fund_id")]
     rows = []
-    if tickers:
-        q = """
-        SELECT s.event_id, s.fund_id, s.ticker, s.score,
-               n.name AS event_name, n.props
-        FROM event_fund_score s
-        JOIN node n ON n.id = s.event_id
-        WHERE s.ticker IN (%s) AND s.score IS NOT NULL AND ABS(s.score) > 0
-        """ % ",".join("?" * len(tickers))
-        for r in cur.execute(q, tickers):
+    if fund_ids:
+        model = ExposureModel.from_db(con, fund_ids=fund_ids)
+        held = set(fund_ids)
+        events_meta = []
+        for r in cur.execute("SELECT id, props FROM node WHERE type='Event'"):
             p = props_of(r)
-            rows.append({
-                "event_id": r["event_id"], "fund_id": r["fund_id"], "ticker": r["ticker"],
-                "score": r["score"], "title": p.get("news_title"),
-                "date": p.get("pub_date"), "category": p.get("event_category"),
-                "scope": p.get("scope"), "channel": p.get("channel"),
-                "polarity": p.get("polarity"), "driver": p.get("driver_category"),
-                "asset_class": p.get("asset_class"), "publisher": p.get("news_source"),
+            events_meta.append({
+                "id": r["id"], "title": p.get("news_title"), "date": p.get("pub_date"),
+                "category": p.get("event_category"), "scope": p.get("scope"),
+                "channel": p.get("channel"), "polarity": p.get("polarity"),
+                "driver": p.get("driver_category"), "asset_class": p.get("asset_class"),
+                "publisher": p.get("news_source"), "link": p.get("link"),
             })
+        for em in events_meta:
+            for sc in model.score_event(em["id"], em["polarity"], funds=held):
+                if not sc["score"]:
+                    continue      # 中性事件不带方向，不进明细（和旧口径一致）
+                rows.append({"event_id": em["id"], "fund_id": sc["fund"], "ticker": sc["ticker"],
+                             "score": sc["score"], "title": em["title"], "date": em["date"],
+                             "category": em["category"], "scope": em["scope"],
+                             "channel": em["channel"], "polarity": em["polarity"],
+                             "driver": em["driver"], "asset_class": em["asset_class"],
+                             "publisher": em["publisher"], "link": em["link"]})
 
     # 关注过、但持仓没覆盖到的（需求缺口）
     gaps = []
@@ -161,6 +169,8 @@ def build_subgraph(con, customer_id, top_events=3):
     behav_rows = list(cur.execute("""SELECT date, behavior, target_type, target
                                      FROM customer_behavior WHERE customer_id=?""", (customer_id,)))
     for b in behav_rows:
+        # 口径与 customer_brief.find_gaps() 对齐：措辞一致、强度按行为类型分档
+        strong = b["behavior"] in ("咨询客服", "service_chat")
         if b["target_type"] == "concept":
             hit = cur.execute("""
                 SELECT 1 FROM customer_holding h
@@ -168,6 +178,7 @@ def build_subgraph(con, customer_id, top_events=3):
                 JOIN node cn ON cn.id = e.dst AND cn.name = ?
                 WHERE h.customer_id = ? LIMIT 1""", (b["target"], customer_id)).fetchone()
             key = ("concept", b["target"])
+            evidence = "%s %s了「%s」" % (b["date"], b["behavior"], b["target"])
         elif b["target_type"] == "asset_class":
             hit = cur.execute("""
                 SELECT 1 FROM customer_holding h
@@ -176,13 +187,15 @@ def build_subgraph(con, customer_id, top_events=3):
                   AND json_extract(f.props, '$.asset_class') = ? LIMIT 1""",
                               (customer_id, b["target"])).fetchone()
             key = ("asset_class", b["target"])
+            evidence = "%s %s了「%s」类资产" % (b["date"], b["behavior"], b["target"])
         else:
             continue
         if hit or key in seen:
             continue
         seen.add(key)
         gaps.append({"kind": key[0], "target": b["target"],
-                     "evidence": "%s %s了「%s」" % (b["date"], b["behavior"], b["target"])})
+                     "evidence": evidence,
+                     "strength": "strong" if strong else "normal"})
 
     # 市场层面的事件：落不到具体产品（没有分数），但落在资产类别上。
     # 简报的"市场层面"通道要用全量，选取也在这批里挑。
@@ -193,7 +206,8 @@ def build_subgraph(con, customer_id, top_events=3):
         market_events.append({"event_id": r["id"], "date": p.get("pub_date"),
                               "polarity": p.get("polarity"), "driver": p.get("driver_category"),
                               "asset_class": p.get("asset_class"), "scope": p.get("scope"),
-                              "category": p.get("event_category"), "title": p.get("news_title")})
+                              "category": p.get("event_category"), "title": p.get("news_title"),
+                              "link": p.get("link")})
 
     # ---- 细粒度检索的"k"：每个概念只留 top-k 条事件 ----
     # 贡献度 = 分数 × 持仓权重 × 实质性权重（和决策层聚合用的是同一套）
@@ -215,6 +229,7 @@ def build_subgraph(con, customer_id, top_events=3):
         selected[cname] = [{"event_id": e, "contribution": round(c, 3),
                             "date": row_by_event[e]["date"], "polarity": row_by_event[e]["polarity"],
                             "driver": row_by_event[e]["driver"],
+                            "link": row_by_event[e].get("link"),
                             "title": (row_by_event[e]["title"] or "")[:90]} for e, c in chosen]
 
     # 市场层面：只留与这个客户资产类别相关的事件
@@ -236,6 +251,7 @@ def build_subgraph(con, customer_id, top_events=3):
     selected_market = [{"event_id": e, "contribution": round(c, 3),
                         "date": mkt_by_id[e]["date"], "polarity": mkt_by_id[e]["polarity"],
                         "driver": mkt_by_id[e]["driver"], "asset_class": mkt_by_id[e]["asset_class"],
+                        "link": mkt_by_id[e].get("link"),
                         "title": (mkt_by_id[e]["title"] or "")[:90]}
                        for e, c in pick_events(mkt, args.top_market, args.pick)]
 
@@ -274,6 +290,7 @@ def build_subgraph(con, customer_id, top_events=3):
     return {
         "meta": {"db": os.path.basename(args.db), "customer_id": customer_id,
                  "ref_date": ref_date, "n_exposure_rows": len(rows),
+                 "exposure_mode": "按需现算（exposure_v2.ExposureModel，仅本客户持有的产品）",
                  "n_concepts": len({r["concept_name"] for r in funds if r["concept_name"]}),
                  "price_as_of": price_as_of, "n_price_tickers": len(prices),
                  "built_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")},

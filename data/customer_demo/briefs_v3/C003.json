@@ -25,7 +25,7 @@
    "Commodity": 20.0
   },
   "top_holding": {
-   "ticker": "QQQ",
+   "ticker": "AGG",
    "weight_pct": 30
   }
  },
@@ -91,64 +91,29 @@
     "concept": "美国科技",
     "n_events": 330,
     "n_days": 29,
-    "pos": 3.605,
-    "neg": 2.582,
-    "net": 1.023,
-    "avg_per_event": 0.0031,
-    "rank_score": 0.0563,
+    "pos": 3.899,
+    "neg": 2.688,
+    "net": 1.211,
+    "avg_per_event": 0.0037,
+    "rank_score": 0.0667,
     "drivers": [
      {
       "ticker": "XLK",
-      "net": 1.023
+      "net": 1.211
      }
     ],
     "by_driver": {
-     "Revenue": 0.818,
-     "Strategic Action": 0.7,
-     "Macro & FX": -0.674,
-     "Technology/Innovation": 0.4,
-     "Demand": 0.279,
-     "Policy/Regulation": -0.232,
-     "Market Flow": -0.224,
+     "Revenue": 0.864,
+     "Strategic Action": 0.794,
+     "Macro & FX": -0.696,
+     "Technology/Innovation": 0.443,
+     "Demand": 0.306,
+     "Market Flow": -0.223,
+     "Policy/Regulation": -0.215,
+     "Industry Cycle": -0.074,
      "Supply": 0.062,
-     "Industry Cycle": -0.056,
      "Efficiency/Cost": -0.054,
      "Geopolitics": 0.003
-    },
-    "by_category": {
-     "PolicyEvents": 41,
-     "CorporateEvents": 103,
-     "MacroEvents": 47,
-     "MarketEvents": 139
-    }
-   },
-   {
-    "concept": "纳斯达克100/大盘成长",
-    "n_events": 330,
-    "n_days": 29,
-    "pos": 9.949,
-    "neg": 10.684,
-    "net": -0.735,
-    "avg_per_event": -0.0022,
-    "rank_score": -0.0405,
-    "drivers": [
-     {
-      "ticker": "QQQ",
-      "net": -0.735
-     }
-    ],
-    "by_driver": {
-     "Macro & FX": -4.336,
-     "Revenue": 1.971,
-     "Strategic Action": 1.645,
-     "Market Flow": -1.493,
-     "Technology/Innovation": 1.432,
-     "Demand": 0.667,
-     "Policy/Regulation": -0.633,
-     "Efficiency/Cost": -0.203,
-     "Geopolitics": 0.192,
-     "Supply": 0.121,
-     "Industry Cycle": -0.097
     },
     "by_category": {
      "PolicyEvents": 41,
@@ -186,6 +151,41 @@
      "PolicyEvents": 1,
      "CorporateEvents": 2,
      "CommodityEvents": 1
+    }
+   },
+   {
+    "concept": "纳斯达克100/大盘成长",
+    "n_events": 330,
+    "n_days": 29,
+    "pos": 10.588,
+    "neg": 10.95,
+    "net": -0.362,
+    "avg_per_event": -0.0011,
+    "rank_score": -0.0199,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.362
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -4.418,
+     "Revenue": 2.107,
+     "Strategic Action": 1.812,
+     "Technology/Innovation": 1.535,
+     "Market Flow": -1.504,
+     "Demand": 0.728,
+     "Policy/Regulation": -0.6,
+     "Efficiency/Cost": -0.203,
+     "Geopolitics": 0.192,
+     "Industry Cycle": -0.132,
+     "Supply": 0.121
+    },
+    "by_category": {
+     "PolicyEvents": 41,
+     "CorporateEvents": 103,
+     "MacroEvents": 47,
+     "MarketEvents": 139
     }
    }
   ],
@@ -247,38 +247,34 @@
     }
    },
    {
-    "concept": "纳斯达克100/大盘成长",
-    "n_events": 330,
-    "n_days": 29,
-    "pos": 9.949,
-    "neg": 10.684,
-    "net": -0.735,
-    "avg_per_event": -0.0022,
-    "rank_score": -0.0405,
+    "concept": "黄金",
+    "n_events": 78,
+    "n_days": 18,
+    "pos": 1.118,
+    "neg": 1.604,
+    "net": -0.487,
+    "avg_per_event": -0.0062,
+    "rank_score": -0.0551,
     "drivers": [
      {
-      "ticker": "QQQ",
-      "net": -0.735
+      "ticker": "GLD",
+      "net": -0.487
      }
     ],
     "by_driver": {
-     "Macro & FX": -4.336,
-     "Revenue": 1.971,
-     "Strategic Action": 1.645,
-     "Market Flow": -1.493,
-     "Technology/Innovation": 1.432,
-     "Demand": 0.667,
-     "Policy/Regulation": -0.633,
-     "Efficiency/Cost": -0.203,
-     "Geopolitics": 0.192,
-     "Supply": 0.121,
-     "Industry Cycle": -0.097
+     "Macro & FX": -0.848,
+     "Market Flow": 0.292,
+     "Demand": 0.216,
+     "Geopolitics": -0.194,
+     "Policy/Regulation": 0.049,
+     "Industry Cycle": 0.0
     },
     "by_category": {
-     "PolicyEvents": 41,
-     "CorporateEvents": 103,
-     "MacroEvents": 47,
-     "MarketEvents": 139
+     "MarketEvents": 63,
+     "MacroEvents": 11,
+     "PolicyEvents": 1,
+     "CorporateEvents": 2,
+     "CommodityEvents": 1
     }
    }
   ],
@@ -287,27 +283,27 @@
     "concept": "美国科技",
     "n_events": 330,
     "n_days": 29,
-    "pos": 3.605,
-    "neg": 2.582,
-    "net": 1.023,
-    "avg_per_event": 0.0031,
-    "rank_score": 0.0563,
+    "pos": 3.899,
+    "neg": 2.688,
+    "net": 1.211,
+    "avg_per_event": 0.0037,
+    "rank_score": 0.0667,
     "drivers": [
      {
       "ticker": "XLK",
-      "net": 1.023
+      "net": 1.211
      }
     ],
     "by_driver": {
-     "Revenue": 0.818,
-     "Strategic Action": 0.7,
-     "Macro & FX": -0.674,
-     "Technology/Innovation": 0.4,
-     "Demand": 0.279,
-     "Policy/Regulation": -0.232,
-     "Market Flow": -0.224,
+     "Revenue": 0.864,
+     "Strategic Action": 0.794,
+     "Macro & FX": -0.696,
+     "Technology/Innovation": 0.443,
+     "Demand": 0.306,
+     "Market Flow": -0.223,
+     "Policy/Regulation": -0.215,
+     "Industry Cycle": -0.074,
      "Supply": 0.062,
-     "Industry Cycle": -0.056,
      "Efficiency/Cost": -0.054,
      "Geopolitics": 0.003
     },
@@ -469,6 +465,6 @@
   "rank_mode": "net",
   "rank_rule": "default: abs(net); optional: abs(net)/sqrt(n_events) 或 abs(avg_per_event)",
   "bucket_rule": "从产品出发：每只产品的暴露归入它自己所属的概念",
-  "source": "kg_yf_v3.json + exposure_v3.json + customers_all_in_one.csv + prices_v3.json"
+  "source": "kg_yf_v3.json + exposure_v3_snapshot.json + customers_all_in_one.csv + prices_v3.json"
  }
 }

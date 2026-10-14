@@ -16,8 +16,12 @@
 输出
     _yf_data/theme_assign_v3.json
       {"meta": {...},
-       "events": {"event_001": {"concepts": ["ai", "semiconductor"], "driver": "Supply"}, ...}}
+       "events": {"event_17aee2fa": {"concepts": ["ai", "semiconductor"], "driver": "Supply"}, ...}}
     concepts 允许为空（= 对我们的产品货架没有落点）。
+
+事件 key
+    用 event_ids.py 的稳定 id（链接哈希），不再是事件文件里的序号。
+    老文件（event_001 这种位置编号）在读入时自动迁移，原文件备份成 *.bak。
 
 用法
     python classify_theme_v3.py --limit 30 --api_key sk-...   # 先小样本验证提示词
@@ -28,7 +32,10 @@ import argparse
 import collections
 import json
 import os
+import shutil
 import time
+
+from event_ids import attach_links, audit, event_id_for, positional_map
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--events", default=os.path.join("_yf_data", "events_v2_all.json"))
@@ -36,6 +43,8 @@ parser.add_argument("--concepts", default=os.path.join("_yf_data", "concepts.jso
 parser.add_argument("--out", default=os.path.join("_yf_data", "theme_assign_v3.json"))
 parser.add_argument("--events-out", default=os.path.join("_yf_data", "events_v3_all.json"),
                     help="把标注合并进事件文件，供 build_kg_yf.py --suffix _v3 读取")
+parser.add_argument("--news", default=os.path.join("_yf_data", "news_filtered_v2.json"),
+                    help="用来给事件补链接（事件 id 由链接哈希而来）")
 parser.add_argument("--api_base", default="https://api.deepseek.com")
 parser.add_argument("--api_key", default=os.getenv("OPENAI_API_KEY", ""))
 parser.add_argument("--model", default="deepseek-v4-flash-vision-exp")
@@ -136,6 +145,12 @@ def main():
         events = events["events"]
     if args.limit:
         events = events[:args.limit]
+    st = attach_links(events, args.news)
+    au = audit(events)
+    print("事件 %d 条 | id 来源 %s | 链接自带 %d 补 %d 缺 %d"
+          % (au["n_events"], au["key_sources"], st["already"], st["filled"], st["missing"]))
+    if au["collisions"]:
+        raise SystemExit("事件 id 撞哈希：%s" % au["collisions"])
 
     cj = json.load(open(args.concepts, encoding="utf-8"))["concepts"]
     concept_keys = set(cj.keys())
@@ -146,7 +161,22 @@ def main():
     done = {}
     if os.path.exists(args.out):
         done = json.load(open(args.out, encoding="utf-8")).get("events", {})
-    todo = [(i, ev) for i, ev in enumerate(events, 1) if "event_%03d" % i not in done]
+    # 老文件用的是位置编号（event_001），迁移成稳定 id；原文件留一份 .bak
+    pos2new = positional_map(events)
+    migrated = 0
+    for old, val in list(done.items()):
+        new = pos2new.get(old)
+        if not new or new == old:
+            continue
+        done.setdefault(new, val)
+        del done[old]
+        migrated += 1
+    if migrated:
+        if not os.path.exists(args.out + ".bak"):
+            shutil.copyfile(args.out, args.out + ".bak")
+        print("把 %d 条标注从位置编号迁移到稳定 id（原文件备份为 %s.bak）"
+              % (migrated, os.path.basename(args.out)))
+    todo = [(i, ev) for i, ev in enumerate(events, 1) if event_id_for(ev) not in done]
     print("总事件 %d 条 | 已标注 %d 条 | 本次待标注 %d 条" % (len(events), len(done), len(todo)))
     batches = [todo[i:i + args.batch] for i in range(0, len(todo), args.batch)]
 
@@ -176,7 +206,7 @@ def main():
             dr = r.get("driver")
             if dr not in DRIVERS:
                 raise ValueError("驱动不在受控集合内: %r" % dr)
-            out["event_%03d" % i] = {"concepts": cs[:args.max_concepts], "driver": dr}
+            out[event_id_for(ev)] = {"concepts": cs[:args.max_concepts], "driver": dr}
         return out
 
     from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -186,6 +216,7 @@ def main():
         with open(args.out, "w", encoding="utf-8") as f:
             json.dump({"meta": {"source_events": os.path.basename(args.events),
                                 "model": args.model, "max_concepts": args.max_concepts,
+                                "id_scheme": "event_ids.py: event_ + sha1(link)[:8]",
                                 "n_events": len(done)},
                        "events": done}, f, ensure_ascii=False, indent=1)
 
@@ -212,7 +243,7 @@ def main():
         return
     merged = []
     for i, ev in enumerate(events, 1):
-        a = done.get("event_%03d" % i)
+        a = done.get(event_id_for(ev))
         if not a:
             continue
         e = dict(ev)

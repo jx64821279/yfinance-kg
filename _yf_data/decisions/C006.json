@@ -1,89 +1,78 @@
 {
  "priority": "高",
- "summary": "优先联系客户，延续行业ETF与主题ETF教育，重点复盘SMH、SOXX、AIQ、BOTZ的集中暴露，并讨论25万闲钱配置纪律而非追推主题ETF。",
+ "summary": "客户科技主题暴露集中且闲钱较高，事件面半导体/AI偏正但大盘情绪偏弱，建议本周主动联系，以上次行业/主题ETF差异为切入，先谈集中度与闲钱再平衡，不追推SMH/SOXX。",
  "risks": [
   {
-   "point": "持仓中SMH与SOXX合计权重高，AIQ与BOTZ又同属科技成长/主题赛道，市场层面权益净信号偏负时，情绪和流动性可能放大同向回撤。",
+   "point": "组合中SMH与SOXX合计权重高，半导体主题集中；近期AI/半导体相关负向事件可能放大这些持仓的联动回撤。",
    "evidence": [
-    "event_826",
-    "event_342",
-    "event_900",
-    "event_406"
+    "event_fa1000f5",
+    "event_6ee41025"
    ]
   },
   {
-   "point": "半导体与AI事件面虽偏正，但存在负面市场流和财报后抛压事件，若把正面收入事件直接当作加仓理由，容易买在情绪反复阶段。",
+   "point": "大盘/情绪层面资金流与宏观背景偏弱，可能压制QQQ等成长暴露的风险偏好。",
    "evidence": [
-    "event_718",
-    "event_900",
-    "event_901"
+    "event_bb59d2da",
+    "event_68917dca"
    ]
   },
   {
-   "point": "QQQ不能单独视为低相关分散工具，其相关大盘成长事件中出现负面盈利/后财报抛压信号，闲钱若单加QQQ仍会承接科技成长波动。",
+   "point": "半导体事件面虽强，但内部已有分化信号，若只追SMH/SOXX而忽略价格与情绪确认，回撤风险较高。",
    "evidence": [
-    "event_901"
+    "event_81aece3d",
+    "event_ea32a77c",
+    "event_fa1000f5"
    ]
   }
  ],
  "opportunities": [
   {
-   "point": "半导体事件面净暴露较高，SMH、SOXX相关战略行动与收入信号偏正，可作为持仓基本面跟踪依据，但仍需控制集中度。",
+   "point": "半导体事件面前瞻净值为正，战略行动与创新驱动较强，SMH/SOXX的中期主题逻辑仍有支撑。",
    "evidence": [
-    "event_718",
-    "event_471"
+    "event_81aece3d",
+    "event_ea32a77c"
    ]
   },
   {
-   "point": "AI企业化/收入事件有正面信号，AIQ可继续跟踪，但不宜仅凭该信号加码。",
+   "point": "人工智能事件面收入与战略行动偏正，AIQ主题仍有正向催化。",
    "evidence": [
-    "event_719",
-    "event_583"
+    "event_6861f29a",
+    "event_fe2202c0"
    ]
   },
   {
-   "point": "机器人/自动化有技术创新正贡献，BOTZ可作为低权重卫星跟踪，但流动性负事件提示不宜重仓。",
+   "point": "机器人与自动化有技术/创新正向事件，但强度较低，BOTZ仅宜作为观察或小仓位分散。",
    "evidence": [
-    "event_667",
-    "event_406"
+    "event_47ba95c4"
    ]
   }
  ],
  "actions": [
   {
-   "action": "联系客户，用上次电话的行业ETF与主题ETF差别切入，复盘SMH、SOXX、AIQ、BOTZ与QQQ的概念重叠和集中度，并询问客户对回撤容忍和闲钱期限。",
-   "timing": "尽快，优先本周内电话或线上沟通",
-   "reason": "持仓集中在半导体/AI/主题赛道且闲钱占总资产16.7%，市场层面权益净信号偏负，需要先沟通再决定是否动仓。",
+   "action": "联系客户，以上次电话问过的行业ETF与主题ETF差别为切入，复盘SMH/SOXX与AIQ/BOTZ的暴露差异和组合集中度；本次不追推SMH/SOXX新增。",
+   "timing": "本周内（2026-09-29后尽快）",
+   "reason": "半导体事件面强但持仓集中且大盘/情绪偏弱，应先管理集中度而非追涨。",
    "evidence": [
-    "event_826",
-    "event_342",
-    "event_900"
+    "event_81aece3d",
+    "event_bb59d2da",
+    "event_fa1000f5"
    ]
   },
   {
-   "action": "不主动推新增SMH、SOXX、AIQ、BOTZ；若客户主动要求配置闲钱，只在现有持仓产品内讨论再平衡或分批，并把QQQ作为已有大盘成长暴露复核，不作为低相关替代。",
-   "timing": "沟通中明确，不急于成交",
-   "reason": "半导体与AI事件面偏正但负面市场流和个别财报后抛压事件交织，避免追涨和继续叠加同向暴露。",
+   "action": "同次沟通闲钱安排：结合250,000元闲钱，讨论是否用QQQ作为大盘成长参照做分批再平衡，或在事件面转弱时保留现金；不一次性加仓AIQ/BOTZ。",
+   "timing": "同次沟通",
+   "reason": "闲钱占总资产16.7%，而AI/半导体事件面有分化，闲钱不宜一次性追主题。",
    "evidence": [
-    "event_718",
-    "event_900",
-    "event_901"
-   ]
-  },
-  {
-   "action": "定期存款2027-02到期前暂不围绕到期做再配置，到期月再复盘；当前先处理闲钱和持仓集中度。",
-   "timing": "2027-02到期月再评估",
-   "reason": "到期尚远，当前更紧迫的是闲钱使用纪律与主题集中风险。",
-   "evidence": [
-    "event_826",
-    "event_900"
+    "event_6ee41025",
+    "event_bb59d2da",
+    "event_6861f29a"
    ]
   }
  ],
  "_check": {
   "bad_evidence_ids": [],
   "products_out_of_scope": [],
-  "n_evidence_events": 14
+  "n_evidence_events": 13
  },
  "_meta": {
   "customer_id": "C006",

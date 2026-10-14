@@ -63,27 +63,27 @@
     "concept": "美国科技",
     "n_events": 330,
     "n_days": 29,
-    "pos": 7.21,
-    "neg": 5.164,
-    "net": 2.046,
-    "avg_per_event": 0.0062,
-    "rank_score": 0.1126,
+    "pos": 7.797,
+    "neg": 5.376,
+    "net": 2.422,
+    "avg_per_event": 0.0073,
+    "rank_score": 0.1333,
     "drivers": [
      {
       "ticker": "XLK",
-      "net": 2.046
+      "net": 2.422
      }
     ],
     "by_driver": {
-     "Revenue": 1.637,
-     "Strategic Action": 1.399,
-     "Macro & FX": -1.348,
-     "Technology/Innovation": 0.801,
-     "Demand": 0.558,
-     "Policy/Regulation": -0.463,
-     "Market Flow": -0.449,
+     "Revenue": 1.727,
+     "Strategic Action": 1.589,
+     "Macro & FX": -1.392,
+     "Technology/Innovation": 0.887,
+     "Demand": 0.612,
+     "Market Flow": -0.446,
+     "Policy/Regulation": -0.429,
+     "Industry Cycle": -0.148,
      "Supply": 0.123,
-     "Industry Cycle": -0.112,
      "Efficiency/Cost": -0.108,
      "Geopolitics": 0.007
     },
@@ -98,29 +98,29 @@
     "concept": "机器人与自动化",
     "n_events": 330,
     "n_days": 29,
-    "pos": 1.754,
-    "neg": 1.056,
-    "net": 0.698,
-    "avg_per_event": 0.0021,
-    "rank_score": 0.0384,
+    "pos": 2.062,
+    "neg": 1.143,
+    "net": 0.919,
+    "avg_per_event": 0.0028,
+    "rank_score": 0.0506,
     "drivers": [
      {
       "ticker": "BOTZ",
-      "net": 0.698
+      "net": 0.919
      }
     ],
     "by_driver": {
-     "Strategic Action": 0.378,
-     "Technology/Innovation": 0.349,
-     "Macro & FX": -0.267,
-     "Revenue": 0.261,
-     "Demand": 0.156,
-     "Market Flow": -0.104,
-     "Policy/Regulation": -0.085,
+     "Strategic Action": 0.522,
+     "Technology/Innovation": 0.422,
+     "Macro & FX": -0.296,
+     "Revenue": 0.285,
+     "Demand": 0.18,
+     "Market Flow": -0.147,
      "Supply": 0.047,
+     "Policy/Regulation": -0.042,
      "Efficiency/Cost": -0.022,
-     "Geopolitics": -0.009,
-     "Industry Cycle": -0.007
+     "Industry Cycle": -0.021,
+     "Geopolitics": -0.009
     },
     "by_category": {
      "PolicyEvents": 41,
@@ -133,29 +133,29 @@
     "concept": "纳斯达克100/大盘成长",
     "n_events": 330,
     "n_days": 29,
-    "pos": 8.291,
-    "neg": 8.903,
-    "net": -0.613,
-    "avg_per_event": -0.0019,
-    "rank_score": -0.0337,
+    "pos": 8.823,
+    "neg": 9.125,
+    "net": -0.301,
+    "avg_per_event": -0.0009,
+    "rank_score": -0.0166,
     "drivers": [
      {
       "ticker": "QQQ",
-      "net": -0.613
+      "net": -0.301
      }
     ],
     "by_driver": {
-     "Macro & FX": -3.614,
-     "Revenue": 1.642,
-     "Strategic Action": 1.371,
-     "Market Flow": -1.244,
-     "Technology/Innovation": 1.193,
-     "Demand": 0.556,
-     "Policy/Regulation": -0.527,
+     "Macro & FX": -3.681,
+     "Revenue": 1.755,
+     "Strategic Action": 1.51,
+     "Technology/Innovation": 1.279,
+     "Market Flow": -1.253,
+     "Demand": 0.606,
+     "Policy/Regulation": -0.5,
      "Efficiency/Cost": -0.169,
      "Geopolitics": 0.16,
-     "Supply": 0.1,
-     "Industry Cycle": -0.081
+     "Industry Cycle": -0.11,
+     "Supply": 0.1
     },
     "by_category": {
      "PolicyEvents": 41,
@@ -229,29 +229,29 @@
     "concept": "纳斯达克100/大盘成长",
     "n_events": 330,
     "n_days": 29,
-    "pos": 8.291,
-    "neg": 8.903,
-    "net": -0.613,
-    "avg_per_event": -0.0019,
-    "rank_score": -0.0337,
+    "pos": 8.823,
+    "neg": 9.125,
+    "net": -0.301,
+    "avg_per_event": -0.0009,
+    "rank_score": -0.0166,
     "drivers": [
      {
       "ticker": "QQQ",
-      "net": -0.613
+      "net": -0.301
      }
     ],
     "by_driver": {
-     "Macro & FX": -3.614,
-     "Revenue": 1.642,
-     "Strategic Action": 1.371,
-     "Market Flow": -1.244,
-     "Technology/Innovation": 1.193,
-     "Demand": 0.556,
-     "Policy/Regulation": -0.527,
+     "Macro & FX": -3.681,
+     "Revenue": 1.755,
+     "Strategic Action": 1.51,
+     "Technology/Innovation": 1.279,
+     "Market Flow": -1.253,
+     "Demand": 0.606,
+     "Policy/Regulation": -0.5,
      "Efficiency/Cost": -0.169,
      "Geopolitics": 0.16,
-     "Supply": 0.1,
-     "Industry Cycle": -0.081
+     "Industry Cycle": -0.11,
+     "Supply": 0.1
     },
     "by_category": {
      "PolicyEvents": 41,
@@ -297,27 +297,27 @@
     "concept": "美国科技",
     "n_events": 330,
     "n_days": 29,
-    "pos": 7.21,
-    "neg": 5.164,
-    "net": 2.046,
-    "avg_per_event": 0.0062,
-    "rank_score": 0.1126,
+    "pos": 7.797,
+    "neg": 5.376,
+    "net": 2.422,
+    "avg_per_event": 0.0073,
+    "rank_score": 0.1333,
     "drivers": [
      {
       "ticker": "XLK",
-      "net": 2.046
+      "net": 2.422
      }
     ],
     "by_driver": {
-     "Revenue": 1.637,
-     "Strategic Action": 1.399,
-     "Macro & FX": -1.348,
-     "Technology/Innovation": 0.801,
-     "Demand": 0.558,
-     "Policy/Regulation": -0.463,
-     "Market Flow": -0.449,
+     "Revenue": 1.727,
+     "Strategic Action": 1.589,
+     "Macro & FX": -1.392,
+     "Technology/Innovation": 0.887,
+     "Demand": 0.612,
+     "Market Flow": -0.446,
+     "Policy/Regulation": -0.429,
+     "Industry Cycle": -0.148,
      "Supply": 0.123,
-     "Industry Cycle": -0.112,
      "Efficiency/Cost": -0.108,
      "Geopolitics": 0.007
     },
@@ -332,29 +332,29 @@
     "concept": "机器人与自动化",
     "n_events": 330,
     "n_days": 29,
-    "pos": 1.754,
-    "neg": 1.056,
-    "net": 0.698,
-    "avg_per_event": 0.0021,
-    "rank_score": 0.0384,
+    "pos": 2.062,
+    "neg": 1.143,
+    "net": 0.919,
+    "avg_per_event": 0.0028,
+    "rank_score": 0.0506,
     "drivers": [
      {
       "ticker": "BOTZ",
-      "net": 0.698
+      "net": 0.919
      }
     ],
     "by_driver": {
-     "Strategic Action": 0.378,
-     "Technology/Innovation": 0.349,
-     "Macro & FX": -0.267,
-     "Revenue": 0.261,
-     "Demand": 0.156,
-     "Market Flow": -0.104,
-     "Policy/Regulation": -0.085,
+     "Strategic Action": 0.522,
+     "Technology/Innovation": 0.422,
+     "Macro & FX": -0.296,
+     "Revenue": 0.285,
+     "Demand": 0.18,
+     "Market Flow": -0.147,
      "Supply": 0.047,
+     "Policy/Regulation": -0.042,
      "Efficiency/Cost": -0.022,
-     "Geopolitics": -0.009,
-     "Industry Cycle": -0.007
+     "Industry Cycle": -0.021,
+     "Geopolitics": -0.009
     },
     "by_category": {
      "PolicyEvents": 41,

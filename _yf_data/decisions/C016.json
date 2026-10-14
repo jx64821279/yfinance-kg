@@ -1,85 +1,83 @@
 {
  "priority": "高",
- "summary": "客户固定收益与黄金仓位的事件面偏负且近一周 TLT/GLD 回撤明显，叠加其此前降波动诉求，应优先联系并围绕降波再平衡沟通。",
+ "summary": "客户14天前提出降波动，近一周组合实际-2.30%且固定收益、黄金、长债事件面偏负，建议高优先级尽快电话回访，先确认降波动诉求，再在现有AGG、GLD、QQQ、XLK、TLT范围内讨论再平衡，不主动新增TLT。",
  "risks": [
   {
-   "point": "固定收益暴露高：AGG 35%、TLT 10%，事件面对 AGG/TLT 的 Macro & FX 明显偏负；近一周 TLT -4.31%、AGG -1.71%，事件面与实际回撤互相印证。",
+   "point": "固定收益暴露较高：AGG和TLT合计45%，且AGG、TLT事件面受宏观/利率负面压制，与客户降波动诉求冲突。",
    "evidence": [
-    "event_335",
-    "event_806"
+    "event_34ca869d",
+    "event_5a09d11b"
    ]
   },
   {
-   "point": "权益端 QQQ 25%、XLK 10% 虽有个股与科技正向事件，但 Macro & FX、Market Flow 仍有拖累，且盈利回撤与集中度事件提示波动风险；近一周 QQQ -1.28%、XLK -0.90%。",
+   "point": "近期波动来源集中在TLT与GLD：TLT、GLD近一周实际回撤较大，事件面亦有负面信号，可能放大客户对回撤的敏感度。",
    "evidence": [
-    "event_901",
-    "event_386",
-    "event_826"
+    "event_5a09d11b",
+    "event_cf429c70"
    ]
   },
   {
-   "point": "GLD 20% 近一周 -4.29%，黄金事件面 Macro & FX 净负，加息预期相关事件仍可能压制短期金价波动。",
+   "point": "QQQ与XLK合计35%，科技/大盘成长仍有宏观与资金流负面信号，并存在集中度担忧，不宜在高波动期主动加仓。",
    "evidence": [
-    "event_022"
+    "event_fa1000f5",
+    "event_b55acf6c"
    ]
   }
  ],
  "opportunities": [
   {
-   "point": "QQQ/XLK 有 Revenue、Strategic Action、Technology 正向事件支撑，若市场情绪修复，权益端可优先观察，但不宜追高。",
+   "point": "XLK概念事件净正向，科技收入、战略动作与创新事件提供结构性支撑，可作为沟通中解释为何不全面减权益的平衡点。",
    "evidence": [
-    "event_719",
-    "event_471",
-    "event_718"
+    "event_6861f29a",
+    "event_ea32a77c",
+    "event_d9460160"
    ]
   },
   {
-   "point": "GLD 有 Market Flow/Demand 正贡献，黄金资金面仍有支撑，可作为分散工具保留观察。",
+   "point": "GLD有资金流与需求端正向事件，但宏观利率预期仍压制；可把GLD作为降波动讨论中的分散工具而非追涨标的。",
    "evidence": [
-    "event_294",
-    "event_905"
+    "event_1d9f2958",
+    "event_9cd944c4",
+    "event_cf429c70"
    ]
   },
   {
-   "point": "AGG 有资金流正面信号，TLT 有降息预期相关正面事件；若利率预期转向，固定收益可获修复窗口。",
+   "point": "TLT存在政策端降息呼声的正面事件，若利率预期转向可重新评估；当前仅适合观察，不适合主动新增。",
    "evidence": [
-    "event_792",
-    "event_070",
-    "event_182"
+    "event_7e0c2a37",
+    "event_cbc104c3",
+    "event_5a09d11b"
    ]
   }
  ],
  "actions": [
   {
-   "action": "尽快电话联系客户，先复盘近一周 AGG/TLT/GLD 回撤，以“降波动再平衡”切入；不推加仓 QQQ、XLK、TLT，优先讨论 AGG/TLT 久期风险和 GLD 波动控制。",
-   "timing": "3个交易日内",
-   "reason": "事件面对固定收益和黄金偏负，近一周 TLT/GLD 回撤大，需要先安抚并确认风险承受。",
+   "action": "联系客户，优先电话回访，先复盘近一周波动并确认降波动诉求是否升级。",
+   "timing": "尽快",
+   "reason": "客户14天前明确想降波动，近一周组合实际-2.30%，且固定收益、长债与黄金事件面偏负，需要及时沟通。",
    "evidence": [
-    "event_335",
-    "event_806",
-    "event_022"
+    "event_34ca869d",
+    "event_5a09d11b",
+    "event_cf429c70"
    ]
   },
   {
-   "action": "沟通闲置现金 150000 CNY 与 2027-06 到期定存的安排：可讨论用闲置现金做流动性缓冲，不急于新增高波动资产；若再平衡，优先在 AGG、TLT、GLD、QQQ、XLK 之间调整权重。",
-   "timing": "同一通电话或1周内",
-   "reason": "闲置现金可缓冲波动，定存到期尚早，当前不宜追涨。",
+   "action": "电话切入先聊风险承受与回撤感受，再讨论在AGG、TLT、GLD、QQQ、XLK之间做再平衡；重点审视是否降低TLT与AGG的债券暴露，不新增TLT。",
+   "timing": "本次沟通中",
+   "reason": "TLT和AGG受利率与宏观负面事件压制，且客户已表达降波动需求。",
    "evidence": [
-    "event_806",
-    "event_022",
-    "event_901"
+    "event_34ca869d",
+    "event_5a09d11b"
    ]
   },
   {
-   "action": "设置后续触发条件：若利率压力延续，暂缓 AGG/TLT 加仓；若降息预期升温或权益正向驱动延续，再评估 QQQ/XLK 与 AGG/TLT 的再平衡。",
-   "timing": "下次联系或1个月内",
-   "reason": "事件面多空分化，需动态跟踪而非一次性调仓。",
+   "action": "暂不主动推高QQQ或XLK集中度；若客户仍维持C3且要降波动，优先讨论保留闲钱、等待2027-06存款到期后再安排，并只在现有AGG、GLD、QQQ、XLK、TLT范围内调仓。",
+   "timing": "本次沟通及后续观察",
+   "reason": "科技集中度存在负面事件，近期回撤显示高波动暴露不符合客户降波动目标。",
    "evidence": [
-    "event_335",
-    "event_070",
-    "event_182",
-    "event_719",
-    "event_471"
+    "event_b55acf6c",
+    "event_fa1000f5",
+    "event_bb59d2da"
    ]
   }
  ],

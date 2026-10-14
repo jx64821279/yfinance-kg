@@ -61,23 +61,23 @@
     "concept": "中概互联网",
     "n_events": 74,
     "n_days": 19,
-    "pos": 5.984,
-    "neg": 3.437,
-    "net": 2.547,
-    "avg_per_event": 0.0344,
-    "rank_score": 0.2961,
+    "pos": 6.125,
+    "neg": 3.585,
+    "net": 2.54,
+    "avg_per_event": 0.0343,
+    "rank_score": 0.2952,
     "drivers": [
      {
       "ticker": "KWEB",
-      "net": 2.547
+      "net": 2.54
      }
     ],
     "by_driver": {
      "Geopolitics": 1.439,
-     "Market Flow": 0.682,
+     "Market Flow": 0.715,
+     "Policy/Regulation": -0.468,
      "Macro & FX": 0.416,
-     "Policy/Regulation": -0.379,
-     "Technology/Innovation": 0.225,
+     "Technology/Innovation": 0.273,
      "Revenue": 0.165
     },
     "by_category": {
@@ -91,23 +91,23 @@
     "concept": "中国科技",
     "n_events": 74,
     "n_days": 19,
-    "pos": 4.511,
-    "neg": 2.535,
-    "net": 1.976,
-    "avg_per_event": 0.0267,
-    "rank_score": 0.2297,
+    "pos": 4.553,
+    "neg": 2.555,
+    "net": 1.998,
+    "avg_per_event": 0.027,
+    "rank_score": 0.2322,
     "drivers": [
      {
       "ticker": "CQQQ",
-      "net": 1.976
+      "net": 1.998
      }
     ],
     "by_driver": {
      "Geopolitics": 1.219,
+     "Market Flow": 0.399,
      "Macro & FX": 0.395,
-     "Market Flow": 0.38,
-     "Policy/Regulation": -0.301,
-     "Technology/Innovation": 0.159,
+     "Policy/Regulation": -0.321,
+     "Technology/Innovation": 0.181,
      "Revenue": 0.124
     },
     "by_category": {
@@ -121,29 +121,29 @@
     "concept": "纳斯达克100/大盘成长",
     "n_events": 330,
     "n_days": 29,
-    "pos": 6.632,
-    "neg": 7.123,
-    "net": -0.49,
-    "avg_per_event": -0.0015,
-    "rank_score": -0.027,
+    "pos": 7.059,
+    "neg": 7.3,
+    "net": -0.241,
+    "avg_per_event": -0.0007,
+    "rank_score": -0.0133,
     "drivers": [
      {
       "ticker": "QQQ",
-      "net": -0.49
+      "net": -0.241
      }
     ],
     "by_driver": {
-     "Macro & FX": -2.891,
-     "Revenue": 1.314,
-     "Strategic Action": 1.097,
-     "Market Flow": -0.995,
-     "Technology/Innovation": 0.955,
-     "Demand": 0.444,
-     "Policy/Regulation": -0.422,
+     "Macro & FX": -2.945,
+     "Revenue": 1.404,
+     "Strategic Action": 1.208,
+     "Technology/Innovation": 1.023,
+     "Market Flow": -1.003,
+     "Demand": 0.485,
+     "Policy/Regulation": -0.4,
      "Efficiency/Cost": -0.135,
      "Geopolitics": 0.128,
-     "Supply": 0.08,
-     "Industry Cycle": -0.064
+     "Industry Cycle": -0.088,
+     "Supply": 0.08
     },
     "by_category": {
      "PolicyEvents": 41,
@@ -186,29 +186,29 @@
     "concept": "纳斯达克100/大盘成长",
     "n_events": 330,
     "n_days": 29,
-    "pos": 6.632,
-    "neg": 7.123,
-    "net": -0.49,
-    "avg_per_event": -0.0015,
-    "rank_score": -0.027,
+    "pos": 7.059,
+    "neg": 7.3,
+    "net": -0.241,
+    "avg_per_event": -0.0007,
+    "rank_score": -0.0133,
     "drivers": [
      {
       "ticker": "QQQ",
-      "net": -0.49
+      "net": -0.241
      }
     ],
     "by_driver": {
-     "Macro & FX": -2.891,
-     "Revenue": 1.314,
-     "Strategic Action": 1.097,
-     "Market Flow": -0.995,
-     "Technology/Innovation": 0.955,
-     "Demand": 0.444,
-     "Policy/Regulation": -0.422,
+     "Macro & FX": -2.945,
+     "Revenue": 1.404,
+     "Strategic Action": 1.208,
+     "Technology/Innovation": 1.023,
+     "Market Flow": -1.003,
+     "Demand": 0.485,
+     "Policy/Regulation": -0.4,
      "Efficiency/Cost": -0.135,
      "Geopolitics": 0.128,
-     "Supply": 0.08,
-     "Industry Cycle": -0.064
+     "Industry Cycle": -0.088,
+     "Supply": 0.08
     },
     "by_category": {
      "PolicyEvents": 41,
@@ -223,23 +223,23 @@
     "concept": "中概互联网",
     "n_events": 74,
     "n_days": 19,
-    "pos": 5.984,
-    "neg": 3.437,
-    "net": 2.547,
-    "avg_per_event": 0.0344,
-    "rank_score": 0.2961,
+    "pos": 6.125,
+    "neg": 3.585,
+    "net": 2.54,
+    "avg_per_event": 0.0343,
+    "rank_score": 0.2952,
     "drivers": [
      {
       "ticker": "KWEB",
-      "net": 2.547
+      "net": 2.54
      }
     ],
     "by_driver": {
      "Geopolitics": 1.439,
-     "Market Flow": 0.682,
+     "Market Flow": 0.715,
+     "Policy/Regulation": -0.468,
      "Macro & FX": 0.416,
-     "Policy/Regulation": -0.379,
-     "Technology/Innovation": 0.225,
+     "Technology/Innovation": 0.273,
      "Revenue": 0.165
     },
     "by_category": {
@@ -253,23 +253,23 @@
     "concept": "中国科技",
     "n_events": 74,
     "n_days": 19,
-    "pos": 4.511,
-    "neg": 2.535,
-    "net": 1.976,
-    "avg_per_event": 0.0267,
-    "rank_score": 0.2297,
+    "pos": 4.553,
+    "neg": 2.555,
+    "net": 1.998,
+    "avg_per_event": 0.027,
+    "rank_score": 0.2322,
     "drivers": [
      {
       "ticker": "CQQQ",
-      "net": 1.976
+      "net": 1.998
      }
     ],
     "by_driver": {
      "Geopolitics": 1.219,
+     "Market Flow": 0.399,
      "Macro & FX": 0.395,
-     "Market Flow": 0.38,
-     "Policy/Regulation": -0.301,
-     "Technology/Innovation": 0.159,
+     "Policy/Regulation": -0.321,
+     "Technology/Innovation": 0.181,
      "Revenue": 0.124
     },
     "by_category": {

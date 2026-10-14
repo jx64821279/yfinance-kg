@@ -17,6 +17,11 @@
             / customer_advisor / customer_offer / customer_trade
     元信息：meta
 
+不存什么
+    **曝光度（事件 → 产品打分）不入库**。它是策略输出：系数一调、口径一改就要全量重算，
+    而"库里存一份派生分数"迟早会和图里的持仓权重对不上。检索层（kg_subgraph.py）
+    用到时用 exposure_v2.py 现算，只算这个客户持有的那几只产品。
+
 用法
     python build_kg_db.py                 # 重建 data/kg.db
     python build_kg_db.py --db data/kg.db --kg src/kg/kg_yf_v2.json
@@ -32,7 +37,6 @@ from datetime import datetime
 parser = argparse.ArgumentParser()
 parser.add_argument("--suffix", default="_v2", help="如 _v3：默认读 kg_yf_v3.json / exposure_v3.json，写 kg_v3.db")
 parser.add_argument("--kg", default=None)
-parser.add_argument("--exposure", default=None)
 parser.add_argument("--prices", default=None)
 parser.add_argument("--customers", default=os.path.join("data", "customer_demo", "customers_all_in_one.csv"))
 parser.add_argument("--db", default=None)
@@ -41,7 +45,6 @@ args = parser.parse_args()
 
 SUF = args.suffix or ""
 args.kg = args.kg or os.path.join("src", "kg", "kg_yf%s.json" % SUF)
-args.exposure = args.exposure or os.path.join("_yf_data", "exposure%s.json" % SUF)
 args.prices = args.prices or os.path.join("_yf_data", "prices%s.json" % SUF)
 args.db = args.db or os.path.join("data", "kg%s.db" % SUF)
 
@@ -144,18 +147,6 @@ CREATE TABLE customer_trade (
 DROP TABLE IF EXISTS meta;
 CREATE TABLE meta (key TEXT PRIMARY KEY, value TEXT);
 
--- 事件 → 产品的曝光度（由 exposure_v2.py 算出），子图查询靠它给事件排序
-DROP TABLE IF EXISTS event_fund_score;
-CREATE TABLE event_fund_score (
-    event_id  TEXT NOT NULL,
-    fund_id   TEXT NOT NULL,
-    ticker    TEXT,
-    score     REAL,
-    abs_score REAL
-);
-CREATE INDEX idx_score_event ON event_fund_score(event_id);
-CREATE INDEX idx_score_fund  ON event_fund_score(fund_id);
-
 -- 日线收盘价（截至 ref_date 的若干交易日）。时序数据留在表里，不做成图节点：
 -- 查询需求是"取一段时间"，不是"找关系"，做成节点只会把图撑大。
 DROP TABLE IF EXISTS price;
@@ -239,9 +230,6 @@ def load_customers(path):
 def main():
     kg = json.load(open(args.kg, encoding="utf-8"))
     customers = load_customers(args.customers)
-    exposure = {}
-    if os.path.exists(args.exposure):
-        exposure = json.load(open(args.exposure, encoding="utf-8"))["events"]
     prices = {}
     if os.path.exists(args.prices):
         prices = json.load(open(args.prices, encoding="utf-8"))
@@ -290,14 +278,6 @@ def main():
             * weight_pct / 100.0) AS INTEGER)
     """)
 
-    # 曝光度：事件 → 产品
-    n_score = 0
-    for eid, ev in exposure.items():
-        for f in ev.get("funds", []):
-            cur.execute("INSERT INTO event_fund_score VALUES (?,?,?,?,?)",
-                        (eid, f["fund"], f.get("ticker"), f.get("score"), f.get("abs_score")))
-            n_score += 1
-
     # 日线收盘价
     n_price = 0
     for ticker, v in (prices.get("tickers") or {}).items():
@@ -308,7 +288,6 @@ def main():
 
     meta = {
         "source_kg": os.path.basename(args.kg),
-        "source_exposure": os.path.basename(args.exposure),
         "source_prices": os.path.basename(args.prices) if prices else "（无）",
         "source_customers": os.path.basename(args.customers),
         "price_as_of": (prices.get("meta") or {}).get("as_of") or "",
@@ -316,7 +295,6 @@ def main():
         "n_nodes": str(cur.execute("SELECT COUNT(*) FROM node").fetchone()[0]),
         "n_edges": str(cur.execute("SELECT COUNT(*) FROM edge").fetchone()[0]),
         "n_customers": str(cur.execute("SELECT COUNT(*) FROM customer").fetchone()[0]),
-        "n_event_fund_score": str(n_score),
         "n_price": str(n_price),
     }
     cur.executemany("INSERT INTO meta VALUES (?,?)", meta.items())
@@ -329,7 +307,7 @@ def main():
         print("\n各表行数：")
         for t in ("node", "edge", "customer", "customer_holding", "customer_behavior",
                   "customer_advisor", "customer_offer", "customer_trade",
-                  "event_fund_score", "price"):
+                  "price"):
             print("  %-20s %d" % (t, cur.execute("SELECT COUNT(*) FROM %s" % t).fetchone()[0]))
     con.close()
 

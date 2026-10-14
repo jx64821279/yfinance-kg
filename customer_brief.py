@@ -34,10 +34,14 @@ import json
 import os
 from datetime import date
 
+from event_ids import attach_links, event_id_for
+
 parser = argparse.ArgumentParser()
 parser.add_argument("--kg", default=os.path.join("src", "kg", "kg_yf_v2.json"))
 parser.add_argument("--exposure", default=os.path.join("_yf_data", "exposure_v2.json"))
 parser.add_argument("--events", default=os.path.join("_yf_data", "events_v2_all.json"))
+parser.add_argument("--news", default=os.path.join("_yf_data", "news_filtered_v2.json"),
+                    help="事件文件里没有链接时，用它按 _sample_id 回查（事件 id 由链接哈希而来）")
 parser.add_argument("--customers", default=os.path.join("data", "customer_demo", "customers_all_in_one.csv"))
 parser.add_argument("--subgraph", default=None,
                     help="改为从子图 JSON 取数（由 kg_subgraph.py 生成），不再读上面的文件")
@@ -122,18 +126,25 @@ def load_exposure(path):
     return json.load(open(path, encoding="utf-8"))["events"]
 
 
-def load_event_meta(path):
-    """事件日期 / 类别 / 范围。events_v2_all.json 与 KG 的 event 顺序一一对应（已校验 1031/1031）。"""
+def load_event_meta(path, news_path=None):
+    """事件日期 / 类别 / 范围。
+
+    事件 id 用 event_ids.py 的稳定口径（链接哈希），与 KG 里的 id 一致，
+    所以这里不再依赖"事件文件顺序 = 图里 event_001…"这种位置约定。
+    """
     d = json.load(open(path, encoding="utf-8"))
     lst = d["events"] if isinstance(d, dict) and "events" in d else d
+    if lst and "_link" not in lst[0]:
+        attach_links(lst, news_path)
     meta = {}
-    for i, e in enumerate(lst):
-        meta["event_%03d" % (i + 1)] = {
+    for e in lst:
+        meta[event_id_for(e)] = {
             "date": e.get("_date"),
             "category": e.get("event_category"),
             "scope": e.get("_scope"),
             "title": e.get("_title"),
             "publisher": e.get("_publisher"),
+            "link": e.get("_link"),
         }
     return meta
 
@@ -229,11 +240,11 @@ def load_subgraph_inputs(path):
     exposure, meta = {}, {}
 
     def put(eid, polarity, driver, channel, asset_class, date, category, title,
-            scope=None, publisher=None):
+            scope=None, publisher=None, link=None):
         e = exposure.setdefault(eid, {"polarity": polarity, "funds": []})
         if eid not in meta:
             meta[eid] = {"date": date, "category": category, "scope": scope,
-                         "title": title, "publisher": publisher}
+                         "title": title, "publisher": publisher, "link": link}
         g["entities"][eid] = {"id": eid, "type": "Event", "name": title or eid,
                               "driver_category": driver, "asset_class": asset_class,
                               "channel": channel}
@@ -241,13 +252,13 @@ def load_subgraph_inputs(path):
     for r in sub["exposure_rows"]:
         put(r["event_id"], r.get("polarity"), r.get("driver"), r.get("channel"),
             r.get("asset_class"), r.get("date"), r.get("category"), r.get("title"),
-            scope=r.get("scope"), publisher=r.get("publisher"))
+            scope=r.get("scope"), publisher=r.get("publisher"), link=r.get("link"))
         exposure[r["event_id"]]["funds"].append(
             {"fund": r["fund_id"], "ticker": r["ticker"], "score": r["score"]})
     for r in sub.get("market_events") or []:
         put(r["event_id"], r.get("polarity"), r.get("driver"), "market",
             r.get("asset_class"), r.get("date"), r.get("category"), r.get("title"),
-            scope=r.get("scope"))
+            scope=r.get("scope"), link=r.get("link"))
 
     gaps = []
     for gp in sub.get("gaps") or []:
@@ -382,7 +393,8 @@ def concentration(cust, g):
         f = g["fund_by_ticker"].get(t)
         ac = g["fund_asset_class"].get(f, "?")
         by_class[str(ac).replace("asset_class_", "")] += w
-    top = max(cust["holdings"].items(), key=lambda x: x[1]) if cust["holdings"] else (None, 0)
+    # 权重相同时按代码排序，保证从文件取数和从子图取数得到同一个"第一大持仓"
+    top = max(sorted(cust["holdings"].items()), key=lambda x: x[1]) if cust["holdings"] else (None, 0)
     return {
         "by_asset_class_pct": {k: round(v * 100.0 / total, 1) for k, v in by_class.items()},
         "top_holding": {"ticker": top[0], "weight_pct": top[1]},
@@ -647,7 +659,7 @@ def main():
     else:
         g = load_graph(args.kg)
         exposure = load_exposure(args.exposure)
-        meta = load_event_meta(args.events)
+        meta = load_event_meta(args.events, args.news)
         customers = load_customers(args.customers)
         prices = load_prices(args.prices)
         # 参考"今天"：取所有数据里最新的一天，保证任何时候重跑结果一致

@@ -93,29 +93,29 @@
     "concept": "半导体",
     "n_events": 330,
     "n_days": 29,
-    "pos": 6.059,
-    "neg": 2.175,
-    "net": 3.884,
-    "avg_per_event": 0.0118,
-    "rank_score": 0.2138,
+    "pos": 6.545,
+    "neg": 2.306,
+    "net": 4.239,
+    "avg_per_event": 0.0128,
+    "rank_score": 0.2334,
     "drivers": [
      {
       "ticker": "SMH",
-      "net": 3.884
+      "net": 4.239
      }
     ],
     "by_driver": {
-     "Strategic Action": 1.659,
-     "Technology/Innovation": 0.827,
-     "Revenue": 0.68,
-     "Demand": 0.678,
-     "Macro & FX": -0.491,
-     "Market Flow": 0.305,
-     "Supply": 0.295,
+     "Strategic Action": 1.852,
+     "Technology/Innovation": 0.914,
+     "Revenue": 0.74,
+     "Demand": 0.71,
+     "Macro & FX": -0.525,
+     "Supply": 0.321,
+     "Market Flow": 0.273,
      "Geopolitics": -0.111,
-     "Policy/Regulation": 0.061,
+     "Policy/Regulation": 0.106,
      "Efficiency/Cost": -0.03,
-     "Industry Cycle": 0.013
+     "Industry Cycle": -0.011
     },
     "by_category": {
      "PolicyEvents": 41,
@@ -128,64 +128,29 @@
     "concept": "人工智能",
     "n_events": 330,
     "n_days": 29,
-    "pos": 2.661,
-    "neg": 1.578,
-    "net": 1.083,
-    "avg_per_event": 0.0033,
-    "rank_score": 0.0596,
+    "pos": 2.754,
+    "neg": 1.615,
+    "net": 1.138,
+    "avg_per_event": 0.0034,
+    "rank_score": 0.0627,
     "drivers": [
      {
       "ticker": "AIQ",
-      "net": 1.083
+      "net": 1.138
      }
     ],
     "by_driver": {
-     "Strategic Action": 0.643,
-     "Technology/Innovation": 0.476,
-     "Policy/Regulation": -0.412,
-     "Revenue": 0.405,
-     "Demand": 0.284,
-     "Macro & FX": -0.163,
-     "Market Flow": -0.11,
+     "Strategic Action": 0.671,
+     "Technology/Innovation": 0.497,
+     "Revenue": 0.428,
+     "Policy/Regulation": -0.407,
+     "Demand": 0.289,
+     "Macro & FX": -0.18,
+     "Market Flow": -0.116,
      "Efficiency/Cost": -0.057,
      "Supply": 0.041,
      "Geopolitics": -0.025,
-     "Industry Cycle": 0.001
-    },
-    "by_category": {
-     "PolicyEvents": 41,
-     "CorporateEvents": 103,
-     "MacroEvents": 47,
-     "MarketEvents": 139
-    }
-   },
-   {
-    "concept": "纳斯达克100/大盘成长",
-    "n_events": 330,
-    "n_days": 29,
-    "pos": 8.291,
-    "neg": 8.903,
-    "net": -0.613,
-    "avg_per_event": -0.0019,
-    "rank_score": -0.0337,
-    "drivers": [
-     {
-      "ticker": "QQQ",
-      "net": -0.613
-     }
-    ],
-    "by_driver": {
-     "Macro & FX": -3.614,
-     "Revenue": 1.642,
-     "Strategic Action": 1.371,
-     "Market Flow": -1.244,
-     "Technology/Innovation": 1.193,
-     "Demand": 0.556,
-     "Policy/Regulation": -0.527,
-     "Efficiency/Cost": -0.169,
-     "Geopolitics": 0.16,
-     "Supply": 0.1,
-     "Industry Cycle": -0.081
+     "Industry Cycle": -0.003
     },
     "by_category": {
      "PolicyEvents": 41,
@@ -223,6 +188,41 @@
      "PolicyEvents": 1,
      "CorporateEvents": 2,
      "CommodityEvents": 1
+    }
+   },
+   {
+    "concept": "纳斯达克100/大盘成长",
+    "n_events": 330,
+    "n_days": 29,
+    "pos": 8.823,
+    "neg": 9.125,
+    "net": -0.301,
+    "avg_per_event": -0.0009,
+    "rank_score": -0.0166,
+    "drivers": [
+     {
+      "ticker": "QQQ",
+      "net": -0.301
+     }
+    ],
+    "by_driver": {
+     "Macro & FX": -3.681,
+     "Revenue": 1.755,
+     "Strategic Action": 1.51,
+     "Technology/Innovation": 1.279,
+     "Market Flow": -1.253,
+     "Demand": 0.606,
+     "Policy/Regulation": -0.5,
+     "Efficiency/Cost": -0.169,
+     "Geopolitics": 0.16,
+     "Industry Cycle": -0.11,
+     "Supply": 0.1
+    },
+    "by_category": {
+     "PolicyEvents": 41,
+     "CorporateEvents": 103,
+     "MacroEvents": 47,
+     "MarketEvents": 139
     }
    }
   ],
@@ -284,38 +284,34 @@
     }
    },
    {
-    "concept": "纳斯达克100/大盘成长",
-    "n_events": 330,
-    "n_days": 29,
-    "pos": 8.291,
-    "neg": 8.903,
-    "net": -0.613,
-    "avg_per_event": -0.0019,
-    "rank_score": -0.0337,
+    "concept": "黄金",
+    "n_events": 78,
+    "n_days": 18,
+    "pos": 0.838,
+    "neg": 1.203,
+    "net": -0.365,
+    "avg_per_event": -0.0047,
+    "rank_score": -0.0413,
     "drivers": [
      {
-      "ticker": "QQQ",
-      "net": -0.613
+      "ticker": "GLD",
+      "net": -0.365
      }
     ],
     "by_driver": {
-     "Macro & FX": -3.614,
-     "Revenue": 1.642,
-     "Strategic Action": 1.371,
-     "Market Flow": -1.244,
-     "Technology/Innovation": 1.193,
-     "Demand": 0.556,
-     "Policy/Regulation": -0.527,
-     "Efficiency/Cost": -0.169,
-     "Geopolitics": 0.16,
-     "Supply": 0.1,
-     "Industry Cycle": -0.081
+     "Macro & FX": -0.636,
+     "Market Flow": 0.219,
+     "Demand": 0.162,
+     "Geopolitics": -0.146,
+     "Policy/Regulation": 0.036,
+     "Industry Cycle": 0.0
     },
     "by_category": {
-     "PolicyEvents": 41,
-     "CorporateEvents": 103,
-     "MacroEvents": 47,
-     "MarketEvents": 139
+     "MarketEvents": 63,
+     "MacroEvents": 11,
+     "PolicyEvents": 1,
+     "CorporateEvents": 2,
+     "CommodityEvents": 1
     }
    }
   ],
@@ -324,29 +320,29 @@
     "concept": "半导体",
     "n_events": 330,
     "n_days": 29,
-    "pos": 6.059,
-    "neg": 2.175,
-    "net": 3.884,
-    "avg_per_event": 0.0118,
-    "rank_score": 0.2138,
+    "pos": 6.545,
+    "neg": 2.306,
+    "net": 4.239,
+    "avg_per_event": 0.0128,
+    "rank_score": 0.2334,
     "drivers": [
      {
       "ticker": "SMH",
-      "net": 3.884
+      "net": 4.239
      }
     ],
     "by_driver": {
-     "Strategic Action": 1.659,
-     "Technology/Innovation": 0.827,
-     "Revenue": 0.68,
-     "Demand": 0.678,
-     "Macro & FX": -0.491,
-     "Market Flow": 0.305,
-     "Supply": 0.295,
+     "Strategic Action": 1.852,
+     "Technology/Innovation": 0.914,
+     "Revenue": 0.74,
+     "Demand": 0.71,
+     "Macro & FX": -0.525,
+     "Supply": 0.321,
+     "Market Flow": 0.273,
      "Geopolitics": -0.111,
-     "Policy/Regulation": 0.061,
+     "Policy/Regulation": 0.106,
      "Efficiency/Cost": -0.03,
-     "Industry Cycle": 0.013
+     "Industry Cycle": -0.011
     },
     "by_category": {
      "PolicyEvents": 41,
@@ -359,29 +355,29 @@
     "concept": "人工智能",
     "n_events": 330,
     "n_days": 29,
-    "pos": 2.661,
-    "neg": 1.578,
-    "net": 1.083,
-    "avg_per_event": 0.0033,
-    "rank_score": 0.0596,
+    "pos": 2.754,
+    "neg": 1.615,
+    "net": 1.138,
+    "avg_per_event": 0.0034,
+    "rank_score": 0.0627,
     "drivers": [
      {
       "ticker": "AIQ",
-      "net": 1.083
+      "net": 1.138
      }
     ],
     "by_driver": {
-     "Strategic Action": 0.643,
-     "Technology/Innovation": 0.476,
-     "Policy/Regulation": -0.412,
-     "Revenue": 0.405,
-     "Demand": 0.284,
-     "Macro & FX": -0.163,
-     "Market Flow": -0.11,
+     "Strategic Action": 0.671,
+     "Technology/Innovation": 0.497,
+     "Revenue": 0.428,
+     "Policy/Regulation": -0.407,
+     "Demand": 0.289,
+     "Macro & FX": -0.18,
+     "Market Flow": -0.116,
      "Efficiency/Cost": -0.057,
      "Supply": 0.041,
      "Geopolitics": -0.025,
-     "Industry Cycle": 0.001
+     "Industry Cycle": -0.003
     },
     "by_category": {
      "PolicyEvents": 41,
@@ -520,8 +516,8 @@
    "kind": "asset_class",
    "target": "FX",
    "target_id": "asset_class_FX",
-   "evidence": "2026-09-28 咨询客服了「FX」",
-   "strength": "normal",
+   "evidence": "2026-09-28 咨询客服了「FX」类资产",
+   "strength": "strong",
    "candidates": [],
    "blocked": [
     {

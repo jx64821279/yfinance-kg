@@ -12,15 +12,23 @@
       Fund-HAS_CASH->MoneyMarket。
 运行：python build_kg_yf.py
 产出：src/kg/kg_yf.json
+
+事件 id：由新闻链接哈希而来（event_ids.py），不是文件里的序号。
+    这样往事件文件里插新新闻不会让已有事件的 id 平移；链接同时作为
+    Event 节点的 link 属性保留，方便溯源到原文。
 """
 import os
 import re
 import json
 import argparse
 
+from event_ids import attach_links, audit, event_id_for
+
 # --suffix _v2：读 v2 语料与 v2 词表，输出 kg_yf_v2.json（不动 v1 的产物）
 parser = argparse.ArgumentParser()
 parser.add_argument("--suffix", default="", help="如 _v2：读 events_v2_all.json 与 theme_*_v2.json")
+parser.add_argument("--news", default=os.path.join("_yf_data", "news_filtered_v2.json"),
+                    help="事件缺失链接时，用它按 _sample_id 回查")
 args, _ = parser.parse_known_args()
 SUF = args.suffix
 
@@ -28,6 +36,9 @@ EVENTS = (f"_yf_data/events{SUF}_all.json" if SUF else
           ("_yf_data/events_extracted_all.json"
            if os.path.exists("_yf_data/events_extracted_all.json")
            else "_yf_data/events_extracted.json"))
+# 增量加进来的新闻（news_impact.py --commit 写入）。单独放一个文件，不动批量语料：
+# 全量重跑时它照样会被读进来，事件 id 是链接哈希所以不会影响已有事件。
+EXTRA_EVENTS = f"_yf_data/events{SUF}_extra.json"
 SUMMARY = "_yf_data/yf_summary.json"
 NAMES = "_yf_data/yf_names.json"
 THEME_VOCAB = f"_yf_data/theme_vocab{SUF}.json"
@@ -156,6 +167,24 @@ def fund_class(sym, s):
 
 def main():
     events = json.load(open(EVENTS, encoding="utf-8"))
+    if isinstance(events, dict):
+        events = events["events"]
+    n_extra = 0
+    if os.path.exists(EXTRA_EVENTS):
+        extra = json.load(open(EXTRA_EVENTS, encoding="utf-8"))
+        have = {event_id_for(e) for e in events}
+        add = [e for e in extra if event_id_for(e) not in have]
+        n_extra = len(add)
+        events = events + add
+        print("[INFO] 增量事件 %s：%d 条（其中 %d 条与语料重复，已跳过）"
+              % (os.path.basename(EXTRA_EVENTS), n_extra, len(extra) - n_extra))
+    # 事件 id 由链接哈希而来：先把链接补齐（事件文件里可能只有 _sample_id），再自检
+    st = attach_links(events, args.news)
+    au = audit(events)
+    print("[INFO] 事件 id：%s | 链接自带 %d 补 %d 缺 %d"
+          % (au["key_sources"], st["already"], st["filled"], st["missing"]))
+    if au["collisions"]:
+        raise SystemExit("事件 id 撞哈希（同链接被算成两条事件）：%s" % au["collisions"])
     summ = json.load(open(SUMMARY, encoding="utf-8"))
     etfs, stocks_meta = summ["etfs"], summ["stocks"]
 
@@ -343,7 +372,7 @@ def main():
     for i, ev in enumerate(events, 1):
         if "error" in ev:
             continue
-        eid = f"event_{i:03d}"
+        eid = event_id_for(ev)
         raw_theme = ev.get("theme") or ev.get("event_type_summary") or f"event_{i}"
         acab = ev.get("asset_class") or "Equity"
         if acab not in ASSET_CLASSES:
@@ -405,7 +434,9 @@ def main():
                  "news_title": ev.get("_news_title") or ev.get("_title"),
                  "news_source": ev.get("_from_source") or ev.get("_publisher"),
                  "pub_date": ev.get("_pub_date") or ev.get("_date"),
-                 "scope": ev.get("_scope")}
+                 "scope": ev.get("_scope"),
+                 # 链接留在图上：事件 id 就是它的哈希，留着可以回到原文
+                 "link": ev.get("_link"), "news_id": ev.get("_sample_id")}
         props.update(extra_props)
         add_entity(eid, "Event", ev.get("event_type_summary") or raw_theme, props)
         for t in theme_ids:
@@ -446,6 +477,9 @@ def main():
     label = f"yfinance KG {SUF.strip('_')}" if SUF else "yfinance KG v1"
     result = {"meta": {"generated_for": f"{label}：{len(events)} 条新闻事件",
                        "theme_vocab_version": (vocab or {}).get("version"),
+                       "event_id_scheme": "event_ + sha1(news link)[:8]（见 event_ids.py）",
+                       "event_link_source": au["key_sources"],
+                       "n_extra_events": n_extra,
                        "entity_types": sorted({e["type"] for e in entities.values()}),
                        "relation_types": sorted({e["relation"] for e in edges}),
                        "n_entities": len(entities), "n_edges": len(edges)},

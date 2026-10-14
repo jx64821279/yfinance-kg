@@ -283,6 +283,9 @@ def extract_all():
         ev["_scope"] = it.get("scope")
         ev["_channels"] = it.get("channels")
         ev["_sample_id"] = it.get("sample_id") or it.get("id")
+        # 链接要一路带到事件层：事件 id 由它哈希而来（见 event_ids.py），
+        # 同时留在图上做溯源。丢掉的话下游只能靠位置编号认事件，插入新新闻就会错位。
+        ev["_link"] = it.get("link")
 
         if "error" not in ev:
             ev = postprocess(ev, it.get("title", ""), it.get("scope"))

@@ -121,29 +121,29 @@
     "concept": "纳斯达克100/大盘成长",
     "n_events": 330,
     "n_days": 29,
-    "pos": 6.632,
-    "neg": 7.123,
-    "net": -0.49,
-    "avg_per_event": -0.0015,
-    "rank_score": -0.027,
+    "pos": 7.059,
+    "neg": 7.3,
+    "net": -0.241,
+    "avg_per_event": -0.0007,
+    "rank_score": -0.0133,
     "drivers": [
      {
       "ticker": "QQQ",
-      "net": -0.49
+      "net": -0.241
      }
     ],
     "by_driver": {
-     "Macro & FX": -2.891,
-     "Revenue": 1.314,
-     "Strategic Action": 1.097,
-     "Market Flow": -0.995,
-     "Technology/Innovation": 0.955,
-     "Demand": 0.444,
-     "Policy/Regulation": -0.422,
+     "Macro & FX": -2.945,
+     "Revenue": 1.404,
+     "Strategic Action": 1.208,
+     "Technology/Innovation": 1.023,
+     "Market Flow": -1.003,
+     "Demand": 0.485,
+     "Policy/Regulation": -0.4,
      "Efficiency/Cost": -0.135,
      "Geopolitics": 0.128,
-     "Supply": 0.08,
-     "Industry Cycle": -0.064
+     "Industry Cycle": -0.088,
+     "Supply": 0.08
     },
     "by_category": {
      "PolicyEvents": 41,
