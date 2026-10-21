@@ -1,13 +1,18 @@
 # -*- coding: utf-8 -*-
-"""新闻 → 受影响的客户（事件入口，只算"直接影响"）。支持单条和批量。
+"""新闻 → 受影响的客户（事件入口）。支持单条和批量。
 
 方向
     和"以客户为入口"（客户 → 持仓 → 事件）相反，这里是**事件入口**：
 
         新闻（→ 事件）→ 受影响的产品 → 持有这些产品的客户
 
-    "关注过这个概念但没持有"的客户**不算在内**（那是另一半）。
-    客户不进图：产品 → 客户 这一步是拿 customer_holding 表 join 出来的。
+    另外三类"没直接持仓但有关联"的客户单独列出：
+        关注过（App 浏览 / 点击 / 搜索 / 咨询客服）但没持有
+        offer 待定（推荐产品尚未决策） / 已拒绝（不再重复推同一产品）
+        近期卖出过（可重新评估）
+    这三类是**触达线索**，不是持仓影响，分数与"已持有"分开算、分开展示。
+    客户不进图：产品 / 概念 → 客户 这一步是拿 customer_holding、customer_behavior、
+    customer_offer、customer_trade 四张表 join 出来的。
 
 两种入口
     1) 事件已经在 KG 里：   --event event_17aee2fa
@@ -44,8 +49,7 @@ import sys
 import tempfile
 
 from event_ids import event_id_for
-from exposure_v2 import ExposureModel
-from kg_common import materiality
+from customer_signals import affected_customers, affected_products, related_customers
 
 PY = sys.executable
 EXTRA_EVENTS = os.path.join("_yf_data", "events_v3_extra.json")
@@ -70,6 +74,12 @@ parser.add_argument("--commit", action="store_true", help=argparse.SUPPRESS)
 parser.add_argument("--out", default=None, help="把结果写成 JSON")
 parser.add_argument("--top", type=int, default=8,
                     help="单条时打印最多几条产品和客户（0=全部）；批量时每条新闻只打印前 3 位客户")
+parser.add_argument("--sold-days", type=int, default=120,
+                    help="卖出后多少天内算“近期卖出”（默认 120 天）")
+parser.add_argument("--interest-half-life", type=float, default=30.0,
+                    help="App 行为兴趣强度的时间半衰期，单位天（默认 30）")
+parser.add_argument("--min-interest", type=float, default=0.15,
+                    help="关注度低于这个值就不列出（默认 0.15）")
 parser.add_argument("--api_base", default="https://api.deepseek.com")
 parser.add_argument("--api_key", default=os.getenv("OPENAI_API_KEY", ""))
 parser.add_argument("--model", default="deepseek-v4-flash-vision-exp")
@@ -164,50 +174,6 @@ def normalize_event(ev):
     return ev
 
 
-def affected_products(con, ev, in_graph):
-    """事件 → 受影响产品。在图里的事件用图上的边算；还没进图的用 concepts/点名标的算
-    （两条路的分数经核对完全一致，所以"先预览、再入库"不会对不上数）。"""
-    model = ExposureModel.from_db(con)
-    if in_graph:
-        return model.score_event(ev["id"], ev.get("polarity"))
-    affects = ["fund_" + t for t in (ev.get("affected_products") or [])]
-    affects += ["stock_" + t for t in (ev.get("affected_tickers") or [])]
-    return model.score_concepts(ev.get("concepts") or [], affects, ev.get("polarity"))
-
-
-def affected_customers(con, rows, ev):
-    """受影响产品 → 持有它们的客户（只算直接持有），按影响贡献排序。"""
-    tickers = sorted({r["ticker"] for r in rows if r.get("ticker")})
-    if not tickers:
-        return []
-    con.row_factory = sqlite3.Row
-    info = {r["customer_id"]: dict(r) for r in con.execute(
-        "SELECT customer_id, name, risk_level FROM customer")}
-    q = ("SELECT customer_id, ticker, weight_pct FROM customer_holding WHERE ticker IN (%s)"
-         % ",".join("?" * len(tickers)))
-    by_cust = collections.defaultdict(list)
-    for r in con.execute(q, tickers):
-        by_cust[r["customer_id"]].append((r["ticker"], r["weight_pct"]))
-
-    m = materiality({"category": ev.get("category"), "scope": ev.get("scope")})
-    by_ticker = {r["ticker"]: r for r in rows}
-    out = []
-    for cid, holds in by_cust.items():
-        contrib, detail = 0.0, []
-        for tk, w in holds:
-            r = by_ticker[tk]
-            c = r["score"] * (w or 0) / 100.0 * m
-            contrib += c
-            detail.append({"ticker": tk, "weight_pct": w, "score": r["score"],
-                           "contribution": round(c, 6)})
-        detail.sort(key=lambda d: -abs(d["contribution"]))
-        out.append({"customer_id": cid, "name": (info.get(cid) or {}).get("name"),
-                    "risk_level": (info.get(cid) or {}).get("risk_level"),
-                    "contribution": round(contrib, 6), "holdings": detail})
-    out.sort(key=lambda r: -abs(r["contribution"]))
-    return out
-
-
 def commit_events(events):
     """把事件落进增量文件（按 id 去重），再重建一次图与库。"""
     data = []
@@ -244,8 +210,8 @@ def load_items():
     return out
 
 
-def print_detail(ev, rows, custs):
-    """单条新闻的完整输出：产品（含打分路径）+ 客户（含贡献拆解）。"""
+def print_detail(ev, rows, custs, rel):
+    """单条新闻的完整输出：产品（含打分路径）+ 客户（分四类）。"""
     print("事件 %s | %s | %s | %s | 驱动 %s"
           % (ev["id"], ev.get("date"), ev.get("polarity"), ev.get("category"), ev.get("driver")))
     print("  %s" % (ev.get("title") or "")[:100])
@@ -275,12 +241,55 @@ def print_detail(ev, rows, custs):
     if not custs:
         print("  （没有客户持有受影响的产品）")
 
+    print()
+    print("关注过但没持有 %d 位（只算事件日之前的行为）：" % len(rel["watched"]))
+    for c in rel["watched"][:cut]:
+        tail = ("（勿推 %s）" % "、".join(c["suppress_tickers"])
+                if c.get("suppress_tickers") else "")
+        print("  %-5s %-6s %-3s 关注度 %.3f   %s%s"
+              % (c["customer_id"], c["name"] or "", c["risk_level"] or "",
+                 c["score"], c["evidence"], tail))
+    if not rel["watched"]:
+        print("  （无）")
+
+    print()
+    print("offer 待定 %d 位（推荐产品尚未决策）：" % len(rel["pending_offer"]))
+    for c in rel["pending_offer"][:cut]:
+        mark = "（也持有受影响产品）" if c.get("also_held") else ""
+        print("  %-5s %-6s %-3s %s  待定 %d 天  %s%s"
+              % (c["customer_id"], c["name"] or "", c["risk_level"] or "",
+                 c["ticker"], c["days_ago"], c["reason"] or "", mark))
+    if not rel["pending_offer"]:
+        print("  （无）")
+
+    print()
+    print("offer 已拒绝 %d 位：" % len(rel["rejected_offer"]))
+    for c in rel["rejected_offer"][:cut]:
+        mark = "（也持有受影响产品）" if c.get("also_held") else ""
+        print("  %-5s %-6s %-3s %s  已拒绝（不主动再推） %d 天  %s%s"
+              % (c["customer_id"], c["name"] or "", c["risk_level"] or "",
+                 c["ticker"], c["days_ago"], c["reason"] or "", mark))
+    if not rel["rejected_offer"]:
+        print("  （无）")
+
+    print()
+    print("近期卖出、可重新评估 %d 位（%d 天内）：" % (len(rel["recent_sale"]), args.sold_days))
+    for c in rel["recent_sale"][:cut]:
+        mark = "（也持有受影响产品）" if c.get("also_held") else ""
+        print("  %-5s %-6s %-3s %s  %d 天前卖出  %s%s"
+              % (c["customer_id"], c["name"] or "", c["risk_level"] or "",
+                 c["ticker"], c["days_ago"], c["channel"] or "", mark))
+    if not rel["recent_sale"]:
+        print("  （无）")
+
 
 def print_summary(results):
     """多条新闻：一条新闻一行汇总 + 前 3 位客户。"""
     touched = set()
-    for i, (ev, rows, custs) in enumerate(results, 1):
+    for i, (ev, rows, custs, rel) in enumerate(results, 1):
         touched |= {c["customer_id"] for c in custs}
+        for bucket in rel.values():
+            touched |= {c["customer_id"] for c in bucket}
         top_prod = "、".join("%s %+.2f" % (r["ticker"], r["score"]) for r in rows[:3]) or "（无产品）"
         top_cust = "｜".join("%s %+.4f" % (c["customer_id"], c["contribution"]) for c in custs[:3]) \
             or "（无客户）"
@@ -289,8 +298,12 @@ def print_summary(results):
                  ev.get("driver") or "-", "、".join(ev.get("concepts") or []) or "（无落点）"))
         print("    %s" % (ev.get("title") or "")[:88])
         print("    产品 %d 只：%s" % (len(rows), top_prod))
-        print("    客户 %d 位：%s" % (len(custs), top_cust))
-    print("\n合计：%d 条新闻，波及 %d 位客户（去重）" % (len(results), len(touched)))
+        print("    持有受影响产品 %d 位：%s" % (len(custs), top_cust))
+        print("    关注 %d｜待定 offer %d｜被拒 %d｜近期卖出 %d"
+              % (len(rel["watched"]), len(rel["pending_offer"]),
+                 len(rel["rejected_offer"]), len(rel["recent_sale"])))
+    print("\n合计：%d 条新闻，相关客户 %d 位（去重；含关注 / offer / 卖出）"
+          % (len(results), len(touched)))
 
 
 def main():
@@ -332,7 +345,12 @@ def main():
     results = []
     for ev in events:
         rows = affected_products(con, ev, in_graph)
-        results.append((ev, rows, affected_customers(con, rows, ev)))
+        custs = affected_customers(con, rows, ev)
+        rel = related_customers(con, rows, ev, {c["customer_id"] for c in custs},
+                                interest_half_life=args.interest_half_life,
+                                min_interest=args.min_interest,
+                                sold_days=args.sold_days)
+        results.append((ev, rows, custs, rel))
 
     if len(results) == 1:
         print()
@@ -350,9 +368,13 @@ def main():
     if args.out:
         json.dump({"meta": {"in_graph": in_graph, "db": os.path.basename(args.db),
                             "wrote_files": wrote_files, "n_events": len(results),
-                            "note": "只算直接持有受影响产品的客户"},
-                   "events": [{"event": ev, "products": rows, "customers": custs}
-                              for ev, rows, custs in results]},
+                            "note": ("customers = 持有受影响产品的直接影响；"
+                                     "related = 关注未持有 / offer / 近期卖出（触达线索，不是持仓影响）"),
+                            "sold_days": args.sold_days,
+                            "interest_half_life": args.interest_half_life},
+                   "events": [{"event": ev, "products": rows, "customers": custs,
+                               "related": rel}
+                              for ev, rows, custs, rel in results]},
                   open(args.out, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
         print("\n结果已写出：%s" % args.out)
 

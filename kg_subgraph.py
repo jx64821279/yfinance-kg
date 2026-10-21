@@ -99,7 +99,7 @@ def build_subgraph(con, customer_id, top_events=3):
         funds.append(dict(r))
     tickers = [f["ticker"] for f in funds]
 
-    # 时机信号要用的：App 行为 / 客户经理交流 / offer 历史
+    # 时机信号要用的：App 行为 / 客户经理交流摘要 / offer 历史
     behaviors = [dict(r) for r in cur.execute(
         """SELECT date, behavior AS behavior, target_type, target
            FROM customer_behavior WHERE customer_id=?""", (customer_id,))]

@@ -27,7 +27,7 @@
 
 | 路径 | 内容 |
 |---|---|
-| `*.py` | 31 个管线脚本 |
+| `*.py` | 33 个管线脚本 |
 | `_yf_data/` | 中间数据与数据产物（JSON） |
 | `src/kg/` | 知识图谱 `kg_yf.json`（v1）、`kg_yf_v2.json`（v2）、`kg_yf_v3.json`（v3），及对应的交互式可视化 HTML |
 | `data/kg_v3.db` | v3 的 SQLite 库：知识层 + 客户层 + 价格（曝光度按需现算，不入库） |
@@ -85,7 +85,9 @@
 | `yf_prices.py` | 抓 13 只 ETF 日线收盘价（锚定 as_of、用复权价） | `prices_v3.json` |
 | `build_kg_db.py` | 把 KG + 客户数据 + 价格装进 SQLite | `data/kg_v3.db` |
 | `kg_subgraph.py` | **检索层**：取客户子图，含 top-k 有界选取（默认正负两头对称取） | `_yf_data/subs/*.json` |
-| `news_impact.py` | **反向查询**：一条新闻（事件）→ 受影响的产品 → 持有它们的客户；支持单条与批量 | 控制台 + `--out` JSON |
+| `news_impact.py` | **反向查询**：一条新闻（事件）→ 受影响的产品 → 直接持有客户 + 关注/offer/近期卖出客户；支持单条与批量 | 控制台 + `--out` JSON |
+| `customer_signals.py` | 客户侧信号模块：事件→产品、直接持有客户、关注/offer/卖出（供两个入口共用） | — |
+| `customer_actions.py` | **客户级聚合**：把事件名单翻转成客户级聚合清单（持仓影响 + 关联信号 + 相对优先级） | 控制台 + `--out` JSON |
 | `customer_brief.py` | **事实层**：确定性事实清单（概念暴露 / 市场层面 / 需求缺口 / 时机 / 持仓近一周表现） | `data/customer_demo/briefs_v3*/` |
 | `customer_decision.py` | **决策层**：子图 + 简报 → 模型决策（每条结论挂事件证据，自动自检越界） | `_yf_data/decisions/*.json` |
 | `kg_common.py` | 检索层与决策层共用的口径参数（模块） | — |
@@ -150,6 +152,9 @@ python news_impact.py --event event_5a09d11b
 #    新新闻：默认直接入库（抽事件 + 标概念/驱动，2 次模型调用，再重建图与库约 1.5 秒）
 python news_impact.py --title "…" --date 2026-09-30 --url "…" --api_key sk-...
 #    一批新新闻：--news <文件>；只看影响不写文件加 --preview
+# 客户级聚合：事件名单 → 客户级聚合清单
+python customer_actions.py --days 7
+python customer_actions.py --customer C006 --days 7
 ```
 
 ### 5) 从头抓数据并重跑抽取（需要联网 + LLM key）
@@ -179,7 +184,7 @@ python build_sample_v2.py; python news_to_event_v2.py --news <抽样文件> --ou
 - 图谱数据来自公开市场数据（Yahoo Finance / SEC EDGAR / Google News RSS），抓取时间见 `docs/yf_kg_data.md`；**客户数据是合成的**，仅用于跑通链路。
 - 需要调用 LLM 的步骤：事件抽取、v2 的主题词表与主题→概念映射、v3 的主题标注（`classify_theme_v3.py`）、决策层（`customer_decision.py`）；其余步骤都可以离线复算。
 - v3 把「事实」和「判断」分开了：`customer_brief.py` 只出确定性的事实清单，判断在 `customer_decision.py`（每条结论都要挂事件证据，并自动自检越界）。
-- v3 有两套入口，用的是同一套打分口径：**客户入口**（`kg_subgraph.py`：一个客户 → 他的持仓 → 哪些事件影响到他）和**事件入口**（`news_impact.py`：一条新闻 → 受影响的产品 → 持有它们的客户）。事件入口只算"直接持有"，不含"关注过但没持有"的客户。
+- v3 有三套查看方式，用的是同一套打分口径：**客户入口**（`kg_subgraph.py`：一个客户 → 他的持仓 → 哪些事件影响到他）、**事件入口**（`news_impact.py`：一条新闻 → 受影响的产品 → 直接持有 + 关注/offer/卖出客户）、**客户级聚合**（`customer_actions.py`：把窗口内的事件名单翻转成每个客户的聚合清单）。
 - 事件 id 是**新闻链接的哈希**（`event_ids.py`），所以往图里插新事件不会让已有事件 id 平移；新加进来的新闻单独放 `_yf_data/events_v3_extra.json`，建图时按 id 去重合并，全量重跑也不会丢。
 - `_yf_data/subs/`（客户子图）是检索层的中间产物，不在仓库里，按第 4 节的命令一条就能重新生成。
 - 重跑抓取会覆盖 `_yf_data/` 下的同名文件，若要保留某次快照请先备份。
